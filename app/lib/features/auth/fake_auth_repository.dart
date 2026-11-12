@@ -28,7 +28,7 @@ class FakeAuthRepository implements AuthRepository {
   }
 
   @override
-  Future<SignUpResult> signUp({required String email, required String password}) async {
+  Future<SignUpResult> signUp({required String email, required String password, required String nickname}) async {
     final key = email.trim().toLowerCase();
     if (_users.containsKey(key)) throw const AuthFailure('이미 가입된 이메일이에요.');
     _users[key] = password;

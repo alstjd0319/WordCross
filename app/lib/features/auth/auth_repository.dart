@@ -35,7 +35,8 @@ abstract interface class AuthRepository {
   Future<void> signIn({required String email, required String password});
 
   /// 실패하면 [AuthFailure]를 던진다.
-  Future<SignUpResult> signUp({required String email, required String password});
+  /// [nickname]은 가입 정보(user metadata)로 보내고, DB 트리거가 profiles.nickname 에 저장한다.
+  Future<SignUpResult> signUp({required String email, required String password, required String nickname});
 
   Future<void> signOut();
 }

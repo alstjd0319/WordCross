@@ -37,6 +37,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('이메일로 가입하기'), findsOneWidget);
 
+    await tester.enterText(field('닉네임'), '민성');
     await tester.enterText(field('이메일'), 'user@example.com');
     await tester.enterText(field('비밀번호'), 'password1');
     await tester.enterText(field('비밀번호 확인'), 'password1');
@@ -71,6 +72,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('이메일 형식이 맞지 않아요.'), findsOneWidget);
+    expect(find.text('닉네임을 입력해 주세요.'), findsOneWidget);
     expect(find.text('비밀번호는 8자 이상이어야 해요.'), findsOneWidget);
     expect(find.text('비밀번호가 서로 달라요.'), findsOneWidget);
     expect(find.text('이메일로 가입하기'), findsOneWidget);
@@ -78,7 +80,7 @@ void main() {
 
   testWidgets('비밀번호가 틀리면 로그인 화면에 오류를 보여 준다', (tester) async {
     final auth = await pumpApp(tester);
-    await auth.signUp(email: 'user@example.com', password: 'password1');
+    await auth.signUp(email: 'user@example.com', password: 'password1', nickname: '민성');
     await auth.signOut();
     await tester.pumpAndSettle();
 

@@ -16,8 +16,23 @@ void main() {
 
   group('Validators.newPassword', () {
     test('8자 미만은 거른다', () {
-      expect(Validators.newPassword('1234567'), isNotNull);
-      expect(Validators.newPassword('12345678'), isNull);
+      expect(Validators.newPassword('abc1234'), isNotNull);
+      expect(Validators.newPassword('abcd1234'), isNull);
+    });
+    test('영문과 숫자가 모두 있어야 통과 (서버 letters_digits 규칙)', () {
+      expect(Validators.newPassword('12345678'), isNotNull);
+      expect(Validators.newPassword('abcdefgh'), isNotNull);
+      expect(Validators.newPassword('Password1'), isNull);
+    });
+  });
+
+  group('Validators.nickname', () {
+    test('비었거나 20자를 넘으면 거른다', () {
+      expect(Validators.nickname(''), isNotNull);
+      expect(Validators.nickname('   '), isNotNull);
+      expect(Validators.nickname('가' * 21), isNotNull);
+      expect(Validators.nickname(' 민성 '), isNull);
+      expect(Validators.nickname('가' * 20), isNull);
     });
   });
 
