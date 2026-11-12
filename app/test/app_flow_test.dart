@@ -45,6 +45,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('오늘도 한 판 풀어 볼까요?'), findsOneWidget);
+    expect(find.text('안녕하세요, 민성님'), findsOneWidget);
     expect(find.byType(NavigationBar), findsOneWidget);
 
     await tester.tap(find.text('퍼즐').last);
@@ -53,6 +54,7 @@ void main() {
 
     await tester.tap(find.text('마이페이지').last);
     await tester.pumpAndSettle();
+    expect(find.text('민성'), findsOneWidget);
     expect(find.text('user@example.com'), findsOneWidget);
 
     await tester.tap(find.widgetWithText(OutlinedButton, '로그아웃'));
@@ -76,6 +78,20 @@ void main() {
     expect(find.text('비밀번호는 8자 이상이어야 해요.'), findsOneWidget);
     expect(find.text('비밀번호가 서로 달라요.'), findsOneWidget);
     expect(find.text('이메일로 가입하기'), findsOneWidget);
+  });
+
+  testWidgets('다시 로그인해도 가입할 때 정한 닉네임으로 인사한다', (tester) async {
+    final auth = await pumpApp(tester);
+    await auth.signUp(email: 'user@example.com', password: 'password1', nickname: ' 토익정복 ');
+    await auth.signOut();
+    await tester.pumpAndSettle();
+
+    await tester.enterText(field('이메일'), 'user@example.com');
+    await tester.enterText(field('비밀번호'), 'password1');
+    await tester.tap(find.widgetWithText(FilledButton, '로그인'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('안녕하세요, 토익정복님'), findsOneWidget);
   });
 
   testWidgets('비밀번호가 틀리면 로그인 화면에 오류를 보여 준다', (tester) async {

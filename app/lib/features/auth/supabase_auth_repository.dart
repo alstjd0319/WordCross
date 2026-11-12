@@ -11,7 +11,11 @@ class SupabaseAuthRepository implements AuthRepository {
   /// AndroidManifest.xml · Info.plist 의 URL scheme 과 같아야 한다.
   static const emailRedirectUrl = 'com.wordcross.wordcross://login-callback';
 
-  static AppUser? _map(sb.User? user) => user == null ? null : AppUser(id: user.id, email: user.email ?? '');
+  static AppUser? _map(sb.User? user) {
+    if (user == null) return null;
+    final nickname = user.userMetadata?['nickname'];
+    return AppUser(id: user.id, email: user.email ?? '', nickname: nickname is String ? nickname : null);
+  }
 
   @override
   AppUser? get currentUser => _map(_auth.currentUser);
