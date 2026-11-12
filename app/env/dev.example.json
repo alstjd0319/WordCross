@@ -1,0 +1,4 @@
+{
+  "SUPABASE_URL": "https://프로젝트ID.supabase.co",
+  "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_로_시작하는_공개용_키"
+}
