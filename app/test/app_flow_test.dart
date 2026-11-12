@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:wordcross/app/app.dart';
+import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
 
@@ -91,5 +92,46 @@ void main() {
 
     expect(find.text('이메일 또는 비밀번호가 맞지 않아요.'), findsOneWidget);
     expect(find.byType(NavigationBar), findsNothing);
+  });
+
+  testWidgets('인증 메일 링크로 열리면 Page Not Found 없이 로그인 화면으로 간다', (tester) async {
+    await pumpApp(tester);
+    final router = ProviderScope.containerOf(tester.element(find.byType(MaterialApp))).read(routerProvider);
+
+    for (final link in ['com.wordcross.wordcross://login-callback/?code=abc', '/login-callback?code=abc']) {
+      router.go(link);
+      await tester.pumpAndSettle();
+      expect(find.text('Page Not Found'), findsNothing, reason: link);
+      expect(find.text('십자말풀이로 익히는 토익 단어'), findsOneWidget, reason: link);
+    }
+  });
+
+  testWidgets('인증 메일 링크로 로그인되면 홈으로 가고 인증 완료 문구를 보여 준다', (tester) async {
+    final auth = await pumpApp(tester);
+    auth.simulateEmailLink(email: 'user@example.com');
+    await tester.pumpAndSettle();
+
+    expect(find.text('이메일 인증이 완료됐어요. 환영해요!'), findsOneWidget);
+    expect(find.text('오늘도 한 판 풀어 볼까요?'), findsOneWidget);
+  });
+
+  testWidgets('인증 링크가 만료됐으면 로그인 화면에 안내 문구를 보여 준다', (tester) async {
+    final auth = await pumpApp(tester);
+    auth.simulateEmailLink(email: 'user@example.com', success: false);
+    await tester.pumpAndSettle();
+
+    expect(find.textContaining('인증 링크가 만료됐거나'), findsOneWidget);
+    expect(find.byType(NavigationBar), findsNothing);
+  });
+
+  testWidgets('이미 로그인한 상태에서 예전 인증 링크를 누르면 만료 문구를 띄우지 않는다', (tester) async {
+    final auth = await pumpApp(tester);
+    await auth.signUp(email: 'user@example.com', password: 'password1', nickname: '민성');
+    await tester.pumpAndSettle();
+    auth.simulateEmailLink(email: 'user@example.com', success: false);
+    await tester.pumpAndSettle();
+
+    expect(find.textContaining('인증 링크가 만료됐거나'), findsNothing);
+    expect(find.text('오늘도 한 판 풀어 볼까요?'), findsOneWidget);
   });
 }

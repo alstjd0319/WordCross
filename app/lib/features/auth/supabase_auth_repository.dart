@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:supabase_flutter/supabase_flutter.dart' as sb;
 
 import 'auth_repository.dart';
@@ -16,13 +18,40 @@ class SupabaseAuthRepository implements AuthRepository {
   @override
   AppUser? get currentUser => _map(_auth.currentUser);
 
+  /// 앱 안에서 signIn/signUp 을 부르는 중인지. 이때 오는 signedIn 은 인증 메일 링크가 아니다.
+  bool _selfSignIn = false;
+
   @override
-  Stream<AppUser?> authStateChanges() => _auth.onAuthStateChange.map((state) => _map(state.session?.user));
+  Stream<AppUser?> authStateChanges() => _auth.onAuthStateChange
+      .map((state) => _map(state.session?.user))
+      // 인증 링크 처리 실패도 이 스트림에 오류로 들어온다. 화면에는 notices()로 알린다.
+      .handleError((Object _) {});
+
+  @override
+  Stream<AuthNotice> notices() => _auth.onAuthStateChange.transform(
+        StreamTransformer<sb.AuthState, AuthNotice>.fromHandlers(
+          handleData: (state, sink) {
+            // 앱이 켜져 있을 때 저장된 세션은 initialSession 으로 오므로, 여기서 signedIn 은
+            // 인증 메일 링크(supabase_flutter 가 code 를 세션으로 바꿈)로 로그인된 경우다.
+            if (state.event == sb.AuthChangeEvent.signedIn && !_selfSignIn) sink.add(AuthNotice.emailConfirmed);
+          },
+          handleError: (error, stackTrace, sink) => sink.add(AuthNotice.confirmLinkFailed),
+        ),
+      );
+
+  Future<T> _asSelfSignIn<T>(Future<T> Function() action) async {
+    _selfSignIn = true;
+    try {
+      return await action();
+    } finally {
+      _selfSignIn = false;
+    }
+  }
 
   @override
   Future<void> signIn({required String email, required String password}) async {
     try {
-      await _auth.signInWithPassword(email: email.trim(), password: password);
+      await _asSelfSignIn(() => _auth.signInWithPassword(email: email.trim(), password: password));
     } on sb.AuthException catch (e) {
       throw AuthFailure(_message(e));
     } catch (_) {
@@ -33,12 +62,12 @@ class SupabaseAuthRepository implements AuthRepository {
   @override
   Future<SignUpResult> signUp({required String email, required String password, required String nickname}) async {
     try {
-      final res = await _auth.signUp(
-        email: email.trim(),
-        password: password,
-        data: {'nickname': nickname.trim()},
-        emailRedirectTo: emailRedirectUrl,
-      );
+      final res = await _asSelfSignIn(() => _auth.signUp(
+            email: email.trim(),
+            password: password,
+            data: {'nickname': nickname.trim()},
+            emailRedirectTo: emailRedirectUrl,
+          ));
       return res.session == null ? SignUpResult.needsEmailConfirmation : SignUpResult.signedIn;
     } on sb.AuthException catch (e) {
       throw AuthFailure(_message(e));

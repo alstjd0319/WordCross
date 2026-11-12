@@ -22,6 +22,9 @@ abstract final class Routes {
   static const myPage = '/my';
 }
 
+/// 인증 메일 링크로 들어온 주소인지. 스킴이 붙은 전체 주소와 경로만 온 경우를 모두 본다.
+bool isAuthCallback(Uri uri) => uri.host == 'login-callback' || uri.path.startsWith('/login-callback');
+
 /// 인증 상태가 바뀌면 GoRouter가 redirect를 다시 계산하게 한다.
 class _AuthRefresh extends ChangeNotifier {
   _AuthRefresh(Stream<Object?> stream) {
@@ -48,6 +51,10 @@ final routerProvider = Provider<GoRouter>((ref) {
     refreshListenable: refresh,
     redirect: (context, state) {
       final loggedIn = auth.currentUser != null;
+      // 인증 메일 링크(com.wordcross.wordcross://login-callback?code=...)로 앱이 열린 경우.
+      // code 처리는 supabase_flutter 가 따로 하므로, 화면은 로그인 상태에 맞는 곳으로 보낸다.
+      // 처리가 끝나 로그인되면 refreshListenable 이 다시 홈으로 보낸다.
+      if (isAuthCallback(state.uri)) return loggedIn ? Routes.home : Routes.login;
       final loc = state.matchedLocation;
       final onAuthPage = loc == Routes.login || loc == Routes.signup;
       if (!loggedIn) return onAuthPage ? null : Routes.login;
