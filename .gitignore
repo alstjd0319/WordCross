@@ -1,0 +1,45 @@
+# 비밀 키, 환경 변수
+.env
+.env.*
+!.env.example
+
+# OS, 편집기
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/.pub-cache/
+app/.pub/
+app/build/
+app/coverage/
+app/android/.gradle/
+app/android/local.properties
+app/android/key.properties
+app/android/app/*.keystore
+app/android/app/*.jks
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/Flutter.framework
+app/ios/Flutter/App.framework
+app/ios/Flutter/flutter_export_environment.sh
+app/ios/Flutter/Generated.xcconfig
+
+# Supabase 로컬 실행 파일
+supabase/.branches/
+supabase/.temp/
+
+# Python (tools)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 데이터 원본 다운로드 (가공한 결과만 커밋)
+data/raw/
