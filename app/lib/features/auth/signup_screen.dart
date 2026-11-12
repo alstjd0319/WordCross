@@ -19,6 +19,7 @@ class SignUpScreen extends ConsumerStatefulWidget {
 
 class _SignUpScreenState extends ConsumerState<SignUpScreen> {
   final _formKey = GlobalKey<FormState>();
+  final _nickname = TextEditingController();
   final _email = TextEditingController();
   final _password = TextEditingController();
   final _confirm = TextEditingController();
@@ -27,6 +28,7 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
 
   @override
   void dispose() {
+    _nickname.dispose();
     _email.dispose();
     _password.dispose();
     _confirm.dispose();
@@ -39,7 +41,7 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
     if (!_formKey.currentState!.validate()) return;
     setState(() => _submitting = true);
     try {
-      final result = await ref.read(authRepositoryProvider).signUp(email: _email.text, password: _password.text);
+      final result = await ref.read(authRepositoryProvider).signUp(email: _email.text, password: _password.text, nickname: _nickname.text);
       if (!mounted) return;
       if (result == SignUpResult.needsEmailConfirmation) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -72,6 +74,15 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
                 Text('학습 기록과 오답 노트가 계정에 저장돼요.', style: text.bodyLarge!.copyWith(color: context.wcColors.textMuted)),
                 const SizedBox(height: 24),
                 LabeledField(
+                  label: '닉네임',
+                  hint: '${Validators.maxNicknameLength}자 이하',
+                  controller: _nickname,
+                  validator: Validators.nickname,
+                  textInputAction: TextInputAction.next,
+                  autofillHints: const [AutofillHints.nickname],
+                ),
+                const SizedBox(height: 14),
+                LabeledField(
                   label: '이메일',
                   hint: 'example@email.com',
                   controller: _email,
@@ -83,7 +94,7 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
                 const SizedBox(height: 14),
                 LabeledField(
                   label: '비밀번호',
-                  hint: '${Validators.minPasswordLength}자 이상',
+                  hint: '영문·숫자 포함 ${Validators.minPasswordLength}자 이상',
                   controller: _password,
                   validator: Validators.newPassword,
                   obscure: true,
