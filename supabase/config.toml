@@ -34,7 +34,7 @@ minimum_password_length = 8
 password_requirements = "letters_digits"
 
 [auth.email]
-enable_signup = true
+enabled = true
 # 로컬에서는 확인 메일 없이 바로 로그인. 호스팅 프로젝트에서는 켠다.
 enable_confirmations = false
 double_confirm_changes = true
