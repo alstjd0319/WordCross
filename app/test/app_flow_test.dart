@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:wordcross/app/app.dart';
+import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
 
@@ -107,5 +108,17 @@ void main() {
 
     expect(find.text('이메일 또는 비밀번호가 맞지 않아요.'), findsOneWidget);
     expect(find.byType(NavigationBar), findsNothing);
+  });
+
+  testWidgets('인증 메일 링크로 열리면 Page Not Found 없이 로그인 화면으로 간다', (tester) async {
+    await pumpApp(tester);
+    final router = ProviderScope.containerOf(tester.element(find.byType(MaterialApp))).read(routerProvider);
+
+    for (final link in ['com.wordcross.wordcross://login-callback/?code=abc', '/login-callback?code=abc']) {
+      router.go(link);
+      await tester.pumpAndSettle();
+      expect(find.text('Page Not Found'), findsNothing, reason: link);
+      expect(find.text('십자말풀이로 익히는 토익 단어'), findsOneWidget, reason: link);
+    }
   });
 }

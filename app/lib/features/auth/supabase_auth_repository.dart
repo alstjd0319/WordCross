@@ -21,7 +21,10 @@ class SupabaseAuthRepository implements AuthRepository {
   AppUser? get currentUser => _map(_auth.currentUser);
 
   @override
-  Stream<AppUser?> authStateChanges() => _auth.onAuthStateChange.map((state) => _map(state.session?.user));
+  Stream<AppUser?> authStateChanges() => _auth.onAuthStateChange
+      .map((state) => _map(state.session?.user))
+      // 만료된 인증 링크 처리 실패도 이 스트림에 오류로 들어온다. 로그인 상태는 그대로이므로 무시한다.
+      .handleError((Object _) {});
 
   @override
   Future<void> signIn({required String email, required String password}) async {
