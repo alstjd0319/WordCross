@@ -7,7 +7,6 @@ import 'auth_repository.dart';
 class FakeAuthRepository implements AuthRepository {
   final _users = <String, String>{};
   final _controller = StreamController<AppUser?>.broadcast();
-  final _notices = StreamController<AuthNotice>.broadcast();
   AppUser? _current;
 
   @override
@@ -15,20 +14,6 @@ class FakeAuthRepository implements AuthRepository {
 
   @override
   Stream<AppUser?> authStateChanges() => _controller.stream;
-
-  @override
-  Stream<AuthNotice> notices() => _notices.stream;
-
-  /// 테스트용: 인증 메일 링크로 앱이 열린 상황을 흉내 낸다.
-  void simulateEmailLink({required String email, bool success = true}) {
-    if (!success) {
-      _notices.add(AuthNotice.confirmLinkFailed);
-      return;
-    }
-    final key = email.trim().toLowerCase();
-    _set(AppUser(id: 'local-$key', email: key));
-    _notices.add(AuthNotice.emailConfirmed);
-  }
 
   void _set(AppUser? user) {
     _current = user;
@@ -54,8 +39,5 @@ class FakeAuthRepository implements AuthRepository {
   @override
   Future<void> signOut() async => _set(null);
 
-  Future<void> dispose() async {
-    await _controller.close();
-    await _notices.close();
-  }
+  Future<void> dispose() => _controller.close();
 }

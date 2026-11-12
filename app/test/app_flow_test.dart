@@ -105,33 +105,4 @@ void main() {
       expect(find.text('십자말풀이로 익히는 토익 단어'), findsOneWidget, reason: link);
     }
   });
-
-  testWidgets('인증 메일 링크로 로그인되면 홈으로 가고 인증 완료 문구를 보여 준다', (tester) async {
-    final auth = await pumpApp(tester);
-    auth.simulateEmailLink(email: 'user@example.com');
-    await tester.pumpAndSettle();
-
-    expect(find.text('이메일 인증이 완료됐어요. 환영해요!'), findsOneWidget);
-    expect(find.text('오늘도 한 판 풀어 볼까요?'), findsOneWidget);
-  });
-
-  testWidgets('인증 링크가 만료됐으면 로그인 화면에 안내 문구를 보여 준다', (tester) async {
-    final auth = await pumpApp(tester);
-    auth.simulateEmailLink(email: 'user@example.com', success: false);
-    await tester.pumpAndSettle();
-
-    expect(find.textContaining('인증 링크가 만료됐거나'), findsOneWidget);
-    expect(find.byType(NavigationBar), findsNothing);
-  });
-
-  testWidgets('이미 로그인한 상태에서 예전 인증 링크를 누르면 만료 문구를 띄우지 않는다', (tester) async {
-    final auth = await pumpApp(tester);
-    await auth.signUp(email: 'user@example.com', password: 'password1', nickname: '민성');
-    await tester.pumpAndSettle();
-    auth.simulateEmailLink(email: 'user@example.com', success: false);
-    await tester.pumpAndSettle();
-
-    expect(find.textContaining('인증 링크가 만료됐거나'), findsNothing);
-    expect(find.text('오늘도 한 판 풀어 볼까요?'), findsOneWidget);
-  });
 }
