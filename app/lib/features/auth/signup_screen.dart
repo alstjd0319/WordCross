@@ -75,7 +75,8 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
                 const SizedBox(height: 24),
                 LabeledField(
                   label: '닉네임',
-                  hint: '${Validators.maxNicknameLength}자 이하',
+                  hint: '예: 토익정복',
+                  helper: '${Validators.maxNicknameLength}자 이하 · 홈과 마이페이지에 표시돼요',
                   controller: _nickname,
                   validator: Validators.nickname,
                   textInputAction: TextInputAction.next,

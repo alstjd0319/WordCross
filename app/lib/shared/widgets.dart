@@ -9,6 +9,7 @@ class LabeledField extends StatelessWidget {
     required this.label,
     required this.controller,
     this.hint,
+    this.helper,
     this.validator,
     this.obscure = false,
     this.keyboardType,
@@ -19,6 +20,9 @@ class LabeledField extends StatelessWidget {
 
   final String label;
   final String? hint;
+
+  /// 입력 상자 아래 작은 안내 문구. 오류가 있으면 오류 문구가 대신 보인다.
+  final String? helper;
   final TextEditingController controller;
   final String? Function(String?)? validator;
   final bool obscure;
@@ -44,7 +48,11 @@ class LabeledField extends StatelessWidget {
           autocorrect: false,
           enableSuggestions: !obscure,
           onFieldSubmitted: onSubmitted,
-          decoration: InputDecoration(hintText: hint),
+          decoration: InputDecoration(
+            hintText: hint,
+            helperText: helper,
+            helperStyle: Theme.of(context).textTheme.bodySmall!.copyWith(color: context.wcColors.textMuted),
+          ),
         ),
       ],
     );

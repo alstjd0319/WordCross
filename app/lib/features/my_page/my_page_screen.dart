@@ -29,7 +29,21 @@ class MyPageScreen extends ConsumerWidget {
                   child: Icon(Icons.person_outline, color: AppColors.primary),
                 ),
                 const SizedBox(width: 12),
-                Expanded(child: Text(user?.email ?? '', style: text.labelLarge, overflow: TextOverflow.ellipsis)),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // Figma 5-1: 닉네임을 크게, 이메일을 작게. 닉네임이 없으면 이메일만.
+                      Text(user?.displayName ?? user?.email ?? '', style: text.titleMedium, overflow: TextOverflow.ellipsis),
+                      if (user?.displayName != null)
+                        Text(
+                          user!.email,
+                          style: text.bodySmall!.copyWith(color: context.wcColors.textMuted),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),

@@ -6,6 +6,7 @@ import 'auth_repository.dart';
 /// 위젯 테스트에서도 쓴다.
 class FakeAuthRepository implements AuthRepository {
   final _users = <String, String>{};
+  final _nicknames = <String, String>{};
   final _controller = StreamController<AppUser?>.broadcast();
   AppUser? _current;
 
@@ -24,7 +25,7 @@ class FakeAuthRepository implements AuthRepository {
   Future<void> signIn({required String email, required String password}) async {
     final key = email.trim().toLowerCase();
     if (_users[key] != password) throw const AuthFailure('이메일 또는 비밀번호가 맞지 않아요.');
-    _set(AppUser(id: 'local-$key', email: key));
+    _set(AppUser(id: 'local-$key', email: key, nickname: _nicknames[key]));
   }
 
   @override
@@ -32,7 +33,8 @@ class FakeAuthRepository implements AuthRepository {
     final key = email.trim().toLowerCase();
     if (_users.containsKey(key)) throw const AuthFailure('이미 가입된 이메일이에요.');
     _users[key] = password;
-    _set(AppUser(id: 'local-$key', email: key));
+    _nicknames[key] = nickname.trim();
+    _set(AppUser(id: 'local-$key', email: key, nickname: _nicknames[key]));
     return SignUpResult.signedIn;
   }
 

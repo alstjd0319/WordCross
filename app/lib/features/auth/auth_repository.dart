@@ -1,9 +1,19 @@
 /// 로그인한 사용자. 화면에 필요한 최소 정보만 담는다.
 class AppUser {
-  const AppUser({required this.id, required this.email});
+  const AppUser({required this.id, required this.email, this.nickname});
 
   final String id;
   final String email;
+
+  /// 가입할 때 보낸 닉네임(user metadata). DB 트리거가 같은 값을 profiles.nickname 에 저장한다.
+  /// 닉네임 변경 기능을 만들면 profiles.nickname 을 읽도록 바꿔야 한다.
+  final String? nickname;
+
+  /// 화면에 부를 이름. 닉네임이 없으면 null.
+  String? get displayName {
+    final n = nickname?.trim();
+    return (n == null || n.isEmpty) ? null : n;
+  }
 }
 
 /// 화면에 그대로 보여 줄 수 있는 한국어 오류 문구를 담은 인증 실패.
