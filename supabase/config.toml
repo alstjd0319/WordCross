@@ -1,0 +1,46 @@
+# Supabase CLI 로컬 개발 설정 (`supabase start`).
+# 적지 않은 항목은 CLI 기본값을 쓴다. 실제(호스팅) 프로젝트의 로그인 설정은
+# 대시보드 Authentication 메뉴에서 같은 값으로 맞춘다 (supabase/README.md 참고).
+project_id = "wordcross"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 17
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+# 앱 딥링크 (이메일 인증·비밀번호 재설정 후 앱으로 돌아오기)
+additional_redirect_urls = ["com.wordcross.wordcross://login-callback"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+enable_signup = true
+enable_anonymous_sign_ins = false
+minimum_password_length = 8
+password_requirements = "letters_digits"
+
+[auth.email]
+enable_signup = true
+# 로컬에서는 확인 메일 없이 바로 로그인. 호스팅 프로젝트에서는 켠다.
+enable_confirmations = false
+double_confirm_changes = true
+secure_password_change = false
+max_frequency = "1m0s"
+
+[auth.rate_limit]
+email_sent = 30
+sign_in_sign_ups = 30

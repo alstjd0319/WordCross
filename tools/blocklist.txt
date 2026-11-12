@@ -1,0 +1,17 @@
+# 퍼즐에 넣지 않을 단어 (소문자, 한 줄에 하나). 검수하며 계속 추가한다.
+# 부적절하거나 학습 앱에 어울리지 않는 단어
+sex
+sexy
+sexual
+damn
+hell
+kill
+drug
+drunk
+gun
+bomb
+porn
+# 약어처럼 쓰이거나 의미가 모호한 단어
+mister
+okay
+yeah
