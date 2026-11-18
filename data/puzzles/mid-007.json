@@ -1,0 +1,217 @@
+{
+ "id": "mid-007",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-11",
+ "words": [
+  {
+   "no": 1,
+   "word": "CULINARY",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "INCH",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "INCUR",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "CATERER",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "FOLDER",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "ITSELF",
+   "row": 4,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "LAYOUT",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "VERBAL",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "UNLESS",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "CLINIC",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "DIVORCE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "AMUSE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "YARD",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "THREATEN",
+   "row": 12,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "CHIEF",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "LOCALLY",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "NERVE",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "RACK",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "NURSE",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "HARMFUL",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "STATUE",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "LAUNDRY",
+   "row": 6,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "UNSURE",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "BANQUET",
+   "row": 6,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "LOVER",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "LEAVE",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "CLEAN",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "TECH",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 52.9,
+  "passed": true,
+  "learn_ratio": 0.57,
+  "on_level": 13,
+  "overlap": 0.25,
+  "with_meaning_ko": 0.68,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

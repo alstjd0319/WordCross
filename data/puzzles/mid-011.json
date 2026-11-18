@@ -1,0 +1,217 @@
+{
+ "id": "mid-011",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-01",
+ "words": [
+  {
+   "no": 1,
+   "word": "NAIL",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 3,
+   "word": "DIAGNOSE",
+   "row": 0,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "TONER",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "FREIGHT",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "FOREMAN",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "TWICE",
+   "row": 4,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "SUITE",
+   "row": 6,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "BADGE",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "LOGIN",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "ADVISOR",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "EXAMINE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "SPITE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "EVERYDAY",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "BLUE",
+   "row": 12,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "NOTIFY",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "INNER",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "INFANT",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "GREET",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "ONGOING",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "EITHER",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "PROMPT",
+   "row": 1,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "UPGRADE",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "ADVISE",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "SLEEVE",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "CAMERA",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "FREEZE",
+   "row": 7,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "NOISY",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "SPILL",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 51.9,
+  "passed": true,
+  "learn_ratio": 0.57,
+  "on_level": 11,
+  "overlap": 0.31,
+  "with_meaning_ko": 0.86,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

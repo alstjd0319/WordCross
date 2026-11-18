@@ -1,0 +1,245 @@
+{
+ "id": "adv-006",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-01",
+ "words": [
+  {
+   "no": 1,
+   "word": "SPEND",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 4,
+   "word": "SUBSIDIZE",
+   "row": 0,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "RECIPIENT",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "SETUP",
+   "row": 2,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "TOURIST",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "ELDERLY",
+   "row": 4,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "GRATEFUL",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "TRIPLE",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "CHEESE",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "DISCRETE",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "INSURER",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "PENDING",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "EMAIL",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "COALITION",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "LIFESTYLE",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "TONNE",
+   "row": 14,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "STRATEGIC",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "ENCOURAGE",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "DEPRIVE",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "SPECTRUM",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "BITTER",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "INSIDER",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "INTER",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "EMPTY",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "PRECISION",
+   "row": 6,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "EMERGENCE",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "DISPLACE",
+   "row": 7,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "SURPLUS",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "CONVICT",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "TRICKY",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "IDEAL",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "STAFF",
+   "row": 10,
+   "col": 2,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 67.5,
+  "passed": true,
+  "learn_ratio": 0.69,
+  "on_level": 21,
+  "overlap": 0.05,
+  "with_meaning_ko": 0.56,
+  "with_example": 0.97
+ },
+ "reviewed": false
+}

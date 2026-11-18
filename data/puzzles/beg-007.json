@@ -1,0 +1,189 @@
+{
+ "id": "beg-007",
+ "level": "beginner",
+ "size": [
+  11,
+  11
+ ],
+ "template": "uk-11-10",
+ "words": [
+  {
+   "no": 1,
+   "word": "CASUAL",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 4,
+   "word": "CARD",
+   "row": 0,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 8,
+   "word": "USAGE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "HORSE",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "INK",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "DESSERT",
+   "row": 4,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "RENEWAL",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "VIA",
+   "row": 6,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "SIGHT",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "BONUS",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "NOTE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "CLIENT",
+   "row": 10,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "COURIER",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "SNACK",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "AHEAD",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "AGREE",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "DUE",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "THIS",
+   "row": 1,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 12,
+   "word": "TRANSIT",
+   "row": 4,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "NIGHT",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "WITH",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "LABEL",
+   "row": 6,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "VENUE",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "SUN",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 49.5,
+  "passed": true,
+  "learn_ratio": 0.46,
+  "on_level": 11,
+  "overlap": 0.18,
+  "with_meaning_ko": 0.71,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

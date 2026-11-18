@@ -1,0 +1,245 @@
+{
+ "id": "adv-004",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-09",
+ "words": [
+  {
+   "no": 1,
+   "word": "BOOKCASE",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "RENOWN",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "ACCLAIM",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "INCLINE",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "THRESHOLD",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "UNIFY",
+   "row": 4,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "FISCAL",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "ORDINATE",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "LEVERAGE",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "INTENT",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "PURSE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "INTERVENE",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "EVIDENT",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "PRIVATE",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "DENOTE",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 30,
+   "word": "SEVERELY",
+   "row": 14,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "BEAUTIFUL",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "OCCUR",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "CHAOS",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "SYMBOL",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "EXCLUSION",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "ORIGINATE",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "NEEDY",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 9,
+   "word": "BIDDER",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "SOVEREIGN",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "AGREEMENT",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "EXTREMELY",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "GUILTY",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "STAPLE",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "PLEAD",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "RAISE",
+   "row": 10,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "ERASE",
+   "row": 10,
+   "col": 12,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 71.6,
+  "passed": true,
+  "learn_ratio": 0.75,
+  "on_level": 22,
+  "overlap": 0.04,
+  "with_meaning_ko": 0.56,
+  "with_example": 0.97
+ },
+ "reviewed": false
+}

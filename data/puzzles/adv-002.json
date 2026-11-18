@@ -1,0 +1,245 @@
+{
+ "id": "adv-002",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-09",
+ "words": [
+  {
+   "no": 1,
+   "word": "REASSURE",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "HOURLY",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "FREEDOM",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "RECEIVE",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "RETENTION",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "EMBED",
+   "row": 4,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "INSERT",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "RHETORIC",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "TREASURY",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "CAREER",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "ALTER",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "CLASSMATE",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ARCHIVE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "DIPLOMA",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "DILUTE",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 30,
+   "word": "RETRIEVE",
+   "row": 14,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "REFORMIST",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "AGENT",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "SEDAN",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "REMAIN",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "ORCHESTRA",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "REIMBURSE",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "YIELD",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 9,
+   "word": "CRUNCH",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "SKEPTICAL",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "RESTRAINT",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "CORRELATE",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "ROCKET",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "HANDLE",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "AWARD",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "SUPER",
+   "row": 10,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "ABOVE",
+   "row": 10,
+   "col": 12,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 68.3,
+  "passed": true,
+  "learn_ratio": 0.69,
+  "on_level": 19,
+  "overlap": 0.0,
+  "with_meaning_ko": 0.62,
+  "with_example": 0.97
+ },
+ "reviewed": false
+}

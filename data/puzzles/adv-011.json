@@ -1,0 +1,245 @@
+{
+ "id": "adv-011",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-07",
+ "words": [
+  {
+   "no": 1,
+   "word": "ELABORATE",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 6,
+   "word": "QUOTA",
+   "row": 0,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "THEREFORE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "EXTRA",
+   "row": 2,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "TRANSIT",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "LOYALTY",
+   "row": 4,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "ELEVATOR",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "BROWSE",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "BUTTER",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "CONFLICT",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "SQUEEZE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "ELEVATE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "DETER",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "STABILIZE",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "STEER",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "EXTREMELY",
+   "row": 14,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "ENTITLE",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "AVERAGE",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "OVERSTATE",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "ADOPTION",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "EVENLY",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "QUERY",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "OUTFLOW",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "ANALYZE",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "REFLEXIVE",
+   "row": 6,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "COVENANT",
+   "row": 7,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "BESIDES",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "TRUSTEE",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "IMAGINE",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "THEREBY",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "LESSEE",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "ERROR",
+   "row": 10,
+   "col": 4,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 65.0,
+  "passed": true,
+  "learn_ratio": 0.69,
+  "on_level": 20,
+  "overlap": 0.05,
+  "with_meaning_ko": 0.47,
+  "with_example": 0.94
+ },
+ "reviewed": false
+}

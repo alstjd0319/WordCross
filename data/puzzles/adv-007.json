@@ -1,0 +1,245 @@
+{
+ "id": "adv-007",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-08",
+ "words": [
+  {
+   "no": 1,
+   "word": "DIRECTIVE",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 6,
+   "word": "GUIDE",
+   "row": 0,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "SUCCESS",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "PROVOKE",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "RECEIVE",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "INSTANT",
+   "row": 4,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "BREATH",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "DISTRESS",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "EVERYDAY",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "PLEDGE",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "POPCORN",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "AIRPORT",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "AMONGST",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "TONIGHT",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "OCEAN",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "COLLECTOR",
+   "row": 14,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "DESIRABLE",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "RECYCLE",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "CHEMISTRY",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "ISSUER",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "EXPLICIT",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "GROSS",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "ISOLATE",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "EXERT",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "TOLERANCE",
+   "row": 6,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "SPECTATOR",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "MAGNETIC",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "EXPLODE",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "DROUGHT",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "CARTEL",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "PIANO",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "ORGAN",
+   "row": 10,
+   "col": 4,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 66.5,
+  "passed": true,
+  "learn_ratio": 0.72,
+  "on_level": 19,
+  "overlap": 0.17,
+  "with_meaning_ko": 0.75,
+  "with_example": 0.97
+ },
+ "reviewed": false
+}

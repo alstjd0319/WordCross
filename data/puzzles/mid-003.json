@@ -1,0 +1,217 @@
+{
+ "id": "mid-003",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-06",
+ "words": [
+  {
+   "no": 1,
+   "word": "EFFECT",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 4,
+   "word": "APPEAR",
+   "row": 0,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "CARGO",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "DROUGHT",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "REMODEL",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "ERROR",
+   "row": 4,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "INCH",
+   "row": 6,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "DECK",
+   "row": 6,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "ALERT",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "OUTDOOR",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "TOURIST",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "AMUSE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "COPIER",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "DETECT",
+   "row": 12,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "ESCORT",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "FOREMAN",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "CLOUD",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "PROCEED",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "EAGER",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "RETURN",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "ADULT",
+   "row": 1,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "HOTLINE",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "CLOSURE",
+   "row": 6,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "TACTIC",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "BOOTH",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "URGENT",
+   "row": 7,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "EQUIP",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "TRACE",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 60.9,
+  "passed": true,
+  "learn_ratio": 0.61,
+  "on_level": 13,
+  "overlap": 0.06,
+  "with_meaning_ko": 0.71,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

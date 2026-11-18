@@ -1,0 +1,217 @@
+{
+ "id": "mid-002",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-04",
+ "words": [
+  {
+   "no": 1,
+   "word": "PUNCTUAL",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "OVER",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "SERVE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "CLUSTER",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "CREW",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "ANYTIME",
+   "row": 4,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "REOPEN",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "LOUNGE",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "AGAINST",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "CLUE",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "LEISURE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "ANGER",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "YOGA",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "OPTIONAL",
+   "row": 12,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "POSTCARD",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "NERVE",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "TREE",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "ACCENT",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "VITAMIN",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "RARE",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "AUCTION",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "SERIOUS",
+   "row": 5,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "REFERRAL",
+   "row": 5,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "ONGOING",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "ASLEEP",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "LOGIN",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "PLAY",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "TAXI",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 60.6,
+  "passed": true,
+  "learn_ratio": 0.57,
+  "on_level": 13,
+  "overlap": 0.06,
+  "with_meaning_ko": 0.82,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

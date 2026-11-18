@@ -1,0 +1,189 @@
+{
+ "id": "beg-003",
+ "level": "beginner",
+ "size": [
+  11,
+  11
+ ],
+ "template": "uk-11-08",
+ "words": [
+  {
+   "no": 1,
+   "word": "PAINTER",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "INK",
+   "row": 0,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 7,
+   "word": "THE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 8,
+   "word": "CLASSIC",
+   "row": 2,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "OBTAIN",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "JET",
+   "row": 4,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "CAB",
+   "row": 6,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "DENTAL",
+   "row": 6,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "DENTIST",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "BUS",
+   "row": 8,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "AGE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "DELIGHT",
+   "row": 10,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "PATRON",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "ICE",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "TACTIC",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "ROAD",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "INSPECT",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "KICK",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 10,
+   "word": "TRAINEE",
+   "row": 4,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 12,
+   "word": "RENTAL",
+   "row": 5,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "CLOSET",
+   "row": 5,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "IDEA",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "WIND",
+   "row": 7,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "BAG",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 63.1,
+  "passed": true,
+  "learn_ratio": 0.54,
+  "on_level": 13,
+  "overlap": 0.0,
+  "with_meaning_ko": 0.83,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

@@ -1,0 +1,245 @@
+{
+ "id": "adv-008",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-09",
+ "words": [
+  {
+   "no": 1,
+   "word": "ULTIMATE",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "UPDATE",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "STAPLER",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "TROUBLE",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "CONTINENT",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "ENTRY",
+   "row": 4,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "REDEEM",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "OCCUPANT",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "DISGUISE",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "SEVERE",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "STEEP",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "PRECEDENT",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "AMATEUR",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "UTILIZE",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "TREATY",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 30,
+   "word": "INHERENT",
+   "row": 14,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "UNSECURED",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "TRAIN",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "MULTI",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "TARGET",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "PROSECUTE",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "ARBITRAGE",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "ENEMY",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 9,
+   "word": "STATIC",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "DESPERATE",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "EQUIPMENT",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "TREATMENT",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "SUPERB",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "RETURN",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "SMART",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "ELITE",
+   "row": 10,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "EXILE",
+   "row": 10,
+   "col": 12,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 64.8,
+  "passed": true,
+  "learn_ratio": 0.66,
+  "on_level": 20,
+  "overlap": 0.1,
+  "with_meaning_ko": 0.66,
+  "with_example": 0.94
+ },
+ "reviewed": false
+}
