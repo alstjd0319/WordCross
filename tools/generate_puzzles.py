@@ -24,7 +24,9 @@ TEMPLATE_DIR = ROOT / "data" / "templates"
 PUZZLE_DIR = ROOT / "data" / "puzzles"
 
 # 품질 기준 (설계서 5장)
-MIN_LEARN_RATIO = {"beginner": 0.5, "intermediate": 0.6, "advanced": 0.6}
+# 초급은 3~7글자 학습 단어가 182개뿐이라(설계서도 초급 주요 단어를 "NGSL + 쉬운 토익 단어"로 둠)
+# 난이도별로 단어 수에 맞춰 둔다. 설계서 5장의 60~70%는 고급만 맞춘다.
+MIN_LEARN_RATIO = {"beginner": 0.45, "intermediate": 0.55, "advanced": 0.6}
 MAX_OVERLAP = 0.35          # 이미 만든 퍼즐과 학습 단어가 이 비율 넘게 겹치면 탈락
 
 
@@ -100,6 +102,7 @@ def generate_one(level: str, templates: list[dict], index: WordIndex, rng: rando
             return None
     except Timeout:
         return None
+    filler.improve()   # 채움 단어를 교차 글자만 맞는 학습 단어로 바꿔 학습 단어 비율을 높인다
     return t, filler.result()[1]
 
 

@@ -169,6 +169,8 @@ class Filler:
                 cell_slots.setdefault(cell, []).append(i)
         self.crossing = [sorted({j for cell in s.cells for j in cell_slots[cell] if j != i})
                          for i, s in enumerate(self.slots)]
+        # 슬롯마다 다른 단어와 겹치는(교차) 칸인지. 영국식 격자는 절반쯤이 겹치지 않는 칸이다.
+        self.checked = [[len(cell_slots[cell]) > 1 for cell in s.cells] for s in self.slots]
 
     def pattern(self, i: int) -> str:
         return "".join(self.grid[r][c] for r, c in self.slots[i].cells)
@@ -199,7 +201,8 @@ class Filler:
         words = self.index.words_of(self.slots[i].length, bits)
         sc = self.index.scores
         # 점수 + 랜덤: 학습 단어가 앞으로 오되 매번 다른 순서
-        keyed = sorted(words, key=lambda w: -(sc.get(w, 0) + self.rng.random() * 1.5))
+        # 랜덤 폭(0.9)을 점수 차(1)보다 작게 해, 들어갈 수 있으면 학습 단어가 채움 단어보다 항상 먼저 온다
+        keyed = sorted(words, key=lambda w: -(sc.get(w, 0) + self.rng.random() * 0.9))
         return keyed[: self.max_tries]
 
     def solve(self) -> bool:
@@ -227,6 +230,32 @@ class Filler:
                     return True
             self.unplace(best_i, changed)
         return False
+
+    def improve(self) -> int:
+        """다 채운 뒤, 점수가 낮은 단어를 교차 글자만 맞는 더 높은 점수 단어로 바꾼다.
+
+        겹치지 않는 칸은 다른 단어에 영향이 없으므로, 교차 칸 글자만 같으면 바꿔도 된다.
+        바꾼 단어 수를 돌려준다.
+        """
+        sc = self.index.scores
+        swapped = 0
+        order = sorted(self.assigned, key=lambda i: sc.get(self.assigned[i], 0))
+        for i in order:
+            current = self.assigned[i]
+            L = len(current)
+            pattern = "".join(ch if chk else EMPTY for ch, chk in zip(current, self.checked[i]))
+            bits = self.index.candidates(pattern, self.used.get(L, 0))
+            if not bits:
+                continue
+            best = max(self.index.words_of(L, bits), key=lambda w: sc.get(w, 0) + self.rng.random() * 0.9)
+            if sc.get(best, 0) <= sc.get(current, 0):
+                continue
+            for (r, c), ch in zip(self.slots[i].cells, best):
+                self.grid[r][c] = ch
+            self.used[L] = (self.used[L] & ~(1 << self.index.pos_of[L][current])) | (1 << self.index.pos_of[L][best])
+            self.assigned[i] = best
+            swapped += 1
+        return swapped
 
     def result(self) -> tuple[list[str], list[tuple[Slot, str]]]:
         """채운 격자와 (번호 매긴 슬롯, 단어) 목록."""
