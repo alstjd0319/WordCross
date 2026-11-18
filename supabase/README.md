@@ -61,6 +61,7 @@ supabase db push              # migrations/ 를 실제 프로젝트에 반영
 ## 데이터 입력
 
 `python3 tools/export_sql.py` 가 검수한 퍼즐과 그 단어로 `seed.sql` 을 만듭니다 (3주차 퍼즐 등록에 사용).
+개발용으로 검수 전 퍼즐 32개(초급 9, 중급 11, 고급 12)를 실제 프로젝트에 공개해 두었습니다 (`export_sql.py --dev`, `tools/README.md` 참고).
 로컬은 `supabase db reset` 때 `seed.sql` 이 자동 적용되고, 실제 프로젝트는 SQL Editor 에서 실행합니다.
 
 ## 규칙
