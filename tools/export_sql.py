@@ -1,7 +1,10 @@
 """검수한 단어와 퍼즐을 Supabase 입력용 SQL 로 바꾼다 → supabase/seed.sql
 
     python3 tools/export_sql.py                 # 검수 완료(reviewed=true) 퍼즐만
-    python3 tools/export_sql.py --all           # 개발용: 검수 전 퍼즐도 (published=false 로)
+    python3 tools/export_sql.py --all           # 검수 전 퍼즐도 넣되 앱에는 숨김 (published=false)
+    python3 tools/export_sql.py --dev --out /tmp/dev_seed.sql   # 개발용: 검수 전 퍼즐도 앱에 공개
+
+ * --dev 로 넣은 검수 전 퍼즐은 기본 실행(검수 완료만)을 다시 하면 숨겨진다 (published=false).
 
  * 퍼즐에 쓰인 단어만 words 에 넣는다 (word 기준 upsert).
  * 퍼즐은 id 기준 upsert, puzzle_words 는 지우고 다시 넣는다. 같은 파일을 여러 번 실행해도 안전하다.
@@ -38,7 +41,12 @@ def q(v) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="검수 전 퍼즐도 포함 (공개하지 않음)")
+    ap.add_argument("--dev", action="store_true",
+                    help="개발용: 검수 전 퍼즐도 포함하고 앱에 공개 (앱 화면 개발·시험용)")
+    ap.add_argument("--out", type=Path, default=OUT, help=f"저장할 파일 (기본 {OUT.relative_to(ROOT)})")
     args = ap.parse_args()
+    if args.dev:
+        args.all = True
 
     with open(WORDS_CSV, newline="", encoding="utf-8") as f:
         meta = {r["word"]: r for r in csv.DictReader(f)}
@@ -70,7 +78,7 @@ def main() -> None:
         out.append(
             "insert into public.puzzles (id, level, rows, cols, template, blocks, word_count, reviewed, published) "
             f"values ({q(p['id'])}, {q(p['level'])}, {p['size'][0]}, {p['size'][1]}, {q(p['template'])}, "
-            f"{q(json.dumps(blocks))}::jsonb, {len(p['words'])}, {q(p['reviewed'])}, {q(p['reviewed'])})\n"
+            f"{q(json.dumps(blocks))}::jsonb, {len(p['words'])}, {q(p['reviewed'])}, {q(p['reviewed'] or args.dev)})\n"
             "on conflict (id) do update set level = excluded.level, rows = excluded.rows, cols = excluded.cols, "
             "template = excluded.template, blocks = excluded.blocks, word_count = excluded.word_count, "
             "reviewed = excluded.reviewed, published = excluded.published;")
@@ -80,9 +88,13 @@ def main() -> None:
             f"  ({q(p['id'])}, {w['no']}, {q(w['dir'])}, {w['row']}, {w['col']}, {len(w['word'])}, "
             f"(select id from public.words where word = {q(w['word'])}))" for w in p["words"]) + ";")
         out.append("")
+    if not args.dev:
+        # 개발용으로 공개했던 검수 전 퍼즐을 다시 숨긴다.
+        out.append("update public.puzzles set published = false where not reviewed;")
     out.append("commit;")
-    OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"저장: {OUT.relative_to(ROOT)} (퍼즐 {len(puzzles)}개, 단어 {len(used)}개)")
+    args.out.write_text("\n".join(out) + "\n", encoding="utf-8")
+    shown = args.out.relative_to(ROOT) if args.out.is_relative_to(ROOT) else args.out
+    print(f"저장: {shown} (퍼즐 {len(puzzles)}개, 단어 {len(used)}개, 공개 {'전체(개발용)' if args.dev else '검수 완료만'})")
 
 
 if __name__ == "__main__":
