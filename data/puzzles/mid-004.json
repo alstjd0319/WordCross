@@ -1,0 +1,217 @@
+{
+ "id": "mid-004",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-01",
+ "words": [
+  {
+   "no": 1,
+   "word": "RISK",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 3,
+   "word": "SUBTRACT",
+   "row": 0,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "COURT",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "SHORTEN",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "PLANNER",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "PIECE",
+   "row": 4,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "BENCH",
+   "row": 6,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "PURSE",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "ALERT",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "AIRFARE",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "TRANSIT",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "AMUSE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "PATIENCE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "DEBT",
+   "row": 12,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "RECIPE",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "SAUNA",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "UNSURE",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "TROOP",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "ACTRESS",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "TUNNEL",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "ETHNIC",
+   "row": 1,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "ELEGANT",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "UNREAL",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "LAPTOP",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "TACTIC",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "DESERT",
+   "row": 7,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "TASTE",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "ABUSE",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 62.6,
+  "passed": true,
+  "learn_ratio": 0.68,
+  "on_level": 13,
+  "overlap": 0.21,
+  "with_meaning_ko": 0.89,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

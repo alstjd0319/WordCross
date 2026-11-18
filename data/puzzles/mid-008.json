@@ -1,0 +1,217 @@
+{
+ "id": "mid-008",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-07",
+ "words": [
+  {
+   "no": 1,
+   "word": "SALESMAN",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "LAMP",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "LIBRARY",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "MODEL",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "ROYAL",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "ACTRESS",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "SCARF",
+   "row": 6,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "NOISY",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "DESKTOP",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "EVENT",
+   "row": 8,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "EQUIP",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "UNDERGO",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "EVER",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "REHEARSE",
+   "row": 12,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "SALARY",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "LOBBY",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "STAPLER",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "ANYWAY",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "ADDRESS",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "POLISH",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "OMIT",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "COSTUME",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "OVERDUE",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "ADHERE",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "SPOUSE",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "STROKE",
+   "row": 7,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "TAPE",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "ERROR",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 52.8,
+  "passed": true,
+  "learn_ratio": 0.57,
+  "on_level": 12,
+  "overlap": 0.31,
+  "with_meaning_ko": 0.86,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

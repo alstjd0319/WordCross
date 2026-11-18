@@ -1,0 +1,189 @@
+{
+ "id": "beg-002",
+ "level": "beginner",
+ "size": [
+  11,
+  11
+ ],
+ "template": "uk-11-02",
+ "words": [
+  {
+   "no": 1,
+   "word": "TAG",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 3,
+   "word": "CAPTAIN",
+   "row": 0,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 7,
+   "word": "AGREE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 8,
+   "word": "SWEET",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "NEED",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "MEMBER",
+   "row": 4,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "RETURN",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "SOUP",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "RENEW",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "VALID",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "NATURAL",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "TRY",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "TRAINER",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "GARMENT",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "CHEF",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "POSTER",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "AGE",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "NOT",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 11,
+   "word": "BOOKLET",
+   "row": 4,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 12,
+   "word": "RAPIDLY",
+   "row": 4,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "DRAWER",
+   "row": 5,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "OVAL",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "RUN",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "NET",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 61.2,
+  "passed": true,
+  "learn_ratio": 0.5,
+  "on_level": 12,
+  "overlap": 0.0,
+  "with_meaning_ko": 0.92,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

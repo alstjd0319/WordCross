@@ -1,0 +1,245 @@
+{
+ "id": "adv-001",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-02",
+ "words": [
+  {
+   "no": 1,
+   "word": "SUCCESS",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "PASSIVE",
+   "row": 0,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "OUNCE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "BROKERAGE",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "ELECTORAL",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "UNITY",
+   "row": 4,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "AUTONOMY",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "AGENT",
+   "row": 6,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "DEBIT",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "RESEMBLE",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "MULTI",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "MILESTONE",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "SYNDICATE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "AUDIO",
+   "row": 12,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "CLEANER",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "SILENCE",
+   "row": 14,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "SCORECARD",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "CONVERT",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "EXERT",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "SUBPRIME",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "POORLY",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "SPECULATE",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "IMAGINE",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "EVERY",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "NUTRITION",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "THEREFORE",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "WELLNESS",
+   "row": 7,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "BALANCE",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "BROADEN",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "IMPAIR",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "MUSIC",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "STALL",
+   "row": 10,
+   "col": 10,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 70.3,
+  "passed": true,
+  "learn_ratio": 0.72,
+  "on_level": 22,
+  "overlap": 0.04,
+  "with_meaning_ko": 0.62,
+  "with_example": 0.91
+ },
+ "reviewed": false
+}

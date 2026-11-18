@@ -1,0 +1,217 @@
+{
+ "id": "mid-005",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-04",
+ "words": [
+  {
+   "no": 1,
+   "word": "WILDLIFE",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "ABLE",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "RIGHT",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "STAPLER",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "LANE",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "DESKTOP",
+   "row": 4,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "SAFELY",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "LAWYER",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "PREMIUM",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "TAXI",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "HIMSELF",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "OPERA",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "TONE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ATTENDEE",
+   "row": 12,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "WIRELESS",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "LOGIN",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "LATE",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "FASTEN",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "BALCONY",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "EARN",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "WALKWAY",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "PLUMBER",
+   "row": 5,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "IRRITATE",
+   "row": 5,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "FOREMAN",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "BUFFET",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "AHEAD",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "SHOT",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "CORE",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 54.8,
+  "passed": true,
+  "learn_ratio": 0.57,
+  "on_level": 12,
+  "overlap": 0.12,
+  "with_meaning_ko": 0.64,
+  "with_example": 0.96
+ },
+ "reviewed": false
+}

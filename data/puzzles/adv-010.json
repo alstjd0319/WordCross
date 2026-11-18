@@ -1,0 +1,245 @@
+{
+ "id": "adv-010",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-02",
+ "words": [
+  {
+   "no": 1,
+   "word": "DILEMMA",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "COUNTER",
+   "row": 0,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "SIGHT",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "GUERRILLA",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "INTERFACE",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "LUCKY",
+   "row": 4,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "STRUGGLE",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "TEMPT",
+   "row": 6,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "LEARN",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "GRADUATE",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "STAIR",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "ENDOWMENT",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "ANTITRUST",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ERASE",
+   "row": 12,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "PORTRAY",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "RETREAT",
+   "row": 14,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "DISMISSAL",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "LIGHTER",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "METER",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "ARGUABLY",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "CLEVER",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "UNRELATED",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "TELECOM",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "READY",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "GENERATOR",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "TREATMENT",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "CREDITOR",
+   "row": 7,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "ADAPTER",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "AVERAGE",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "DEPUTY",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "SHARP",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "WHEAT",
+   "row": 10,
+   "col": 10,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 65.4,
+  "passed": true,
+  "learn_ratio": 0.62,
+  "on_level": 20,
+  "overlap": 0.1,
+  "with_meaning_ko": 0.81,
+  "with_example": 0.94
+ },
+ "reviewed": false
+}

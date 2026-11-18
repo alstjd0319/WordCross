@@ -1,0 +1,245 @@
+{
+ "id": "adv-005",
+ "level": "advanced",
+ "size": [
+  15,
+  15
+ ],
+ "template": "uk-15-12",
+ "words": [
+  {
+   "no": 1,
+   "word": "RESORT",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 4,
+   "word": "DIPLOMAT",
+   "row": 0,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "VANILLA",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "SECULAR",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "RECUR",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "PRIVATIZE",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "AMEND",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "SPECIFIC",
+   "row": 6,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "INITIATE",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "ERODE",
+   "row": 8,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "RELUCTANT",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "STAIR",
+   "row": 10,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "SESSION",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "INVOICE",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "STRENGTH",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 30,
+   "word": "FRINGE",
+   "row": 14,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "REVERSAL",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "SUNSCREEN",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "RULER",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "INSPIRE",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "LUCRATIVE",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "MULTI",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "TARGET",
+   "row": 0,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 9,
+   "word": "CAMPUS",
+   "row": 1,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "DETECTION",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "ISOLATION",
+   "row": 6,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "RETRIEVE",
+   "row": 7,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "AGAINST",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "ENTAIL",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "CRISIS",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "LASER",
+   "row": 10,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "SAVER",
+   "row": 10,
+   "col": 10,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 67.0,
+  "passed": true,
+  "learn_ratio": 0.72,
+  "on_level": 21,
+  "overlap": 0.13,
+  "with_meaning_ko": 0.59,
+  "with_example": 0.97
+ },
+ "reviewed": false
+}

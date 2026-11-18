@@ -1,0 +1,217 @@
+{
+ "id": "mid-009",
+ "level": "intermediate",
+ "size": [
+  13,
+  13
+ ],
+ "template": "uk-13-04",
+ "words": [
+  {
+   "no": 1,
+   "word": "STEADILY",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "JUNK",
+   "row": 0,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "LOGIN",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "TUITION",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "SURF",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "CLASSIC",
+   "row": 4,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "AFRAID",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "PLAYER",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "UNHAPPY",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "SPAM",
+   "row": 8,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "REWRITE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "VISIT",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "BILL",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "PHARMACY",
+   "row": 12,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "SALESMAN",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "EAGER",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "DINE",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "LATELY",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "UTILITY",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 7,
+   "word": "KING",
+   "row": 0,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 8,
+   "word": "HIMSELF",
+   "row": 1,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "VITAMIN",
+   "row": 5,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "PROMPTLY",
+   "row": 5,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "RENEWAL",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "SPEECH",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "PASTA",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "GRAB",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "EVER",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 50.5,
+  "passed": true,
+  "learn_ratio": 0.64,
+  "on_level": 11,
+  "overlap": 0.33,
+  "with_meaning_ko": 0.57,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}
