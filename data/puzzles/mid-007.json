@@ -9,208 +9,208 @@
  "words": [
   {
    "no": 1,
-   "word": "CULINARY",
+   "word": "SCHEDULE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "INCH",
+   "word": "RAVE",
    "row": 0,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "INCUR",
+   "word": "AGREE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "CATERER",
+   "word": "FURNISH",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "FOLDER",
+   "word": "REFILL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ITSELF",
+   "word": "INTERN",
    "row": 4,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "LAYOUT",
+   "word": "RELIEF",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "VERBAL",
+   "word": "CHEESE",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "UNLESS",
+   "word": "SQUARE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "CLINIC",
+   "word": "MINGLE",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "DIVORCE",
+   "word": "LICENSE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "AMUSE",
+   "word": "SCALE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "YARD",
+   "word": "EVEN",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "THREATEN",
+   "word": "COHERENT",
    "row": 12,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "CHIEF",
+   "word": "STAIR",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "LOCALLY",
+   "word": "HARMFUL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "NERVE",
+   "word": "DWELL",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "RACK",
+   "word": "LIFT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "NURSE",
+   "word": "ALIVE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "HARMFUL",
+   "word": "ENHANCE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "STATUE",
+   "word": "BRANCH",
    "row": 1,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "LAUNDRY",
+   "word": "RESOLVE",
    "row": 6,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "UNSURE",
+   "word": "ERRAND",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "BANQUET",
+   "word": "ENGRAVE",
    "row": 6,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "LOVER",
+   "word": "UNCLE",
    "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "LEAVE",
+   "word": "ISSUE",
    "row": 8,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "CLEAN",
+   "word": "ELECT",
    "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "TECH",
+   "word": "MEMO",
    "row": 9,
    "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 52.9,
+  "score": 76.2,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 13,
-  "overlap": 0.25,
-  "with_meaning_ko": 0.68,
+  "learn_ratio": 0.75,
+  "on_level": 17,
+  "overlap": 0.05,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

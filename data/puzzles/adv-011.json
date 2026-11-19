@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-07",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "ELABORATE",
+   "word": "STEEP",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 6,
-   "word": "QUOTA",
+   "no": 4,
+   "word": "CONSTRAIN",
    "row": 0,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "THEREFORE",
+   "word": "ORCHESTRA",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "EXTRA",
+   "word": "RUINS",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TRANSIT",
+   "word": "TOURIST",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "LOYALTY",
+   "word": "LOOSELY",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "ELEVATOR",
+   "word": "AVIATION",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "BROWSE",
+   "word": "ALBEIT",
    "row": 6,
    "col": 9,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "BUTTER",
+   "no": 18,
+   "word": "LENDER",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "CONFLICT",
+   "no": 20,
+   "word": "PREMIERE",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "SQUEEZE",
+   "word": "CHARTER",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "ELEVATE",
+   "word": "BANQUET",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "DETER",
+   "word": "ALPHA",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "STABILIZE",
+   "word": "TENTATIVE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "STEER",
+   "word": "SKEPTICAL",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "EXTREMELY",
+   "word": "EXERT",
    "row": 14,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "ENTITLE",
+   "word": "SHORTFALL",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "AVERAGE",
+   "word": "EXCLUSION",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "OVERSTATE",
+   "word": "PREDICT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "ADOPTION",
+   "word": "CITATION",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "EVENLY",
+   "word": "NEATLY",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "QUERY",
+   "word": "TURMOIL",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "OUTFLOW",
+   "word": "ABIDE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ANALYZE",
+   "word": "NASTY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "REFLEXIVE",
+   "word": "EXECUTIVE",
    "row": 6,
-   "col": 10,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "COVENANT",
+   "word": "TREATMENT",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "TRIBUNAL",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "BESIDES",
+   "no": 19,
+   "word": "EXTRACT",
    "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "TRUSTEE",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "IMAGINE",
-   "row": 8,
-   "col": 12,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "THEREBY",
+   "word": "MANDATE",
    "row": 8,
-   "col": 14,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "LESSEE",
+   "word": "CRITIC",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "ERROR",
+   "no": 23,
+   "word": "CHAOS",
    "row": 10,
-   "col": 4,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "AMPLE",
+   "row": 10,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 65.0,
+  "score": 84.1,
   "passed": true,
-  "learn_ratio": 0.69,
-  "on_level": 20,
-  "overlap": 0.05,
-  "with_meaning_ko": 0.47,
-  "with_example": 0.94
+  "learn_ratio": 0.91,
+  "on_level": 26,
+  "overlap": 0.14,
+  "with_meaning_ko": 0.84,
+  "with_example": 1.0
  },
  "reviewed": false
 }

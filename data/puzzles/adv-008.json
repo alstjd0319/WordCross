@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-09",
+ "template": "uk-15-03",
  "words": [
   {
    "no": 1,
-   "word": "ULTIMATE",
+   "word": "WHEREAS",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "UPDATE",
+   "word": "KICKOFF",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "STAPLER",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "TROUBLE",
-   "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 12,
-   "word": "CONTINENT",
+   "no": 9,
+   "word": "ETHICALLY",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "INTER",
+   "row": 2,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "EXCEL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "ENTRY",
+   "no": 12,
+   "word": "COOPERATE",
    "row": 4,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "REDEEM",
+   "no": 13,
+   "word": "DILUTE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "OCCUPANT",
+   "no": 14,
+   "word": "FREQUENT",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "DISGUISE",
+   "no": 17,
+   "word": "SUPERIOR",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "SEVERE",
+   "no": 19,
+   "word": "CONFER",
    "row": 8,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "STEEP",
+   "word": "MUNICIPAL",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "PRECEDENT",
+   "no": 25,
+   "word": "AWAIT",
    "row": 10,
-   "col": 6,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "TRIBE",
+   "row": 12,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "AMATEUR",
+   "word": "SENSITIVE",
    "row": 12,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "UTILIZE",
-   "row": 12,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 29,
-   "word": "TREATY",
+   "word": "MONITOR",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "INHERENT",
+   "no": 29,
+   "word": "CONVERT",
    "row": 14,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "UNSECURED",
+   "word": "WEEKEND",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "TRAIN",
+   "word": "ETHICAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "MULTI",
+   "word": "ESCALATOR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "TARGET",
+   "word": "SELECT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "KEYBOARD",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "PROSECUTE",
+   "word": "CRIME",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ARBITRAGE",
+   "word": "OUTRAGE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ENEMY",
+   "word": "FORFEIT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "STATIC",
-   "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "DESPERATE",
+   "word": "QUOTATION",
    "row": 6,
-   "col": 2,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "EQUIPMENT",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "TREATMENT",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "SUPERB",
-   "row": 8,
+   "word": "COMPOSER",
+   "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 17,
+   "word": "SYMPTOM",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "PENSION",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "FRAGILE",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "RETREAT",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
    "no": 22,
-   "word": "RETURN",
+   "word": "CLINIC",
    "row": 9,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "SMART",
+   "no": 24,
+   "word": "CHEAT",
    "row": 10,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 25,
-   "word": "ELITE",
-   "row": 10,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 26,
-   "word": "EXILE",
-   "row": 10,
-   "col": 12,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 64.8,
+  "score": 79.7,
   "passed": true,
-  "learn_ratio": 0.66,
-  "on_level": 20,
-  "overlap": 0.1,
-  "with_meaning_ko": 0.66,
-  "with_example": 0.94
+  "learn_ratio": 0.91,
+  "on_level": 21,
+  "overlap": 0.17,
+  "with_meaning_ko": 0.88,
+  "with_example": 1.0
  },
  "reviewed": false
 }

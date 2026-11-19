@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-09",
+ "template": "uk-15-07",
  "words": [
   {
    "no": 1,
-   "word": "REASSURE",
+   "word": "DEVASTATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "HOURLY",
+   "no": 6,
+   "word": "USAGE",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "FREEDOM",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "RECEIVE",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "RETENTION",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "EMBED",
-   "row": 4,
    "col": 10,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "INSERT",
-   "row": 6,
+   "no": 9,
+   "word": "SURRENDER",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "RHETORIC",
-   "row": 6,
-   "col": 7,
+   "no": 10,
+   "word": "BLAST",
+   "row": 2,
+   "col": 10,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "TREASURY",
-   "row": 8,
+   "no": 11,
+   "word": "TRUSTEE",
+   "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "CAREER",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "ALTER",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "CLASSMATE",
-   "row": 10,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "ARCHIVE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "DIPLOMA",
-   "row": 12,
+   "no": 12,
+   "word": "CONCEDE",
+   "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "DILUTE",
+   "no": 13,
+   "word": "POLITICS",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "SCARCE",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "ASSURE",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "ANALYSIS",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "SHALLOW",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "EXECUTE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "UNIFY",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "IMPATIENT",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "TIMER",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "RETRIEVE",
+   "no": 29,
+   "word": "GENERATOR",
    "row": 14,
-   "col": 7,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "REFORMIST",
+   "word": "DESKTOP",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "AGENT",
+   "word": "VIRTUAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SEDAN",
+   "word": "SPECTATOR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "REMAIN",
+   "word": "AUDIENCE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "ENRICH",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "ORCHESTRA",
+   "word": "URBAN",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "REIMBURSE",
+   "word": "AMATEUR",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "YIELD",
+   "word": "EXTREME",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "CRUNCH",
-   "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "SKEPTICAL",
+   "word": "COLLECTOR",
    "row": 6,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "RESTRAINT",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "CORRELATE",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "ROCKET",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "HANDLE",
-   "row": 9,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 23,
-   "word": "AWARD",
-   "row": 10,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 25,
-   "word": "SUPER",
-   "row": 10,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 26,
-   "word": "ABOVE",
-   "row": 10,
+   "no": 16,
+   "word": "UNDERPIN",
+   "row": 7,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "ASSAULT",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "STADIUM",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "STUDENT",
+   "row": 8,
    "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "SHELTER",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "AWNING",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "LAYER",
+   "row": 10,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 68.3,
+  "score": 80.2,
   "passed": true,
-  "learn_ratio": 0.69,
-  "on_level": 19,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.62,
-  "with_example": 0.97
+  "learn_ratio": 0.88,
+  "on_level": 21,
+  "overlap": 0.07,
+  "with_meaning_ko": 0.81,
+  "with_example": 1.0
  },
  "reviewed": false
 }

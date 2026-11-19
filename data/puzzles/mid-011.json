@@ -9,133 +9,133 @@
  "words": [
   {
    "no": 1,
-   "word": "NAIL",
+   "word": "INCH",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "DIAGNOSE",
+   "word": "MEDITATE",
    "row": 0,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "TONER",
+   "word": "COAST",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "FREIGHT",
+   "word": "PREVENT",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "FOREMAN",
+   "word": "MISSION",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "TWICE",
+   "word": "LEAVE",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "SUITE",
+   "word": "STREW",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "BADGE",
+   "word": "DINER",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "LOGIN",
+   "word": "EMPTY",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "ADVISOR",
+   "word": "APPOINT",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "EXAMINE",
+   "word": "LECTURE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "SPITE",
+   "word": "SPACE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "EVERYDAY",
+   "word": "RELEGATE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "BLUE",
+   "word": "RENT",
    "row": 12,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "NOTIFY",
+   "word": "INCOME",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "INNER",
+   "word": "CLASS",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "INFANT",
+   "word": "EXPAND",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "GREET",
+   "word": "IDEAL",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "ONGOING",
+   "word": "AVERAGE",
    "row": 0,
    "col": 10,
    "dir": "down"
@@ -149,69 +149,69 @@
   },
   {
    "no": 8,
-   "word": "PROMPT",
+   "word": "STRIFE",
    "row": 1,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "UPGRADE",
+   "word": "TYPICAL",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "ADVISE",
+   "word": "IMPOSE",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "SLEEVE",
+   "word": "SELLER",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "CAMERA",
+   "word": "PATENT",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "FREEZE",
+   "word": "ATTEST",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "NOISY",
+   "word": "YOUNG",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "SPILL",
+   "word": "IMAGE",
    "row": 8,
    "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 51.9,
+  "score": 75.5,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 11,
-  "overlap": 0.31,
-  "with_meaning_ko": 0.86,
-  "with_example": 1.0
+  "learn_ratio": 0.79,
+  "on_level": 16,
+  "overlap": 0.09,
+  "with_meaning_ko": 1.0,
+  "with_example": 0.96
  },
  "reviewed": false
 }

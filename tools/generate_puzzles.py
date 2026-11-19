@@ -19,7 +19,8 @@ from pathlib import Path
 from crossword import LEVEL_ORDER, LEVELS, Filler, Timeout, WordIndex
 
 ROOT = Path(__file__).resolve().parent.parent
-WORDS_CSV = ROOT / "data" / "words.csv"
+# ETS 교재 단어를 합친 파일(merge_ets.py, 커밋 안 함)이 있으면 그것을 쓴다.
+WORDS_CSV = next(p for p in (ROOT / "data" / "words_ets.csv", ROOT / "data" / "words.csv") if p.exists())
 TEMPLATE_DIR = ROOT / "data" / "templates"
 PUZZLE_DIR = ROOT / "data" / "puzzles"
 

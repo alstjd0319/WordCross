@@ -3,6 +3,7 @@
     python3 tools/export_sql.py                 # 검수 완료(reviewed=true) 퍼즐만
     python3 tools/export_sql.py --all           # 검수 전 퍼즐도 넣되 앱에는 숨김 (published=false)
     python3 tools/export_sql.py --dev --out /tmp/dev_seed.sql   # 개발용: 검수 전 퍼즐도 앱에 공개
+    python3 tools/export_sql.py --all-words ...  # 퍼즐에 안 쓴 단어까지 words 테이블에 전부
 
  * --dev 로 넣은 검수 전 퍼즐은 기본 실행(검수 완료만)을 다시 하면 숨겨진다 (published=false).
 
@@ -19,7 +20,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-WORDS_CSV = ROOT / "data" / "words.csv"
+# ETS 교재 단어를 합친 파일(merge_ets.py, 커밋 안 함)이 있으면 그것을 쓴다.
+WORDS_CSV = next(p for p in (ROOT / "data" / "words_ets.csv", ROOT / "data" / "words.csv") if p.exists())
 PUZZLE_DIR = ROOT / "data" / "puzzles"
 TEMPLATE_DIR = ROOT / "data" / "templates"
 OUT = ROOT / "supabase" / "seed.sql"
@@ -43,6 +45,8 @@ def main() -> None:
     ap.add_argument("--all", action="store_true", help="검수 전 퍼즐도 포함 (공개하지 않음)")
     ap.add_argument("--dev", action="store_true",
                     help="개발용: 검수 전 퍼즐도 포함하고 앱에 공개 (앱 화면 개발·시험용)")
+    ap.add_argument("--all-words", action="store_true",
+                    help="퍼즐에 안 쓴 단어까지 단어 데이터 전체를 words 테이블에 넣기")
     ap.add_argument("--out", type=Path, default=OUT, help=f"저장할 파일 (기본 {OUT.relative_to(ROOT)})")
     args = ap.parse_args()
     if args.dev:
@@ -53,6 +57,8 @@ def main() -> None:
     puzzles = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(PUZZLE_DIR.glob("*.json"))]
     puzzles = [p for p in puzzles if args.all or p["reviewed"]]
     used = sorted({w["word"] for p in puzzles for w in p["words"]})
+    if args.all_words:
+        used = sorted(set(used) | {w for w in meta if 3 <= len(w) <= 15 and w.isalpha()})
     missing = [w for w in used if w not in meta]
     if missing:
         raise SystemExit(f"words.csv 에 없는 단어: {missing}")

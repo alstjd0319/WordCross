@@ -9,236 +9,236 @@
  "words": [
   {
    "no": 1,
-   "word": "BOOKCASE",
+   "word": "ARTIFACT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "RENOWN",
+   "word": "STAPLE",
    "row": 0,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "ACCLAIM",
+   "word": "ELEVATE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INCLINE",
+   "word": "IMAGINE",
    "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "THRESHOLD",
+   "word": "DETECTION",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "UNIFY",
+   "word": "SHIFT",
    "row": 4,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "FISCAL",
+   "word": "EXPOSE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "ORDINATE",
+   "word": "OPPONENT",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "LEVERAGE",
+   "word": "TOILETRY",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "INTENT",
+   "word": "IMPEDE",
    "row": 8,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "PURSE",
+   "word": "QUASI",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "INTERVENE",
+   "word": "FREELANCE",
    "row": 10,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "EVIDENT",
+   "word": "OPINION",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "PRIVATE",
+   "word": "TOBACCO",
    "row": 12,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "DENOTE",
+   "word": "AVERSE",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 30,
-   "word": "SEVERELY",
+   "word": "RETRIEVE",
    "row": 14,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "BEAUTIFUL",
+   "word": "AMENDMENT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "OCCUR",
+   "word": "THEFT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "CHAOS",
+   "word": "FRANC",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SYMBOL",
+   "word": "CLERIC",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "EXCLUSION",
+   "word": "TRANSFORM",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ORIGINATE",
+   "word": "PRIVILEGE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "NEEDY",
+   "word": "EXERT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 9,
-   "word": "BIDDER",
+   "word": "KIDNAP",
    "row": 1,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "SOVEREIGN",
+   "word": "PRIVATIZE",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "AGREEMENT",
+   "word": "SPECIFICS",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "EXTREMELY",
+   "word": "THEREFORE",
    "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "GUILTY",
+   "word": "REFINE",
    "row": 8,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "STAPLE",
+   "word": "SETTLE",
    "row": 9,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "PLEAD",
+   "word": "QUOTA",
    "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 25,
-   "word": "RAISE",
+   "word": "LABOR",
    "row": 10,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 26,
-   "word": "ERASE",
+   "word": "NICHE",
    "row": 10,
    "col": 12,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 71.6,
+  "score": 84.4,
   "passed": true,
-  "learn_ratio": 0.75,
-  "on_level": 22,
-  "overlap": 0.04,
-  "with_meaning_ko": 0.56,
+  "learn_ratio": 0.91,
+  "on_level": 24,
+  "overlap": 0.03,
+  "with_meaning_ko": 0.78,
   "with_example": 0.97
  },
  "reviewed": false

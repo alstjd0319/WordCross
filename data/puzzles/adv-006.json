@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-01",
+ "template": "uk-15-07",
  "words": [
   {
    "no": 1,
-   "word": "SPEND",
+   "word": "EXTREMIST",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "SUBSIDIZE",
+   "no": 6,
+   "word": "TUPLE",
    "row": 0,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "RECIPIENT",
+   "word": "PREDICTOR",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "SETUP",
+   "word": "UPSET",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TOURIST",
+   "word": "OUTDOOR",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ELDERLY",
+   "word": "VIBRANT",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "GRATEFUL",
+   "word": "TERMINAL",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "TRIPLE",
+   "word": "ADHERE",
    "row": 6,
    "col": 9,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "CHEESE",
+   "no": 17,
+   "word": "SUBTLE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "DISCRETE",
+   "no": 19,
+   "word": "COMMERCE",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "INSURER",
+   "word": "MILITIA",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "PENDING",
+   "word": "MUNDANE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "EMAIL",
+   "word": "DENSE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "COALITION",
+   "word": "INTENSIVE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "LIFESTYLE",
+   "word": "YIELD",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "TONNE",
+   "word": "AGREEMENT",
    "row": 14,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "STRATEGIC",
+   "word": "EXPLOIT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ENCOURAGE",
+   "word": "THEATER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "DEPRIVE",
+   "word": "EDITORIAL",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SPECTRUM",
+   "word": "INTERVAL",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "BITTER",
+   "word": "THRIVE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "INSIDER",
+   "word": "THUMB",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "INTER",
+   "word": "POSTAGE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EMPTY",
+   "word": "ENTITLE",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "PRECISION",
+   "word": "DOMINANCE",
    "row": 6,
-   "col": 12,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "EMERGENCE",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "DISPLACE",
+   "word": "COMMUTER",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "SURPLUS",
+   "no": 17,
+   "word": "SOMEDAY",
    "row": 8,
-   "col": 4,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "BALANCE",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "REALIZE",
+   "row": 8,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "CONVICT",
+   "word": "ELEMENT",
    "row": 8,
-   "col": 10,
+   "col": 14,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "TRICKY",
+   "word": "CAPITA",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "IDEAL",
-   "row": 10,
-   "col": 0,
-   "dir": "down"
-  },
-  {
    "no": 24,
-   "word": "STAFF",
+   "word": "TREND",
    "row": 10,
-   "col": 2,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 67.5,
+  "score": 81.8,
   "passed": true,
-  "learn_ratio": 0.69,
-  "on_level": 21,
-  "overlap": 0.05,
-  "with_meaning_ko": 0.56,
+  "learn_ratio": 0.97,
+  "on_level": 19,
+  "overlap": 0.13,
+  "with_meaning_ko": 0.84,
   "with_example": 0.97
  },
  "reviewed": false

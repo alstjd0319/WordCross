@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-04",
+ "template": "uk-13-01",
  "words": [
   {
    "no": 1,
-   "word": "PUNCTUAL",
+   "word": "SPAM",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "OVER",
+   "no": 3,
+   "word": "CONSERVE",
    "row": 0,
-   "col": 9,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "SERVE",
+   "word": "FRAME",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "CLUSTER",
+   "word": "PLANNER",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "CREW",
+   "word": "TEDIOUS",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ANYTIME",
+   "word": "TOWEL",
    "row": 4,
-   "col": 5,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "SCENE",
+   "row": 6,
+   "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "REOPEN",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "LOUNGE",
+   "word": "YIELD",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "AGAINST",
+   "no": 20,
+   "word": "ROUGH",
    "row": 8,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "CLUE",
+   "no": 22,
+   "word": "CAPTURE",
    "row": 8,
-   "col": 9,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "LEISURE",
+   "word": "TRIBUTE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "ANGER",
+   "word": "REACH",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "YOGA",
+   "word": "CONTENTS",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "OPTIONAL",
+   "word": "VEND",
    "row": 12,
-   "col": 5,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "POSTCARD",
+   "word": "SAFETY",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "NERVE",
+   "word": "AWARD",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "TREE",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "ACCENT",
+   "word": "OPPOSE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "SMART",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "VITAMIN",
+   "word": "RENEWAL",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "RARE",
+   "word": "ENROLL",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "AUCTION",
+   "word": "RENOWN",
    "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "SERIOUS",
-   "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "REFERRAL",
-   "row": 5,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "ONGOING",
+   "word": "CAUTION",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
+   "no": 16,
+   "word": "IMPORT",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "CRITIC",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
    "no": 18,
-   "word": "ASLEEP",
+   "word": "ACCENT",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "LOGIN",
-   "row": 8,
-   "col": 10,
+   "no": 19,
+   "word": "METHOD",
+   "row": 7,
+   "col": 12,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "PLAY",
-   "row": 9,
-   "col": 0,
+   "no": 21,
+   "word": "HOUSE",
+   "row": 8,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "TAXI",
-   "row": 9,
-   "col": 8,
+   "word": "USAGE",
+   "row": 8,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 60.6,
+  "score": 87.3,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 13,
-  "overlap": 0.06,
-  "with_meaning_ko": 0.82,
+  "learn_ratio": 0.93,
+  "on_level": 19,
+  "overlap": 0.0,
+  "with_meaning_ko": 0.93,
   "with_example": 1.0
  },
  "reviewed": false

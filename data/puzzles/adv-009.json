@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-12",
+ "template": "uk-15-09",
  "words": [
   {
    "no": 1,
-   "word": "FRINGE",
+   "word": "REGISTER",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "SENSIBLE",
+   "no": 5,
+   "word": "CAMPUS",
    "row": 0,
-   "col": 7,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "AVERAGE",
+   "word": "CHARTER",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "PROLONG",
+   "word": "ENTITLE",
    "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "MATCH",
+   "word": "UNPOPULAR",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "SPOKESMAN",
+   "word": "RANGE",
    "row": 4,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "NICHE",
+   "word": "TERROR",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 16,
-   "word": "RATIONAL",
+   "no": 17,
+   "word": "DEMOLISH",
    "row": 6,
-   "col": 6,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "ELEPHANT",
+   "word": "RELOCATE",
    "row": 8,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "MICRO",
+   "no": 21,
+   "word": "UNPLUG",
    "row": 8,
-   "col": 10,
+   "col": 9,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "HISTOGRAM",
+   "no": 23,
+   "word": "CYCLE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "ASSET",
+   "no": 24,
+   "word": "NUMERICAL",
    "row": 10,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "EVENING",
+   "word": "REACTOR",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "EXPLODE",
+   "word": "AMUSING",
    "row": 12,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "DEFINITE",
+   "word": "OUTLAY",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 30,
-   "word": "LAWYER",
+   "word": "PROHIBIT",
    "row": 14,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "FRAGMENT",
+   "word": "RECRUITER",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "IDENTICAL",
+   "word": "GRASP",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "GRAPH",
+   "word": "SETUP",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 5,
-   "word": "EXPLOIT",
+   "no": 4,
+   "word": "ENROLL",
    "row": 0,
-   "col": 8,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "STOREROOM",
+   "word": "AFTERNOON",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "BROOM",
+   "word": "POTENTIAL",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ENGINE",
+   "word": "SCENE",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 9,
-   "word": "LESSER",
+   "word": "DECREE",
    "row": 1,
-   "col": 6,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "EXPLOSION",
+   "word": "RELUCTANT",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "ORCHESTRA",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "ACCESSORY",
-   "row": 6,
-   "col": 12,
-   "dir": "down"
-  },
-  {
    "no": 18,
-   "word": "FOOTWEAR",
-   "row": 7,
+   "word": "HIGHLIGHT",
+   "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "ALRIGHT",
+   "word": "TENURE",
    "row": 8,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "TIMBER",
-   "row": 8,
+   "no": 22,
+   "word": "IMPAIR",
+   "row": 9,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "SHIELD",
-   "row": 9,
+   "word": "CARGO",
+   "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 25,
-   "word": "SHELF",
+   "word": "ROUGH",
    "row": 10,
-   "col": 2,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 26,
-   "word": "ALPHA",
+   "word": "CLIMB",
    "row": 10,
-   "col": 10,
+   "col": 12,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 68.0,
+  "score": 75.5,
   "passed": true,
-  "learn_ratio": 0.72,
-  "on_level": 20,
-  "overlap": 0.09,
-  "with_meaning_ko": 0.62,
-  "with_example": 0.97
+  "learn_ratio": 0.91,
+  "on_level": 17,
+  "overlap": 0.21,
+  "with_meaning_ko": 0.88,
+  "with_example": 1.0
  },
  "reviewed": false
 }

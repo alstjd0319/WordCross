@@ -2,187 +2,152 @@
  "id": "beg-004",
  "level": "beginner",
  "size": [
-  11,
-  11
+  9,
+  9
  ],
- "template": "uk-11-04",
+ "template": "uk-9-06",
  "words": [
   {
    "no": 1,
-   "word": "RECEIPT",
+   "word": "MOW",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "FLU",
+   "no": 3,
+   "word": "BOARD",
    "row": 0,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 7,
-   "word": "AGENT",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 8,
-   "word": "EXTRA",
-   "row": 2,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "HUNGRY",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "GENE",
-   "row": 4,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "CART",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "REFUND",
-   "row": 6,
-   "col": 5,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "TRASH",
-   "row": 8,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "AMAZE",
-   "row": 8,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 20,
-   "word": "RED",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 21,
-   "word": "FITNESS",
-   "row": 10,
    "col": 4,
    "dir": "across"
   },
   {
+   "no": 6,
+   "word": "RENEW",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 7,
+   "word": "ART",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 8,
+   "word": "PREVIEW",
+   "row": 4,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "OWN",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "JUDGE",
+   "row": 6,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "ERECT",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "EAR",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
    "no": 1,
-   "word": "REACH",
+   "word": "MARK",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CLEANER",
+   "word": "WIN",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "INTERN",
+   "word": "BOW",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "TREE",
+   "word": "AMAZE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "FIT",
+   "word": "DATE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 6,
-   "word": "USAGE",
-   "row": 0,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 11,
-   "word": "EDUCATE",
+   "no": 9,
+   "word": "RANGE",
    "row": 4,
-   "col": 8,
+   "col": 2,
    "dir": "down"
   },
   {
-   "no": 12,
-   "word": "TENANT",
+   "no": 10,
+   "word": "ROLE",
    "row": 5,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "CATER",
-   "row": 6,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "DRESS",
-   "row": 6,
-   "col": 10,
+   "no": 11,
+   "word": "WEAR",
+   "row": 5,
+   "col": 8,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "CHEF",
-   "row": 7,
+   "no": 13,
+   "word": "JET",
+   "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "AID",
-   "row": 8,
-   "col": 2,
+   "no": 14,
+   "word": "DUE",
+   "row": 6,
+   "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 57.3,
+  "score": 81.4,
   "passed": true,
-  "learn_ratio": 0.54,
-  "on_level": 13,
-  "overlap": 0.15,
-  "with_meaning_ko": 0.75,
+  "learn_ratio": 0.79,
+  "on_level": 15,
+  "overlap": 0.07,
+  "with_meaning_ko": 0.95,
   "with_example": 1.0
  },
  "reviewed": false

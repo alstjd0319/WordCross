@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-02",
+ "template": "uk-15-05",
  "words": [
   {
    "no": 1,
-   "word": "SUCCESS",
+   "word": "SCRAP",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "PASSIVE",
+   "no": 4,
+   "word": "HEALTHFUL",
    "row": 0,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "OUNCE",
+   "word": "REPRODUCE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "BROKERAGE",
+   "word": "ARRAY",
    "row": 2,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "ELECTORAL",
+   "word": "LEISURE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "UNITY",
+   "word": "DECIMAL",
    "row": 4,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "AUTONOMY",
+   "word": "STATEMENT",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "AGENT",
+   "word": "ENTRY",
    "row": 6,
    "col": 10,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "DEBIT",
+   "no": 17,
+   "word": "PIECE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "RESEMBLE",
+   "no": 19,
+   "word": "POLLUTANT",
    "row": 8,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "MULTI",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "MILESTONE",
-   "row": 10,
    "col": 6,
    "dir": "across"
   },
   {
+   "no": 22,
+   "word": "INSIDER",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "REISSUE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
    "no": 26,
-   "word": "SYNDICATE",
+   "word": "FRAME",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "AUDIO",
+   "word": "SYNDICATE",
    "row": 12,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "CLEANER",
+   "word": "LIFESTYLE",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "SILENCE",
+   "word": "EVERY",
    "row": 14,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SCORECARD",
+   "word": "SURPLUS",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CONVERT",
+   "word": "REPLICATE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "EXERT",
+   "word": "PRODUCE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SUBPRIME",
+   "word": "HOUSEKEEP",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "POORLY",
+   "word": "AMEND",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "SPECULATE",
+   "word": "TRANCHE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "IMAGINE",
+   "word": "FORUM",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EVERY",
+   "word": "LOYALLY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "NUTRITION",
+   "word": "TOLERANCE",
    "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "THEREFORE",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "WELLNESS",
-   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "BALANCE",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "BROADEN",
-   "row": 8,
+   "no": 16,
+   "word": "TRANSLATE",
+   "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "IMPAIR",
-   "row": 9,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 23,
-   "word": "MUSIC",
-   "row": 10,
+   "no": 17,
+   "word": "PAINFUL",
+   "row": 8,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "STALL",
-   "row": 10,
+   "no": 18,
+   "word": "ENDLESS",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "UTILIZE",
+   "row": 8,
    "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "THEREBY",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "SCARF",
+   "row": 10,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "RISKY",
+   "row": 10,
+   "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 70.3,
+  "score": 79.5,
   "passed": true,
-  "learn_ratio": 0.72,
+  "learn_ratio": 0.91,
   "on_level": 22,
-  "overlap": 0.04,
-  "with_meaning_ko": 0.62,
-  "with_example": 0.91
+  "overlap": 0.14,
+  "with_meaning_ko": 0.78,
+  "with_example": 0.94
  },
  "reviewed": false
 }

@@ -9,112 +9,112 @@
  "words": [
   {
    "no": 1,
-   "word": "BRANCH",
+   "word": "PLAYER",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "MALL",
+   "word": "OVAL",
    "row": 0,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "GYM",
+   "word": "OAR",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "IMAGINE",
+   "word": "TRAINEE",
    "row": 2,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "ART",
+   "word": "INN",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "FITNESS",
+   "word": "RESPECT",
    "row": 4,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "ENCLOSE",
+   "word": "EXPRESS",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "SHE",
+   "word": "SEA",
    "row": 6,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "PRESENT",
+   "word": "COURIER",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "ACT",
+   "word": "RUN",
    "row": 8,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "TAKE",
+   "word": "NEED",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "BROKER",
+   "word": "APPEAR",
    "row": 10,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "BAGGAGE",
+   "word": "PROVIDE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ADMIT",
+   "word": "APRON",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "CHIEF",
+   "word": "ENTER",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "ALIKE",
+   "word": "VENUE",
    "row": 0,
    "col": 8,
    "dir": "down"
@@ -128,61 +128,61 @@
   },
   {
    "no": 7,
-   "word": "PANT",
+   "word": "PASS",
    "row": 1,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "SWEATER",
+   "word": "TRAINER",
    "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "CLERK",
+   "word": "PRUNE",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "OVEN",
+   "word": "EXIT",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "ENTER",
+   "word": "STRAP",
    "row": 6,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "STACK",
+   "word": "SERVE",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "PET",
+   "word": "CAN",
    "row": 8,
    "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 62.5,
+  "score": 87.5,
   "passed": true,
-  "learn_ratio": 0.54,
-  "on_level": 13,
+  "learn_ratio": 0.83,
+  "on_level": 20,
   "overlap": 0.0,
-  "with_meaning_ko": 0.79,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

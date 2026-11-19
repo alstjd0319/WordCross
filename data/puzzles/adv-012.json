@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-03",
+ "template": "uk-15-02",
  "words": [
   {
    "no": 1,
-   "word": "RESTATE",
+   "word": "DISABLE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "OUTCOME",
+   "word": "POSSESS",
    "row": 0,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "WORKSHEET",
+   "word": "RUINS",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "SWELL",
+   "word": "CONGESTED",
    "row": 2,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INTER",
+   "word": "CONSCIOUS",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "PROCESSOR",
+   "word": "DRAIN",
    "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "ETHNIC",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "ANYWHERE",
-   "row": 6,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "DIMINISH",
-   "row": 8,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "BRUTAL",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "SIGNATURE",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 25,
-   "word": "FRANC",
-   "row": 10,
    "col": 10,
    "dir": "across"
   },
   {
+   "no": 13,
+   "word": "ITEMIZED",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 15,
+   "word": "ALTER",
+   "row": 6,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "EMBED",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "WAITRESS",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "PANIC",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "EMPHASIZE",
+   "row": 10,
+   "col": 6,
+   "dir": "across"
+  },
+  {
    "no": 26,
-   "word": "BRAVE",
+   "word": "IMAGINARY",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "NUMERICAL",
+   "word": "FLEET",
    "row": 12,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "ENTITLE",
+   "word": "ETHANOL",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "THEREBY",
+   "word": "RELATED",
    "row": 14,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "REWRITE",
+   "word": "DIRECTIVE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "SCRATCH",
+   "word": "SCIENCE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ASSERTION",
+   "word": "BASIC",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "EXEMPT",
+   "word": "ENCLOSED",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "OUTGOING",
+   "word": "PUNISH",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "TASTE",
+   "word": "STEADFAST",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "OVERSEE",
+   "word": "ENTRANT",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ENLARGE",
+   "word": "SEDAN",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "WORKFORCE",
+   "no": 14,
+   "word": "INDUCTION",
    "row": 6,
-   "col": 10,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "ISSUANCE",
-   "row": 7,
-   "col": 6,
+   "word": "RESPECTED",
+   "row": 6,
+   "col": 14,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "DISABLE",
-   "row": 8,
-   "col": 0,
+   "word": "TAXPAYER",
+   "row": 7,
+   "col": 8,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "MIGRANT",
+   "no": 19,
+   "word": "BENEATH",
    "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "TRANCHE",
+   "no": 21,
+   "word": "EVIDENT",
    "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "LOCALLY",
-   "row": 8,
-   "col": 14,
-   "dir": "down"
-  },
-  {
    "no": 22,
-   "word": "HELMET",
+   "word": "RETAIL",
    "row": 9,
-   "col": 8,
+   "col": 6,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "AGENT",
+   "no": 23,
+   "word": "PRIZE",
    "row": 10,
-   "col": 4,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "AWFUL",
+   "row": 10,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 70.9,
+  "score": 77.9,
   "passed": true,
-  "learn_ratio": 0.81,
-  "on_level": 22,
+  "learn_ratio": 0.84,
+  "on_level": 24,
   "overlap": 0.15,
-  "with_meaning_ko": 0.53,
+  "with_meaning_ko": 0.78,
   "with_example": 0.97
  },
  "reviewed": false

@@ -9,208 +9,208 @@
  "words": [
   {
    "no": 1,
-   "word": "RISK",
+   "word": "PLUG",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "SUBTRACT",
+   "word": "OUTREACH",
    "row": 0,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "COURT",
+   "word": "LAPSE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "SHORTEN",
+   "word": "MONITOR",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "PLANNER",
+   "word": "SURPASS",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "PIECE",
+   "word": "EMAIL",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "BENCH",
+   "word": "BRAKE",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "PURSE",
+   "word": "TASTE",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "ALERT",
+   "word": "ADMIT",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "AIRFARE",
+   "word": "OUTCOME",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "TRANSIT",
+   "word": "AGAINST",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "AMUSE",
+   "word": "CYCLE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "PATIENCE",
+   "word": "ENTIRELY",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "DEBT",
+   "word": "TRAY",
    "row": 12,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "RECIPE",
+   "word": "POLISH",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "SAUNA",
+   "word": "UPPER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "UNSURE",
+   "word": "UTMOST",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "TROOP",
+   "word": "RINSE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "ACTRESS",
+   "word": "ATTRACT",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "TUNNEL",
+   "word": "HARDLY",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ETHNIC",
+   "word": "REMARK",
    "row": 1,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "ELEGANT",
+   "word": "REMNANT",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "UNREAL",
+   "word": "ATTACH",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "LAPTOP",
+   "word": "PARADE",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "TACTIC",
+   "word": "POSTAL",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "DESERT",
+   "word": "MERELY",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "TASTE",
+   "word": "TONER",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "ABUSE",
+   "word": "OCCUR",
    "row": 8,
    "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 62.6,
+  "score": 83.8,
   "passed": true,
-  "learn_ratio": 0.68,
-  "on_level": 13,
-  "overlap": 0.21,
-  "with_meaning_ko": 0.89,
+  "learn_ratio": 0.82,
+  "on_level": 21,
+  "overlap": 0.0,
+  "with_meaning_ko": 0.93,
   "with_example": 1.0
  },
  "reviewed": false

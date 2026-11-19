@@ -5,11 +5,11 @@
   13,
   13
  ],
- "template": "uk-13-04",
+ "template": "uk-13-11",
  "words": [
   {
    "no": 1,
-   "word": "NOMINATE",
+   "word": "SUITABLE",
    "row": 0,
    "col": 0,
    "dir": "across"
@@ -23,195 +23,195 @@
   },
   {
    "no": 9,
-   "word": "THROW",
+   "word": "OTHER",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "LEISURE",
+   "word": "WALKWAY",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "OPEN",
+   "word": "TABLET",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "SEASIDE",
+   "word": "DEGREE",
    "row": 4,
-   "col": 5,
+   "col": 7,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "ADHERE",
+   "no": 13,
+   "word": "BOTHER",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "PLAYER",
+   "no": 15,
+   "word": "REJECT",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
+   "no": 17,
+   "word": "EXCUSE",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
    "no": 19,
-   "word": "CRUCIAL",
+   "word": "ESTATE",
    "row": 8,
-   "col": 1,
+   "col": 7,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "BLUE",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "REFEREE",
+   "no": 23,
+   "word": "INVOLVE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "LIGHT",
+   "no": 24,
+   "word": "UNITE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "PILL",
+   "no": 25,
+   "word": "HIRE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "ATTORNEY",
+   "no": 26,
+   "word": "ADJACENT",
    "row": 12,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "NATIONAL",
+   "word": "SHOOT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "MERGE",
+   "word": "INHIBIT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "NEWS",
+   "word": "AGREE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "TELLER",
+   "word": "LAWN",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "LAUNDRY",
+   "word": "LOWER",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "POET",
+   "word": "PAYMENT",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "FIRSTLY",
+   "word": "SLEEVE",
    "row": 1,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "GROCERY",
-   "row": 5,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 14,
-   "word": "URGENTLY",
-   "row": 5,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "HARMFUL",
+   "word": "BLEMISH",
    "row": 6,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "PATENT",
-   "row": 7,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "LOGIN",
-   "row": 8,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "DROP",
-   "row": 9,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "ALSO",
-   "row": 9,
+   "no": 14,
+   "word": "EASILY",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "EXAMINE",
+   "row": 6,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "COVER",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "SAUNA",
+   "row": 8,
    "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "ELECT",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "HEAD",
+   "row": 9,
+   "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 61.6,
+  "score": 77.4,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 15,
-  "overlap": 0.12,
-  "with_meaning_ko": 0.89,
-  "with_example": 1.0
+  "learn_ratio": 0.82,
+  "on_level": 17,
+  "overlap": 0.04,
+  "with_meaning_ko": 0.86,
+  "with_example": 0.96
  },
  "reviewed": false
 }

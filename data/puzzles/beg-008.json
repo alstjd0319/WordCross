@@ -9,180 +9,180 @@
  "words": [
   {
    "no": 1,
-   "word": "STADIUM",
+   "word": "SEMINAR",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "GYM",
+   "word": "PET",
    "row": 0,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "BETWEEN",
+   "word": "CAPTAIN",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "RUN",
+   "word": "OAR",
    "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "AND",
+   "word": "EGG",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "SALAD",
+   "word": "WATER",
    "row": 4,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ASSET",
+   "word": "LOCAL",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "END",
+   "word": "TAX",
    "row": 6,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "THE",
+   "word": "DUE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "AIRPORT",
+   "word": "TEXTURE",
    "row": 8,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "PET",
+   "word": "ANY",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "TRAINER",
+   "word": "PATIENT",
    "row": 10,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SUBWAY",
+   "word": "SOCCER",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ACT",
+   "word": "MOP",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ITEM",
+   "word": "NEAR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "MANUAL",
+   "word": "RENTAL",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "GARBAGE",
+   "word": "PROJECT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "MINI",
+   "word": "TERM",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 10,
-   "word": "DESSERT",
+   "word": "GROCERY",
    "row": 4,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "DEPART",
+   "word": "LAPTOP",
    "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "EDITOR",
+   "word": "EXPECT",
    "row": 5,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "STOP",
+   "word": "IDEA",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "AREA",
+   "word": "EXIT",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "OWN",
+   "word": "USE",
    "row": 8,
    "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 51.9,
+  "score": 78.1,
   "passed": true,
-  "learn_ratio": 0.5,
-  "on_level": 12,
-  "overlap": 0.33,
-  "with_meaning_ko": 0.96,
+  "learn_ratio": 0.79,
+  "on_level": 19,
+  "overlap": 0.21,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false
