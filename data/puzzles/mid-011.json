@@ -9,209 +9,209 @@
  "words": [
   {
    "no": 1,
-   "word": "INCH",
+   "word": "DEBT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "MEDITATE",
+   "word": "TERRIFIC",
    "row": 0,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "COAST",
+   "word": "PRIZE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "PREVENT",
+   "word": "TOBACCO",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "MISSION",
+   "word": "REFRAIN",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "LEAVE",
+   "word": "TRIBE",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "STREW",
+   "word": "GRILL",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "DINER",
+   "word": "PRONE",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "EMPTY",
+   "word": "REFER",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "APPOINT",
+   "word": "OUTCOME",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "LECTURE",
+   "word": "AIRLINE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "SPACE",
+   "word": "RANGE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "RELEGATE",
+   "word": "EVERYONE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "RENT",
+   "word": "ORAL",
    "row": 12,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "INCOME",
+   "word": "DEPART",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CLASS",
+   "word": "BRIEF",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "EXPAND",
+   "word": "EXTEND",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "IDEAL",
+   "word": "ROBOT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "AVERAGE",
+   "word": "FICTION",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "EITHER",
+   "word": "COOLER",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "STRIFE",
+   "word": "RECALL",
    "row": 1,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "TYPICAL",
+   "word": "REFEREE",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "IMPOSE",
+   "word": "RETURN",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "SELLER",
+   "word": "CREATE",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "PATENT",
+   "word": "MODERN",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "ATTEST",
+   "word": "REVEAL",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "YOUNG",
+   "word": "RAINY",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "IMAGE",
+   "word": "OWNER",
    "row": 8,
    "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 75.5,
+  "score": 81.1,
   "passed": true,
-  "learn_ratio": 0.79,
-  "on_level": 16,
-  "overlap": 0.09,
+  "learn_ratio": 0.86,
+  "on_level": 19,
+  "overlap": 0.12,
   "with_meaning_ko": 1.0,
-  "with_example": 0.96
+  "with_example": 1.0
  },
  "reviewed": false
 }

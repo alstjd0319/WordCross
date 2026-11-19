@@ -5,11 +5,11 @@
   11,
   11
  ],
- "template": "uk-11-01",
+ "template": "uk-11-08",
  "words": [
   {
    "no": 1,
-   "word": "SEMINAR",
+   "word": "CAPITAL",
    "row": 0,
    "col": 0,
    "dir": "across"
@@ -23,165 +23,165 @@
   },
   {
    "no": 7,
-   "word": "CAPTAIN",
+   "word": "AGE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "OAR",
+   "word": "OBVIOUS",
    "row": 2,
-   "col": 8,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "EGG",
+   "word": "GARAGE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "WATER",
+   "word": "GET",
    "row": 4,
-   "col": 5,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "LOCAL",
+   "word": "EGG",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "TAX",
+   "word": "CLOSET",
    "row": 6,
-   "col": 8,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "DUE",
+   "word": "BALANCE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "TEXTURE",
+   "word": "SKI",
    "row": 8,
-   "col": 4,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "ANY",
+   "no": 20,
+   "word": "EAR",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "PATIENT",
+   "no": 21,
+   "word": "EXTREME",
    "row": 10,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SOCCER",
+   "word": "CHARGE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "MOP",
+   "word": "PIE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "NEAR",
+   "word": "THOUGH",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "RENTAL",
+   "word": "LIVE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "PROJECT",
+   "word": "PROCESS",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "TERM",
+   "word": "TASK",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 10,
-   "word": "GROCERY",
+   "word": "REGULAR",
    "row": 4,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "LAPTOP",
+   "word": "FLUENT",
    "row": 5,
-   "col": 4,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "EXPECT",
+   "word": "STRIKE",
    "row": 5,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "IDEA",
+   "word": "ABLE",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "EXIT",
+   "word": "KNEE",
    "row": 7,
-   "col": 6,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "USE",
+   "no": 19,
+   "word": "SEE",
    "row": 8,
    "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 78.1,
+  "score": 65.9,
   "passed": true,
-  "learn_ratio": 0.79,
-  "on_level": 19,
-  "overlap": 0.21,
+  "learn_ratio": 0.62,
+  "on_level": 15,
+  "overlap": 0.2,
   "with_meaning_ko": 1.0,
   "with_example": 1.0
  },

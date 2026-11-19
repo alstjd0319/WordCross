@@ -5,211 +5,211 @@
   13,
   13
  ],
- "template": "uk-13-11",
+ "template": "uk-13-03",
  "words": [
   {
    "no": 1,
-   "word": "SCHEDULE",
+   "word": "PACE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "RAVE",
+   "no": 3,
+   "word": "EDUCATED",
    "row": 0,
-   "col": 9,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "AGREE",
+   "word": "RAISE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "FURNISH",
+   "word": "VIBRANT",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "REFILL",
+   "word": "REBUILD",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "INTERN",
+   "word": "NONE",
    "row": 4,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "RELIEF",
+   "no": 14,
+   "word": "IDEAL",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "CHEESE",
+   "no": 16,
+   "word": "HARSH",
    "row": 6,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "SQUARE",
+   "no": 18,
+   "word": "OBEY",
    "row": 8,
-   "col": 0,
+   "col": 1,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "MINGLE",
+   "no": 20,
+   "word": "RELEASE",
    "row": 8,
-   "col": 7,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "LICENSE",
+   "word": "ASSAULT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "SCALE",
+   "word": "EXIST",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "EVEN",
+   "word": "PAYCHECK",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "COHERENT",
+   "word": "LEAN",
    "row": 12,
-   "col": 5,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "STAIR",
+   "word": "PORTRAIT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "HARMFUL",
+   "word": "CLIMB",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "DWELL",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "LIFT",
+   "word": "DIVIDE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "CABIN",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "ALIVE",
+   "word": "TRAINER",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ENHANCE",
+   "word": "DATE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "BRANCH",
+   "word": "SERIAL",
    "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "RESOLVE",
-   "row": 6,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 14,
-   "word": "ERRAND",
-   "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "ENGRAVE",
-   "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "UNCLE",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "ISSUE",
-   "row": 8,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "ELECT",
-   "row": 8,
+   "no": 13,
+   "word": "THREATEN",
+   "row": 5,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "MEMO",
-   "row": 9,
+   "no": 15,
+   "word": "EMBASSY",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "HELMET",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "CRITIC",
+   "row": 7,
    "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "YOUTH",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "ABIDE",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "LAMP",
+   "row": 9,
+   "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 76.2,
+  "score": 85.1,
   "passed": true,
-  "learn_ratio": 0.75,
-  "on_level": 17,
-  "overlap": 0.05,
+  "learn_ratio": 0.89,
+  "on_level": 20,
+  "overlap": 0.08,
   "with_meaning_ko": 1.0,
   "with_example": 1.0
  },

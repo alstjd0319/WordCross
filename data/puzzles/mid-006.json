@@ -9,209 +9,209 @@
  "words": [
   {
    "no": 1,
-   "word": "SUITABLE",
+   "word": "EXPOSURE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "CLIP",
+   "word": "GANG",
    "row": 0,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "OTHER",
+   "word": "UNITY",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "WALKWAY",
+   "word": "CAPTURE",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TABLET",
+   "word": "LATTER",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "DEGREE",
+   "word": "REJECT",
    "row": 4,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "BOTHER",
+   "word": "SCRIPT",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "REJECT",
+   "word": "GLOOMY",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "EXCUSE",
+   "word": "OPPOSE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "ESTATE",
+   "word": "BAKERY",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "INVOLVE",
+   "word": "AMATEUR",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "UNITE",
+   "word": "PHASE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "HIRE",
+   "word": "EVEN",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "ADJACENT",
+   "word": "DETAILED",
    "row": 12,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SHOOT",
+   "word": "EQUAL",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "INHIBIT",
+   "word": "PAINTER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "AGREE",
+   "word": "STYLE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "LAWN",
+   "word": "RACK",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "LOWER",
+   "word": "ABUSE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "PAYMENT",
+   "word": "GREATLY",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "SLEEVE",
+   "word": "APPEAL",
    "row": 1,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "BLEMISH",
+   "word": "STORAGE",
    "row": 6,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "EASILY",
+   "word": "POSTER",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "EXAMINE",
+   "word": "OVERALL",
    "row": 6,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "COVER",
+   "word": "PLATE",
    "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "SAUNA",
+   "word": "ALPHA",
    "row": 8,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "ELECT",
+   "word": "YIELD",
    "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "HEAD",
+   "word": "URGE",
    "row": 9,
    "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 77.4,
+  "score": 90.5,
   "passed": true,
-  "learn_ratio": 0.82,
-  "on_level": 17,
-  "overlap": 0.04,
-  "with_meaning_ko": 0.86,
-  "with_example": 0.96
+  "learn_ratio": 0.93,
+  "on_level": 24,
+  "overlap": 0.08,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

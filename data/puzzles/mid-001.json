@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-07",
+ "template": "uk-13-04",
  "words": [
   {
    "no": 1,
-   "word": "INFORMAL",
+   "word": "DEFINITE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "DOOR",
+   "word": "AVID",
    "row": 0,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "FURNACE",
+   "word": "DRAMA",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "ASSET",
+   "word": "IMMENSE",
    "row": 2,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "REMIT",
+   "word": "CODE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "CATERER",
+   "word": "HOSTILE",
    "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "ALERT",
-   "row": 6,
-   "col": 1,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "EAGER",
+   "word": "TREATY",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "TOMATO",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "ABSENCE",
+   "no": 19,
+   "word": "OPERATE",
    "row": 8,
-   "col": 0,
+   "col": 1,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "CABLE",
+   "no": 20,
+   "word": "STIR",
    "row": 8,
-   "col": 8,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "RAISE",
+   "word": "DROUGHT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "INITIAL",
+   "word": "ABUSE",
    "row": 10,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "WAGE",
+   "word": "SHED",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "TRANSFER",
+   "word": "ASSEMBLY",
    "row": 12,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "INFORM",
+   "word": "DEDICATE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "FORUM",
+   "word": "FRAUD",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "REALTOR",
+   "word": "NEAT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "AGENCY",
+   "word": "TAILOR",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "OBSERVE",
+   "word": "VANILLA",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "RETIRE",
+   "word": "DEED",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "VAST",
+   "word": "EMOTION",
    "row": 1,
    "col": 8,
    "dir": "down"
   },
   {
+   "no": 13,
+   "word": "STORAGE",
+   "row": 5,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 14,
-   "word": "LISTING",
+   "word": "COURTESY",
+   "row": 5,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "EXPLODE",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "AUCTION",
-   "row": 6,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "NARROW",
-   "row": 7,
-   "col": 0,
-   "dir": "down"
-  },
-  {
    "no": 18,
-   "word": "SENIOR",
+   "word": "STATUS",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "TELLER",
-   "row": 7,
-   "col": 12,
+   "no": 21,
+   "word": "THUMB",
+   "row": 8,
+   "col": 10,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "NEED",
-   "row": 8,
-   "col": 4,
+   "no": 22,
+   "word": "ODDS",
+   "row": 9,
+   "col": 0,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "BRIEF",
-   "row": 8,
-   "col": 10,
+   "word": "LANE",
+   "row": 9,
+   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 87.5,
+  "score": 91.1,
   "passed": true,
   "learn_ratio": 0.89,
-  "on_level": 22,
-  "overlap": 0.04,
-  "with_meaning_ko": 0.96,
+  "on_level": 24,
+  "overlap": 0.0,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

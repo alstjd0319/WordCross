@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-03",
+ "template": "uk-11-05",
  "words": [
   {
    "no": 1,
-   "word": "AFFECT",
+   "word": "PET",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "FROM",
+   "no": 3,
+   "word": "SATISFY",
    "row": 0,
-   "col": 7,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 7,
+   "word": "IMAGE",
+   "row": 2,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "HAY",
+   "word": "OCEAN",
    "row": 2,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "UTILITY",
-   "row": 2,
-   "col": 4,
+   "word": "AGENT",
+   "row": 4,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "EAR",
+   "word": "MEDIA",
    "row": 4,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 11,
-   "word": "HIMSELF",
-   "row": 4,
-   "col": 4,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "EXPRESS",
+   "no": 12,
+   "word": "EAGER",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "AGO",
+   "no": 14,
+   "word": "SOUTH",
    "row": 6,
-   "col": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "CROSS",
+   "row": 8,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "CLEARLY",
+   "word": "ISSUE",
    "row": 8,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "SEA",
-   "row": 8,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 20,
-   "word": "BASE",
+   "word": "PASSION",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "DELETE",
+   "no": 20,
+   "word": "TIE",
    "row": 10,
-   "col": 5,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "ACHIEVE",
+   "word": "PRIVATE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "FLYER",
+   "word": "TRADE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "COUCH",
+   "word": "SWEATER",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 4,
+   "word": "TOO",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 5,
-   "word": "RAISE",
+   "word": "SPEND",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "MAY",
+   "word": "YEN",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 7,
-   "word": "FIRM",
-   "row": 1,
+   "no": 10,
+   "word": "MISSION",
+   "row": 4,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 12,
-   "word": "FOOTAGE",
+   "no": 11,
+   "word": "ACHIEVE",
    "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "PRESS",
+   "no": 13,
+   "word": "GOODS",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "EARN",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "STYLE",
-   "row": 6,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "AISLE",
+   "word": "UPSET",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "CAB",
+   "no": 16,
+   "word": "CAP",
    "row": 8,
    "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "SKI",
+   "row": 8,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 71.6,
+  "score": 67.5,
   "passed": true,
-  "learn_ratio": 0.71,
-  "on_level": 17,
-  "overlap": 0.18,
-  "with_meaning_ko": 0.92,
+  "learn_ratio": 0.67,
+  "on_level": 16,
+  "overlap": 0.25,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-07",
+ "template": "uk-13-06",
  "words": [
   {
    "no": 1,
-   "word": "ASSEMBLY",
+   "word": "NOTICE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "DEAL",
+   "no": 4,
+   "word": "STUPID",
    "row": 0,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "TRANSIT",
+   "word": "TRIBE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "LOGIC",
+   "word": "POPCORN",
    "row": 2,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "VALUE",
+   "word": "FIGHTER",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ELEGANT",
+   "word": "CHEAT",
    "row": 4,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "CANDY",
+   "word": "WRAP",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "BRIEF",
+   "word": "LAWN",
    "row": 6,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "PAYROLL",
+   "word": "PATIO",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "LEASE",
+   "word": "RESERVE",
    "row": 8,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "UNITE",
+   "word": "EDITION",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "UTENSIL",
+   "word": "ADAPT",
    "row": 10,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "EVEN",
+   "word": "DEGREE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "DETECTOR",
+   "word": "SECTOR",
    "row": 12,
-   "col": 5,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "ACTIVE",
+   "word": "NOTIFY",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "SMALL",
+   "word": "TRIGGER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "MISLEAD",
+   "word": "CHEST",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "LITTER",
+   "no": 5,
+   "word": "TYPICAL",
    "row": 0,
-   "col": 6,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "ENGRAVE",
+   "word": "PROBE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "LOCATE",
+   "word": "DONATE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "CLUE",
+   "word": "SPARK",
    "row": 1,
-   "col": 8,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "ANYTIME",
+   "word": "PROFILE",
    "row": 6,
-   "col": 2,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "RELIEVE",
+   "word": "WARRANT",
    "row": 6,
-   "col": 8,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "SPOUSE",
+   "word": "SPREAD",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "ALLURE",
+   "word": "TREND",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "TELLER",
+   "word": "HEATER",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "OBEY",
+   "word": "THING",
    "row": 8,
-   "col": 4,
+   "col": 2,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "ASSET",
+   "word": "SCALE",
    "row": 8,
-   "col": 10,
+   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 75.7,
+  "score": 85.7,
   "passed": true,
-  "learn_ratio": 0.86,
-  "on_level": 17,
-  "overlap": 0.21,
-  "with_meaning_ko": 0.93,
+  "learn_ratio": 0.89,
+  "on_level": 22,
+  "overlap": 0.12,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

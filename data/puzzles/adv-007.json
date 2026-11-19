@@ -5,239 +5,239 @@
   15,
   15
  ],
- "template": "uk-15-12",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "VACATE",
+   "word": "ADOPT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "MERCHANT",
+   "word": "COALITION",
    "row": 0,
-   "col": 7,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "SPECIFICS",
+   "row": 2,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "REACTOR",
+   "word": "AMPLE",
    "row": 2,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "CONFINE",
-   "row": 2,
-   "col": 8,
+   "word": "COSTUME",
+   "row": 4,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ISSUE",
+   "word": "SWIFTLY",
    "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "PERTINENT",
-   "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "AVOID",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 16,
-   "word": "EXTERIOR",
-   "row": 6,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "IMPROPER",
-   "row": 8,
-   "col": 1,
-   "dir": "across"
-  },
-  {
-   "no": 22,
-   "word": "EXCEL",
-   "row": 8,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "CONSCIOUS",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "STEEP",
-   "row": 10,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "ENCLOSE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "MILITIA",
-   "row": 12,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "EVERYONE",
+   "no": 13,
+   "word": "ACADEMIC",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "DELUXE",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "EVENLY",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "IMMOBILE",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "RECYCLE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "LISTING",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "DWELL",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "INCLUSION",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "REPAYMENT",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "INTACT",
+   "no": 29,
+   "word": "ESSAY",
    "row": 14,
-   "col": 9,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "VERTICAL",
+   "word": "ASSOCIATE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CLASSROOM",
+   "word": "OVERSTATE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "TITLE",
+   "word": "TRIBUTE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 4,
+   "word": "CRITERIA",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 5,
-   "word": "EXCERPT",
+   "word": "ASSESS",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "CONCIERGE",
+   "word": "IMAGINE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ABIDE",
+   "word": "INPUT",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "TREATY",
+   "word": "NEEDY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "TRIPLE",
-   "row": 1,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "DIRECTORY",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "ORCHESTRA",
+   "word": "UTILITIES",
    "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "ELEPHANT",
-   "row": 7,
+   "no": 16,
+   "word": "EMERGENCY",
+   "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "PROTEIN",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "RESUME",
-   "row": 8,
+   "no": 17,
+   "word": "IMPLICIT",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "SCHEME",
+   "no": 19,
+   "word": "LOCALLY",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "OBSCURE",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "REVISE",
    "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "RIDER",
+   "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "NICHE",
+   "no": 24,
+   "word": "CHEAP",
    "row": 10,
    "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 26,
-   "word": "SALON",
-   "row": 10,
-   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 82.7,
+  "score": 82.4,
   "passed": true,
   "learn_ratio": 0.88,
-  "on_level": 22,
-  "overlap": 0.11,
+  "on_level": 23,
+  "overlap": 0.14,
   "with_meaning_ko": 1.0,
   "with_example": 1.0
  },

@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-12",
+ "template": "uk-11-02",
  "words": [
   {
    "no": 1,
-   "word": "GYM",
+   "word": "OWN",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "WELCOME",
+   "word": "THIRSTY",
    "row": 0,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "AND",
+   "word": "EAGER",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "TRAINER",
+   "word": "DRESS",
    "row": 2,
-   "col": 4,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "HECTIC",
+   "word": "ITEM",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "PLAY",
+   "word": "SELDOM",
    "row": 4,
-   "col": 7,
+   "col": 5,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "FILE",
+   "no": 14,
+   "word": "GATHER",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "TARGET",
+   "no": 15,
+   "word": "GAIN",
    "row": 6,
-   "col": 5,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "CULTURE",
+   "word": "CLEAR",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "AGE",
+   "word": "POINT",
    "row": 8,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "SUBJECT",
+   "word": "PATIENT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "EAT",
+   "word": "GAS",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "GRAPH",
+   "word": "OPENING",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "MEDICAL",
+   "word": "NEGLECT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "WITHIN",
+   "word": "TERM",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "LEAK",
+   "word": "INDEED",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "OWN",
+   "word": "SHE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "EARLY",
+   "word": "YES",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 11,
-   "word": "LUGGAGE",
+   "word": "DRAWING",
    "row": 4,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "LATEST",
-   "row": 5,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "FOCUS",
-   "row": 6,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 15,
-   "word": "TREAT",
-   "row": 6,
+   "word": "MINUTES",
+   "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "HUGE",
-   "row": 7,
+   "no": 13,
+   "word": "DEGREE",
+   "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 16,
+   "word": "SPOT",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "CUP",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
    "no": 18,
-   "word": "LAB",
+   "word": "EAT",
    "row": 8,
    "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 73.7,
+  "score": 65.6,
   "passed": true,
-  "learn_ratio": 0.79,
-  "on_level": 19,
-  "overlap": 0.32,
-  "with_meaning_ko": 0.92,
+  "learn_ratio": 0.67,
+  "on_level": 16,
+  "overlap": 0.31,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

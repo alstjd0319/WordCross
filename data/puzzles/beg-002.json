@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-11",
+ "template": "uk-11-03",
  "words": [
   {
    "no": 1,
-   "word": "CAB",
+   "word": "WISDOM",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 3,
-   "word": "SWEATER",
+   "no": 4,
+   "word": "SHIP",
    "row": 0,
-   "col": 4,
-   "dir": "across"
-  },
-  {
-   "no": 7,
-   "word": "BENEFIT",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 8,
-   "word": "OWN",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "COST",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "PROPER",
-   "row": 4,
-   "col": 5,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "EFFORT",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 15,
-   "word": "HALF",
-   "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
+   "no": 8,
+   "word": "LIE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "FAILURE",
+   "row": 2,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "OWE",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "RESPECT",
+   "row": 4,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "EXPLORE",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "DUE",
+   "row": 6,
+   "col": 8,
+   "dir": "across"
+  },
+  {
    "no": 18,
-   "word": "TRY",
+   "word": "PRESENT",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "ITEMIZE",
+   "word": "ART",
    "row": 8,
-   "col": 4,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "GARMENT",
+   "word": "TASK",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "EAT",
+   "word": "LAWYER",
    "row": 10,
-   "col": 8,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "CUBICLE",
+   "word": "WELCOME",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "BONUS",
+   "word": "SCENE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SOFA",
+   "word": "OFFER",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "EATERY",
-   "row": 0,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 5,
-   "word": "TROOP",
+   "word": "HOUSE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "RUN",
+   "word": "PIE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 11,
-   "word": "REFLECT",
+   "no": 7,
+   "word": "KISS",
+   "row": 1,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 12,
+   "word": "THEATER",
    "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 12,
-   "word": "CRUISE",
-   "row": 5,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 14,
-   "word": "FLYER",
+   "word": "PRESS",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
+   "no": 15,
+   "word": "OVEN",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 16,
-   "word": "ALIKE",
+   "word": "EXTRA",
+   "row": 6,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "DIARY",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "REST",
-   "row": 7,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 18,
-   "word": "TAG",
+   "word": "PET",
    "row": 8,
    "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 84.1,
+  "score": 91.0,
   "passed": true,
-  "learn_ratio": 0.83,
-  "on_level": 20,
-  "overlap": 0.05,
-  "with_meaning_ko": 0.88,
+  "learn_ratio": 0.92,
+  "on_level": 22,
+  "overlap": 0.09,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

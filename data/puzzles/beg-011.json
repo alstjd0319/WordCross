@@ -5,183 +5,183 @@
   11,
   11
  ],
- "template": "uk-11-01",
+ "template": "uk-11-12",
  "words": [
   {
    "no": 1,
-   "word": "PROCESS",
+   "word": "TIE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "SIP",
+   "no": 3,
+   "word": "DESSERT",
    "row": 0,
-   "col": 8,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "SPECIAL",
+   "word": "GAP",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "OWN",
+   "word": "GARBAGE",
    "row": 2,
-   "col": 8,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "EAT",
+   "word": "TRAVEL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 11,
-   "word": "WORTH",
+   "no": 10,
+   "word": "CAST",
    "row": 4,
-   "col": 5,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "HANG",
+   "row": 6,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ORDER",
+   "word": "BORDER",
    "row": 6,
-   "col": 1,
+   "col": 5,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "YET",
-   "row": 6,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 18,
-   "word": "TOO",
+   "no": 17,
+   "word": "NETWORK",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "OVERDUE",
+   "word": "EGG",
    "row": 8,
-   "col": 4,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "PET",
+   "no": 20,
+   "word": "REPLACE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "DAMAGED",
+   "no": 21,
+   "word": "SIT",
    "row": 10,
-   "col": 4,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "POSTER",
+   "word": "TIGHT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ONE",
+   "word": "EXPLAIN",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "EXIT",
+   "word": "DEGREE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SELDOM",
+   "word": "SORT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "SHORTLY",
+   "word": "ERA",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "POND",
+   "word": "TREAT",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 10,
-   "word": "TURNOUT",
+   "no": 11,
+   "word": "ADDRESS",
    "row": 4,
-   "col": 2,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "RECORD",
+   "word": "COOKIE",
    "row": 5,
-   "col": 4,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "ATTEND",
-   "row": 5,
+   "word": "HONOR",
+   "row": 6,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "RIGHT",
+   "row": 6,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "STEP",
+   "word": "SOFA",
    "row": 7,
-   "col": 0,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "TERM",
-   "row": 7,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "DOG",
+   "no": 18,
+   "word": "TOP",
    "row": 8,
-   "col": 8,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 71.2,
+  "score": 65.9,
   "passed": true,
-  "learn_ratio": 0.75,
-  "on_level": 18,
-  "overlap": 0.33,
+  "learn_ratio": 0.62,
+  "on_level": 15,
+  "overlap": 0.2,
   "with_meaning_ko": 1.0,
   "with_example": 1.0
  },

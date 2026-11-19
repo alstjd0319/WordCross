@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-04",
+ "template": "uk-11-08",
  "words": [
   {
    "no": 1,
-   "word": "LOGICAL",
+   "word": "SOMEDAY",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "INK",
+   "word": "AID",
    "row": 0,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "MURAL",
+   "word": "LIP",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "SINCE",
+   "word": "CORRECT",
    "row": 2,
-   "col": 6,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "TRAVEL",
+   "word": "NOBODY",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 10,
-   "word": "FILL",
+   "no": 11,
+   "word": "TAX",
    "row": 4,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "AREA",
+   "no": 14,
+   "word": "NAP",
    "row": 6,
-   "col": 0,
+   "col": 1,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "COUPON",
+   "no": 15,
+   "word": "CAREER",
    "row": 6,
    "col": 5,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "PLANT",
+   "no": 18,
+   "word": "UNKNOWN",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "ALONG",
+   "word": "ROW",
    "row": 8,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "YET",
+   "word": "PET",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "PRESENT",
+   "word": "PARTNER",
    "row": 10,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "LIMIT",
+   "word": "SILENT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "GARBAGE",
+   "word": "MAP",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "CALLER",
+   "word": "DECIDE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "LAST",
+   "word": "YARD",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "INN",
+   "word": "AVERAGE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "KNEEL",
+   "word": "DUTY",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 11,
-   "word": "IMPROVE",
+   "no": 10,
+   "word": "BLANKET",
    "row": 4,
-   "col": 8,
+   "col": 2,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "ROTATE",
+   "word": "MANNER",
    "row": 5,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "APPLY",
-   "row": 6,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 15,
-   "word": "NIGHT",
-   "row": 6,
+   "word": "DRAWER",
+   "row": 5,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "STEP",
+   "word": "JUMP",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "SOAP",
    "row": 7,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "ART",
+   "no": 19,
+   "word": "RUN",
    "row": 8,
-   "col": 2,
+   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 76.8,
+  "score": 72.9,
   "passed": true,
-  "learn_ratio": 0.79,
-  "on_level": 19,
-  "overlap": 0.21,
-  "with_meaning_ko": 0.92,
+  "learn_ratio": 0.75,
+  "on_level": 18,
+  "overlap": 0.28,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

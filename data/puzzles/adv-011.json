@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-03",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "SETBACK",
+   "word": "FAITH",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "DIPLOMA",
+   "no": 4,
+   "word": "AFFILIATE",
    "row": 0,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "ALGORITHM",
+   "word": "RECURRING",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "RATIO",
+   "word": "NOISE",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TITLE",
+   "word": "PRESENT",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "LINGERING",
+   "word": "RETREAT",
    "row": 4,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "RENDER",
+   "word": "AVERSION",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "INDIRECT",
+   "word": "HYBRID",
    "row": 6,
-   "col": 7,
+   "col": 9,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "FRONTIER",
+   "no": 18,
+   "word": "ENTITY",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "ACCRUE",
+   "no": 20,
+   "word": "HOSPITAL",
    "row": 8,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "ENERGETIC",
+   "word": "COMPILE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "UPSET",
+   "word": "PROLONG",
    "row": 10,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "GRAVE",
+   "word": "ANNUM",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "VENTILATE",
+   "word": "STEADFAST",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "THEATER",
+   "word": "SURCHARGE",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "CONCEDE",
+   "word": "YIELD",
    "row": 14,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SCATTER",
+   "word": "FIREPLACE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "TIGHTEN",
+   "word": "INCREMENT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "AGREEMENT",
+   "word": "HARNESS",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "KETTLE",
+   "word": "AVIATION",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "DOMINANT",
+   "word": "FIGURE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "PURSE",
+   "word": "LENGTHY",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "OUTLINE",
+   "word": "ASIDE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "AMONGST",
+   "word": "ERECT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "INCLUSION",
+   "word": "RATIONALE",
    "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "LEFTOVER",
-   "row": 7,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "FREIGHT",
-   "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "OPERATE",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "RESTATE",
-   "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "EXTREME",
-   "row": 8,
+   "no": 16,
+   "word": "DELIGHTED",
+   "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "SCENIC",
-   "row": 9,
+   "no": 17,
+   "word": "COMPLETE",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "GREET",
-   "row": 10,
+   "no": 19,
+   "word": "TRIUMPH",
+   "row": 8,
    "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "PROUDLY",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "LESSOR",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "CHAOS",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "MINOR",
+   "row": 10,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 81.0,
+  "score": 76.5,
   "passed": true,
-  "learn_ratio": 0.91,
-  "on_level": 19,
-  "overlap": 0.14,
+  "learn_ratio": 0.84,
+  "on_level": 17,
+  "overlap": 0.11,
   "with_meaning_ko": 1.0,
-  "with_example": 1.0
+  "with_example": 0.94
  },
  "reviewed": false
 }

@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-03",
+ "template": "uk-13-01",
  "words": [
   {
    "no": 1,
-   "word": "SAME",
+   "word": "VARY",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "ACQUAINT",
+   "word": "TEXTBOOK",
    "row": 0,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "MERGE",
+   "word": "REBEL",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "ATHLETE",
+   "word": "COUNCIL",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "WILLING",
+   "word": "FITNESS",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ROLL",
+   "word": "BRAKE",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "AWARE",
+   "no": 13,
+   "word": "LABEL",
    "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 16,
-   "word": "LOYAL",
-   "row": 6,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 18,
-   "word": "STOP",
-   "row": 8,
    "col": 1,
    "dir": "across"
   },
   {
+   "no": 15,
+   "word": "ABIDE",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
    "no": 20,
-   "word": "SETTING",
+   "word": "POUND",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "ATTRACT",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 23,
-   "word": "OPERATE",
+   "no": 24,
+   "word": "EVIDENT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "ELECT",
+   "no": 25,
+   "word": "EXILE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "DISPERSE",
+   "no": 26,
+   "word": "REGISTER",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "ALLY",
+   "no": 27,
+   "word": "BEAM",
    "row": 12,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SOMEWHAT",
+   "word": "VERIFY",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "MORAL",
+   "word": "ROBOT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "CHARGE",
+   "word": "EXCESS",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "USHER",
+   "word": "THUMB",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "IDEALLY",
+   "word": "ORCHARD",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "TREE",
+   "word": "KILLER",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "DEVICE",
+   "word": "SLEEVE",
    "row": 1,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "SLIGHTLY",
-   "row": 5,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 15,
-   "word": "ACTRESS",
+   "no": 14,
+   "word": "AMUSING",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "LATTER",
+   "word": "BITTER",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "ASSESS",
+   "word": "APPEAR",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "CATTLE",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "PHASE",
+   "word": "STREAM",
+   "row": 7,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "DRESS",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "IDEAL",
+   "no": 23,
+   "word": "ALIKE",
    "row": 8,
    "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "BOND",
-   "row": 9,
-   "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 79.4,
+  "score": 92.2,
   "passed": true,
-  "learn_ratio": 0.79,
-  "on_level": 19,
-  "overlap": 0.05,
-  "with_meaning_ko": 0.96,
+  "learn_ratio": 0.96,
+  "on_level": 25,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

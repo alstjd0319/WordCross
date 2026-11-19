@@ -52,8 +52,7 @@ python3 tools/export_sql.py                  # 검수한 퍼즐 → supabase/see
 | 격자 | 9×9, 11×11 | 13×13 | 15×15 |
 | 단어 길이 | 3~7 | 4~9 | 5~11 |
 | 단어 수 | 15~25 | 약 28 | 약 32 |
-| 학습 단어 | TSL 1~400위 | TSL 401~800위 | TSL 801위~, BSL |
-| 채움 단어 난이도 | NGSL 1~1000위 | NGSL 1001~2000위 | NGSL 2001위~ |
+| 단어 난이도 (영어 예문 빈도) | 300회 이상 | 60~299회 | 60회 미만 |
 
 - 영국식 격자(흰 칸이 한 칸씩 건너 교차)는 신문처럼 단어 수가 13×13에서 약 28개, 15×15에서 약 32개가 된다.
   설계서의 30~40개, 40~60개보다 적어서 생성 기준을 26~40개, 30~60개로 낮췄다.
@@ -113,7 +112,7 @@ python3 tools/merge_ets.py       # words.csv + ETS → data/words_ets.csv
 - `extract_ets.py`: 3,128개 항목 → 중복 제거 3,036개 (한 단어 2,493 · 여러 단어 표현 543)
 - `merge_ets.py`: 알파벳 3~15글자 한 단어 2,491개를 합침
   - 이미 있던 단어 1,669개: 학습 단어로 바꾸고 한국어 뜻·품사를 교재 것으로 (채움→학습 981개, 예: SCHEDULE)
-  - 새 단어 822개: 난이도는 Day 1~10 초급, 11~20 중급, 21~30 고급 ("토익 만점 완성"은 고급),
+  - 새 단어 822개: 난이도는 다른 단어와 같이 영어 예문 빈도로 (교재 Day 순서는 주제 순이라 쓰지 않음),
     영어 정의는 Wiktionary, 예문은 Tatoeba
   - 여러 단어 표현(`put on` 등)은 퍼즐·DB(`words.word` 는 알파벳만)에 넣을 수 없어 뺐다
 - `generate_puzzles.py`, `review_puzzle.py`, `export_sql.py` 는 `data/words_ets.csv` 가 있으면 그것을 쓴다.
@@ -138,3 +137,22 @@ supabase db query --remote -f /tmp/dev_seed.sql --yes
   (검수 전). ETS 단어는 교재 뜻이 우선이다. 교재 파일이 있는 PC에서는 모든 단어에 한국어 뜻이 있고,
   공개 `words.csv` 만 있으면 4,370/4,881개(90%)에 있다.
 - 접두사·약어처럼 쓰이는 단어(anti, inter, quasi …)는 `blocklist.txt` 에 넣어 뺐다.
+
+## 난이도를 빈도로 바꿈 (2026-11-19)
+
+처음에는 TSL 순위(토익 안에서의 빈도)와 교재 Day 순서로 난이도를 나눴는데, `prune`, `courier`, `trainee` 같은
+드문 단어가 초급에 들어갔다. TSL 순위는 일상적인 쉬움과 거의 관계가 없었다
+(Tatoeba 출현 횟수 중앙값: TSL 초급 96회, 고급 57회). 그래서 **모든 단어**의 난이도를
+Tatoeba 영어 문장 약 200만 개에 나온 횟수로 정한다 (`build_words.py` 의 `FREQ_BEGINNER_MIN`, `FREQ_INTERMEDIATE_MIN`).
+
+| | 초급 | 중급 | 고급 |
+|---|---|---|---|
+| 기준 | 300회 이상 | 60~299회 | 60회 미만 |
+| 설계서 예시 | apple 1,265 · water 7,555 | improve 800 · journey 609 | adequate 47 |
+| 학습 단어 (교재 합친 뒤) | 659 | 1,334 | 1,999 |
+| 퍼즐 학습 단어 비율 | 62~92% | 86~96% | 84~94% |
+
+- 예: 초급 beg-001 → note, care, pet, oil, fever, rent, nap, van …
+- 교재 파일이 없는 PC(`words.csv` 만)에서는 초급 학습 단어가 133개뿐이라 초급 퍼즐을 만들기 어렵다.
+  퍼즐은 교재 파일이 있는 PC에서 만든다.
+- 앱 안의 로컬 모드 샘플(`app/lib/features/play/sample_puzzles.dart`)은 이전 `beg-001` 그대로다.

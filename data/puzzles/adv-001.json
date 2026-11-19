@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-10",
+ "template": "uk-15-06",
  "words": [
   {
    "no": 1,
-   "word": "SPONSOR",
+   "word": "ARTISTIC",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "SMUGGLE",
+   "word": "CIRCUS",
    "row": 0,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "REFLEXIVE",
-   "row": 2,
-   "col": 0,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "SCOPE",
+   "word": "TACTICS",
    "row": 2,
-   "col": 10,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "WONDERFUL",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "CHEAT",
-   "row": 4,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "BUILDER",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 15,
-   "word": "CARRIER",
-   "row": 6,
+   "word": "OUTDOOR",
+   "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "OVERSEE",
-   "row": 8,
+   "no": 12,
+   "word": "TONNE",
+   "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "MEDICAL",
-   "row": 8,
+   "no": 13,
+   "word": "RIDERSHIP",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "UNCOVER",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "REALTOR",
+   "row": 6,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "EXILE",
-   "row": 10,
+   "word": "TELECOM",
+   "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "EMERGENCE",
-   "row": 10,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "ALPHA",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 25,
-   "word": "OPERATIVE",
-   "row": 12,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "EXTREME",
-   "row": 14,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "THEREBY",
-   "row": 14,
+   "word": "OVERLAP",
+   "row": 8,
    "col": 8,
    "dir": "across"
   },
   {
+   "no": 22,
+   "word": "COGNITIVE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "ARRAY",
+   "row": 10,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "OVERALL",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "SCIENCE",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ESTEEM",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "REINVEST",
+   "row": 14,
+   "col": 7,
+   "dir": "across"
+  },
+  {
    "no": 1,
-   "word": "SCREW",
+   "word": "ANTITRUST",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "OFFENSIVE",
+   "word": "TECHNICAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SCENE",
+   "word": "SUITE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "REINFORCE",
+   "word": "INSURER",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 5,
-   "word": "SWELL",
-   "row": 0,
-   "col": 8,
-   "dir": "down"
-  },
-  {
    "no": 6,
-   "word": "UNSECURED",
+   "word": "INTERFACE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "GLOBE",
+   "word": "CLOTH",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ELECTORAL",
+   "word": "STRAP",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "BROKERAGE",
-   "row": 6,
-   "col": 0,
+   "no": 9,
+   "word": "WONDER",
+   "row": 1,
+   "col": 8,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "DESPERATE",
+   "no": 15,
+   "word": "VACCINATE",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "COMPETENT",
-   "row": 6,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "INCENTIVE",
+   "no": 17,
+   "word": "TOLERANCE",
    "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
+   "no": 18,
+   "word": "REPAYMENT",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
    "no": 20,
-   "word": "INPUT",
+   "word": "MAINLY",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "OVERSEE",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "CLONE",
+   "row": 10,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "GREET",
    "row": 10,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "ERODE",
-   "row": 10,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "GRAVE",
+   "no": 24,
+   "word": "ALIGN",
    "row": 10,
    "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 23,
-   "word": "ENEMY",
-   "row": 10,
-   "col": 14,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 86.4,
+  "score": 83.7,
   "passed": true,
-  "learn_ratio": 0.88,
-  "on_level": 24,
-  "overlap": 0.04,
+  "learn_ratio": 0.91,
+  "on_level": 21,
+  "overlap": 0.07,
   "with_meaning_ko": 1.0,
-  "with_example": 1.0
+  "with_example": 0.91
  },
  "reviewed": false
 }

@@ -9,105 +9,105 @@
  "words": [
   {
    "no": 1,
-   "word": "ALPHA",
+   "word": "AUDIT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "CORRELATE",
+   "word": "PORTFOLIO",
    "row": 0,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "BROADBAND",
+   "word": "RESTRAINT",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "DRIVE",
+   "word": "ORGAN",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "THEATER",
+   "word": "EXPLOIT",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "CORRECT",
+   "word": "TRAINEE",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "OUTBREAK",
+   "word": "EVENTFUL",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "REDEEM",
+   "word": "REFORM",
    "row": 6,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "STREAM",
+   "word": "THRILL",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "FAIRNESS",
+   "word": "WIRELESS",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "DICTATE",
+   "word": "SUPPORT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "BECAUSE",
+   "word": "OPERATE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "LEAST",
+   "word": "USAGE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "INCLUDING",
+   "word": "REOPENING",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "ASSURANCE",
+   "word": "ANONYMOUS",
    "row": 14,
    "col": 0,
    "dir": "across"
@@ -121,63 +121,63 @@
   },
   {
    "no": 1,
-   "word": "AMBITIOUS",
+   "word": "AGREEMENT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "PROTESTER",
+   "word": "DISAPPEAR",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "AUDITOR",
+   "word": "TURNOUT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "CHAIRMAN",
+   "word": "PRINTOUT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "REDUCE",
+   "word": "ROTATE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "ENDORSE",
+   "word": "FOOTAGE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ABIDE",
+   "word": "LOGIN",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EXERT",
+   "word": "OUNCE",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "EXECUTION",
+   "word": "OPERATION",
    "row": 6,
    "col": 12,
    "dir": "down"
@@ -191,52 +191,52 @@
   },
   {
    "no": 17,
-   "word": "BARBECUE",
+   "word": "RIGOROUS",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "ADAPTER",
+   "word": "LOOSELY",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "RECRUIT",
+   "word": "ELEMENT",
    "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "RESIGN",
+   "word": "STEREO",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "DELTA",
+   "word": "SAUNA",
    "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 24,
-   "word": "CHAOS",
+   "word": "PIANO",
    "row": 10,
    "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 83.5,
+  "score": 80.4,
   "passed": true,
   "learn_ratio": 0.88,
-  "on_level": 23,
+  "on_level": 19,
   "overlap": 0.11,
   "with_meaning_ko": 1.0,
   "with_example": 1.0

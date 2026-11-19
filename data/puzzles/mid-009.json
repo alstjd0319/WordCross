@@ -9,91 +9,91 @@
  "words": [
   {
    "no": 1,
-   "word": "DEBT",
+   "word": "DOWN",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "ASSEMBLE",
+   "word": "LANDLORD",
    "row": 0,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "TASTE",
+   "word": "VITAL",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "FREIGHT",
+   "word": "PLASTIC",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INSTALL",
+   "word": "CHRONIC",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "TRADE",
+   "word": "AVOID",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "JOINT",
+   "word": "PITCH",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "BRIEF",
+   "word": "CLERK",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "EXTRA",
+   "word": "AISLE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "APPROVE",
+   "word": "SECULAR",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "THERAPY",
+   "word": "INITIAL",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "INFER",
+   "word": "TASTE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "CULINARY",
+   "word": "OVERTIME",
    "row": 12,
    "col": 0,
    "dir": "across"
@@ -107,111 +107,111 @@
   },
   {
    "no": 1,
-   "word": "DETAIL",
+   "word": "DEVICE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "BASIS",
+   "word": "WATER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SAFELY",
+   "word": "ASPECT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "ELECT",
+   "word": "DRAMA",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "BAGGAGE",
+   "word": "OUTDOOR",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ESTEEM",
+   "word": "DECADE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "RETAIN",
+   "word": "CLINIC",
    "row": 1,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "OUTSELL",
+   "word": "INSPIRE",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "REPAIR",
+   "word": "LOCATE",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "HECTIC",
+   "word": "CASINO",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "LAWYER",
+   "word": "ASYLUM",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "YEARLY",
+   "word": "FREELY",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "AGAIN",
+   "word": "EXIST",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "OFFER",
+   "word": "LASER",
    "row": 8,
    "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 78.4,
+  "score": 82.9,
   "passed": true,
-  "learn_ratio": 0.93,
-  "on_level": 19,
-  "overlap": 0.27,
-  "with_meaning_ko": 0.89,
-  "with_example": 0.96
+  "learn_ratio": 0.86,
+  "on_level": 21,
+  "overlap": 0.12,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

@@ -32,11 +32,11 @@ WORD_LIST = ROOT / "data" / "word_list.csv"   # 1주차 build_word_list.py 결�
 COLUMNS = ["word", "type", "level", "rank", "pos", "meaning_ko", "definition_en",
            "example", "example_blank", "example_ref", "source", "reviewed"]
 
-# 난이도 기준 (설계서 3.5 ③)
-TSL_BEGINNER_MAX = 400
-TSL_INTERMEDIATE_MAX = 800
-NGSL_BEGINNER_MAX = 1000
-NGSL_INTERMEDIATE_MAX = 2000
+# 난이도 기준: 영어 예문(Tatoeba 약 200만 문장)에 나온 횟수.
+# 목록 순위(TSL 순위)는 토익 안에서의 빈도라 일상적인 쉬움과 잘 맞지 않아서(예: prune, courier 가 초급) 바꿨다.
+# 설계서 예시 단어: 초급 apple 1,265·water 7,555회, 중급 improve 800·journey 609회, 고급 adequate 47회.
+FREQ_BEGINNER_MIN = 300      # 300회 이상 → 초급
+FREQ_INTERMEDIATE_MIN = 60   # 60~299회 → 중급, 그 미만 → 고급
 
 POS_KO = {"noun": "명사", "verb": "동사", "adj": "형용사", "adv": "부사", "prep": "전치사",
           "conj": "접속사", "pron": "대명사", "det": "한정사", "num": "수사", "intj": "감탄사"}
@@ -201,20 +201,29 @@ def blank_example(text: str, word: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-def level_learn(source: str, rank: int) -> str:
-    if source == "BSL":
-        return "advanced"
-    if rank <= TSL_BEGINNER_MAX:
-        return "beginner"
-    if rank <= TSL_INTERMEDIATE_MAX:
-        return "intermediate"
-    return "advanced"
+def word_frequencies(targets: set[str]) -> dict[str, int]:
+    """Tatoeba 영어 문장에서 단어가 나온 횟수 (대소문자 무시, 하이픈 붙은 말은 한 단어로)."""
+    path = RAW / "eng_sentences.tsv.bz2"
+    counts = dict.fromkeys(targets, 0)
+    if not path.exists():
+        print("  Tatoeba 파일 없음 → 빈도 0 (모두 고급)")
+        return counts
+    token_re = re.compile(r"[a-z]+(?:['-][a-z]+)*")
+    with bz2.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) < 3:
+                continue
+            for t in token_re.findall(parts[2].lower()):
+                if t in counts:
+                    counts[t] += 1
+    return counts
 
 
-def level_fill(rank: int) -> str:
-    if rank <= NGSL_BEGINNER_MAX:
+def level_by_frequency(freq: int) -> str:
+    if freq >= FREQ_BEGINNER_MIN:
         return "beginner"
-    if rank <= NGSL_INTERMEDIATE_MAX:
+    if freq >= FREQ_INTERMEDIATE_MIN:
         return "intermediate"
     return "advanced"
 
@@ -245,8 +254,10 @@ def main() -> None:
     with open(WORD_LIST, newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             w, rank = r["word"].lower(), int(r["rank"])
-            level = level_learn(r["source"], rank) if r["type"] == "learn" else level_fill(rank)
-            rows[w] = {"word": w, "type": r["type"], "level": level, "rank": rank, "source": r["source"]}
+            rows[w] = {"word": w, "type": r["type"], "rank": rank, "source": r["source"]}
+    freq = word_frequencies(set(rows))
+    for w, r in rows.items():
+        r["level"] = level_by_frequency(freq[w])
     print(f"단어 목록: 학습 {sum(r['type'] == 'learn' for r in rows.values())}, "
           f"채움 {sum(r['type'] == 'fill' for r in rows.values())}")
 

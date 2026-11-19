@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-10",
+ "template": "uk-15-02",
  "words": [
   {
    "no": 1,
-   "word": "TORTURE",
+   "word": "INSIGHT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "DYNAMIC",
+   "word": "CONVICT",
    "row": 0,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "POLLUTION",
+   "word": "CEASE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "TONER",
+   "word": "OVERWHELM",
    "row": 2,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "ESCALATOR",
+   "word": "MILESTONE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ISSUE",
+   "word": "SHIFT",
    "row": 4,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "STATION",
+   "word": "EARNINGS",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "EVIDENT",
+   "word": "AMEND",
    "row": 6,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "ENTITLE",
-   "row": 8,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "ANNUITY",
+   "word": "TUPLE",
    "row": 8,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "TIMER",
-   "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "SITUATION",
+   "no": 20,
+   "word": "CORDLESS",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "BOAST",
    "row": 10,
-   "col": 6,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "CYCLE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 25,
-   "word": "OVERSTATE",
-   "row": 12,
+   "word": "COMMANDER",
+   "row": 10,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "LOOSELY",
-   "row": 14,
+   "word": "SUNSCREEN",
+   "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "THEREBY",
+   "word": "SCRUB",
+   "row": 12,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "SURPLUS",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "EXTREME",
    "row": 14,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "TUPLE",
+   "word": "INCUMBENT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "RELUCTANT",
+   "word": "STAPLER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "USUAL",
+   "word": "GUESS",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "EXISTENCE",
+   "word": "THOROUGH",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "DONOR",
+   "word": "CLEVER",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "NUTRITION",
+   "word": "NEWSSTAND",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "MINUS",
+   "word": "ITEMIZE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "CORRECTLY",
+   "word": "TEMPT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "SKEPTICAL",
-   "row": 6,
-   "col": 0,
-   "dir": "down"
-  },
-  {
    "no": 14,
-   "word": "INTERVENE",
+   "word": "IDENTICAL",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "ENACTMENT",
+   "no": 16,
+   "word": "DESIRABLE",
    "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "COMMENCE",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "ELIMINATE",
-   "row": 6,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "MACRO",
-   "row": 10,
+   "no": 19,
+   "word": "PLANNER",
+   "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "SNOWY",
-   "row": 10,
-   "col": 6,
+   "word": "ENDORSE",
+   "row": 8,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "AISLE",
-   "row": 10,
-   "col": 10,
+   "word": "ACCESS",
+   "row": 9,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "NEEDY",
+   "word": "BASIS",
    "row": 10,
-   "col": 14,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "ASSET",
+   "row": 10,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 78.9,
+  "score": 86.0,
   "passed": true,
-  "learn_ratio": 0.88,
-  "on_level": 22,
-  "overlap": 0.21,
+  "learn_ratio": 0.94,
+  "on_level": 21,
+  "overlap": 0.07,
   "with_meaning_ko": 1.0,
-  "with_example": 0.94
+  "with_example": 0.97
  },
  "reviewed": false
 }
