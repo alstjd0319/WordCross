@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-09",
+ "template": "uk-15-07",
  "words": [
   {
    "no": 1,
-   "word": "REGISTER",
+   "word": "RECESSION",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "CAMPUS",
+   "no": 6,
+   "word": "CHAOS",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "CHARTER",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "ENTITLE",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "UNPOPULAR",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "RANGE",
-   "row": 4,
    "col": 10,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "TERROR",
-   "row": 6,
+   "no": 9,
+   "word": "WORKSHEET",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "DEMOLISH",
-   "row": 6,
-   "col": 7,
+   "no": 10,
+   "word": "LOSER",
+   "row": 2,
+   "col": 10,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "RELOCATE",
-   "row": 8,
+   "no": 11,
+   "word": "INITIAL",
+   "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 21,
-   "word": "UNPLUG",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "CYCLE",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "NUMERICAL",
-   "row": 10,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "REACTOR",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "AMUSING",
-   "row": 12,
+   "no": 12,
+   "word": "VIRTUAL",
+   "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "OUTLAY",
+   "no": 13,
+   "word": "EARNINGS",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "STATUS",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "ONLINE",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "BRANDING",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "TOBACCO",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "AMATEUR",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "MERIT",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "STABILIZE",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "MAYOR",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "PROHIBIT",
+   "no": 29,
+   "word": "PRECEDENT",
    "row": 14,
-   "col": 7,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "RECRUITER",
+   "word": "REWRITE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "GRASP",
+   "word": "CARRIER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SETUP",
+   "word": "SUSPICION",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "ENROLL",
+   "word": "IDEOLOGY",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "NATIVE",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "AFTERNOON",
+   "word": "COLOR",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "POTENTIAL",
+   "word": "ASSAULT",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "SCENE",
+   "word": "SURPLUS",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "DECREE",
-   "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "RELUCTANT",
+   "word": "TENTATIVE",
    "row": 6,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "ORCHESTRA",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "HIGHLIGHT",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "TENURE",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "IMPAIR",
-   "row": 9,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 23,
-   "word": "CARGO",
-   "row": 10,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 25,
-   "word": "ROUGH",
-   "row": 10,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 26,
-   "word": "CLIMB",
-   "row": 10,
+   "no": 16,
+   "word": "BREAKAGE",
+   "row": 7,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "OPTIMUM",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "LIBERTY",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "ITEMIZE",
+   "row": 8,
    "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "GARMENT",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "GOSSIP",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "CATER",
+   "row": 10,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 75.5,
+  "score": 81.3,
   "passed": true,
-  "learn_ratio": 0.91,
-  "on_level": 17,
-  "overlap": 0.21,
-  "with_meaning_ko": 0.88,
+  "learn_ratio": 0.94,
+  "on_level": 21,
+  "overlap": 0.23,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

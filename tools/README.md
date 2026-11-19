@@ -119,7 +119,7 @@ python3 tools/merge_ets.py       # words.csv + ETS → data/words_ets.csv
 - `generate_puzzles.py`, `review_puzzle.py`, `export_sql.py` 는 `data/words_ets.csv` 가 있으면 그것을 쓴다.
   없으면(예: 교재 파일이 없는 PC) `words.csv` 로 그대로 동작한다.
 
-결과: 학습 단어 4,008개 (초급 920 · 중급 1,019 · 고급 2,069), 퍼즐 36개 (난이도별 12개) 모두 기준 통과,
+결과: 전체 5,703개, 학습 단어 3,992개 (초급 918 · 중급 1,018 · 고급 2,056), 퍼즐 36개 (난이도별 12개) 모두 기준 통과,
 학습 단어 비율 초급 71~88%, 중급 75~93%, 고급 81~97%.
 
 실제 DB 입력 (단어 전체 + 개발용 퍼즐):
@@ -128,3 +128,13 @@ python3 tools/merge_ets.py       # words.csv + ETS → data/words_ets.csv
 python3 tools/export_sql.py --dev --all-words --out /tmp/dev_seed.sql
 supabase db query --remote -f /tmp/dev_seed.sql --yes
 ```
+
+## 힌트 다듬기 (2026-11-19)
+
+- 영어 정의: 가장 흔한 첫 뜻을 쓰되, 정답을 그대로 담거나("An oar"), 쓰임 설명("Chiefly …", "During …")이거나,
+  "this element" 같은 지시만 있는 뜻은 건너뛴다. 80자를 넘으면 절·쉼표·단어 경계에서 자르고 '…'를 붙인다
+  (`build_words.py` 의 `MAX_DEF_LEN`, `useful_gloss`, `shorten_definition`). 평균 42자.
+- 한국어 뜻: Wiktionary 에 한국어 번역이 없던 816개는 `data/meanings_ko_draft.csv` 에 직접 쓴 초안으로 채운다
+  (검수 전). ETS 단어는 교재 뜻이 우선이다. 교재 파일이 있는 PC에서는 모든 단어에 한국어 뜻이 있고,
+  공개 `words.csv` 만 있으면 4,370/4,881개(90%)에 있다.
+- 접두사·약어처럼 쓰이는 단어(anti, inter, quasi …)는 `blocklist.txt` 에 넣어 뺐다.

@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-01",
+ "template": "uk-15-10",
  "words": [
   {
    "no": 1,
-   "word": "MOTOR",
+   "word": "TORTURE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "EXTENSIVE",
+   "no": 5,
+   "word": "DYNAMIC",
    "row": 0,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "COMMUNISM",
+   "word": "POLLUTION",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "TITLE",
+   "word": "TONER",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "OUTLINE",
+   "word": "ESCALATOR",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "LIBERTY",
+   "word": "ISSUE",
    "row": 4,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "AMBIENCE",
+   "word": "STATION",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "MEMBER",
+   "no": 15,
+   "word": "EVIDENT",
    "row": 6,
-   "col": 9,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "ENTITLE",
+   "row": 8,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "EXEMPT",
+   "word": "ANNUITY",
    "row": 8,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "TIMER",
+   "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "POLITICS",
-   "row": 8,
-   "col": 7,
+   "no": 21,
+   "word": "SITUATION",
+   "row": 10,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 23,
-   "word": "SPONSOR",
-   "row": 10,
+   "no": 24,
+   "word": "CYCLE",
+   "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "RESTFUL",
-   "row": 10,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "GENRE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "DOWNGRADE",
+   "word": "OVERSTATE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 28,
-   "word": "TREASURER",
+   "no": 26,
+   "word": "LOOSELY",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "THEFT",
+   "no": 27,
+   "word": "THEREBY",
    "row": 14,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "MICROWAVE",
+   "word": "TUPLE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "TIMETABLE",
+   "word": "RELUCTANT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ROUTINE",
+   "word": "USUAL",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "EVIDENCE",
+   "word": "EXISTENCE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "TUMBLE",
+   "word": "DONOR",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "NOTABLE",
+   "word": "NUTRITION",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "INTER",
+   "word": "MINUS",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EVERY",
+   "word": "CORRECTLY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
+   "no": 13,
+   "word": "SKEPTICAL",
+   "row": 6,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "INTERVENE",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 15,
-   "word": "BRIEFCASE",
+   "word": "ENACTMENT",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "ELIMINATE",
    "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "RESILIENT",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "BORROWER",
-   "row": 7,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 19,
-   "word": "POSSESS",
-   "row": 8,
-   "col": 4,
+   "no": 20,
+   "word": "MACRO",
+   "row": 10,
+   "col": 2,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "INSIGHT",
-   "row": 8,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "TRADER",
-   "row": 9,
+   "word": "SNOWY",
+   "row": 10,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "SIGHT",
+   "no": 22,
+   "word": "AISLE",
    "row": 10,
-   "col": 0,
+   "col": 10,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "OUNCE",
+   "no": 23,
+   "word": "NEEDY",
    "row": 10,
-   "col": 2,
+   "col": 14,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 80.6,
+  "score": 78.9,
   "passed": true,
-  "learn_ratio": 0.81,
-  "on_level": 21,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.91,
-  "with_example": 1.0
+  "learn_ratio": 0.88,
+  "on_level": 22,
+  "overlap": 0.21,
+  "with_meaning_ko": 1.0,
+  "with_example": 0.94
  },
  "reviewed": false
 }

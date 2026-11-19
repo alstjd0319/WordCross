@@ -5,115 +5,115 @@
   15,
   15
  ],
- "template": "uk-15-07",
+ "template": "uk-15-11",
  "words": [
   {
    "no": 1,
-   "word": "DEVASTATE",
+   "word": "OVERSTATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 6,
-   "word": "USAGE",
+   "word": "APPLE",
    "row": 0,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "SURRENDER",
+   "word": "ERASE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "BLAST",
+   "word": "PREVALENT",
    "row": 2,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TRUSTEE",
+   "word": "VITAL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "CONCEDE",
+   "word": "EXTENSION",
    "row": 4,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "POLITICS",
+   "word": "ENLARGE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "SCARCE",
+   "no": 16,
+   "word": "RETAIL",
    "row": 6,
-   "col": 9,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "ASSURE",
+   "no": 18,
+   "word": "EXOTIC",
    "row": 8,
-   "col": 0,
+   "col": 1,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "ANALYSIS",
+   "no": 20,
+   "word": "LICENSE",
    "row": 8,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "SHALLOW",
+   "word": "PERPETUAL",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "EXECUTE",
+   "word": "ADAPT",
    "row": 10,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "UNIFY",
-   "row": 12,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "IMPATIENT",
+   "word": "REOPENING",
    "row": 12,
-   "col": 6,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 28,
    "word": "TIMER",
+   "row": 12,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "TASTY",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 29,
+   "no": 30,
    "word": "GENERATOR",
    "row": 14,
    "col": 6,
@@ -121,124 +121,124 @@
   },
   {
    "no": 1,
-   "word": "DESKTOP",
+   "word": "OVERVIEW",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "VIRTUAL",
+   "word": "ENACT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SPECTATOR",
+   "word": "STELLAR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "AUDIENCE",
+   "word": "AMPLE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "ENRICH",
+   "word": "ELECTORAL",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "URBAN",
+   "word": "AGAINST",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "AMATEUR",
+   "word": "PRECISION",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EXTREME",
+   "word": "EXTEND",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "COLLECTOR",
+   "no": 14,
+   "word": "LUXURIOUS",
    "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "UNDERPIN",
-   "row": 7,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "ASSAULT",
-   "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "STADIUM",
-   "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "STUDENT",
-   "row": 8,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "SHELTER",
-   "row": 8,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "AWNING",
-   "row": 9,
+   "no": 15,
+   "word": "EXCLUDING",
+   "row": 6,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "LAYER",
-   "row": 10,
+   "no": 17,
+   "word": "LECTURER",
+   "row": 7,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "THEREBY",
+   "row": 8,
    "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "CHARTER",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "SPIRIT",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "LOGIN",
+   "row": 10,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "ADMIT",
+   "row": 10,
+   "col": 12,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 80.2,
+  "score": 82.3,
   "passed": true,
-  "learn_ratio": 0.88,
-  "on_level": 21,
-  "overlap": 0.07,
-  "with_meaning_ko": 0.81,
+  "learn_ratio": 0.91,
+  "on_level": 22,
+  "overlap": 0.17,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

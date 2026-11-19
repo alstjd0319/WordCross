@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-12",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "SLOGAN",
+   "word": "ALPHA",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "WELLNESS",
+   "word": "ACCLAIMED",
    "row": 0,
-   "col": 7,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "SHORTFALL",
+   "row": 2,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "ACCLAIM",
+   "word": "DRAMA",
    "row": 2,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INFLATE",
-   "row": 2,
-   "col": 8,
+   "word": "SCENERY",
+   "row": 4,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "CHEAT",
+   "word": "ARTISAN",
    "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "ENERGETIC",
-   "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "TITLE",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 16,
-   "word": "ENTRANCE",
-   "row": 6,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "CARELESS",
-   "row": 8,
-   "col": 1,
-   "dir": "across"
-  },
-  {
-   "no": 22,
-   "word": "DONOR",
-   "row": 8,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "UNCLUTTER",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "CRUDE",
-   "row": 10,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "ITEMIZE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "PREDICT",
-   "row": 12,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "REMINDER",
+   "no": 13,
+   "word": "ARTISTIC",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "TROUPE",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "THRILL",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "CONCEIVE",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "DILEMMA",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "FUNDING",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "ENACT",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ISOLATION",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "STEADFAST",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "OPENLY",
+   "no": 29,
+   "word": "NASTY",
    "row": 14,
-   "col": 9,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SCARCITY",
+   "word": "ASSISTANT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ORCHESTRA",
+   "word": "PROJECTOR",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ADAPT",
+   "word": "ACTRESS",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 4,
+   "word": "ANALYTIC",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 5,
-   "word": "EVIDENT",
+   "word": "COLLAR",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "LIFEGUARD",
+   "word": "AUDITOR",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ENACT",
+   "word": "MEANS",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "SKETCH",
+   "word": "DRAIN",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "IMPEDE",
-   "row": 1,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "EXECUTION",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "CONFUSION",
+   "word": "UTILITIES",
    "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "URGENTLY",
-   "row": 7,
+   "no": 16,
+   "word": "EMERGENCY",
+   "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "EXTREME",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "STRIPE",
-   "row": 8,
+   "no": 17,
+   "word": "CONFRONT",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "JUNIOR",
+   "no": 19,
+   "word": "LIMITED",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "CONTAIN",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "CAPITA",
    "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "DRESS",
+   "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "CREAM",
+   "no": 24,
+   "word": "LEASE",
    "row": 10,
    "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 26,
-   "word": "CHEAP",
-   "row": 10,
-   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 76.5,
+  "score": 80.0,
   "passed": true,
-  "learn_ratio": 0.84,
-  "on_level": 24,
-  "overlap": 0.22,
-  "with_meaning_ko": 0.81,
-  "with_example": 1.0
+  "learn_ratio": 0.94,
+  "on_level": 21,
+  "overlap": 0.27,
+  "with_meaning_ko": 1.0,
+  "with_example": 0.97
  },
  "reviewed": false
 }

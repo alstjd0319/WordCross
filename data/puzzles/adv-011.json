@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-01",
+ "template": "uk-15-03",
  "words": [
   {
    "no": 1,
-   "word": "STEEP",
+   "word": "SETBACK",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "CONSTRAIN",
+   "no": 5,
+   "word": "DIPLOMA",
    "row": 0,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "ORCHESTRA",
+   "word": "ALGORITHM",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "RUINS",
+   "word": "RATIO",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TOURIST",
+   "word": "TITLE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "LOOSELY",
+   "word": "LINGERING",
    "row": 4,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "AVIATION",
+   "word": "RENDER",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ALBEIT",
+   "word": "INDIRECT",
    "row": 6,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "LENDER",
+   "no": 17,
+   "word": "FRONTIER",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "PREMIERE",
+   "no": 19,
+   "word": "ACCRUE",
    "row": 8,
-   "col": 7,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "CHARTER",
+   "word": "ENERGETIC",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "BANQUET",
+   "word": "UPSET",
    "row": 10,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "ALPHA",
+   "word": "GRAVE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "TENTATIVE",
+   "word": "VENTILATE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "SKEPTICAL",
+   "word": "THEATER",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "EXERT",
+   "word": "CONCEDE",
    "row": 14,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SHORTFALL",
+   "word": "SCATTER",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "EXCLUSION",
+   "word": "TIGHTEN",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "PREDICT",
+   "word": "AGREEMENT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "CITATION",
+   "word": "KETTLE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "NEATLY",
+   "word": "DOMINANT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "TURMOIL",
+   "word": "PURSE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ABIDE",
+   "word": "OUTLINE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "NASTY",
+   "word": "AMONGST",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "EXECUTIVE",
+   "word": "INCLUSION",
    "row": 6,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "TREATMENT",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "TRIBUNAL",
-   "row": 7,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 19,
-   "word": "EXTRACT",
-   "row": 8,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "MANDATE",
-   "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "CRITIC",
-   "row": 9,
+   "no": 16,
+   "word": "LEFTOVER",
+   "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "CHAOS",
-   "row": 10,
+   "no": 17,
+   "word": "FREIGHT",
+   "row": 8,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "AMPLE",
-   "row": 10,
+   "no": 18,
+   "word": "OPERATE",
+   "row": 8,
    "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "RESTATE",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "EXTREME",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "SCENIC",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "GREET",
+   "row": 10,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 84.1,
+  "score": 81.0,
   "passed": true,
   "learn_ratio": 0.91,
-  "on_level": 26,
+  "on_level": 19,
   "overlap": 0.14,
-  "with_meaning_ko": 0.84,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-02",
+ "template": "uk-15-07",
  "words": [
   {
    "no": 1,
-   "word": "DISABLE",
+   "word": "CONTINENT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "POSSESS",
+   "no": 6,
+   "word": "SURGE",
    "row": 0,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "RUINS",
+   "word": "MIGRATION",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "CONGESTED",
+   "word": "TOPIC",
    "row": 2,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "CONSCIOUS",
+   "word": "ITEMIZE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "DRAIN",
+   "word": "REPRINT",
    "row": 4,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "ITEMIZED",
+   "word": "ENTRANCE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "ALTER",
+   "no": 14,
+   "word": "UPWARD",
    "row": 6,
-   "col": 10,
+   "col": 9,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "EMBED",
+   "no": 17,
+   "word": "ALWAYS",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "WAITRESS",
+   "no": 19,
+   "word": "INTEGRAL",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "PANIC",
+   "word": "CLEARLY",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "EMPHASIZE",
+   "no": 25,
+   "word": "THIRSTY",
    "row": 10,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "IMAGINARY",
+   "word": "AMEND",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "FLEET",
+   "word": "BOUNTIFUL",
    "row": 12,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "ETHANOL",
+   "word": "MAYOR",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "RELATED",
+   "word": "LITERALLY",
    "row": 14,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "DIRECTIVE",
+   "word": "COMPILE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "SCIENCE",
+   "word": "NEGLECT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "BASIC",
+   "word": "IMAGINARY",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "ENCLOSED",
+   "word": "EVIDENCE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "PUNISH",
+   "word": "TENURE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "STEADFAST",
+   "word": "SETUP",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ENTRANT",
+   "word": "REPLICA",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "SEDAN",
+   "word": "EXCITED",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "INDUCTION",
+   "no": 15,
+   "word": "PREDICTOR",
    "row": 6,
-   "col": 4,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "RESPECTED",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "TAXPAYER",
+   "word": "INSTRUCT",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "BENEATH",
+   "no": 17,
+   "word": "ACCLAIM",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "WHEREBY",
    "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "EVIDENT",
+   "no": 20,
+   "word": "RESTFUL",
    "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
+   "no": 21,
+   "word": "LOYALLY",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
    "no": 22,
-   "word": "RETAIL",
+   "word": "SYMBOL",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "PRIZE",
+   "no": 24,
+   "word": "RIDER",
    "row": 10,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 25,
-   "word": "AWFUL",
-   "row": 10,
-   "col": 10,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 77.9,
+  "score": 79.9,
   "passed": true,
   "learn_ratio": 0.84,
-  "on_level": 24,
-  "overlap": 0.15,
-  "with_meaning_ko": 0.78,
+  "on_level": 21,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
   "with_example": 0.97
  },
  "reviewed": false

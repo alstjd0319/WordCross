@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-05",
+ "template": "uk-15-12",
  "words": [
   {
    "no": 1,
-   "word": "DRIVE",
+   "word": "VACATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "DESIRABLE",
+   "word": "MERCHANT",
    "row": 0,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "SUCCESSOR",
-   "row": 2,
-   "col": 0,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "QUASI",
+   "word": "REACTOR",
    "row": 2,
-   "col": 10,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "THROUGH",
-   "row": 4,
-   "col": 0,
+   "word": "CONFINE",
+   "row": 2,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "WRINKLE",
+   "word": "ISSUE",
    "row": 4,
-   "col": 8,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "PREFERRED",
+   "word": "PERTINENT",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "AVOID",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "ENACT",
+   "no": 16,
+   "word": "EXTERIOR",
    "row": 6,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "PITCH",
-   "row": 8,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "EMPIRICAL",
+   "word": "IMPROPER",
    "row": 8,
-   "col": 6,
+   "col": 1,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "AMONGST",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 25,
-   "word": "SESSION",
-   "row": 10,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "TONNE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "INTERCEPT",
-   "row": 12,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "CARPENTER",
-   "row": 14,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 29,
-   "word": "ENTRY",
-   "row": 14,
+   "word": "EXCEL",
+   "row": 8,
    "col": 10,
    "dir": "across"
   },
   {
+   "no": 24,
+   "word": "CONSCIOUS",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "STEEP",
+   "row": 10,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ENCLOSE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "MILITIA",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "EVERYONE",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 30,
+   "word": "INTACT",
+   "row": 14,
+   "col": 9,
+   "dir": "across"
+  },
+  {
    "no": 1,
-   "word": "DESKTOP",
+   "word": "VERTICAL",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "INCORRECT",
+   "word": "CLASSROOM",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "EXECUTE",
+   "word": "TITLE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "DISCHARGE",
-   "row": 0,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 5,
-   "word": "SCREW",
+   "word": "EXCERPT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "REQUIRE",
+   "word": "CONCIERGE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "BLANK",
+   "word": "ABIDE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EVIDENT",
+   "word": "TREATY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "DEPOSITOR",
-   "row": 6,
-   "col": 8,
+   "no": 9,
+   "word": "TRIPLE",
+   "row": 1,
+   "col": 6,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "ARCHITECT",
+   "no": 15,
+   "word": "DIRECTORY",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "ORCHESTRA",
    "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "PLASTIC",
-   "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
    "no": 18,
-   "word": "HYGIENE",
-   "row": 8,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "RESERVE",
-   "row": 8,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "LENGTHY",
-   "row": 8,
+   "word": "ELEPHANT",
+   "row": 7,
    "col": 14,
    "dir": "down"
   },
   {
+   "no": 20,
+   "word": "PROTEIN",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "RESUME",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 23,
-   "word": "OWNER",
+   "word": "SCHEME",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "NICHE",
    "row": 10,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "TWIST",
+   "no": 26,
+   "word": "SALON",
    "row": 10,
-   "col": 6,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 76.2,
+  "score": 82.7,
   "passed": true,
   "learn_ratio": 0.88,
-  "on_level": 19,
-  "overlap": 0.14,
-  "with_meaning_ko": 0.81,
-  "with_example": 0.97
+  "on_level": 22,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

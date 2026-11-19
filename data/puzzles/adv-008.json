@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-03",
+ "template": "uk-15-12",
  "words": [
   {
    "no": 1,
-   "word": "WHEREAS",
+   "word": "ACCORD",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "KICKOFF",
+   "no": 4,
+   "word": "PRESERVE",
    "row": 0,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "ETHICALLY",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "INTER",
-   "row": 2,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "EXCEL",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "COOPERATE",
-   "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "DILUTE",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "FREQUENT",
-   "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "SUPERIOR",
-   "row": 8,
+   "no": 10,
+   "word": "VANILLA",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "CONFER",
-   "row": 8,
-   "col": 9,
+   "no": 11,
+   "word": "VACCINE",
+   "row": 2,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 23,
-   "word": "MUNICIPAL",
+   "no": 12,
+   "word": "CLEAR",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "DISMISSAL",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "TASTE",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "MIDNIGHT",
+   "row": 6,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "ASSORTED",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "ENACT",
+   "row": 8,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "TERRORISM",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "AWAIT",
+   "no": 26,
+   "word": "AMPLE",
    "row": 10,
    "col": 10,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "TRIBE",
+   "no": 27,
+   "word": "PENDING",
    "row": 12,
    "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "SENSITIVE",
-   "row": 12,
-   "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "MONITOR",
+   "word": "SEAFOOD",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "DOWNTURN",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "CONVERT",
+   "no": 30,
+   "word": "IMPEDE",
    "row": 14,
-   "col": 8,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "WEEKEND",
+   "word": "ADVOCATE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ETHICAL",
+   "word": "CONSENSUS",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ESCALATOR",
+   "word": "RULER",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "SELECT",
-   "row": 0,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 5,
-   "word": "KEYBOARD",
+   "word": "REVISED",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "CRIME",
+   "word": "SACRIFICE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "OUTRAGE",
+   "word": "RUINS",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "FORFEIT",
+   "word": "EVENLY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "QUOTATION",
-   "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "COMPOSER",
-   "row": 7,
+   "no": 9,
+   "word": "RANDOM",
+   "row": 1,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 15,
+   "word": "ECONOMIST",
+   "row": 6,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 17,
-   "word": "SYMPTOM",
-   "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "PENSION",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "FRAGILE",
-   "row": 8,
+   "word": "HEADPHONE",
+   "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "RETREAT",
-   "row": 8,
+   "no": 18,
+   "word": "ATTENDEE",
+   "row": 7,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "CLINIC",
-   "row": 9,
+   "no": 20,
+   "word": "TRIGGER",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "DEMISE",
+   "row": 8,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "CHEAT",
+   "no": 23,
+   "word": "STUPID",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "RENEW",
    "row": 10,
-   "col": 4,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "ALARM",
+   "row": 10,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 79.7,
+  "score": 79.3,
   "passed": true,
-  "learn_ratio": 0.91,
-  "on_level": 21,
-  "overlap": 0.17,
-  "with_meaning_ko": 0.88,
+  "learn_ratio": 0.88,
+  "on_level": 19,
+  "overlap": 0.14,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

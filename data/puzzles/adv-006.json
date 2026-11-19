@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-07",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "EXTREMIST",
+   "word": "SWEEP",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 6,
-   "word": "TUPLE",
+   "no": 4,
+   "word": "STRATEGIC",
    "row": 0,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "PREDICTOR",
+   "word": "LOGISTICS",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "UPSET",
+   "word": "ABIDE",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "OUTDOOR",
+   "word": "CONFIRM",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "VIBRANT",
+   "word": "SECULAR",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "TERMINAL",
+   "word": "IMMINENT",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ADHERE",
+   "word": "REGIME",
    "row": 6,
    "col": 9,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "SUBTLE",
+   "no": 18,
+   "word": "EXCEED",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "COMMERCE",
+   "no": 20,
+   "word": "ARTISTIC",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "MILITIA",
+   "word": "INSIDER",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "MUNDANE",
+   "word": "NOMINAL",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "DENSE",
+   "word": "PROBE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "INTENSIVE",
+   "word": "DEFENSIVE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "YIELD",
+   "word": "TREASURER",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "AGREEMENT",
+   "word": "EXERT",
    "row": 14,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "EXPLOIT",
+   "word": "SELECTIVE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "THEATER",
+   "word": "ERGONOMIC",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "EDITORIAL",
+   "word": "PASSION",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "INTERVAL",
+   "word": "SHIPMENT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "THRIVE",
+   "word": "RESIST",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "THUMB",
+   "word": "TRANCHE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "POSTAGE",
+   "word": "GRILL",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ENTITLE",
+   "word": "CHEER",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "DOMINANCE",
+   "word": "INTENSIVE",
    "row": 6,
-   "col": 10,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "COMMUTER",
+   "word": "EXCELLENT",
+   "row": 6,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "TRANSFER",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "SOMEDAY",
+   "no": 19,
+   "word": "ENDLESS",
    "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "BALANCE",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "REALIZE",
-   "row": 8,
-   "col": 12,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "ELEMENT",
+   "word": "IMMENSE",
    "row": 8,
-   "col": 14,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "CAPITA",
+   "word": "TRADER",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "TREND",
+   "no": 23,
+   "word": "INPUT",
    "row": 10,
-   "col": 4,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "SCOPE",
+   "row": 10,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 81.8,
+  "score": 85.4,
   "passed": true,
-  "learn_ratio": 0.97,
-  "on_level": 19,
-  "overlap": 0.13,
-  "with_meaning_ko": 0.84,
-  "with_example": 0.97
+  "learn_ratio": 0.94,
+  "on_level": 25,
+  "overlap": 0.2,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-12",
+ "template": "uk-15-07",
  "words": [
   {
    "no": 1,
-   "word": "SHIELD",
+   "word": "UNANIMOUS",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "INTERACT",
+   "no": 6,
+   "word": "ALONG",
    "row": 0,
-   "col": 7,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "INDICATOR",
+   "row": 2,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "UNDERGO",
+   "word": "DETER",
    "row": 2,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "UTILIZE",
-   "row": 2,
-   "col": 8,
+   "word": "INTENSE",
+   "row": 4,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "NICHE",
+   "word": "PROVOKE",
    "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "FOREIGNER",
-   "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "NOISY",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 16,
-   "word": "RELIABLE",
-   "row": 6,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "UNUSABLE",
-   "row": 8,
-   "col": 1,
-   "dir": "across"
-  },
-  {
-   "no": 22,
-   "word": "EXCEL",
-   "row": 8,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "AUTHENTIC",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "GRASP",
-   "row": 10,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "DWINDLE",
-   "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "SUICIDE",
-   "row": 12,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "EVERYONE",
+   "no": 13,
+   "word": "EARNINGS",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "ROCKET",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "STEREO",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "UNBIASED",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "ANTIQUE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "EDITION",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "USAGE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "OPERATIVE",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "ENTRY",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "SLEEPY",
+   "no": 29,
+   "word": "EXTREMELY",
    "row": 14,
-   "col": 9,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "STUNNING",
+   "word": "UTILIZE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "INDUCTION",
+   "word": "AUDITOR",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "LARGE",
+   "word": "INCENTIVE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 4,
+   "word": "OUTWEIGH",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 5,
-   "word": "NEUTRAL",
+   "word": "STRIPE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "ELIMINATE",
+   "word": "AUDIO",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ALIGN",
+   "word": "OUTLOOK",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "THEORY",
+   "word": "GARMENT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "CONFER",
-   "row": 1,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "YESTERDAY",
+   "word": "ORIGINATE",
    "row": 6,
-   "col": 4,
+   "col": 10,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "LUCRATIVE",
-   "row": 6,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "SLIPPERY",
+   "no": 16,
+   "word": "INHERENT",
    "row": 7,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "BETWEEN",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "EXCESS",
-   "row": 8,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "HANDLE",
-   "row": 9,
+   "no": 17,
+   "word": "STATUTE",
+   "row": 8,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "TRIBE",
-   "row": 10,
+   "no": 18,
+   "word": "ENTRANT",
+   "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 26,
-   "word": "GRILL",
+   "no": 20,
+   "word": "SUICIDE",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "DENSELY",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "DENOTE",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "QUERY",
    "row": 10,
-   "col": 10,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 79.5,
+  "score": 86.4,
   "passed": true,
-  "learn_ratio": 0.88,
-  "on_level": 22,
-  "overlap": 0.14,
-  "with_meaning_ko": 0.88,
-  "with_example": 0.97
+  "learn_ratio": 0.94,
+  "on_level": 25,
+  "overlap": 0.17,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

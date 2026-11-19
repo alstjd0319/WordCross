@@ -5,158 +5,165 @@
   15,
   15
  ],
- "template": "uk-15-09",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "ARTIFACT",
+   "word": "ALPHA",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "STAPLE",
+   "no": 4,
+   "word": "CORRELATE",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "ELEVATE",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "IMAGINE",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "DETECTION",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "SHIFT",
-   "row": 4,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "EXPOSE",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "OPPONENT",
-   "row": 6,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "TOILETRY",
-   "row": 8,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 21,
-   "word": "IMPEDE",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "QUASI",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "FREELANCE",
-   "row": 10,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "OPINION",
-   "row": 12,
+   "no": 9,
+   "word": "BROADBAND",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 28,
-   "word": "TOBACCO",
-   "row": 12,
+   "no": 10,
+   "word": "DRIVE",
+   "row": 2,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "THEATER",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "CORRECT",
+   "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "AVERSE",
+   "no": 13,
+   "word": "OUTBREAK",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "REDEEM",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "STREAM",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "FAIRNESS",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "DICTATE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "BECAUSE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "LEAST",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "INCLUDING",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "ASSURANCE",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "RETRIEVE",
+   "no": 29,
+   "word": "TONER",
    "row": 14,
-   "col": 7,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "AMENDMENT",
+   "word": "AMBITIOUS",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "THEFT",
+   "word": "PROTESTER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "FRANC",
+   "word": "AUDITOR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "CLERIC",
+   "word": "CHAIRMAN",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "REDUCE",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "TRANSFORM",
+   "word": "ENDORSE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "PRIVILEGE",
+   "word": "ABIDE",
    "row": 0,
    "col": 12,
    "dir": "down"
@@ -169,77 +176,70 @@
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "KIDNAP",
-   "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "PRIVATIZE",
+   "word": "EXECUTION",
    "row": 6,
-   "col": 2,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "SPECIFICS",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "THEREFORE",
+   "word": "MESSENGER",
    "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "REFINE",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "SETTLE",
-   "row": 9,
+   "no": 17,
+   "word": "BARBECUE",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
+   "no": 19,
+   "word": "ADAPTER",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "RECRUIT",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "RESIGN",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 23,
-   "word": "QUOTA",
+   "word": "DELTA",
    "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "LABOR",
+   "no": 24,
+   "word": "CHAOS",
    "row": 10,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 26,
-   "word": "NICHE",
-   "row": 10,
-   "col": 12,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 84.4,
+  "score": 83.5,
   "passed": true,
-  "learn_ratio": 0.91,
-  "on_level": 24,
-  "overlap": 0.03,
-  "with_meaning_ko": 0.78,
-  "with_example": 0.97
+  "learn_ratio": 0.88,
+  "on_level": 23,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }
