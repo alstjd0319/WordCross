@@ -2,187 +2,152 @@
  "id": "beg-005",
  "level": "beginner",
  "size": [
-  11,
-  11
+  9,
+  9
  ],
- "template": "uk-11-05",
+ "template": "uk-9-08",
  "words": [
   {
    "no": 1,
-   "word": "MOP",
+   "word": "AREA",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "SUGGEST",
+   "word": "SPOT",
    "row": 0,
-   "col": 4,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "ALIVE",
+   "word": "MEDIA",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "MESSY",
+   "word": "ZOO",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "UNTIL",
+   "word": "TIE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 10,
-   "word": "ALLOW",
+   "no": 11,
+   "word": "AID",
    "row": 4,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 12,
-   "word": "ENTER",
+   "no": 13,
+   "word": "PET",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ERECT",
+   "word": "LEAVE",
    "row": 6,
-   "col": 6,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 16,
-   "word": "CATER",
+   "word": "EARN",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "AGREE",
+   "no": 17,
+   "word": "LOSS",
    "row": 8,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "BALANCE",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 20,
-   "word": "YES",
-   "row": 10,
-   "col": 8,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "MEASURE",
+   "word": "ADMIT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "POINT",
+   "word": "END",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "STELLAR",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "GYM",
+   "word": "PIZZA",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "EASEL",
+   "word": "TOO",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "TRY",
-   "row": 0,
-   "col": 10,
+   "word": "CAPABLE",
+   "row": 1,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 10,
-   "word": "AVERAGE",
+   "word": "ENTER",
    "row": 4,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 11,
-   "word": "WITNESS",
-   "row": 4,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "TOTAL",
-   "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "EARLY",
-   "row": 6,
+   "no": 12,
+   "word": "DRESS",
+   "row": 4,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "CAB",
-   "row": 8,
+   "no": 13,
+   "word": "PIE",
+   "row": 6,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "RUN",
-   "row": 8,
-   "col": 4,
+   "no": 15,
+   "word": "AGO",
+   "row": 6,
+   "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
   "score": 78.8,
   "passed": true,
-  "learn_ratio": 0.83,
-  "on_level": 20,
-  "overlap": 0.25,
-  "with_meaning_ko": 0.92,
+  "learn_ratio": 0.84,
+  "on_level": 16,
+  "overlap": 0.31,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

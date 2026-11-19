@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-01",
+ "template": "uk-13-06",
  "words": [
   {
    "no": 1,
-   "word": "PLUG",
+   "word": "ASPECT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 3,
-   "word": "OUTREACH",
+   "no": 4,
+   "word": "TOMATO",
    "row": 0,
-   "col": 5,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "LAPSE",
+   "word": "LABOR",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "MONITOR",
+   "word": "ABSENCE",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "SURPASS",
+   "word": "EVIDENT",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "EMAIL",
+   "word": "ROYAL",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "BRAKE",
+   "word": "CHOP",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "TASTE",
+   "word": "ECHO",
    "row": 6,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "ADMIT",
+   "word": "COVER",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "OUTCOME",
+   "word": "INSIGHT",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "AGAINST",
+   "word": "NETWORK",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "CYCLE",
+   "word": "ALERT",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "ENTIRELY",
+   "word": "COLUMN",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "TRAY",
+   "word": "DELETE",
    "row": 12,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "POLISH",
+   "word": "ASLEEP",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "UPPER",
+   "word": "PUBLISH",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "UTMOST",
+   "no": 3,
+   "word": "CURVE",
    "row": 0,
-   "col": 6,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "RINSE",
+   "word": "OBSERVE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "ATTRACT",
+   "word": "ANNOY",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "HARDLY",
+   "word": "OPENLY",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "REMARK",
+   "word": "PASTA",
    "row": 1,
-   "col": 4,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "REMNANT",
+   "word": "PERFORM",
    "row": 6,
-   "col": 2,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "ATTACH",
+   "word": "HYGIENE",
    "row": 6,
-   "col": 8,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "PARADE",
+   "word": "ICONIC",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "POSTAL",
+   "word": "RISKY",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "MERELY",
+   "word": "STATUE",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "TONER",
+   "word": "VITAL",
    "row": 8,
-   "col": 4,
+   "col": 2,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "OCCUR",
+   "word": "SKATE",
    "row": 8,
-   "col": 10,
+   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 83.8,
+  "score": 85.0,
   "passed": true,
-  "learn_ratio": 0.82,
-  "on_level": 21,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.93,
+  "learn_ratio": 0.86,
+  "on_level": 22,
+  "overlap": 0.08,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

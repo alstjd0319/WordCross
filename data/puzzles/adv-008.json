@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-12",
+ "template": "uk-15-02",
  "words": [
   {
    "no": 1,
-   "word": "ACCORD",
+   "word": "REACTOR",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "PRESERVE",
+   "no": 5,
+   "word": "HERSELF",
    "row": 0,
-   "col": 7,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "SURGE",
+   "row": 2,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "VANILLA",
+   "word": "HOSTILITY",
    "row": 2,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "VACCINE",
-   "row": 2,
-   "col": 8,
+   "word": "SHORTFALL",
+   "row": 4,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "CLEAR",
+   "word": "STEER",
    "row": 4,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "DISMISSAL",
-   "row": 4,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "TASTE",
+   "word": "ACTIVIST",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 16,
-   "word": "MIDNIGHT",
+   "no": 15,
+   "word": "OFTEN",
    "row": 6,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "ASSORTED",
-   "row": 8,
-   "col": 1,
-   "dir": "across"
-  },
-  {
-   "no": 22,
-   "word": "ENACT",
-   "row": 8,
    "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "TIMER",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "COSMETIC",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "DELTA",
+   "row": 10,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "TERRORISM",
+   "word": "SPECIFICS",
    "row": 10,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "AMPLE",
-   "row": 10,
-   "col": 10,
+   "word": "ATTRIBUTE",
+   "row": 12,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "PENDING",
+   "word": "SAUNA",
    "row": 12,
-   "col": 0,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "SEAFOOD",
-   "row": 12,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 29,
-   "word": "DOWNTURN",
+   "word": "AMATEUR",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "IMPEDE",
+   "no": 29,
+   "word": "THEREBY",
    "row": 14,
-   "col": 9,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "ADVOCATE",
+   "word": "RESISTANT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CONSENSUS",
+   "word": "AIRPORT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "RULER",
+   "word": "TREAT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 4,
+   "word": "REHEARSE",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 5,
-   "word": "REVISED",
+   "word": "HASSLE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "SACRIFICE",
+   "word": "RAINSTORM",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "RUINS",
+   "word": "EVIDENT",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EVENLY",
+   "word": "FLYER",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "RANDOM",
-   "row": 1,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 15,
-   "word": "ECONOMIST",
+   "no": 14,
+   "word": "VERSATILE",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "HEADPHONE",
+   "no": 16,
+   "word": "NECESSARY",
    "row": 6,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "ATTENDEE",
-   "row": 7,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "TRIGGER",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "DEMISE",
-   "row": 8,
+   "no": 17,
+   "word": "COHERENT",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "STUPID",
+   "no": 19,
+   "word": "MILITIA",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "TRIBUTE",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "ISSUER",
    "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "DRAMA",
+   "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 25,
-   "word": "RENEW",
-   "row": 10,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 26,
-   "word": "ALARM",
+   "word": "ISSUE",
    "row": 10,
    "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 79.3,
+  "score": 80.7,
   "passed": true,
-  "learn_ratio": 0.88,
-  "on_level": 19,
-  "overlap": 0.14,
+  "learn_ratio": 0.91,
+  "on_level": 23,
+  "overlap": 0.24,
   "with_meaning_ko": 1.0,
-  "with_example": 1.0
+  "with_example": 0.97
  },
  "reviewed": false
 }

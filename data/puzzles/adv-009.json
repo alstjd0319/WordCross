@@ -5,239 +5,239 @@
   15,
   15
  ],
- "template": "uk-15-07",
+ "template": "uk-15-12",
  "words": [
   {
    "no": 1,
-   "word": "RECESSION",
+   "word": "DEGREE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 6,
-   "word": "CHAOS",
+   "no": 4,
+   "word": "INTRIGUE",
    "row": 0,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "WORKSHEET",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "LOSER",
-   "row": 2,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "INITIAL",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "VIRTUAL",
-   "row": 4,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "EARNINGS",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "STATUS",
-   "row": 6,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "ONLINE",
-   "row": 8,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "BRANDING",
-   "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 23,
-   "word": "TOBACCO",
-   "row": 10,
+   "no": 10,
+   "word": "SHORTEN",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "AMATEUR",
-   "row": 10,
+   "no": 11,
+   "word": "MASSAGE",
+   "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "MERIT",
-   "row": 12,
+   "no": 12,
+   "word": "OPERA",
+   "row": 4,
    "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "OWNERSHIP",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "VIRUS",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "RELIANCE",
+   "row": 6,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "SCENARIO",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "EASEL",
+   "row": 8,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "INTRINSIC",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "BROOM",
+   "row": 10,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "STABILIZE",
+   "word": "DISCARD",
    "row": 12,
-   "col": 6,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "MAYOR",
+   "word": "PENSION",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "WHENEVER",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "PRECEDENT",
+   "no": 30,
+   "word": "ASYLUM",
    "row": 14,
-   "col": 6,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "REWRITE",
+   "word": "DISSOLVE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CARRIER",
+   "word": "GEOMETRIC",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SUSPICION",
+   "word": "EXTRA",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "IDEOLOGY",
-   "row": 0,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 5,
-   "word": "NATIVE",
+   "word": "NOMINAL",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "COLOR",
+   "word": "RESURFACE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ASSAULT",
+   "word": "GRAPH",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "SURPLUS",
+   "word": "EXEMPT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "TENTATIVE",
-   "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "BREAKAGE",
-   "row": 7,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "OPTIMUM",
-   "row": 8,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "LIBERTY",
-   "row": 8,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "ITEMIZE",
-   "row": 8,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "GARMENT",
-   "row": 8,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "GOSSIP",
-   "row": 9,
+   "no": 9,
+   "word": "INDOOR",
+   "row": 1,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "CATER",
-   "row": 10,
+   "no": 15,
+   "word": "SYNDICATE",
+   "row": 6,
    "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "CUSTODIAL",
+   "row": 6,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "ALUMINUM",
+   "row": 7,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "RESIDUE",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "OCCUPY",
+   "row": 8,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 23,
+   "word": "WINDOW",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 25,
+   "word": "TASTE",
+   "row": 10,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "BONUS",
+   "row": 10,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 81.3,
+  "score": 80.1,
   "passed": true,
-  "learn_ratio": 0.94,
-  "on_level": 21,
-  "overlap": 0.23,
+  "learn_ratio": 0.88,
+  "on_level": 20,
+  "overlap": 0.14,
   "with_meaning_ko": 1.0,
   "with_example": 1.0
  },

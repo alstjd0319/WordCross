@@ -16,98 +16,98 @@
   },
   {
    "no": 3,
-   "word": "PLUMBER",
+   "word": "JOURNEY",
    "row": 0,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "REISSUE",
+   "word": "REALIZE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "OWN",
+   "word": "VAN",
    "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "ABLE",
+   "word": "HOLD",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "MURDER",
+   "word": "PUBLIC",
    "row": 4,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "DRAWER",
+   "word": "REPAIR",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "CHEF",
+   "word": "PALE",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "LID",
+   "word": "TEA",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "ADVANCE",
+   "word": "GRAMMAR",
    "row": 8,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "BETWEEN",
+   "word": "ELEMENT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "EAT",
+   "word": "TRY",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "FORWARD",
+   "word": "FURTHER",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "TRIAL",
+   "word": "TRAIL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "POST",
+   "word": "JOIN",
    "row": 0,
    "col": 4,
    "dir": "down"
@@ -121,68 +121,68 @@
   },
   {
    "no": 5,
-   "word": "BLOOD",
+   "word": "NOVEL",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "RUN",
+   "word": "YEN",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 11,
-   "word": "REFLECT",
+   "word": "CLEARLY",
    "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "DEBATE",
+   "word": "SINGLE",
    "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "AUDIT",
+   "word": "PLACE",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "HINGE",
+   "word": "ADMIT",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "OVEN",
+   "word": "LAST",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "LAB",
+   "word": "TIE",
    "row": 8,
    "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 80.9,
+  "score": 78.1,
   "passed": true,
-  "learn_ratio": 0.83,
-  "on_level": 20,
-  "overlap": 0.2,
-  "with_meaning_ko": 0.96,
+  "learn_ratio": 0.79,
+  "on_level": 19,
+  "overlap": 0.21,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

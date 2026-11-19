@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-06",
+ "template": "uk-13-02",
  "words": [
   {
    "no": 1,
-   "word": "ENOUGH",
+   "word": "REDUCE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "ACCESS",
+   "word": "FOSTER",
    "row": 0,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "EXTRA",
+   "word": "STAIN",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "LEISURE",
+   "word": "AUCTION",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "GRAPHIC",
+   "word": "RETREAT",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "APPLE",
+   "word": "RAGE",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "DEBT",
+   "no": 14,
+   "word": "OVERLY",
    "row": 6,
-   "col": 1,
-   "dir": "across"
-  },
-  {
-   "no": 15,
-   "word": "EDGE",
-   "row": 6,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 20,
-   "word": "UNCLE",
-   "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "EXPENSE",
+   "no": 16,
+   "word": "SCARCE",
+   "row": 6,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "IDLE",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "CONDUCT",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "SHORTEN",
+   "no": 23,
+   "word": "EVENING",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "SCRUB",
+   "no": 24,
+   "word": "AWARE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "ENSURE",
+   "no": 25,
+   "word": "FASTEN",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "PARCEL",
+   "no": 26,
+   "word": "UNLESS",
    "row": 12,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "EMERGE",
+   "word": "RESTROOM",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "OUTPACE",
+   "word": "DRAFT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "GRAPH",
+   "word": "CONCEAL",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "CLIMATE",
+   "word": "OCCUR",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "EQUIP",
+   "word": "TRIGGER",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "SEEKER",
+   "word": "RANK",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ELECT",
+   "word": "HALT",
    "row": 1,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "THEATER",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "GENERIC",
-   "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "PURSUE",
-   "row": 7,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "MEANS",
-   "row": 7,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 19,
-   "word": "VERBAL",
-   "row": 7,
+   "no": 13,
+   "word": "RESTLESS",
+   "row": 5,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "CROSS",
-   "row": 8,
+   "no": 15,
+   "word": "ENDLESS",
+   "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "PASTA",
-   "row": 8,
+   "no": 17,
+   "word": "CONTAIN",
+   "row": 6,
    "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 19,
+   "word": "ELITE",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "CAGE",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "USAGE",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "BEEF",
+   "row": 9,
+   "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 84.7,
+  "score": 92.0,
   "passed": true,
-  "learn_ratio": 0.89,
-  "on_level": 21,
-  "overlap": 0.04,
-  "with_meaning_ko": 0.86,
-  "with_example": 0.96
+  "learn_ratio": 0.93,
+  "on_level": 23,
+  "overlap": 0.0,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

@@ -2,185 +2,150 @@
  "id": "beg-001",
  "level": "beginner",
  "size": [
-  11,
-  11
+  9,
+  9
  ],
- "template": "uk-11-03",
+ "template": "uk-9-05",
  "words": [
   {
    "no": 1,
-   "word": "PLAYER",
+   "word": "NOTE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "OVAL",
+   "no": 3,
+   "word": "CARE",
    "row": 0,
-   "col": 7,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 7,
+   "word": "PET",
+   "row": 2,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "OAR",
+   "word": "ORDER",
    "row": 2,
-   "col": 0,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "TRAINEE",
-   "row": 2,
-   "col": 4,
+   "word": "OIL",
+   "row": 4,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "INN",
+   "word": "TRY",
    "row": 4,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "RESPECT",
-   "row": 4,
-   "col": 4,
+   "word": "FEVER",
+   "row": 6,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "EXPRESS",
+   "word": "EAT",
    "row": 6,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "SEA",
-   "row": 6,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 18,
-   "word": "COURIER",
+   "no": 15,
+   "word": "RENT",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "RUN",
+   "no": 16,
+   "word": "STEP",
    "row": 8,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 20,
-   "word": "NEED",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 21,
-   "word": "APPEAR",
-   "row": 10,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "PROVIDE",
+   "word": "NAP",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "APRON",
+   "word": "TOTAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "ENTER",
+   "no": 4,
+   "word": "AID",
    "row": 0,
-   "col": 4,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "VENUE",
+   "word": "EARLY",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "LIE",
-   "row": 0,
-   "col": 10,
+   "word": "FORWARD",
+   "row": 1,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 7,
-   "word": "PASS",
-   "row": 1,
+   "no": 9,
+   "word": "OFFER",
+   "row": 4,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 10,
+   "word": "TREAT",
+   "row": 4,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "TRAINER",
-   "row": 4,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 14,
-   "word": "PRUNE",
+   "word": "VAN",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "EXIT",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "STRAP",
-   "row": 6,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "SERVE",
+   "no": 14,
+   "word": "TIP",
    "row": 6,
    "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "CAN",
-   "row": 8,
-   "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 87.5,
+  "score": 84.2,
   "passed": true,
-  "learn_ratio": 0.83,
-  "on_level": 20,
+  "learn_ratio": 0.79,
+  "on_level": 15,
   "overlap": 0.0,
   "with_meaning_ko": 1.0,
   "with_example": 1.0

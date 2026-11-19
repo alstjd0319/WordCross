@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-10",
+ "template": "uk-13-03",
  "words": [
   {
    "no": 1,
-   "word": "VISIT",
+   "word": "FAST",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "SOLICIT",
+   "no": 3,
+   "word": "COMPOSER",
    "row": 0,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 8,
-   "word": "STAIR",
-   "row": 2,
-   "col": 0,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "DEFENSE",
+   "word": "ELITE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "FULFILL",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 10,
-   "word": "TAKEOVER",
+   "no": 11,
+   "word": "BALLOON",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 11,
-   "word": "MILD",
+   "no": 12,
+   "word": "TOLL",
    "row": 4,
-   "col": 9,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "ROUTE",
+   "no": 14,
+   "word": "CRUDE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "RUMOR",
+   "no": 16,
+   "word": "AUDIO",
    "row": 6,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "RUSH",
+   "word": "ODDS",
    "row": 8,
-   "col": 0,
+   "col": 1,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "WASTEFUL",
+   "no": 20,
+   "word": "ELEGANT",
    "row": 8,
-   "col": 5,
-   "dir": "across"
-  },
-  {
-   "no": 22,
-   "word": "FAILURE",
-   "row": 10,
-   "col": 0,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "FRAME",
+   "word": "HARVEST",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "CHAIN",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "REGULAR",
+   "no": 25,
+   "word": "PROMPTLY",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "LARGE",
+   "no": 26,
+   "word": "MESS",
    "row": 12,
-   "col": 8,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "VISITOR",
+   "word": "FEEDBACK",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "STACK",
+   "word": "SPILL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "TURNOVER",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "SUDDEN",
+   "word": "OFFEND",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "LIFT",
+   "word": "PILOT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "CONFIRM",
+   "word": "SKILLED",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "TREND",
+   "word": "ROLE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 12,
-   "word": "GRATEFUL",
-   "row": 5,
-   "col": 8,
+   "no": 8,
+   "word": "REMOTE",
+   "row": 1,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "UPSWING",
+   "no": 13,
+   "word": "CONTENTS",
+   "row": 5,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "UNDERGO",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "RELIEVE",
+   "word": "AGENCY",
    "row": 6,
-   "col": 12,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "CAREER",
+   "word": "DENTAL",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "REFER",
+   "no": 19,
+   "word": "STEEP",
    "row": 8,
-   "col": 0,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "FLAIR",
+   "no": 21,
+   "word": "AMAZE",
    "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "PULL",
+   "no": 22,
+   "word": "CHOP",
    "row": 9,
-   "col": 4,
+   "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 81.4,
+  "score": 83.8,
   "passed": true,
   "learn_ratio": 0.86,
-  "on_level": 19,
-  "overlap": 0.08,
-  "with_meaning_ko": 0.96,
-  "with_example": 0.96
+  "on_level": 22,
+  "overlap": 0.12,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

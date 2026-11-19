@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-01",
+ "template": "uk-13-05",
  "words": [
   {
    "no": 1,
-   "word": "SPAM",
+   "word": "REACT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 3,
-   "word": "CONSERVE",
+   "no": 4,
+   "word": "AMONGST",
    "row": 0,
-   "col": 5,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 9,
-   "word": "FRAME",
+   "no": 8,
+   "word": "SERVE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 10,
-   "word": "PLANNER",
+   "no": 9,
+   "word": "ORGANIC",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 11,
-   "word": "TEDIOUS",
+   "no": 10,
+   "word": "MONITOR",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 12,
-   "word": "TOWEL",
+   "no": 11,
+   "word": "IDEAL",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "SCENE",
+   "no": 12,
+   "word": "HEDGE",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "YIELD",
+   "no": 14,
+   "word": "AGENT",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "ROUGH",
+   "no": 19,
+   "word": "SALON",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "CAPTURE",
+   "no": 21,
+   "word": "FORMULA",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "TRIBUTE",
+   "no": 23,
+   "word": "EXAMINE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "REACH",
+   "no": 24,
+   "word": "FORUM",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "CONTENTS",
+   "no": 25,
+   "word": "PREVENT",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "VEND",
+   "no": 26,
+   "word": "RULER",
    "row": 12,
-   "col": 9,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SAFETY",
+   "word": "RESUME",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "AWARD",
+   "word": "ARRANGE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
+   "no": 3,
+   "word": "THEFT",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 4,
-   "word": "OPPOSE",
+   "word": "ABOARD",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "SMART",
+   "word": "ONGOING",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "RENEWAL",
+   "word": "GENRE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ENROLL",
+   "word": "TACKLE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 8,
-   "word": "RENOWN",
-   "row": 1,
+   "no": 13,
+   "word": "GENUINE",
+   "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "CAUTION",
+   "no": 15,
+   "word": "NEUTRAL",
    "row": 6,
-   "col": 2,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "IMPORT",
-   "row": 6,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "CRITIC",
+   "word": "ASLEEP",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "ACCENT",
+   "no": 17,
+   "word": "AFFECT",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "METHOD",
+   "no": 18,
+   "word": "HAMMER",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "HOUSE",
+   "no": 20,
+   "word": "LEASE",
    "row": 8,
-   "col": 4,
+   "col": 2,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "USAGE",
+   "no": 22,
+   "word": "REFER",
    "row": 8,
-   "col": 10,
+   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 87.3,
+  "score": 90.8,
   "passed": true,
   "learn_ratio": 0.93,
-  "on_level": 19,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.93,
+  "on_level": 23,
+  "overlap": 0.04,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

@@ -9,105 +9,105 @@
  "words": [
   {
    "no": 1,
-   "word": "UNANIMOUS",
+   "word": "COSMETICS",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 6,
-   "word": "ALONG",
+   "word": "MEANS",
    "row": 0,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "INDICATOR",
+   "word": "MISHANDLE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "DETER",
+   "word": "NICHE",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INTENSE",
+   "word": "ADAPTER",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "PROVOKE",
+   "word": "INSPECT",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "EARNINGS",
+   "word": "TENDENCY",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ROCKET",
+   "word": "HECTIC",
    "row": 6,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "STEREO",
+   "word": "EQUITY",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "UNBIASED",
+   "word": "GENEROUS",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "ANTIQUE",
+   "word": "PRICING",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "EDITION",
+   "word": "TRUSTEE",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "USAGE",
+   "word": "WAIVE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "OPERATIVE",
+   "word": "ORIGINATE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "ENTRY",
+   "word": "ROYAL",
    "row": 14,
    "col": 0,
    "dir": "across"
@@ -121,125 +121,125 @@
   },
   {
    "no": 1,
-   "word": "UTILIZE",
+   "word": "COMPACT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "AUDITOR",
+   "word": "SUSTAIN",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "INCENTIVE",
+   "word": "ENACTMENT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "OUTWEIGH",
+   "word": "INDIRECT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "STRIPE",
+   "word": "SCENIC",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "AUDIO",
+   "word": "MINUS",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "OUTLOOK",
+   "word": "ANCIENT",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "GARMENT",
+   "word": "SKEPTIC",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "ORIGINATE",
+   "word": "EXECUTIVE",
    "row": 6,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "INHERENT",
+   "word": "RESTRICT",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "STATUTE",
+   "word": "EMPOWER",
    "row": 8,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "ENTRANT",
+   "word": "UTILITY",
    "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "SUICIDE",
+   "word": "OUTRAGE",
    "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "DENSELY",
+   "word": "SCENERY",
    "row": 8,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "DENOTE",
+   "word": "IGNORE",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 24,
-   "word": "QUERY",
+   "word": "IDEAL",
    "row": 10,
    "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 86.4,
+  "score": 85.4,
   "passed": true,
-  "learn_ratio": 0.94,
-  "on_level": 25,
-  "overlap": 0.17,
+  "learn_ratio": 0.91,
+  "on_level": 21,
+  "overlap": 0.03,
   "with_meaning_ko": 1.0,
-  "with_example": 1.0
+  "with_example": 0.97
  },
  "reviewed": false
 }

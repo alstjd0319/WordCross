@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-01",
+ "template": "uk-15-03",
  "words": [
   {
    "no": 1,
-   "word": "SWEEP",
+   "word": "RETREAT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "STRATEGIC",
+   "no": 5,
+   "word": "PERSIST",
    "row": 0,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "LOGISTICS",
+   "word": "FIDUCIARY",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "ABIDE",
+   "word": "DRIFT",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "CONFIRM",
+   "word": "STOOL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "SECULAR",
+   "word": "EDITORIAL",
    "row": 4,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "IMMINENT",
+   "word": "LESSEE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "REGIME",
+   "word": "CASUALTY",
    "row": 6,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "EXCEED",
+   "no": 17,
+   "word": "FLEXTIME",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "ARTISTIC",
+   "no": 19,
+   "word": "FIERCE",
    "row": 8,
-   "col": 7,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "INSIDER",
+   "word": "REINFORCE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "NOMINAL",
+   "word": "INPUT",
    "row": 10,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "PROBE",
+   "word": "ERODE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "DEFENSIVE",
+   "word": "PUBLICIST",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "TREASURER",
+   "word": "THEATER",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "EXERT",
+   "word": "RESTATE",
    "row": 14,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SELECTIVE",
+   "word": "REFUSAL",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ERGONOMIC",
+   "word": "TEDIOUS",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "PASSION",
+   "word": "EXCELLENT",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SHIPMENT",
+   "word": "TRADER",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "RESIST",
+   "word": "PHYSICAL",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "TRANCHE",
+   "word": "RADIO",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "GRILL",
+   "word": "INITIAL",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "CHEER",
+   "word": "TOTALLY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "INTENSIVE",
+   "word": "UTILITIES",
    "row": 6,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "EXCELLENT",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "TRANSFER",
-   "row": 7,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 19,
-   "word": "ENDLESS",
-   "row": 8,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 21,
-   "word": "IMMENSE",
-   "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "TRADER",
-   "row": 9,
+   "no": 16,
+   "word": "IMPROPER",
+   "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "INPUT",
-   "row": 10,
+   "no": 17,
+   "word": "FORFEIT",
+   "row": 8,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "SCOPE",
-   "row": 10,
+   "no": 18,
+   "word": "EPISODE",
+   "row": 8,
    "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "REPLICA",
+   "row": 8,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "ENTITLE",
+   "row": 8,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "MEMBER",
+   "row": 9,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "FLEET",
+   "row": 10,
+   "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 85.4,
+  "score": 79.0,
   "passed": true,
-  "learn_ratio": 0.94,
-  "on_level": 25,
-  "overlap": 0.2,
+  "learn_ratio": 0.84,
+  "on_level": 22,
+  "overlap": 0.15,
   "with_meaning_ko": 1.0,
-  "with_example": 1.0
+  "with_example": 0.91
  },
  "reviewed": false
 }

@@ -2,187 +2,152 @@
  "id": "beg-003",
  "level": "beginner",
  "size": [
-  11,
-  11
+  9,
+  9
  ],
- "template": "uk-11-08",
+ "template": "uk-9-12",
  "words": [
   {
    "no": 1,
-   "word": "SHOPPER",
+   "word": "SEEK",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "SIP",
+   "no": 3,
+   "word": "DEAL",
    "row": 0,
-   "col": 8,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "RUN",
+   "word": "MAJOR",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "EXPLAIN",
+   "word": "GYM",
    "row": 2,
-   "col": 4,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "LUMBER",
+   "word": "SAY",
    "row": 4,
    "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "FIT",
+   "row": 4,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "AIM",
-   "row": 4,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "INK",
+   "word": "ROW",
    "row": 6,
-   "col": 1,
-   "dir": "across"
-  },
-  {
-   "no": 15,
-   "word": "FORMER",
-   "row": 6,
-   "col": 5,
-   "dir": "across"
-  },
-  {
-   "no": 18,
-   "word": "OPINION",
-   "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "LOT",
-   "row": 8,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 20,
-   "word": "SON",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 21,
-   "word": "WEEKDAY",
-   "row": 10,
+   "no": 13,
+   "word": "DOUBT",
+   "row": 6,
    "col": 4,
    "dir": "across"
   },
   {
+   "no": 15,
+   "word": "EARN",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "EDGE",
+   "row": 8,
+   "col": 5,
+   "dir": "across"
+  },
+  {
    "no": 1,
-   "word": "STROLL",
+   "word": "SUM",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "OWN",
+   "word": "ENJOY",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "PREFER",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "ROPE",
+   "word": "EGG",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "STADIUM",
+   "word": "LIMIT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "PANT",
-   "row": 0,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 10,
-   "word": "MENTION",
-   "row": 4,
-   "col": 2,
-   "dir": "down"
-  },
-  {
-   "no": 12,
-   "word": "LOUNGE",
-   "row": 5,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "PRETTY",
-   "row": 5,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "LOSS",
-   "row": 7,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "VIEW",
-   "row": 7,
+   "word": "PROVIDE",
+   "row": 1,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "LID",
-   "row": 8,
+   "no": 9,
+   "word": "SERVE",
+   "row": 4,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 10,
+   "word": "FOUND",
+   "row": 4,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 12,
+   "word": "WAR",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "TIE",
+   "row": 6,
    "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 82.6,
+  "score": 80.3,
   "passed": true,
-  "learn_ratio": 0.83,
-  "on_level": 20,
-  "overlap": 0.1,
-  "with_meaning_ko": 0.88,
+  "learn_ratio": 0.74,
+  "on_level": 14,
+  "overlap": 0.0,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

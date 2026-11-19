@@ -5,149 +5,156 @@
   9,
   9
  ],
- "template": "uk-9-06",
+ "template": "uk-9-04",
  "words": [
   {
    "no": 1,
-   "word": "MOW",
+   "word": "RUN",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "BOARD",
+   "word": "VISIT",
    "row": 0,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 6,
-   "word": "RENEW",
+   "word": "APPLE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "ART",
+   "word": "LAY",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "PREVIEW",
+   "word": "HEAD",
    "row": 4,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
-   "no": 12,
-   "word": "OWN",
+   "no": 10,
+   "word": "MENU",
+   "row": 4,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "GAP",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 13,
-   "word": "JUDGE",
+   "no": 14,
+   "word": "AVOID",
    "row": 6,
    "col": 4,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "ERECT",
+   "no": 16,
+   "word": "MAYOR",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 16,
-   "word": "EAR",
+   "no": 17,
+   "word": "NOR",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "MARK",
+   "word": "REACH",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "WIN",
+   "word": "NAP",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "BOW",
+   "word": "VIEW",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "AMAZE",
+   "word": "SOLVE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "DATE",
+   "word": "TRY",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 9,
-   "word": "RANGE",
+   "word": "APPLY",
    "row": 4,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 10,
-   "word": "ROLE",
-   "row": 5,
-   "col": 0,
-   "dir": "down"
-  },
-  {
    "no": 11,
-   "word": "WEAR",
-   "row": 5,
+   "word": "UNDER",
+   "row": 4,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "JET",
-   "row": 6,
+   "no": 12,
+   "word": "FAIR",
+   "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "DUE",
+   "no": 13,
+   "word": "GYM",
+   "row": 6,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "OWN",
    "row": 6,
    "col": 6,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 81.4,
+  "score": 75.2,
   "passed": true,
-  "learn_ratio": 0.79,
+  "learn_ratio": 0.75,
   "on_level": 15,
-  "overlap": 0.07,
-  "with_meaning_ko": 0.95,
+  "overlap": 0.2,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

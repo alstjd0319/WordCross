@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-04",
+ "template": "uk-11-12",
  "words": [
   {
    "no": 1,
-   "word": "CYCLIST",
+   "word": "JAM",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "FLU",
+   "no": 3,
+   "word": "LIMITED",
    "row": 0,
-   "col": 8,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "BONUS",
+   "word": "AID",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "SHRED",
+   "word": "DISEASE",
    "row": 2,
-   "col": 6,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "NEARLY",
+   "word": "SOCCER",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "WEAR",
+   "word": "PASS",
    "row": 4,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "LINE",
+   "word": "FILE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "FAUCET",
+   "word": "HANDLE",
    "row": 6,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "MEDIA",
+   "word": "COMMENT",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "STORE",
+   "word": "EAT",
    "row": 8,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "THE",
+   "word": "SIMILAR",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "PRESENT",
+   "word": "SIR",
    "row": 10,
-   "col": 4,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "CABIN",
+   "word": "JEANS",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CONTAIN",
+   "word": "MEDICAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ITSELF",
+   "word": "LADDER",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "TASK",
+   "word": "MASK",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "FOR",
+   "word": "TEA",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "UNDER",
+   "word": "DRESS",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 11,
-   "word": "ENCLOSE",
+   "word": "ADDRESS",
    "row": 4,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 12,
-   "word": "HASSLE",
+   "word": "MATTER",
    "row": 5,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 13,
-   "word": "LIMIT",
+   "word": "FOCUS",
    "row": 6,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "TREAT",
+   "word": "ENTER",
    "row": 6,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "RAMP",
+   "word": "DEAL",
    "row": 7,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "DUE",
+   "word": "MOM",
    "row": 8,
    "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 85.1,
+  "score": 78.1,
   "passed": true,
-  "learn_ratio": 0.88,
-  "on_level": 21,
-  "overlap": 0.14,
-  "with_meaning_ko": 0.92,
+  "learn_ratio": 0.79,
+  "on_level": 19,
+  "overlap": 0.21,
+  "with_meaning_ko": 1.0,
   "with_example": 1.0
  },
  "reviewed": false

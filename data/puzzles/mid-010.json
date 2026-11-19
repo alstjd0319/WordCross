@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-06",
+ "template": "uk-13-07",
  "words": [
   {
    "no": 1,
-   "word": "DONATE",
+   "word": "ESTIMATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "ASLEEP",
+   "no": 5,
+   "word": "ACID",
    "row": 0,
-   "col": 7,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "CAUSE",
+   "word": "CLEANER",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "AIRFARE",
+   "word": "URBAN",
    "row": 2,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "DWINDLE",
+   "word": "SHEER",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ALLOT",
+   "word": "EXPENSE",
    "row": 4,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "SHIP",
+   "word": "DRILL",
    "row": 6,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "EDGE",
+   "word": "TASTY",
    "row": 6,
-   "col": 8,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "UNCLE",
+   "word": "TOBACCO",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 22,
-   "word": "MASSAGE",
+   "word": "QUOTE",
    "row": 8,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "HARNESS",
+   "word": "ELITE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "USUAL",
+   "word": "TRIGGER",
    "row": 10,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "REOPEN",
+   "word": "TIDY",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "FAULTY",
+   "word": "INTERNAL",
    "row": 12,
-   "col": 7,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "DECADE",
+   "word": "EXCESS",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "NOURISH",
+   "word": "THERE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "TREND",
+   "word": "MINERAL",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 5,
-   "word": "SURFACE",
+   "no": 4,
+   "word": "TARGET",
    "row": 0,
-   "col": 8,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "EMAIL",
+   "word": "CABINET",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "PRETTY",
+   "word": "DINNER",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "LABEL",
+   "word": "DUMP",
    "row": 1,
-   "col": 6,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "PRECEDE",
+   "word": "REBUILD",
    "row": 6,
-   "col": 4,
+   "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "GRADUAL",
+   "word": "ACQUIRE",
    "row": 6,
-   "col": 10,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "AUTHOR",
+   "word": "STREET",
    "row": 7,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "AMUSE",
+   "word": "COTTON",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "REALLY",
+   "word": "PETROL",
    "row": 7,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "CARGO",
+   "word": "CREW",
    "row": 8,
-   "col": 2,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "SAUNA",
+   "word": "ORGAN",
    "row": 8,
-   "col": 8,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 77.7,
+  "score": 87.2,
   "passed": true,
-  "learn_ratio": 0.82,
-  "on_level": 19,
-  "overlap": 0.13,
-  "with_meaning_ko": 0.93,
-  "with_example": 0.96
+  "learn_ratio": 0.89,
+  "on_level": 25,
+  "overlap": 0.16,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }
