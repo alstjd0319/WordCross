@@ -40,6 +40,9 @@ def load_words(require_reviewed: bool) -> list[dict]:
             continue
         if not (r["meaning_ko"] or r["definition_en"]):   # 힌트 없는 단어는 쓰지 않음
             continue
+        w = r["word"].lower()
+        if len(w) >= 5 and w[: max(4, len(w) - 4)] in r["definition_en"].lower():
+            continue   # 영어 정의가 정답의 어근을 알려 주는 단어 (예: lender → "one who lends")
         usable.append(r)
     return usable
 
