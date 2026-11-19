@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-03",
+ "template": "uk-13-06",
  "words": [
   {
    "no": 1,
-   "word": "HUNT",
+   "word": "DONATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 3,
-   "word": "UPSTAIRS",
+   "no": 4,
+   "word": "ASLEEP",
    "row": 0,
-   "col": 5,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "ASIDE",
+   "word": "CAUSE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "CONSENT",
+   "word": "AIRFARE",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "ANYTIME",
+   "word": "DWINDLE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "RULE",
+   "word": "ALLOT",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "HOBBY",
+   "no": 13,
+   "word": "SHIP",
    "row": 6,
-   "col": 0,
+   "col": 1,
    "dir": "across"
   },
   {
-   "no": 16,
-   "word": "FLYER",
+   "no": 15,
+   "word": "EDGE",
    "row": 6,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "DROP",
+   "no": 20,
+   "word": "UNCLE",
    "row": 8,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "SHUTTLE",
+   "no": 22,
+   "word": "MASSAGE",
    "row": 8,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 23,
-   "word": "EXAMINE",
+   "no": 24,
+   "word": "HARNESS",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "TREAT",
+   "no": 25,
+   "word": "USUAL",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "BANKRUPT",
+   "no": 26,
+   "word": "REOPEN",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "DENY",
+   "no": 27,
+   "word": "FAULTY",
    "row": 12,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "HEADACHE",
+   "word": "DECADE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "NOISY",
+   "word": "NOURISH",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "PACKET",
+   "no": 3,
+   "word": "TREND",
    "row": 0,
-   "col": 6,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "TONER",
+   "word": "SURFACE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "IDEALLY",
+   "word": "EMAIL",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "SITE",
+   "word": "PRETTY",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "VERIFY",
+   "word": "LABEL",
    "row": 1,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 14,
+   "word": "PRECEDE",
+   "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "URGENTLY",
-   "row": 5,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 15,
-   "word": "BARGAIN",
-   "row": 6,
-   "col": 2,
-   "dir": "down"
-  },
-  {
    "no": 16,
-   "word": "FAULTY",
+   "word": "GRADUAL",
    "row": 6,
-   "col": 8,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "ASLEEP",
+   "word": "AUTHOR",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "AMUSE",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "PRIOR",
-   "row": 8,
-   "col": 4,
+   "word": "REALLY",
+   "row": 7,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "THERE",
+   "word": "CARGO",
    "row": 8,
-   "col": 10,
+   "col": 2,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "VERB",
-   "row": 9,
-   "col": 0,
+   "no": 23,
+   "word": "SAUNA",
+   "row": 8,
+   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 54.7,
+  "score": 77.7,
   "passed": true,
-  "learn_ratio": 0.61,
-  "on_level": 12,
-  "overlap": 0.24,
-  "with_meaning_ko": 0.71,
-  "with_example": 1.0
+  "learn_ratio": 0.82,
+  "on_level": 19,
+  "overlap": 0.13,
+  "with_meaning_ko": 0.93,
+  "with_example": 0.96
  },
  "reviewed": false
 }

@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-04",
+ "template": "uk-13-03",
  "words": [
   {
    "no": 1,
-   "word": "WILDLIFE",
+   "word": "SAME",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "ABLE",
+   "no": 3,
+   "word": "ACQUAINT",
    "row": 0,
-   "col": 9,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "RIGHT",
+   "word": "MERGE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "STAPLER",
+   "word": "ATHLETE",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "LANE",
+   "word": "WILLING",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "DESKTOP",
+   "word": "ROLL",
    "row": 4,
-   "col": 5,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "SAFELY",
+   "no": 14,
+   "word": "AWARE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "LAWYER",
+   "no": 16,
+   "word": "LOYAL",
    "row": 6,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "PREMIUM",
+   "no": 18,
+   "word": "STOP",
    "row": 8,
    "col": 1,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "TAXI",
+   "word": "SETTING",
    "row": 8,
-   "col": 9,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "HIMSELF",
+   "no": 23,
+   "word": "OPERATE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 25,
-   "word": "OPERA",
+   "no": 24,
+   "word": "ELECT",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "TONE",
+   "no": 25,
+   "word": "DISPERSE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "ATTENDEE",
+   "no": 26,
+   "word": "ALLY",
    "row": 12,
-   "col": 5,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "WIRELESS",
+   "word": "SOMEWHAT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "LOGIN",
+   "word": "MORAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "LATE",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "FASTEN",
+   "word": "CHARGE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "USHER",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "BALCONY",
+   "word": "IDEALLY",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "EARN",
+   "word": "TREE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "WALKWAY",
+   "word": "DEVICE",
    "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "PLUMBER",
-   "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "IRRITATE",
+   "no": 13,
+   "word": "SLIGHTLY",
    "row": 5,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "FOREMAN",
+   "no": 15,
+   "word": "ACTRESS",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 18,
-   "word": "BUFFET",
+   "no": 16,
+   "word": "LATTER",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "ASSESS",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 19,
+   "word": "PHASE",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 21,
-   "word": "AHEAD",
+   "word": "IDEAL",
    "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "SHOT",
+   "word": "BOND",
    "row": 9,
    "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 23,
-   "word": "CORE",
-   "row": 9,
-   "col": 8,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 54.8,
+  "score": 79.4,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 12,
-  "overlap": 0.12,
-  "with_meaning_ko": 0.64,
-  "with_example": 0.96
+  "learn_ratio": 0.79,
+  "on_level": 19,
+  "overlap": 0.05,
+  "with_meaning_ko": 0.96,
+  "with_example": 1.0
  },
  "reviewed": false
 }

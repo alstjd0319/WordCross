@@ -9,237 +9,237 @@
  "words": [
   {
    "no": 1,
-   "word": "SPEND",
+   "word": "SWEEP",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 4,
-   "word": "SUBSIDIZE",
+   "word": "STRATEGIC",
    "row": 0,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "RECIPIENT",
+   "word": "LOGISTICS",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "SETUP",
+   "word": "ABIDE",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "TOURIST",
+   "word": "CONFIRM",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "ELDERLY",
+   "word": "SECULAR",
    "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "GRATEFUL",
+   "word": "IMMINENT",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "TRIPLE",
+   "word": "REGIME",
    "row": 6,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "CHEESE",
+   "word": "EXCEED",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "DISCRETE",
+   "word": "ARTISTIC",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "INSURER",
+   "word": "INSIDER",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "PENDING",
+   "word": "NOMINAL",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "EMAIL",
+   "word": "PROBE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "COALITION",
+   "word": "DEFENSIVE",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "LIFESTYLE",
+   "word": "TREASURER",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "TONNE",
+   "word": "EXERT",
    "row": 14,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "STRATEGIC",
+   "word": "SELECTIVE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "ENCOURAGE",
+   "word": "ERGONOMIC",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "DEPRIVE",
+   "word": "PASSION",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SPECTRUM",
+   "word": "SHIPMENT",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "BITTER",
+   "word": "RESIST",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "INSIDER",
+   "word": "TRANCHE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "INTER",
+   "word": "GRILL",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EMPTY",
+   "word": "CHEER",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "PRECISION",
+   "word": "INTENSIVE",
    "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "EMERGENCE",
+   "word": "EXCELLENT",
    "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "DISPLACE",
+   "word": "TRANSFER",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "SURPLUS",
+   "word": "ENDLESS",
    "row": 8,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "CONVICT",
+   "word": "IMMENSE",
    "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "TRICKY",
+   "word": "TRADER",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "IDEAL",
+   "word": "INPUT",
    "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 24,
-   "word": "STAFF",
+   "word": "SCOPE",
    "row": 10,
    "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 67.5,
+  "score": 85.4,
   "passed": true,
-  "learn_ratio": 0.69,
-  "on_level": 21,
-  "overlap": 0.05,
-  "with_meaning_ko": 0.56,
-  "with_example": 0.97
+  "learn_ratio": 0.94,
+  "on_level": 25,
+  "overlap": 0.2,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

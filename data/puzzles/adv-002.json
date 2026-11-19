@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-09",
+ "template": "uk-15-11",
  "words": [
   {
    "no": 1,
-   "word": "REASSURE",
+   "word": "OVERSTATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "HOURLY",
+   "no": 6,
+   "word": "APPLE",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "FREEDOM",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "RECEIVE",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "RETENTION",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "EMBED",
-   "row": 4,
    "col": 10,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "INSERT",
-   "row": 6,
+   "no": 9,
+   "word": "ERASE",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "RHETORIC",
-   "row": 6,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "TREASURY",
-   "row": 8,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 21,
-   "word": "CAREER",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "ALTER",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "CLASSMATE",
-   "row": 10,
+   "no": 10,
+   "word": "PREVALENT",
+   "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
+   "no": 11,
+   "word": "VITAL",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "EXTENSION",
+   "row": 4,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "ENLARGE",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "RETAIL",
+   "row": 6,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "EXOTIC",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "LICENSE",
+   "row": 8,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "PERPETUAL",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "ADAPT",
+   "row": 10,
+   "col": 10,
+   "dir": "across"
+  },
+  {
    "no": 27,
-   "word": "ARCHIVE",
+   "word": "REOPENING",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "DIPLOMA",
+   "word": "TIMER",
    "row": 12,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "DILUTE",
+   "word": "TASTY",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 30,
-   "word": "RETRIEVE",
+   "word": "GENERATOR",
    "row": 14,
-   "col": 7,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "REFORMIST",
+   "word": "OVERVIEW",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "AGENT",
+   "word": "ENACT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SEDAN",
+   "word": "STELLAR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "REMAIN",
+   "word": "AMPLE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "ELECTORAL",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "ORCHESTRA",
+   "word": "AGAINST",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "REIMBURSE",
+   "word": "PRECISION",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "YIELD",
+   "word": "EXTEND",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "CRUNCH",
-   "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 15,
-   "word": "SKEPTICAL",
+   "no": 14,
+   "word": "LUXURIOUS",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "RESTRAINT",
+   "no": 15,
+   "word": "EXCLUDING",
    "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "CORRELATE",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 20,
-   "word": "ROCKET",
-   "row": 8,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "HANDLE",
-   "row": 9,
-   "col": 8,
+   "no": 17,
+   "word": "LECTURER",
+   "row": 7,
+   "col": 14,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "AWARD",
-   "row": 10,
-   "col": 0,
+   "no": 19,
+   "word": "THEREBY",
+   "row": 8,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "SUPER",
-   "row": 10,
+   "no": 21,
+   "word": "CHARTER",
+   "row": 8,
    "col": 10,
    "dir": "down"
   },
   {
+   "no": 22,
+   "word": "SPIRIT",
+   "row": 9,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 24,
+   "word": "LOGIN",
+   "row": 10,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 26,
-   "word": "ABOVE",
+   "word": "ADMIT",
    "row": 10,
    "col": 12,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 68.3,
+  "score": 82.3,
   "passed": true,
-  "learn_ratio": 0.69,
-  "on_level": 19,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.62,
-  "with_example": 0.97
+  "learn_ratio": 0.91,
+  "on_level": 22,
+  "overlap": 0.17,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

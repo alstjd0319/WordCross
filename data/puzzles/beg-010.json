@@ -1,0 +1,189 @@
+{
+ "id": "beg-010",
+ "level": "beginner",
+ "size": [
+  11,
+  11
+ ],
+ "template": "uk-11-04",
+ "words": [
+  {
+   "no": 1,
+   "word": "LOGICAL",
+   "row": 0,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 5,
+   "word": "INK",
+   "row": 0,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 7,
+   "word": "MURAL",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 8,
+   "word": "SINCE",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "TRAVEL",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "FILL",
+   "row": 4,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "AREA",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "COUPON",
+   "row": 6,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 17,
+   "word": "PLANT",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "ALONG",
+   "row": 8,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "YET",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 21,
+   "word": "PRESENT",
+   "row": 10,
+   "col": 4,
+   "dir": "across"
+  },
+  {
+   "no": 1,
+   "word": "LIMIT",
+   "row": 0,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 2,
+   "word": "GARBAGE",
+   "row": 0,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 3,
+   "word": "CALLER",
+   "row": 0,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 4,
+   "word": "LAST",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 5,
+   "word": "INN",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 6,
+   "word": "KNEEL",
+   "row": 0,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 11,
+   "word": "IMPROVE",
+   "row": 4,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 12,
+   "word": "ROTATE",
+   "row": 5,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 13,
+   "word": "APPLY",
+   "row": 6,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 15,
+   "word": "NIGHT",
+   "row": 6,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 16,
+   "word": "STEP",
+   "row": 7,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 18,
+   "word": "ART",
+   "row": 8,
+   "col": 2,
+   "dir": "down"
+  }
+ ],
+ "quality": {
+  "score": 76.8,
+  "passed": true,
+  "learn_ratio": 0.79,
+  "on_level": 19,
+  "overlap": 0.21,
+  "with_meaning_ko": 0.92,
+  "with_example": 1.0
+ },
+ "reviewed": false
+}

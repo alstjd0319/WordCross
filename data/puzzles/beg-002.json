@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-02",
+ "template": "uk-11-11",
  "words": [
   {
    "no": 1,
-   "word": "TAG",
+   "word": "CAB",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 3,
-   "word": "CAPTAIN",
+   "word": "SWEATER",
    "row": 0,
    "col": 4,
    "dir": "across"
   },
   {
    "no": 7,
-   "word": "AGREE",
+   "word": "BENEFIT",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 8,
-   "word": "SWEET",
+   "word": "OWN",
    "row": 2,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "NEED",
+   "word": "COST",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "MEMBER",
+   "word": "PROPER",
    "row": 4,
    "col": 5,
    "dir": "across"
   },
   {
-   "no": 14,
-   "word": "RETURN",
+   "no": 13,
+   "word": "EFFORT",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "SOUP",
+   "word": "HALF",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "RENEW",
+   "no": 18,
+   "word": "TRY",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "VALID",
+   "word": "ITEMIZE",
    "row": 8,
-   "col": 6,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "NATURAL",
+   "word": "GARMENT",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "TRY",
+   "word": "EAT",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "TRAINER",
+   "word": "CUBICLE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "GARMENT",
+   "word": "BONUS",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "CHEF",
+   "word": "SOFA",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "POSTER",
+   "word": "EATERY",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "AGE",
+   "word": "TROOP",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "NOT",
+   "word": "RUN",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 11,
-   "word": "BOOKLET",
-   "row": 4,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 12,
-   "word": "RAPIDLY",
+   "word": "REFLECT",
    "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "DRAWER",
+   "no": 12,
+   "word": "CRUISE",
    "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 14,
+   "word": "FLYER",
+   "row": 6,
+   "col": 2,
+   "dir": "down"
+  },
+  {
    "no": 16,
-   "word": "OVAL",
+   "word": "ALIKE",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "REST",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 17,
-   "word": "RUN",
+   "no": 18,
+   "word": "TAG",
    "row": 8,
    "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "NET",
-   "row": 8,
-   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 61.2,
+  "score": 84.1,
   "passed": true,
-  "learn_ratio": 0.5,
-  "on_level": 12,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.92,
+  "learn_ratio": 0.83,
+  "on_level": 20,
+  "overlap": 0.05,
+  "with_meaning_ko": 0.88,
   "with_example": 1.0
  },
  "reviewed": false

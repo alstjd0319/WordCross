@@ -46,6 +46,9 @@ SKIP_GLOSS_TAGS = {"form-of", "alt-of", "abbreviation", "initialism", "acronym",
                    "obsolete", "archaic", "rare", "dated", "vulgar", "offensive",
                    "derogatory", "slang", "misspelling", "nonstandard", "dialectal"}
 BLANK = "_____"
+MAX_DEF_LEN = 80   # 영어 정의 최대 글자 수 (휴대폰 힌트 바 2줄 정도)
+# Wiktionary 에 한국어 번역이 없는 단어의 뜻 초안 (사람이 작성, 검수 전)
+DRAFT_KO = ROOT / "data" / "meanings_ko_draft.csv"
 STOPWORDS = {"a", "an", "the", "of", "to", "or", "and", "in", "on", "for", "by", "with", "as",
              "that", "which", "is", "be", "something", "someone", "one", "from", "at", "it"}
 
@@ -88,25 +91,54 @@ def clean_gloss(g: str) -> str:
     return g.rstrip(".;: ")
 
 
+def shorten_definition(g: str, limit: int = MAX_DEF_LEN) -> str:
+    """휴대폰 힌트 바에 맞게 줄인다: 첫 절(; : —)까지, 그래도 길면 40자 뒤 쉼표나 단어 경계에서 자르고 '…'."""
+    g = re.split(r"\s*(?:;|:|—| - )\s*", g, maxsplit=1)[0].strip()
+    if len(g) <= limit:
+        return g
+    cut = g[: limit - 1]
+    comma = cut.rfind(", ")
+    cut = cut[:comma] if comma >= 40 else cut[: cut.rfind(" ")]
+    return cut.rstrip(" ,") + "…"
+
+
+# 뜻이 아니라 쓰임 설명으로 시작하는 정의 (예: "Chiefly with a qualifying word", "During the Middle Ages, …")
+USAGE_NOTE_RE = re.compile(r"^(Chiefly|During|Used|Especially|Usually|Formerly|Originally|Alternative|"
+                           r"Obsolete|Synonym|Abbreviation|Initialism|Plural|Clipping|Short for|Preceded by)\b")
+
+
+def useful_gloss(g: str, word: str) -> bool:
+    """힌트로 쓸 만한 정의인지: 너무 짧거나, 정답을 그대로 담거나, '이 원소' 같은 지시만 있으면 안 됨."""
+    low = g.lower()
+    return (len(g) >= 12 and word not in low and "this element" not in low
+            and not USAGE_NOTE_RE.match(g))
+
+
 def pick_dictionary(word: str, entries: list[dict]) -> dict | None:
-    """품사, 영어 정의, 한국어 뜻을 고른다. 고유명사·약어만 있는 단어는 None."""
+    """품사, 영어 정의, 한국어 뜻을 고른다. 고유명사·약어만 있는 단어는 None.
+
+    정의는 가장 흔한 첫 뜻을 쓰되, 힌트로 쓸모없는 뜻(useful_gloss)은 건너뛰고, 길면 줄인다.
+    """
     usable = [e for e in entries if e.get("pos") not in SKIP_POS]
     if not usable:
         return None
-    pos, gloss = None, None
+    candidates: list[tuple[str, str]] = []          # (품사, 정의)
     for e in usable:
+        n = 0
         for s in e.get("senses", []):
             tags = set(s.get("tags", []))
             if tags & SKIP_GLOSS_TAGS or s.get("form_of") or s.get("alt_of"):
                 continue
             gl = s.get("glosses") or []
             if gl:
-                pos, gloss = e["pos"], clean_gloss(gl[-1])
-                break
-        if gloss:
-            break
-    if not gloss:  # 변화형 항목만 있는 경우 (예: 동사 과거형) → 학습 단어로 쓰지 않음
+                candidates.append((e["pos"], clean_gloss(gl[-1])))
+                n += 1
+                if n == 3:
+                    break
+    if not candidates:  # 변화형 항목만 있는 경우 (예: 동사 과거형) → 학습 단어로 쓰지 않음
         return None
+    pos, gloss = next(((p, g) for p, g in candidates if useful_gloss(g, word)), candidates[0])
+    gloss = shorten_definition(gloss)
 
     # 한국어 번역: 고른 정의와 같은 품사 항목을 먼저, 번역의 sense 설명이 정의와 많이 겹칠수록 앞으로
     gloss_words = set(re.findall(r"[a-z]+", gloss.lower())) - STOPWORDS
@@ -187,6 +219,13 @@ def level_fill(rank: int) -> str:
     return "advanced"
 
 
+def load_draft_ko() -> dict[str, str]:
+    if not DRAFT_KO.exists():
+        return {}
+    with open(DRAFT_KO, newline="", encoding="utf-8") as f:
+        return {r["word"].strip().lower(): r["meaning_ko"].strip() for r in csv.DictReader(f)}
+
+
 def load_existing_reviewed() -> dict[str, dict]:
     if not OUT.exists():
         return {}
@@ -198,6 +237,7 @@ def main() -> None:
     if not WORD_LIST.exists():
         raise SystemExit("data/word_list.csv 가 없습니다. 먼저 python3 tools/build_word_list.py 를 실행하세요.")
     tsl_def = read_tsl_definitions()
+    draft_ko = load_draft_ko()
 
     # 1~2. 1주차 결과(word_list.csv: 합치기·중복 제거·모양 거르기 완료)를 읽고
     # 3. 빈도 순위로 난이도를 나눈다.
@@ -220,9 +260,9 @@ def main() -> None:
             continue
         r = rows[w]
         r["pos"] = d["pos"]
-        r["meaning_ko"] = d["meaning_ko"]
+        r["meaning_ko"] = d["meaning_ko"] or draft_ko.get(w, "")
         definition = tsl_def.get(w) or d["definition_en"]
-        r["definition_en"] = mask_word(definition, w)
+        r["definition_en"] = mask_word(shorten_definition(definition), w)
     print(f"사전 없음·고유명사·변화형으로 제외: {len(dropped)}개")
 
     # 5. 예문

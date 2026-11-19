@@ -97,3 +97,44 @@ python3 tools/export_sql.py                  # 검수한 퍼즐 → supabase/see
 python3 tools/export_sql.py --dev --out /tmp/dev_seed.sql
 supabase db query --remote -f /tmp/dev_seed.sql --yes
 ```
+
+## ETS 토익 기출 보카 단어 합치기 (2026-11-19)
+
+교재 엑셀(Day 1~30)의 단어를 학습 단어로 합친다. 교재 내용(한국어 뜻)이 들어가므로
+원본과 결과 파일은 **공개 저장소에 올리지 않는다** (`data/raw/`, `data/words_ets.csv` 는 .gitignore).
+
+```
+pip install msoffcrypto-tool
+msoffcrypto-tool -p <비밀번호> "ETS 토익 기출 보카 Day1~30 _protected.xlsx" data/raw/ets/ets_voca.xlsx
+python3 tools/extract_ets.py     # Day 시트만 (Test 시트 제외), 중복 제거 → data/raw/ets/ets_words.csv
+python3 tools/merge_ets.py       # words.csv + ETS → data/words_ets.csv
+```
+
+- `extract_ets.py`: 3,128개 항목 → 중복 제거 3,036개 (한 단어 2,493 · 여러 단어 표현 543)
+- `merge_ets.py`: 알파벳 3~15글자 한 단어 2,491개를 합침
+  - 이미 있던 단어 1,669개: 학습 단어로 바꾸고 한국어 뜻·품사를 교재 것으로 (채움→학습 981개, 예: SCHEDULE)
+  - 새 단어 822개: 난이도는 Day 1~10 초급, 11~20 중급, 21~30 고급 ("토익 만점 완성"은 고급),
+    영어 정의는 Wiktionary, 예문은 Tatoeba
+  - 여러 단어 표현(`put on` 등)은 퍼즐·DB(`words.word` 는 알파벳만)에 넣을 수 없어 뺐다
+- `generate_puzzles.py`, `review_puzzle.py`, `export_sql.py` 는 `data/words_ets.csv` 가 있으면 그것을 쓴다.
+  없으면(예: 교재 파일이 없는 PC) `words.csv` 로 그대로 동작한다.
+
+결과: 전체 5,703개, 학습 단어 3,992개 (초급 918 · 중급 1,018 · 고급 2,056), 퍼즐 36개 (난이도별 12개) 모두 기준 통과,
+학습 단어 비율 초급 71~88%, 중급 75~93%, 고급 81~97%.
+
+실제 DB 입력 (단어 전체 + 개발용 퍼즐):
+
+```
+python3 tools/export_sql.py --dev --all-words --out /tmp/dev_seed.sql
+supabase db query --remote -f /tmp/dev_seed.sql --yes
+```
+
+## 힌트 다듬기 (2026-11-19)
+
+- 영어 정의: 가장 흔한 첫 뜻을 쓰되, 정답을 그대로 담거나("An oar"), 쓰임 설명("Chiefly …", "During …")이거나,
+  "this element" 같은 지시만 있는 뜻은 건너뛴다. 80자를 넘으면 절·쉼표·단어 경계에서 자르고 '…'를 붙인다
+  (`build_words.py` 의 `MAX_DEF_LEN`, `useful_gloss`, `shorten_definition`). 평균 42자.
+- 한국어 뜻: Wiktionary 에 한국어 번역이 없던 816개는 `data/meanings_ko_draft.csv` 에 직접 쓴 초안으로 채운다
+  (검수 전). ETS 단어는 교재 뜻이 우선이다. 교재 파일이 있는 PC에서는 모든 단어에 한국어 뜻이 있고,
+  공개 `words.csv` 만 있으면 4,370/4,881개(90%)에 있다.
+- 접두사·약어처럼 쓰이는 단어(anti, inter, quasi …)는 `blocklist.txt` 에 넣어 뺐다.

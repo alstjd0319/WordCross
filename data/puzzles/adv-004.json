@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-09",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "BOOKCASE",
+   "word": "ALPHA",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "RENOWN",
+   "no": 4,
+   "word": "CORRELATE",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "ACCLAIM",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "INCLINE",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "THRESHOLD",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "UNIFY",
-   "row": 4,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "FISCAL",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "ORDINATE",
-   "row": 6,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 19,
-   "word": "LEVERAGE",
-   "row": 8,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 21,
-   "word": "INTENT",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "PURSE",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 24,
-   "word": "INTERVENE",
-   "row": 10,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "EVIDENT",
-   "row": 12,
+   "no": 9,
+   "word": "BROADBAND",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 28,
-   "word": "PRIVATE",
-   "row": 12,
+   "no": 10,
+   "word": "DRIVE",
+   "row": 2,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "THEATER",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 12,
+   "word": "CORRECT",
+   "row": 4,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "DENOTE",
+   "no": 13,
+   "word": "OUTBREAK",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 14,
+   "word": "REDEEM",
+   "row": 6,
+   "col": 9,
+   "dir": "across"
+  },
+  {
+   "no": 18,
+   "word": "STREAM",
+   "row": 8,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 20,
+   "word": "FAIRNESS",
+   "row": 8,
+   "col": 7,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "DICTATE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 25,
+   "word": "BECAUSE",
+   "row": 10,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "LEAST",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "INCLUDING",
+   "row": 12,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "ASSURANCE",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 30,
-   "word": "SEVERELY",
+   "no": 29,
+   "word": "TONER",
    "row": 14,
-   "col": 7,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "BEAUTIFUL",
+   "word": "AMBITIOUS",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "OCCUR",
+   "word": "PROTESTER",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "CHAOS",
+   "word": "AUDITOR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SYMBOL",
+   "word": "CHAIRMAN",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "REDUCE",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "EXCLUSION",
+   "word": "ENDORSE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ORIGINATE",
+   "word": "ABIDE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "NEEDY",
+   "word": "EXERT",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 9,
-   "word": "BIDDER",
-   "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
    "no": 15,
-   "word": "SOVEREIGN",
+   "word": "EXECUTION",
    "row": 6,
-   "col": 2,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "AGREEMENT",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "EXTREMELY",
+   "word": "MESSENGER",
    "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 20,
-   "word": "GUILTY",
-   "row": 8,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "STAPLE",
-   "row": 9,
+   "no": 17,
+   "word": "BARBECUE",
+   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
+   "no": 19,
+   "word": "ADAPTER",
+   "row": 8,
+   "col": 4,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "RECRUIT",
+   "row": 8,
+   "col": 10,
+   "dir": "down"
+  },
+  {
+   "no": 22,
+   "word": "RESIGN",
+   "row": 9,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 23,
-   "word": "PLEAD",
+   "word": "DELTA",
    "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "RAISE",
+   "no": 24,
+   "word": "CHAOS",
    "row": 10,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 26,
-   "word": "ERASE",
-   "row": 10,
-   "col": 12,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 71.6,
+  "score": 83.5,
   "passed": true,
-  "learn_ratio": 0.75,
-  "on_level": 22,
-  "overlap": 0.04,
-  "with_meaning_ko": 0.56,
-  "with_example": 0.97
+  "learn_ratio": 0.88,
+  "on_level": 23,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

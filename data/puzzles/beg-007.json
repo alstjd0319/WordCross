@@ -5,184 +5,184 @@
   11,
   11
  ],
- "template": "uk-11-10",
+ "template": "uk-11-11",
  "words": [
   {
    "no": 1,
-   "word": "CASUAL",
+   "word": "FIT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 4,
-   "word": "CARD",
+   "no": 3,
+   "word": "PLUMBER",
    "row": 0,
-   "col": 7,
-   "dir": "across"
-  },
-  {
-   "no": 8,
-   "word": "USAGE",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "HORSE",
-   "row": 2,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "INK",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "DESSERT",
-   "row": 4,
    "col": 4,
    "dir": "across"
   },
   {
+   "no": 7,
+   "word": "REISSUE",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 8,
+   "word": "OWN",
+   "row": 2,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "ABLE",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "MURDER",
+   "row": 4,
+   "col": 5,
+   "dir": "across"
+  },
+  {
    "no": 13,
-   "word": "RENEWAL",
+   "word": "DRAWER",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 17,
-   "word": "VIA",
+   "no": 15,
+   "word": "CHEF",
    "row": 6,
-   "col": 8,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "SIGHT",
+   "word": "LID",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "BONUS",
+   "word": "ADVANCE",
    "row": 8,
-   "col": 6,
+   "col": 4,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "NOTE",
+   "word": "BETWEEN",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 21,
-   "word": "CLIENT",
+   "word": "EAT",
    "row": 10,
-   "col": 5,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "COURIER",
+   "word": "FORWARD",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "SNACK",
+   "word": "TRIAL",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "AHEAD",
+   "word": "POST",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
+   "no": 4,
+   "word": "USEFUL",
+   "row": 0,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 5,
-   "word": "AGREE",
+   "word": "BLOOD",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "DUE",
+   "word": "RUN",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
-   "no": 7,
-   "word": "THIS",
-   "row": 1,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 12,
-   "word": "TRANSIT",
+   "no": 11,
+   "word": "REFLECT",
    "row": 4,
    "col": 10,
    "dir": "down"
   },
   {
+   "no": 12,
+   "word": "DEBATE",
+   "row": 5,
+   "col": 4,
+   "dir": "down"
+  },
+  {
    "no": 14,
-   "word": "NIGHT",
+   "word": "AUDIT",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "WITH",
-   "row": 6,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 16,
-   "word": "LABEL",
-   "row": 6,
-   "col": 6,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "VENUE",
+   "word": "HINGE",
    "row": 6,
    "col": 8,
    "dir": "down"
   },
   {
+   "no": 17,
+   "word": "OVEN",
+   "row": 7,
+   "col": 6,
+   "dir": "down"
+  },
+  {
    "no": 18,
-   "word": "SUN",
+   "word": "LAB",
    "row": 8,
    "col": 0,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 49.5,
+  "score": 80.9,
   "passed": true,
-  "learn_ratio": 0.46,
-  "on_level": 11,
-  "overlap": 0.18,
-  "with_meaning_ko": 0.71,
+  "learn_ratio": 0.83,
+  "on_level": 20,
+  "overlap": 0.2,
+  "with_meaning_ko": 0.96,
   "with_example": 1.0
  },
  "reviewed": false

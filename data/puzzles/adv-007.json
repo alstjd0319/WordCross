@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-08",
+ "template": "uk-15-12",
  "words": [
   {
    "no": 1,
-   "word": "DIRECTIVE",
+   "word": "VACATE",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 6,
-   "word": "GUIDE",
+   "no": 4,
+   "word": "MERCHANT",
    "row": 0,
-   "col": 10,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "SUCCESS",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "PROVOKE",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "RECEIVE",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "INSTANT",
-   "row": 4,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 13,
-   "word": "BREATH",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 14,
-   "word": "DISTRESS",
-   "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "EVERYDAY",
-   "row": 8,
+   "no": 10,
+   "word": "REACTOR",
+   "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "PLEDGE",
-   "row": 8,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 23,
-   "word": "POPCORN",
-   "row": 10,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 25,
-   "word": "AIRPORT",
-   "row": 10,
+   "no": 11,
+   "word": "CONFINE",
+   "row": 2,
    "col": 8,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "AMONGST",
-   "row": 12,
+   "no": 12,
+   "word": "ISSUE",
+   "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "TONIGHT",
-   "row": 12,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 28,
-   "word": "OCEAN",
-   "row": 14,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 29,
-   "word": "COLLECTOR",
-   "row": 14,
+   "no": 13,
+   "word": "PERTINENT",
+   "row": 4,
    "col": 6,
    "dir": "across"
   },
   {
+   "no": 14,
+   "word": "AVOID",
+   "row": 6,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 16,
+   "word": "EXTERIOR",
+   "row": 6,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 19,
+   "word": "IMPROPER",
+   "row": 8,
+   "col": 1,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "EXCEL",
+   "row": 8,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 24,
+   "word": "CONSCIOUS",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 26,
+   "word": "STEEP",
+   "row": 10,
+   "col": 10,
+   "dir": "across"
+  },
+  {
+   "no": 27,
+   "word": "ENCLOSE",
+   "row": 12,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 28,
+   "word": "MILITIA",
+   "row": 12,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 29,
+   "word": "EVERYONE",
+   "row": 14,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 30,
+   "word": "INTACT",
+   "row": 14,
+   "col": 9,
+   "dir": "across"
+  },
+  {
    "no": 1,
-   "word": "DESIRABLE",
+   "word": "VERTICAL",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "RECYCLE",
+   "word": "CLASSROOM",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "CHEMISTRY",
+   "word": "TITLE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 4,
-   "word": "ISSUER",
-   "row": 0,
-   "col": 6,
-   "dir": "down"
-  },
-  {
    "no": 5,
-   "word": "EXPLICIT",
+   "word": "EXCERPT",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "GROSS",
+   "word": "CONCIERGE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "ISOLATE",
+   "word": "ABIDE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EXERT",
+   "word": "TREATY",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 15,
-   "word": "TOLERANCE",
-   "row": 6,
-   "col": 10,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "SPECTATOR",
-   "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "MAGNETIC",
-   "row": 7,
+   "no": 9,
+   "word": "TRIPLE",
+   "row": 1,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "EXPLODE",
-   "row": 8,
-   "col": 2,
+   "no": 15,
+   "word": "DIRECTORY",
+   "row": 6,
+   "col": 4,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "DROUGHT",
-   "row": 8,
+   "no": 17,
+   "word": "ORCHESTRA",
+   "row": 6,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "CARTEL",
-   "row": 9,
+   "no": 18,
+   "word": "ELEPHANT",
+   "row": 7,
+   "col": 14,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "PROTEIN",
+   "row": 8,
+   "col": 6,
+   "dir": "down"
+  },
+  {
+   "no": 21,
+   "word": "RESUME",
+   "row": 8,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "PIANO",
-   "row": 10,
+   "word": "SCHEME",
+   "row": 9,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 24,
-   "word": "ORGAN",
+   "no": 25,
+   "word": "NICHE",
    "row": 10,
-   "col": 4,
+   "col": 2,
+   "dir": "down"
+  },
+  {
+   "no": 26,
+   "word": "SALON",
+   "row": 10,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 66.5,
+  "score": 82.7,
   "passed": true,
-  "learn_ratio": 0.72,
-  "on_level": 19,
-  "overlap": 0.17,
-  "with_meaning_ko": 0.75,
-  "with_example": 0.97
+  "learn_ratio": 0.88,
+  "on_level": 22,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

@@ -5,212 +5,212 @@
   13,
   13
  ],
- "template": "uk-13-04",
+ "template": "uk-13-07",
  "words": [
   {
    "no": 1,
-   "word": "ACCUSTOM",
+   "word": "INFORMAL",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "SCAN",
+   "word": "DOOR",
    "row": 0,
    "col": 9,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "SHORT",
+   "word": "FURNACE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "TUITION",
+   "word": "ASSET",
    "row": 2,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "MASK",
+   "word": "REMIT",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "GENERIC",
+   "word": "CATERER",
    "row": 4,
-   "col": 5,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "ALERT",
+   "row": 6,
+   "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "LOCKER",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "TARGET",
+   "word": "EAGER",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "PURPOSE",
+   "no": 20,
+   "word": "ABSENCE",
    "row": 8,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "TAXI",
+   "no": 22,
+   "word": "CABLE",
    "row": 8,
-   "col": 9,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "LEISURE",
+   "word": "RAISE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "INPUT",
+   "word": "INITIAL",
    "row": 10,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "GENE",
+   "word": "WAGE",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "STRATEGY",
+   "word": "TRANSFER",
    "row": 12,
    "col": 5,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "ASSEMBLE",
+   "word": "INFORM",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CROSS",
+   "word": "FORUM",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "SITE",
+   "word": "REALTOR",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "OUTLET",
+   "word": "AGENCY",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "CEILING",
+   "word": "OBSERVE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "NONE",
+   "word": "RETIRE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "MINERAL",
+   "word": "VAST",
    "row": 1,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 13,
-   "word": "HELPFUL",
-   "row": 5,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 14,
-   "word": "STRICTLY",
-   "row": 5,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "CAUTION",
+   "word": "LISTING",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
+   "no": 16,
+   "word": "AUCTION",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "NARROW",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
    "no": 18,
-   "word": "ASPECT",
+   "word": "SENIOR",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "APPLE",
-   "row": 8,
-   "col": 10,
+   "no": 19,
+   "word": "TELLER",
+   "row": 7,
+   "col": 12,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "PLUG",
-   "row": 9,
-   "col": 0,
+   "no": 21,
+   "word": "NEED",
+   "row": 8,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "VISA",
-   "row": 9,
-   "col": 8,
+   "word": "BRIEF",
+   "row": 8,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 62.9,
+  "score": 87.5,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 14,
-  "overlap": 0.0,
-  "with_meaning_ko": 0.79,
+  "learn_ratio": 0.89,
+  "on_level": 22,
+  "overlap": 0.04,
+  "with_meaning_ko": 0.96,
   "with_example": 1.0
  },
  "reviewed": false

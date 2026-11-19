@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-04",
+ "template": "uk-13-01",
  "words": [
   {
    "no": 1,
-   "word": "STEADILY",
+   "word": "DEBT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "JUNK",
+   "no": 3,
+   "word": "ASSEMBLE",
    "row": 0,
-   "col": 9,
+   "col": 5,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "LOGIN",
+   "word": "TASTE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "TUITION",
+   "word": "FREIGHT",
    "row": 2,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "SURF",
+   "word": "INSTALL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "CLASSIC",
+   "word": "TRADE",
    "row": 4,
-   "col": 5,
+   "col": 8,
+   "dir": "across"
+  },
+  {
+   "no": 13,
+   "word": "JOINT",
+   "row": 6,
+   "col": 1,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "AFRAID",
-   "row": 6,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 17,
-   "word": "PLAYER",
+   "word": "BRIEF",
    "row": 6,
    "col": 7,
    "dir": "across"
   },
   {
-   "no": 19,
-   "word": "UNHAPPY",
+   "no": 20,
+   "word": "EXTRA",
    "row": 8,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "SPAM",
+   "no": 22,
+   "word": "APPROVE",
    "row": 8,
-   "col": 9,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "REWRITE",
+   "word": "THERAPY",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "VISIT",
+   "word": "INFER",
    "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "BILL",
+   "word": "CULINARY",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "PHARMACY",
+   "word": "TRAY",
    "row": 12,
-   "col": 5,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SALESMAN",
+   "word": "DETAIL",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "EAGER",
+   "word": "BASIS",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
-   "no": 3,
-   "word": "DINE",
-   "row": 0,
-   "col": 4,
-   "dir": "down"
-  },
-  {
    "no": 4,
-   "word": "LATELY",
+   "word": "SAFELY",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "ELECT",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "UTILITY",
+   "word": "BAGGAGE",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "KING",
+   "word": "ESTEEM",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "HIMSELF",
+   "word": "RETAIN",
    "row": 1,
-   "col": 8,
-   "dir": "down"
-  },
-  {
-   "no": 13,
-   "word": "VITAMIN",
-   "row": 5,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "PROMPTLY",
-   "row": 5,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 16,
-   "word": "RENEWAL",
+   "word": "OUTSELL",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
+   "no": 16,
+   "word": "REPAIR",
+   "row": 6,
+   "col": 8,
+   "dir": "down"
+  },
+  {
+   "no": 17,
+   "word": "HECTIC",
+   "row": 7,
+   "col": 0,
+   "dir": "down"
+  },
+  {
    "no": 18,
-   "word": "SPEECH",
+   "word": "LAWYER",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 21,
-   "word": "PASTA",
-   "row": 8,
-   "col": 10,
+   "no": 19,
+   "word": "YEARLY",
+   "row": 7,
+   "col": 12,
    "dir": "down"
   },
   {
-   "no": 22,
-   "word": "GRAB",
-   "row": 9,
-   "col": 0,
+   "no": 21,
+   "word": "AGAIN",
+   "row": 8,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "EVER",
-   "row": 9,
-   "col": 8,
+   "word": "OFFER",
+   "row": 8,
+   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 50.5,
+  "score": 78.4,
   "passed": true,
-  "learn_ratio": 0.64,
-  "on_level": 11,
-  "overlap": 0.33,
-  "with_meaning_ko": 0.57,
-  "with_example": 1.0
+  "learn_ratio": 0.93,
+  "on_level": 19,
+  "overlap": 0.27,
+  "with_meaning_ko": 0.89,
+  "with_example": 0.96
  },
  "reviewed": false
 }

@@ -5,213 +5,213 @@
   13,
   13
  ],
- "template": "uk-13-07",
+ "template": "uk-13-10",
  "words": [
   {
    "no": 1,
-   "word": "SALESMAN",
+   "word": "VISIT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "LAMP",
+   "no": 4,
+   "word": "SOLICIT",
    "row": 0,
-   "col": 9,
-   "dir": "across"
-  },
-  {
-   "no": 9,
-   "word": "LIBRARY",
-   "row": 2,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 10,
-   "word": "MODEL",
-   "row": 2,
-   "col": 8,
-   "dir": "across"
-  },
-  {
-   "no": 11,
-   "word": "ROYAL",
-   "row": 4,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 12,
-   "word": "ACTRESS",
-   "row": 4,
    "col": 6,
    "dir": "across"
   },
   {
+   "no": 8,
+   "word": "STAIR",
+   "row": 2,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 9,
+   "word": "DEFENSE",
+   "row": 2,
+   "col": 6,
+   "dir": "across"
+  },
+  {
+   "no": 10,
+   "word": "TAKEOVER",
+   "row": 4,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 11,
+   "word": "MILD",
+   "row": 4,
+   "col": 9,
+   "dir": "across"
+  },
+  {
    "no": 13,
-   "word": "SCARF",
+   "word": "ROUTE",
    "row": 6,
-   "col": 1,
+   "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "NOISY",
+   "word": "RUMOR",
    "row": 6,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "DESKTOP",
+   "no": 18,
+   "word": "RUSH",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 22,
-   "word": "EVENT",
+   "no": 19,
+   "word": "WASTEFUL",
    "row": 8,
+   "col": 5,
+   "dir": "across"
+  },
+  {
+   "no": 22,
+   "word": "FAILURE",
+   "row": 10,
+   "col": 0,
+   "dir": "across"
+  },
+  {
+   "no": 23,
+   "word": "FRAME",
+   "row": 10,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 24,
-   "word": "EQUIP",
-   "row": 10,
+   "word": "REGULAR",
+   "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "UNDERGO",
-   "row": 10,
-   "col": 6,
-   "dir": "across"
-  },
-  {
-   "no": 26,
-   "word": "EVER",
+   "word": "LARGE",
    "row": 12,
-   "col": 0,
-   "dir": "across"
-  },
-  {
-   "no": 27,
-   "word": "REHEARSE",
-   "row": 12,
-   "col": 5,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SALARY",
+   "word": "VISITOR",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "LOBBY",
+   "word": "STACK",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "STAPLER",
+   "word": "TURNOVER",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "ANYWAY",
+   "word": "SUDDEN",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
+   "no": 5,
+   "word": "LIFT",
+   "row": 0,
+   "col": 8,
+   "dir": "down"
+  },
+  {
    "no": 6,
-   "word": "ADDRESS",
+   "word": "CONFIRM",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "POLISH",
+   "word": "TREND",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
-   "no": 8,
-   "word": "OMIT",
-   "row": 1,
+   "no": 12,
+   "word": "GRATEFUL",
+   "row": 5,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 14,
-   "word": "COSTUME",
+   "word": "UPSWING",
    "row": 6,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "OVERDUE",
+   "word": "RELIEVE",
    "row": 6,
-   "col": 8,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "ADHERE",
-   "row": 7,
-   "col": 0,
-   "dir": "down"
-  },
-  {
-   "no": 18,
-   "word": "SPOUSE",
+   "word": "CAREER",
    "row": 7,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "STROKE",
-   "row": 7,
-   "col": 12,
+   "no": 18,
+   "word": "REFER",
+   "row": 8,
+   "col": 0,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "FLAIR",
+   "row": 8,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "TAPE",
-   "row": 8,
+   "word": "PULL",
+   "row": 9,
    "col": 4,
-   "dir": "down"
-  },
-  {
-   "no": 23,
-   "word": "ERROR",
-   "row": 8,
-   "col": 10,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 52.8,
+  "score": 81.4,
   "passed": true,
-  "learn_ratio": 0.57,
-  "on_level": 12,
-  "overlap": 0.31,
-  "with_meaning_ko": 0.86,
-  "with_example": 1.0
+  "learn_ratio": 0.86,
+  "on_level": 19,
+  "overlap": 0.08,
+  "with_meaning_ko": 0.96,
+  "with_example": 0.96
  },
  "reviewed": false
 }

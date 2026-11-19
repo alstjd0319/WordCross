@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-02",
+ "template": "uk-15-10",
  "words": [
   {
    "no": 1,
-   "word": "SUCCESS",
+   "word": "SPONSOR",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 5,
-   "word": "PASSIVE",
+   "word": "SMUGGLE",
    "row": 0,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "OUNCE",
+   "word": "REFLEXIVE",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "BROKERAGE",
+   "word": "SCOPE",
    "row": 2,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "ELECTORAL",
+   "word": "WONDERFUL",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "UNITY",
+   "word": "CHEAT",
    "row": 4,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "AUTONOMY",
+   "word": "BUILDER",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 15,
-   "word": "AGENT",
+   "word": "CARRIER",
    "row": 6,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 18,
-   "word": "DEBIT",
+   "no": 17,
+   "word": "OVERSEE",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 20,
-   "word": "RESEMBLE",
+   "no": 18,
+   "word": "MEDICAL",
    "row": 8,
-   "col": 7,
+   "col": 8,
    "dir": "across"
   },
   {
-   "no": 23,
-   "word": "MULTI",
+   "no": 19,
+   "word": "EXILE",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "MILESTONE",
+   "no": 21,
+   "word": "EMERGENCE",
    "row": 10,
    "col": 6,
    "dir": "across"
   },
   {
-   "no": 26,
-   "word": "SYNDICATE",
+   "no": 24,
+   "word": "ALPHA",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 27,
-   "word": "AUDIO",
+   "no": 25,
+   "word": "OPERATIVE",
    "row": 12,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
-   "no": 28,
-   "word": "CLEANER",
+   "no": 26,
+   "word": "EXTREME",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 29,
-   "word": "SILENCE",
+   "no": 27,
+   "word": "THEREBY",
    "row": 14,
    "col": 8,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "SCORECARD",
+   "word": "SCREW",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "CONVERT",
+   "word": "OFFENSIVE",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "EXERT",
+   "word": "SCENE",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "SUBPRIME",
+   "word": "REINFORCE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "POORLY",
+   "word": "SWELL",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "SPECULATE",
+   "word": "UNSECURED",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "IMAGINE",
+   "word": "GLOBE",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "EVERY",
+   "word": "ELECTORAL",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
+   "no": 13,
+   "word": "BROKERAGE",
+   "row": 6,
+   "col": 0,
+   "dir": "down"
+  },
+  {
    "no": 14,
-   "word": "NUTRITION",
+   "word": "DESPERATE",
    "row": 6,
    "col": 4,
    "dir": "down"
   },
   {
-   "no": 16,
-   "word": "THEREFORE",
+   "no": 15,
+   "word": "COMPETENT",
    "row": 6,
-   "col": 14,
-   "dir": "down"
-  },
-  {
-   "no": 17,
-   "word": "WELLNESS",
-   "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
-   "no": 19,
-   "word": "BALANCE",
-   "row": 8,
+   "no": 16,
+   "word": "INCENTIVE",
+   "row": 6,
+   "col": 12,
+   "dir": "down"
+  },
+  {
+   "no": 20,
+   "word": "INPUT",
+   "row": 10,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "BROADEN",
-   "row": 8,
-   "col": 12,
-   "dir": "down"
-  },
-  {
-   "no": 22,
-   "word": "IMPAIR",
-   "row": 9,
+   "word": "ERODE",
+   "row": 10,
    "col": 6,
    "dir": "down"
   },
   {
-   "no": 23,
-   "word": "MUSIC",
+   "no": 22,
+   "word": "GRAVE",
    "row": 10,
-   "col": 0,
+   "col": 10,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "STALL",
+   "no": 23,
+   "word": "ENEMY",
    "row": 10,
-   "col": 10,
+   "col": 14,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 70.3,
+  "score": 86.4,
   "passed": true,
-  "learn_ratio": 0.72,
-  "on_level": 22,
+  "learn_ratio": 0.88,
+  "on_level": 24,
   "overlap": 0.04,
-  "with_meaning_ko": 0.62,
-  "with_example": 0.91
+  "with_meaning_ko": 1.0,
+  "with_example": 1.0
  },
  "reviewed": false
 }

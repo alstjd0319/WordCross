@@ -15,3 +15,20 @@ porn
 mister
 okay
 yeah
+# 단어가 아니라 접두사·약어로 쓰이는 것 (2026-11-19 검토)
+anti
+mid
+pre
+sub
+multi
+con
+inter
+semi
+super
+micro
+mini
+quasi
+tech
+info
+auto
+alas

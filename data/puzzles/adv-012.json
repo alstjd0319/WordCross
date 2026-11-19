@@ -5,240 +5,240 @@
   15,
   15
  ],
- "template": "uk-15-03",
+ "template": "uk-15-07",
  "words": [
   {
    "no": 1,
-   "word": "RESTATE",
+   "word": "CONTINENT",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "OUTCOME",
+   "no": 6,
+   "word": "SURGE",
    "row": 0,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "WORKSHEET",
+   "word": "MIGRATION",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "SWELL",
+   "word": "TOPIC",
    "row": 2,
    "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INTER",
+   "word": "ITEMIZE",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "PROCESSOR",
+   "word": "REPRINT",
    "row": 4,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "ETHNIC",
+   "word": "ENTRANCE",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 14,
-   "word": "ANYWHERE",
+   "word": "UPWARD",
    "row": 6,
-   "col": 7,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 17,
-   "word": "DIMINISH",
+   "word": "ALWAYS",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 19,
-   "word": "BRUTAL",
+   "word": "INTEGRAL",
    "row": 8,
-   "col": 9,
+   "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "SIGNATURE",
+   "word": "CLEARLY",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 25,
-   "word": "FRANC",
+   "word": "THIRSTY",
    "row": 10,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "BRAVE",
+   "word": "AMEND",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "NUMERICAL",
+   "word": "BOUNTIFUL",
    "row": 12,
    "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "ENTITLE",
+   "word": "MAYOR",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "THEREBY",
+   "word": "LITERALLY",
    "row": 14,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "REWRITE",
+   "word": "COMPILE",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "SCRATCH",
+   "word": "NEGLECT",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "ASSERTION",
+   "word": "IMAGINARY",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "EXEMPT",
+   "word": "EVIDENCE",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "OUTGOING",
+   "word": "TENURE",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "TASTE",
+   "word": "SETUP",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "OVERSEE",
+   "word": "REPLICA",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "ENLARGE",
+   "word": "EXCITED",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 15,
-   "word": "WORKFORCE",
+   "word": "PREDICTOR",
    "row": 6,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "ISSUANCE",
+   "word": "INSTRUCT",
    "row": 7,
-   "col": 6,
+   "col": 8,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "DISABLE",
+   "word": "ACCLAIM",
    "row": 8,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 18,
-   "word": "MIGRANT",
+   "word": "WHEREBY",
    "row": 8,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 20,
-   "word": "TRANCHE",
+   "word": "RESTFUL",
    "row": 8,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "LOCALLY",
+   "word": "LOYALLY",
    "row": 8,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "HELMET",
+   "word": "SYMBOL",
    "row": 9,
-   "col": 8,
+   "col": 6,
    "dir": "down"
   },
   {
    "no": 24,
-   "word": "AGENT",
+   "word": "RIDER",
    "row": 10,
    "col": 4,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 70.9,
+  "score": 79.9,
   "passed": true,
-  "learn_ratio": 0.81,
-  "on_level": 22,
-  "overlap": 0.15,
-  "with_meaning_ko": 0.53,
+  "learn_ratio": 0.84,
+  "on_level": 21,
+  "overlap": 0.11,
+  "with_meaning_ko": 1.0,
   "with_example": 0.97
  },
  "reviewed": false

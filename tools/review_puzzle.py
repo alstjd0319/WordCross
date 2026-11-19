@@ -15,7 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PUZZLE_DIR = ROOT / "data" / "puzzles"
 TEMPLATE_DIR = ROOT / "data" / "templates"
-WORDS_CSV = ROOT / "data" / "words.csv"
+# ETS 교재 단어를 합친 파일(merge_ets.py, 커밋 안 함)이 있으면 그것을 쓴다.
+WORDS_CSV = next(p for p in (ROOT / "data" / "words_ets.csv", ROOT / "data" / "words.csv") if p.exists())
 
 
 def load(pid: str) -> tuple[Path, dict]:

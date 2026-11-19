@@ -5,241 +5,241 @@
   15,
   15
  ],
- "template": "uk-15-02",
+ "template": "uk-15-01",
  "words": [
   {
    "no": 1,
-   "word": "DILEMMA",
+   "word": "ALPHA",
    "row": 0,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 5,
-   "word": "COUNTER",
+   "no": 4,
+   "word": "ACCLAIMED",
    "row": 0,
-   "col": 8,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 9,
-   "word": "SIGHT",
+   "word": "SHORTFALL",
    "row": 2,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 10,
-   "word": "GUERRILLA",
+   "word": "DRAMA",
    "row": 2,
-   "col": 6,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 11,
-   "word": "INTERFACE",
+   "word": "SCENERY",
    "row": 4,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 12,
-   "word": "LUCKY",
+   "word": "ARTISAN",
    "row": 4,
-   "col": 10,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 13,
-   "word": "STRUGGLE",
+   "word": "ARTISTIC",
    "row": 6,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 15,
-   "word": "TEMPT",
+   "no": 14,
+   "word": "TROUPE",
    "row": 6,
-   "col": 10,
+   "col": 9,
    "dir": "across"
   },
   {
    "no": 18,
-   "word": "LEARN",
+   "word": "THRILL",
    "row": 8,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 20,
-   "word": "GRADUATE",
+   "word": "CONCEIVE",
    "row": 8,
    "col": 7,
    "dir": "across"
   },
   {
    "no": 23,
-   "word": "STAIR",
+   "word": "DILEMMA",
    "row": 10,
    "col": 0,
    "dir": "across"
   },
   {
-   "no": 24,
-   "word": "ENDOWMENT",
+   "no": 25,
+   "word": "FUNDING",
    "row": 10,
-   "col": 6,
+   "col": 8,
    "dir": "across"
   },
   {
    "no": 26,
-   "word": "ANTITRUST",
+   "word": "ENACT",
    "row": 12,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 27,
-   "word": "ERASE",
+   "word": "ISOLATION",
    "row": 12,
-   "col": 10,
+   "col": 6,
    "dir": "across"
   },
   {
    "no": 28,
-   "word": "PORTRAY",
+   "word": "STEADFAST",
    "row": 14,
    "col": 0,
    "dir": "across"
   },
   {
    "no": 29,
-   "word": "RETREAT",
+   "word": "NASTY",
    "row": 14,
-   "col": 8,
+   "col": 10,
    "dir": "across"
   },
   {
    "no": 1,
-   "word": "DISMISSAL",
+   "word": "ASSISTANT",
    "row": 0,
    "col": 0,
    "dir": "down"
   },
   {
    "no": 2,
-   "word": "LIGHTER",
+   "word": "PROJECTOR",
    "row": 0,
    "col": 2,
    "dir": "down"
   },
   {
    "no": 3,
-   "word": "METER",
+   "word": "ACTRESS",
    "row": 0,
    "col": 4,
    "dir": "down"
   },
   {
    "no": 4,
-   "word": "ARGUABLY",
+   "word": "ANALYTIC",
    "row": 0,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 5,
-   "word": "CLEVER",
+   "word": "COLLAR",
    "row": 0,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 6,
-   "word": "UNRELATED",
+   "word": "AUDITOR",
    "row": 0,
    "col": 10,
    "dir": "down"
   },
   {
    "no": 7,
-   "word": "TELECOM",
+   "word": "MEANS",
    "row": 0,
    "col": 12,
    "dir": "down"
   },
   {
    "no": 8,
-   "word": "READY",
+   "word": "DRAIN",
    "row": 0,
    "col": 14,
    "dir": "down"
   },
   {
-   "no": 14,
-   "word": "GENERATOR",
+   "no": 15,
+   "word": "UTILITIES",
    "row": 6,
-   "col": 4,
+   "col": 12,
    "dir": "down"
   },
   {
    "no": 16,
-   "word": "TREATMENT",
+   "word": "EMERGENCY",
    "row": 6,
    "col": 14,
    "dir": "down"
   },
   {
    "no": 17,
-   "word": "CREDITOR",
+   "word": "CONFRONT",
    "row": 7,
    "col": 8,
    "dir": "down"
   },
   {
    "no": 19,
-   "word": "ADAPTER",
+   "word": "LIMITED",
    "row": 8,
-   "col": 2,
+   "col": 4,
    "dir": "down"
   },
   {
    "no": 21,
-   "word": "AVERAGE",
+   "word": "CONTAIN",
    "row": 8,
-   "col": 12,
+   "col": 10,
    "dir": "down"
   },
   {
    "no": 22,
-   "word": "DEPUTY",
+   "word": "CAPITA",
    "row": 9,
    "col": 6,
    "dir": "down"
   },
   {
    "no": 23,
-   "word": "SHARP",
+   "word": "DRESS",
    "row": 10,
    "col": 0,
    "dir": "down"
   },
   {
-   "no": 25,
-   "word": "WHEAT",
+   "no": 24,
+   "word": "LEASE",
    "row": 10,
-   "col": 10,
+   "col": 2,
    "dir": "down"
   }
  ],
  "quality": {
-  "score": 65.4,
+  "score": 80.0,
   "passed": true,
-  "learn_ratio": 0.62,
-  "on_level": 20,
-  "overlap": 0.1,
-  "with_meaning_ko": 0.81,
-  "with_example": 0.94
+  "learn_ratio": 0.94,
+  "on_level": 21,
+  "overlap": 0.27,
+  "with_meaning_ko": 1.0,
+  "with_example": 0.97
  },
  "reviewed": false
 }
