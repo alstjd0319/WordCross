@@ -83,9 +83,9 @@ class PuzzleGrid extends StatelessWidget {
               children: [
                 if (number != null)
                   Positioned(
-                    left: size * 0.1,
-                    top: size * 0.07,
-                    child: Text('$number', style: V3Text.word(size * 0.22, weight: FontWeight.w500)),
+                    left: size * 0.09,
+                    top: size * 0.06,
+                    child: Text('$number', style: V3Text.word(size * 0.27, weight: FontWeight.w700)),
                   ),
                 if (letter != null)
                   Center(

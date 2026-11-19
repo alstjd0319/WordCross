@@ -103,7 +103,7 @@ class _Badge extends StatelessWidget {
         children: [
           Text('${clue.no}', style: V3Text.word(20)),
           const SizedBox(height: 2),
-          Text(clue.dir.label, style: V3Text.caption.copyWith(color: V3Colors.cocoa, fontSize: 11)),
+          Text(clue.dir.label, style: V3Text.caption.copyWith(color: V3Colors.cocoa, fontSize: 12)),
         ],
       ),
     );

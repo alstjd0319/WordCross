@@ -213,13 +213,19 @@ class _V3Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // 아직 동작하지 않는 버튼은 투명하게 하지 않고, 바탕을 옅게·선과 글자를 보조색으로 바꿔
+    // 글자는 또렷하게 읽히면서 누를 수 없다는 것이 보이게 한다.
     final enabled = onPressed != null;
-    return Opacity(
-      opacity: enabled ? 1 : 0.55,
+    final fg = enabled ? V3Colors.cocoa : V3Colors.cocoaMuted;
+    return Semantics(
+      button: true,
+      enabled: enabled,
       child: Container(
         width: width,
         height: 44,
-        decoration: v3Box(color: color, radius: 14),
+        decoration: enabled
+            ? v3Box(color: color, radius: 14)
+            : v3Box(color: Color.lerp(color, V3Colors.cream, 0.55)!, radius: 14, borderColor: V3Colors.cocoaMuted, shadow: false),
         child: Material(
           type: MaterialType.transparency,
           child: InkWell(
@@ -233,8 +239,8 @@ class _V3Button extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      if (icon != null) ...[Icon(icon, size: 18, color: V3Colors.cocoa), const SizedBox(width: 4)],
-                      Text(label, style: V3Text.button),
+                      if (icon != null) ...[Icon(icon, size: 18, color: fg), const SizedBox(width: 4)],
+                      Text(label, style: V3Text.button.copyWith(color: fg)),
                     ],
                   ),
                 ),

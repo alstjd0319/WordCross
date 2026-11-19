@@ -32,8 +32,8 @@ abstract final class V3Colors {
   /// 카드·흰 칸·키 바탕. 시안에서 크림보다 밝게 보이는 면 (Figma 값 확인 전 근사값).
   static const paper = Color(0xFFFFFCF6);
 
-  /// 보조 글자 (코코아를 옅게).
-  static const cocoaMuted = Color(0xFFA38672);
+  /// 보조 글자. 크림 배경과 대비 약 5:1 (읽기 기준 4.5:1 이상).
+  static const cocoaMuted = Color(0xFF85634E);
 }
 
 /// v3 글꼴 (assets/fonts, 모두 SIL OFL 1.1).
@@ -52,7 +52,7 @@ abstract final class V3Text {
   static const title = TextStyle(fontFamily: V3Fonts.jua, fontSize: 22, height: 1.2, color: V3Colors.cocoa);
   static const button = TextStyle(fontFamily: V3Fonts.jua, fontSize: 16, height: 1.2, color: V3Colors.cocoa);
   static const body = TextStyle(fontFamily: V3Fonts.gowun, fontSize: 15, height: 1.4, color: V3Colors.cocoa);
-  static const caption = TextStyle(fontFamily: V3Fonts.gowun, fontSize: 12, height: 1.3, color: V3Colors.cocoaMuted);
+  static const caption = TextStyle(fontFamily: V3Fonts.gowun, fontSize: 13, height: 1.3, color: V3Colors.cocoaMuted);
 
   /// 영단어·숫자. 굵기는 가변 글꼴 축(wght)으로 준다.
   static TextStyle word(double size, {FontWeight weight = FontWeight.w600, Color color = V3Colors.cocoa}) => TextStyle(
