@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:wordcross/app/app.dart';
+import 'package:wordcross/app/main_shell.dart';
 import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
@@ -51,7 +52,7 @@ void main() {
 
     expect(find.text('초급 #001'), findsOneWidget);
     expect(find.text('0 / 24 단어'), findsOneWidget);
-    expect(find.byType(NavigationBar), findsNothing);
+    expect(find.byType(MainNavBar), findsNothing);
     expect(find.byType(PuzzleGrid), findsOneWidget);
     expect(find.byType(LetterKeyboard), findsOneWidget);
     expect(hintText('나뭇가지, 가지'), findsOneWidget);
@@ -60,7 +61,7 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('play-close')));
     await tester.pumpAndSettle();
     expect(find.text('퍼즐 목록'), findsOneWidget);
-    expect(find.byType(NavigationBar), findsOneWidget);
+    expect(find.byType(MainNavBar), findsOneWidget);
   });
 
   testWidgets('전용 키보드로 넣은 글자가 칸에 보이고, 지우기로 지운다', (tester) async {

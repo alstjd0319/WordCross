@@ -65,10 +65,11 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       const Center(child: WordCrossLogo()),
-                      const SizedBox(height: 12),
+                      const SizedBox(height: 14),
                       Text('WordCross', style: text.displaySmall, textAlign: TextAlign.center),
+                      const SizedBox(height: 2),
                       Text('십자말풀이로 익히는 토익 단어', style: text.bodyLarge!.copyWith(color: muted), textAlign: TextAlign.center),
-                      const SizedBox(height: 32),
+                      const SizedBox(height: 28),
                       LabeledField(
                         label: '이메일',
                         hint: 'example@email.com',
@@ -89,8 +90,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         onSubmitted: (_) => _submit(),
                       ),
                       if (_error != null) ...[const SizedBox(height: 14), ErrorBox(_error!)],
-                      const SizedBox(height: 18),
-                      FilledButton(
+                      const SizedBox(height: 22),
+                      PrimaryButton(
                         onPressed: _submitting ? null : _submit,
                         child: _submitting ? const ButtonSpinner() : const Text('로그인'),
                       ),

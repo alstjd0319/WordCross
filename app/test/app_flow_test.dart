@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:wordcross/app/app.dart';
+import 'package:wordcross/app/main_shell.dart';
 import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
@@ -28,7 +29,7 @@ void main() {
   testWidgets('로그인하지 않으면 로그인 화면이 먼저 나온다', (tester) async {
     await pumpApp(tester);
     expect(find.text('십자말풀이로 익히는 토익 단어'), findsOneWidget);
-    expect(find.byType(NavigationBar), findsNothing);
+    expect(find.byType(MainNavBar), findsNothing);
   });
 
   testWidgets('회원가입하면 홈과 하단 메뉴가 나오고, 탭 이동과 로그아웃이 된다', (tester) async {
@@ -47,7 +48,7 @@ void main() {
 
     expect(find.text('오늘도 한 판 풀어 볼까요?'), findsOneWidget);
     expect(find.text('안녕하세요, 민성님'), findsOneWidget);
-    expect(find.byType(NavigationBar), findsOneWidget);
+    expect(find.byType(MainNavBar), findsOneWidget);
 
     await tester.tap(find.text('퍼즐').last);
     await tester.pumpAndSettle();
@@ -58,7 +59,7 @@ void main() {
     expect(find.text('민성'), findsOneWidget);
     expect(find.text('user@example.com'), findsOneWidget);
 
-    await tester.tap(find.widgetWithText(OutlinedButton, '로그아웃'));
+    await tester.tap(find.text('로그아웃'));
     await tester.pumpAndSettle();
     expect(find.text('십자말풀이로 익히는 토익 단어'), findsOneWidget);
   });
@@ -107,7 +108,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('이메일 또는 비밀번호가 맞지 않아요.'), findsOneWidget);
-    expect(find.byType(NavigationBar), findsNothing);
+    expect(find.byType(MainNavBar), findsNothing);
   });
 
   testWidgets('인증 메일 링크로 열리면 Page Not Found 없이 로그인 화면으로 간다', (tester) async {

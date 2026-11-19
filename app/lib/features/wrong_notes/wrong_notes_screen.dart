@@ -11,7 +11,7 @@ class WrongNotesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('오답 노트')),
       body: const ComingSoon(
-        icon: Icons.menu_book_outlined,
+        cat: 'curl_cream',
         title: '오답 노트',
         description: '틀린 단어와 복습 카드는\n4~5주차에 만들어요.',
       ),

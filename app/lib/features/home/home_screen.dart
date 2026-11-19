@@ -28,9 +28,9 @@ class HomeScreen extends ConsumerWidget {
               Text('오늘도 한 판 풀어 볼까요?', style: text.titleLarge),
               const Expanded(
                 child: ComingSoon(
-                  icon: Icons.today_outlined,
+                  cat: 'peek_ginger',
                   title: '오늘의 퍼즐',
-                  description: '오늘의 퍼즐, 난이도별 시작, 연속 학습 일수가\n4주차에 이곳에 들어가요.',
+                  description: '오늘의 퍼즐, 난이도별 시작, 연속 학습 일수가 4주차에 이곳에 들어가요.',
                 ),
               ),
             ],
