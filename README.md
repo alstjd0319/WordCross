@@ -17,6 +17,13 @@ WordCross/
 └─ data/       정리된 단어 CSV, 퍼즐 JSON (공동 검수)
 ```
 
+## 디자인
+
+- Figma: [WordCross 화면 설계](https://www.figma.com/design/91oJco8deqzNoQkeQzDu2W/WordCross-%ED%99%94%EB%A9%B4-%EC%84%A4%EA%B3%84) (담당: 지태웅)
+  - 맨 위 "0. 화면 흐름" 섹션에 화면 10개와 이동 경로를 정리한 흐름도가 있습니다.
+  - 오른쪽 위 ▶(Present)를 누르면 로그인 화면부터 프로토타입으로 눌러 볼 수 있습니다.
+- 색과 글자 스타일은 앱의 `app/lib/app/theme.dart`(`AppColors`, `AppTheme`)와 같은 값입니다.
+
 ## 작업 규칙
 
 1. 작업을 시작하기 전에 `git pull`로 최신 내용을 받습니다.
