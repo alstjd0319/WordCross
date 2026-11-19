@@ -61,6 +61,19 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  # Figma v3 글꼴 (모두 SIL OFL 1.1, 라이선스: assets/fonts/OFL-*.txt)
+  # 출처: https://github.com/google/fonts/tree/main/ofl
+  fonts:
+    - family: Jua # 제목·버튼
+      fonts:
+        - asset: assets/fonts/Jua-Regular.ttf
+    - family: Fredoka # 영단어·숫자 (굵기 가변 글꼴)
+      fonts:
+        - asset: assets/fonts/Fredoka-Variable.ttf
+    - family: GowunDodum # 본문
+      fonts:
+        - asset: assets/fonts/GowunDodum-Regular.ttf
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

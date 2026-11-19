@@ -9,6 +9,7 @@ import '../features/auth/login_screen.dart';
 import '../features/auth/signup_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/my_page/my_page_screen.dart';
+import '../features/play/play_screen.dart';
 import '../features/puzzles/puzzle_list_screen.dart';
 import '../features/wrong_notes/wrong_notes_screen.dart';
 import 'main_shell.dart';
@@ -20,6 +21,10 @@ abstract final class Routes {
   static const puzzles = '/puzzles';
   static const wrongNotes = '/wrong-notes';
   static const myPage = '/my';
+
+  /// 퍼즐 풀이. 하단 메뉴를 숨기려고 root navigator에 올린다.
+  static const play = '/play/:puzzleId';
+  static String playPath(String puzzleId) => '/play/${Uri.encodeComponent(puzzleId)}';
 }
 
 /// 인증 메일 링크로 들어온 주소인지. 스킴이 붙은 전체 주소와 경로만 온 경우를 모두 본다.
@@ -65,7 +70,12 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: Routes.login, builder: (context, state) => const LoginScreen()),
       GoRoute(path: Routes.signup, builder: (context, state) => const SignUpScreen()),
       // 하단 메뉴 4개 탭. 탭마다 화면 상태(스크롤 위치 등)를 따로 유지한다.
-      // 퍼즐 풀이·결과·복습 카드는 2주차부터 rootKey에 올려 메뉴를 숨긴다.
+      // 퍼즐 풀이·결과·복습 카드는 rootKey에 올려 메뉴를 숨긴다.
+      GoRoute(
+        path: Routes.play,
+        parentNavigatorKey: rootKey,
+        builder: (context, state) => PlayScreen(puzzleId: state.pathParameters['puzzleId']!),
+      ),
       StatefulShellRoute.indexedStack(
         builder: (context, state, shell) => MainShell(shell: shell),
         branches: [
