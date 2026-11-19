@@ -49,6 +49,8 @@ BLANK = "_____"
 MAX_DEF_LEN = 80   # 영어 정의 최대 글자 수 (휴대폰 힌트 바 2줄 정도)
 # Wiktionary 에 한국어 번역이 없는 단어의 뜻 초안 (사람이 작성, 검수 전)
 DRAFT_KO = ROOT / "data" / "meanings_ko_draft.csv"
+# 사람이 고친 힌트 (한국어 뜻·영어 정의). 다른 모든 출처보다 우선한다.
+HINT_OVERRIDES = ROOT / "data" / "hint_overrides.csv"
 STOPWORDS = {"a", "an", "the", "of", "to", "or", "and", "in", "on", "for", "by", "with", "as",
              "that", "which", "is", "be", "something", "someone", "one", "from", "at", "it"}
 
@@ -110,7 +112,9 @@ USAGE_NOTE_RE = re.compile(r"^(Chiefly|During|Used|Especially|Usually|Formerly|O
 def useful_gloss(g: str, word: str) -> bool:
     """힌트로 쓸 만한 정의인지: 너무 짧거나, 정답을 그대로 담거나, '이 원소' 같은 지시만 있으면 안 됨."""
     low = g.lower()
-    return (len(g) >= 12 and word not in low and "this element" not in low
+    # 같은 어근도 정답을 알려 준다 (clearly → "in a clear manner", repayment → "the act of repaying")
+    stem = word[: max(4, len(word) - 4)] if len(word) >= 5 else word
+    return (len(g) >= 12 and stem not in low and "this element" not in low
             and not USAGE_NOTE_RE.match(g))
 
 
@@ -235,6 +239,28 @@ def load_draft_ko() -> dict[str, str]:
         return {r["word"].strip().lower(): r["meaning_ko"].strip() for r in csv.DictReader(f)}
 
 
+def load_hint_overrides() -> dict[str, dict]:
+    if not HINT_OVERRIDES.exists():
+        return {}
+    with open(HINT_OVERRIDES, newline="", encoding="utf-8") as f:
+        return {r["word"].strip().upper(): r for r in csv.DictReader(f)}
+
+
+def apply_hint_overrides(rows: list[dict], overrides: dict[str, dict]) -> int:
+    """data/hint_overrides.csv 의 뜻·정의로 바꾼다. 빈 칸은 그대로 둔다. 바꾼 행 수를 돌려준다."""
+    changed = 0
+    for r in rows:
+        o = overrides.get(r["word"].upper())
+        if not o:
+            continue
+        if o.get("meaning_ko", "").strip():
+            r["meaning_ko"] = o["meaning_ko"].strip()
+        if o.get("definition_en", "").strip():
+            r["definition_en"] = mask_word(o["definition_en"].strip(), r["word"].lower())
+        changed += 1
+    return changed
+
+
 def load_existing_reviewed() -> dict[str, dict]:
     if not OUT.exists():
         return {}
@@ -294,6 +320,7 @@ def main() -> None:
         r["reviewed"] = "false"
         out_rows.append(r)
     out_rows.sort(key=lambda r: (r["type"] != "learn", r["source"], int(r["rank"])))
+    print(f"사람이 고친 힌트 적용: {apply_hint_overrides(out_rows, load_hint_overrides())}개")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="", encoding="utf-8") as f:

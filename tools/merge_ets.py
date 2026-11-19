@@ -20,8 +20,9 @@ import csv
 import re
 from pathlib import Path
 
-from build_words import (COLUMNS, blank_example, find_examples, level_by_frequency, load_kaikki,
-                         mask_word, pick_dictionary, word_frequencies)
+from build_words import (COLUMNS, apply_hint_overrides, blank_example, find_examples,
+                         level_by_frequency, load_hint_overrides, load_kaikki, mask_word,
+                         pick_dictionary, word_frequencies)
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = ROOT / "data" / "words.csv"
@@ -73,6 +74,8 @@ def main() -> None:
         r["example_blank"] = blank_example(ex[0], W.lower()) if ex else ""
 
     rows = list(base.values()) + list(new_rows.values())
+    # 교재 뜻으로 덮은 뒤에 사람이 고친 힌트를 다시 적용한다 (가장 우선)
+    overridden = apply_hint_overrides(rows, load_hint_overrides())
     with open(OUT, "w", newline="", encoding="utf-8") as f:
         wr = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         wr.writeheader()
@@ -84,6 +87,7 @@ def main() -> None:
           f"(채움→학습 {upgraded}), 새 단어 {new}, 사전·뜻 없어 제외 {skipped}")
     for lv in ("beginner", "intermediate", "advanced"):
         print(f"  {lv:12} 학습 {sum(r['level'] == lv for r in learn):4}")
+    print(f"  사람이 고친 힌트 적용 {overridden}개")
     print(f"  한국어 뜻 있음 {sum(bool(r['meaning_ko']) for r in rows)}, 예문 있음 {sum(bool(r['example']) for r in rows)}")
 
 
