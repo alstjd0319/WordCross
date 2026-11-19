@@ -40,18 +40,22 @@ flutter test
 ```
 lib/
 ├─ main.dart                 Supabase 연결 여부에 따라 인증 구현을 고름
-├─ app/                      앱 전체: 테마(Figma 색·글자 스타일), 라우터, 하단 메뉴
+├─ app/                      앱 전체: 테마(Figma 색·글자 스타일, v3는 v3_theme.dart), 라우터, 하단 메뉴
 ├─ core/                     설정, 입력값 검사
 ├─ shared/                   여러 화면이 함께 쓰는 위젯
 └─ features/
    ├─ auth/                  로그인, 회원가입, 인증 저장소(Supabase / 로컬)
    ├─ home/                  홈 (4주차)
-   ├─ puzzles/               퍼즐 목록·상세 (3주차)
+   ├─ play/                  퍼즐 풀이: 격자, 칸 선택, 전용 키보드, 힌트 바 (2주차), 퍼즐 저장소(get_puzzle RPC / 로컬 샘플)
+   ├─ puzzles/               퍼즐 목록·상세 (3주차). 지금은 샘플 퍼즐(beg-001) 버튼만 있음
    ├─ wrong_notes/           오답 노트·복습 카드 (4~5주차)
    └─ my_page/               마이페이지 (5주차)
 ```
 
 - **디자인:** Figma "WordCross 화면 설계" 파일. 색은 `lib/app/theme.dart`의 `AppColors`에 같은 값으로 들어 있습니다.
+  - 2주차부터 퍼즐 풀이 화면은 v3 시안(포근한 손그림 + 고양이)을 따릅니다. 색·글꼴·모양은 `lib/app/v3_theme.dart`에만 모아 두었고, 1주차 화면은 그대로입니다. (v3는 교수님 확인 전)
+  - v3 글꼴: Jua(제목·버튼), Fredoka(영단어·숫자), Gowun Dodum(본문). `assets/fonts/`, 모두 SIL OFL 1.1 (`OFL-*.txt`).
+- **로컬 모드 퍼즐:** `features/play/sample_puzzles.dart`의 샘플(beg-001)은 `data/` 의 퍼즐·틀·단어 CSV로 만든 `get_puzzle()` 응답 모양 JSON입니다. 정답 철자는 넣지 않습니다.
 - **상태 관리:** Riverpod. 화면은 `authRepositoryProvider` 같은 Provider로만 데이터에 접근하고, 테스트에서는 가짜 구현으로 바꿉니다.
 - **화면 이동:** go_router. 하단 메뉴 4개 탭은 `StatefulShellRoute`로 탭마다 상태를 유지합니다. 퍼즐 풀이·결과·복습 카드처럼 메뉴를 숨기는 화면은 root navigator에 올립니다.
 - **Material:** Flutter SDK에 들어 있던 Material은 지원 중단 예정이라 `material_ui` 패키지를 씁니다. `import 'package:material_ui/material_ui.dart';`
