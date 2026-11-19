@@ -40,7 +40,7 @@ flutter test
 ```
 lib/
 ├─ main.dart                 Supabase 연결 여부에 따라 인증 구현을 고름
-├─ app/                      앱 전체: 테마(Figma 색·글자 스타일, v3는 v3_theme.dart), 라우터, 하단 메뉴
+├─ app/                      앱 전체: 테마(Figma v3 색·글꼴·모양), 라우터, 하단 메뉴
 ├─ core/                     설정, 입력값 검사
 ├─ shared/                   여러 화면이 함께 쓰는 위젯
 └─ features/
@@ -52,9 +52,11 @@ lib/
    └─ my_page/               마이페이지 (5주차)
 ```
 
-- **디자인:** Figma "WordCross 화면 설계" 파일. 색은 `lib/app/theme.dart`의 `AppColors`에 같은 값으로 들어 있습니다.
-  - 2주차부터 퍼즐 풀이 화면은 v3 시안(포근한 손그림 + 고양이)을 따릅니다. 색·글꼴·모양은 `lib/app/v3_theme.dart`에만 모아 두었고, 1주차 화면은 그대로입니다. (v3는 교수님 확인 전)
-  - v3 글꼴: Jua(제목·버튼), Fredoka(영단어·숫자), Gowun Dodum(본문). `assets/fonts/`, 모두 SIL OFL 1.1 (`OFL-*.txt`).
+- **디자인:** Figma "WordCross 화면 설계" 파일의 **v3 시안(포근한 손그림 + 고양이)**. 2026-11-19 교수님 확인 후 앱 전체에 적용했습니다.
+  - 팔레트·글꼴·손그림 모양은 `lib/app/v3_theme.dart`(`V3Colors`, `V3Text`, `v3Box`), 역할별 색과 Material 테마는 `lib/app/theme.dart`(`AppColors`, `AppTheme`).
+  - 공용 v3 위젯(`shared/widgets.dart`): `PrimaryButton`, `V3Card`, `V3IconButton`, `CatImage`, `LabeledField`, `ComingSoon`. 하단 메뉴는 `app/main_shell.dart`의 `MainNavBar`.
+  - 글꼴: Jua(제목·버튼), Fredoka(영단어·숫자), Gowun Dodum(본문). `assets/fonts/`, 모두 SIL OFL 1.1 (`OFL-*.txt`).
+  - 고양이: Figma `v3/Cat` 컴포넌트 40마리를 1x·2x·3x PNG로 내보내 `assets/images/cats/`에 넣었습니다. 이름은 `<자세>_<털색>.png` (예: `sit_calico`, `curl_black`), 화면에서는 `CatImage('sit_calico')`.
 - **로컬 모드 퍼즐:** `features/play/sample_puzzles.dart`의 샘플(beg-001)은 `data/` 의 퍼즐·틀·단어 CSV로 만든 `get_puzzle()` 응답 모양 JSON입니다. 정답 철자는 넣지 않습니다.
 - **상태 관리:** Riverpod. 화면은 `authRepositoryProvider` 같은 Provider로만 데이터에 접근하고, 테스트에서는 가짜 구현으로 바꿉니다.
 - **화면 이동:** go_router. 하단 메뉴 4개 탭은 `StatefulShellRoute`로 탭마다 상태를 유지합니다. 퍼즐 풀이·결과·복습 카드처럼 메뉴를 숨기는 화면은 root navigator에 올립니다.

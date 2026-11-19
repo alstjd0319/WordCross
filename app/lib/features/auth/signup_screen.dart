@@ -61,7 +61,12 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
   Widget build(BuildContext context) {
     final text = Theme.of(context).textTheme;
     return Scaffold(
-      appBar: AppBar(title: const Text('회원가입')),
+      appBar: AppBar(
+        leading: V3IconButton(icon: Icons.chevron_left, tooltip: '뒤로', onPressed: () => context.pop()),
+        leadingWidth: 64,
+        titleSpacing: 4,
+        title: Text('회원가입', style: text.titleMedium),
+      ),
       body: SafeArea(
         child: Form(
           key: _formKey,
@@ -113,10 +118,20 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
                   onSubmitted: (_) => _submit(),
                 ),
                 if (_error != null) ...[const SizedBox(height: 14), ErrorBox(_error!)],
-                const SizedBox(height: 24),
-                FilledButton(
-                  onPressed: _submitting ? null : _submit,
-                  child: _submitting ? const ButtonSpinner() : const Text('가입하기'),
+                const SizedBox(height: 8),
+                // Figma v3 1-2: 가입 버튼 위에 길게 누운 치즈 고양이
+                Stack(
+                  clipBehavior: Clip.none,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(top: 40),
+                      child: PrimaryButton(
+                        onPressed: _submitting ? null : _submit,
+                        child: _submitting ? const ButtonSpinner() : const Text('가입하기'),
+                      ),
+                    ),
+                    const Positioned(right: 10, top: 0, child: CatImage('long_ginger', height: 44)),
+                  ],
                 ),
               ],
             ),

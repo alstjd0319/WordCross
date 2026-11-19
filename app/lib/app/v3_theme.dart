@@ -2,8 +2,8 @@ import 'package:material_ui/material_ui.dart';
 
 /// Figma "WordCross 화면 설계" v3 (포근한 손그림 + 고양이) 디자인 규칙.
 ///
-/// 2주차부터 퍼즐 풀이 화면에 쓴다. v3는 교수님 확인 전이라, 1주차 화면이 쓰는
-/// [AppColors]·[AppTheme](theme.dart)는 그대로 두고 v3 값은 여기에만 모은다.
+/// 앱 전체의 기본 팔레트다. 화면에서는 역할 이름이 붙은 `AppColors`(theme.dart)를 주로 쓰고,
+/// 퍼즐 격자처럼 팔레트 색 자체가 뜻을 갖는 곳(살구 = 선택 단어 등)은 여기 값을 바로 쓴다.
 abstract final class V3Colors {
   /// 코코아 · 선·글자
   static const cocoa = Color(0xFF7A5236);

@@ -61,6 +61,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  # Figma v3 고양이 (v3/Cat 컴포넌트에서 1x·2x·3x PNG로 내보냄). 이름: <자세>_<털색>.png
+  assets:
+    - assets/images/cats/
+
   # Figma v3 글꼴 (모두 SIL OFL 1.1, 라이선스: assets/fonts/OFL-*.txt)
   # 출처: https://github.com/google/fonts/tree/main/ofl
   fonts:

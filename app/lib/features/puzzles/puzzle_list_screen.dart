@@ -20,14 +20,14 @@ class PuzzleListScreen extends StatelessWidget {
         children: [
           const Expanded(
             child: ComingSoon(
-              icon: Icons.grid_on,
+              cat: 'loaf_tabby',
               title: '퍼즐 목록',
               description: '난이도별 퍼즐 목록과 상세 화면은\n3주차에 만들어요.',
             ),
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
-            child: FilledButton(
+            child: PrimaryButton(
               onPressed: () => context.push(Routes.playPath(samplePuzzleId)),
               child: const Text('샘플 퍼즐 풀어 보기'),
             ),
