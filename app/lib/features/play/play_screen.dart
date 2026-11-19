@@ -40,6 +40,23 @@ class PlayScreen extends ConsumerWidget {
   }
 }
 
+/// 실제 키보드에서 누른 알파벳. 맥·PC 입력 소스가 한글이면 Q 키가 'ㅂ'으로 들어오므로,
+/// 글자가 A~Z가 아니면 눌린 키의 위치(physical key)로 알파벳을 정한다.
+String? letterFromKeyEvent(KeyEvent event) {
+  final ch = event.character;
+  if (ch != null && RegExp(r'^[a-zA-Z]$').hasMatch(ch)) return ch.toUpperCase();
+  // USB HID 키 코드: A(0x04) ~ Z(0x1D)
+  final usage = event.physicalKey.usbHidUsage;
+  const keyA = 0x00070004, keyZ = 0x0007001d;
+  if (usage < keyA || usage > keyZ) return null;
+  if (HardwareKeyboard.instance.isControlPressed ||
+      HardwareKeyboard.instance.isMetaPressed ||
+      HardwareKeyboard.instance.isAltPressed) {
+    return null; // Cmd+C 같은 단축키는 글자로 넣지 않는다
+  }
+  return String.fromCharCode('A'.codeUnitAt(0) + usage - keyA);
+}
+
 void _close(BuildContext context) => context.canPop() ? context.pop() : context.go(Routes.puzzles);
 
 class _PlayView extends ConsumerWidget {
@@ -92,9 +109,9 @@ class _PlayView extends ConsumerWidget {
   KeyEventResult _onKey(KeyEvent event, PlayController play) {
     if (event is KeyUpEvent) return KeyEventResult.ignored;
     final key = event.logicalKey;
-    final ch = event.character;
-    if (ch != null && RegExp(r'^[a-zA-Z]$').hasMatch(ch)) {
-      play.typeLetter(ch);
+    final letter = letterFromKeyEvent(event);
+    if (letter != null) {
+      play.typeLetter(letter);
     } else if (key == LogicalKeyboardKey.backspace) {
       play.backspace();
     } else if (key == LogicalKeyboardKey.arrowLeft) {

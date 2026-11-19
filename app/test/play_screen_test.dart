@@ -9,6 +9,7 @@ import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
+import 'package:wordcross/features/play/play_screen.dart';
 import 'package:wordcross/features/play/widgets/letter_keyboard.dart';
 import 'package:wordcross/features/play/widgets/puzzle_grid.dart';
 
@@ -151,6 +152,30 @@ void main() {
     await tester.sendKeyEvent(LogicalKeyboardKey.backspace);
     await tester.pump();
     expect(cellText(0, 1, 'R'), findsNothing);
+  });
+
+  testWidgets('입력 소스가 한글이어도 실제 키보드의 알파벳 키로 입력한다', (tester) async {
+    await pumpLoggedIn(tester);
+    await openSample(tester);
+
+    // 한글 두벌식에서 B·R 키는 'ㅠ'·'ㄱ' 글자로 들어온다.
+    await simulateKeyDownEvent(LogicalKeyboardKey.keyB, physicalKey: PhysicalKeyboardKey.keyB, character: 'ㅠ');
+    await simulateKeyUpEvent(LogicalKeyboardKey.keyB, physicalKey: PhysicalKeyboardKey.keyB);
+    await simulateKeyDownEvent(LogicalKeyboardKey.keyR, physicalKey: PhysicalKeyboardKey.keyR, character: 'ㄱ');
+    await simulateKeyUpEvent(LogicalKeyboardKey.keyR, physicalKey: PhysicalKeyboardKey.keyR);
+    await tester.pump();
+    expect(cellText(0, 0, 'B'), findsOneWidget);
+    expect(cellText(0, 1, 'R'), findsOneWidget);
+  });
+
+  test('letterFromKeyEvent: 알파벳 키만 글자로 바꾼다', () {
+    KeyDownEvent down(PhysicalKeyboardKey p, LogicalKeyboardKey l, String? ch) =>
+        KeyDownEvent(physicalKey: p, logicalKey: l, character: ch, timeStamp: Duration.zero);
+    expect(letterFromKeyEvent(down(PhysicalKeyboardKey.keyQ, LogicalKeyboardKey.keyQ, 'q')), 'Q');
+    expect(letterFromKeyEvent(down(PhysicalKeyboardKey.keyQ, LogicalKeyboardKey.keyQ, 'ㅂ')), 'Q');
+    expect(letterFromKeyEvent(down(PhysicalKeyboardKey.keyZ, LogicalKeyboardKey.keyZ, 'ㅋ')), 'Z');
+    expect(letterFromKeyEvent(down(PhysicalKeyboardKey.digit1, LogicalKeyboardKey.digit1, '1')), isNull);
+    expect(letterFromKeyEvent(down(PhysicalKeyboardKey.space, LogicalKeyboardKey.space, ' ')), isNull);
   });
 
   testWidgets('없는 퍼즐이면 오류 문구를 보여 준다', (tester) async {
