@@ -12,6 +12,9 @@ class PuzzleFailure implements Exception {
 
 /// 화면은 이 인터페이스만 알고, 실제 구현(Supabase 또는 로컬 샘플)은 main에서 고른다.
 abstract interface class PuzzleRepository {
+  /// 공개된 퍼즐 목록 (초급 → 중급 → 고급, 같은 난이도는 id 순). 실패하면 [PuzzleFailure]를 던진다.
+  Future<List<PuzzleSummary>> listPuzzles();
+
   /// 퍼즐 틀과 힌트. 실패하면 [PuzzleFailure]를 던진다.
   Future<PuzzleData> fetchPuzzle(String puzzleId);
 }

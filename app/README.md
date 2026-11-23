@@ -47,7 +47,7 @@ lib/
    ├─ auth/                  로그인, 회원가입, 인증 저장소(Supabase / 로컬)
    ├─ home/                  홈 (4주차)
    ├─ play/                  퍼즐 풀이: 격자, 칸 선택, 전용 키보드, 힌트 바 (2주차), 퍼즐 저장소(get_puzzle RPC / 로컬 샘플)
-   ├─ puzzles/               퍼즐 목록·상세 (3주차). 지금은 샘플 퍼즐(beg-001) 버튼만 있음
+   ├─ puzzles/               퍼즐 목록(난이도 필터, 3주차). 상세는 3주차에 더함
    ├─ wrong_notes/           오답 노트·복습 카드 (4~5주차)
    └─ my_page/               마이페이지 (5주차)
 ```
@@ -57,7 +57,10 @@ lib/
   - 공용 v3 위젯(`shared/widgets.dart`): `PrimaryButton`, `V3Card`, `V3IconButton`, `CatImage`, `LabeledField`, `ComingSoon`. 하단 메뉴는 `app/main_shell.dart`의 `MainNavBar`.
   - 글꼴: Jua(제목·버튼), Fredoka(영단어·숫자), Gowun Dodum(본문). `assets/fonts/`, 모두 SIL OFL 1.1 (`OFL-*.txt`).
   - 고양이: Figma `v3/Cat` 컴포넌트 40마리를 1x·2x·3x PNG로 내보내 `assets/images/cats/`에 넣었습니다. 이름은 `<자세>_<털색>.png` (예: `sit_calico`, `curl_black`), 화면에서는 `CatImage('sit_calico')`.
-- **로컬 모드 퍼즐:** `features/play/sample_puzzles.dart`의 샘플(beg-001)은 `data/` 의 퍼즐·틀·단어 CSV로 만든 `get_puzzle()` 응답 모양 JSON입니다. 정답 철자는 넣지 않습니다.
+- **퍼즐 데이터:** 목록은 `puzzles` 테이블(공개된 퍼즐, 정답 없음), 퍼즐 하나는 `get_puzzle()` RPC로 받습니다 (`SupabasePuzzleRepository`).
+  - 로컬 모드: `features/play/sample_puzzles.dart`에 난이도별 2개씩(beg/mid/adv-001·002)을 `data/` 의 퍼즐·틀·`words.csv` 로 만든 `get_puzzle()` 모양 JSON으로 넣었습니다. 정답 철자는 넣지 않습니다. `data/` 가 바뀌면 다시 만듭니다.
+  - 테스트는 `data/` 가 바뀌어도 깨지지 않도록 `test/fixtures/test_puzzles.dart`의 고정 퍼즐을 씁니다.
+  - 예상 풀이 시간은 `PuzzleLevel.estimatedMinutes`(난이도별 단어당 시간 × 단어 수)로 어림합니다.
 - **상태 관리:** Riverpod. 화면은 `authRepositoryProvider` 같은 Provider로만 데이터에 접근하고, 테스트에서는 가짜 구현으로 바꿉니다.
 - **화면 이동:** go_router. 하단 메뉴 4개 탭은 `StatefulShellRoute`로 탭마다 상태를 유지합니다. 퍼즐 풀이·결과·복습 카드처럼 메뉴를 숨기는 화면은 root navigator에 올립니다.
 - **Material:** Flutter SDK에 들어 있던 Material은 지원 중단 예정이라 `material_ui` 패키지를 씁니다. `import 'package:material_ui/material_ui.dart';`

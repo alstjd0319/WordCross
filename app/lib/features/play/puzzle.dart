@@ -147,16 +147,86 @@ class PuzzleData {
   /// 이 칸을 지나는 [dir] 방향 단어.
   Clue? clueAt(int row, int col, Direction dir) => (dir == Direction.across ? _across : _down)[(row, col)];
 
-  String get levelLabel => switch (level) {
-        'beginner' => '초급',
-        'intermediate' => '중급',
-        'advanced' => '고급',
-        _ => level,
-      };
+  String get levelLabel => PuzzleLevel.labelOf(level);
 
   /// 화면 제목. 예: beg-001 → 초급 #001
-  String get title {
-    final dash = id.lastIndexOf('-');
-    return dash < 0 ? '$levelLabel $id' : '$levelLabel #${id.substring(dash + 1)}';
+  String get title => puzzleTitle(id, level);
+}
+
+/// 난이도. DB `public.level` enum과 같은 이름.
+enum PuzzleLevel {
+  beginner('초급', 20),
+  intermediate('중급', 26),
+  advanced('고급', 38);
+
+  const PuzzleLevel(this.label, this._secondsPerWord);
+
+  final String label;
+
+  /// 단어 하나에 드는 예상 시간(초). Figma v3 2-2 예시(초급 18단어 약 6분, 중급 28단어 약 12~13분,
+  /// 고급 32단어 약 20분)에 맞춘 값이다. 풀이 기록이 쌓이면 실제 평균으로 바꾼다.
+  final int _secondsPerWord;
+
+  /// 단어 수로 어림한 풀이 시간(분). 최소 1분.
+  int estimatedMinutes(int wordCount) => ((wordCount * _secondsPerWord) / 60).round().clamp(1, 999);
+
+  static PuzzleLevel? parse(String value) {
+    for (final l in values) {
+      if (l.name == value) return l;
+    }
+    return null;
+  }
+
+  static String labelOf(String value) => parse(value)?.label ?? value;
+}
+
+/// 화면 제목. 예: beg-001 → 초급 #001
+String puzzleTitle(String id, String level) {
+  final label = PuzzleLevel.labelOf(level);
+  final dash = id.lastIndexOf('-');
+  return dash < 0 ? '$label $id' : '$label #${id.substring(dash + 1)}';
+}
+
+/// 퍼즐 목록에 쓰는 요약 정보. `puzzles` 테이블의 공개 열(정답 없음)과 같다.
+class PuzzleSummary {
+  const PuzzleSummary({
+    required this.id,
+    required this.level,
+    required this.rows,
+    required this.cols,
+    required this.wordCount,
+  });
+
+  factory PuzzleSummary.fromJson(Map<String, dynamic> j) => PuzzleSummary(
+        id: j['id'] as String,
+        level: j['level'] as String,
+        rows: (j['rows'] as num).toInt(),
+        cols: (j['cols'] as num).toInt(),
+        wordCount: (j['word_count'] as num? ?? 0).toInt(),
+      );
+
+  factory PuzzleSummary.of(PuzzleData p) =>
+      PuzzleSummary(id: p.id, level: p.level, rows: p.rows, cols: p.cols, wordCount: p.clues.length);
+
+  final String id;
+
+  /// beginner / intermediate / advanced
+  final String level;
+  final int rows;
+  final int cols;
+  final int wordCount;
+
+  PuzzleLevel? get puzzleLevel => PuzzleLevel.parse(level);
+  String get title => puzzleTitle(id, level);
+
+  /// 예: 13×13
+  String get sizeLabel => '$rows×$cols';
+
+  int? get estimatedMinutes => puzzleLevel?.estimatedMinutes(wordCount);
+
+  /// 목록 정렬: 초급 → 중급 → 고급, 같은 난이도는 id 순.
+  static int compare(PuzzleSummary a, PuzzleSummary b) {
+    final la = a.puzzleLevel?.index ?? 99, lb = b.puzzleLevel?.index ?? 99;
+    return la != lb ? la - lb : a.id.compareTo(b.id);
   }
 }

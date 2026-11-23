@@ -10,10 +10,16 @@ class FakePuzzleRepository implements PuzzleRepository {
 
   final Map<String, String> _puzzles;
 
+  PuzzleData _parse(String json) => PuzzleData.fromJson(jsonDecode(json) as Map<String, dynamic>);
+
+  @override
+  Future<List<PuzzleSummary>> listPuzzles() async =>
+      [for (final json in _puzzles.values) PuzzleSummary.of(_parse(json))]..sort(PuzzleSummary.compare);
+
   @override
   Future<PuzzleData> fetchPuzzle(String puzzleId) async {
     final json = _puzzles[puzzleId];
     if (json == null) throw const PuzzleFailure('퍼즐을 찾을 수 없어요.');
-    return PuzzleData.fromJson(jsonDecode(json) as Map<String, dynamic>);
+    return _parse(json);
   }
 }

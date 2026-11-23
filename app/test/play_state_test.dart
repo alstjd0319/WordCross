@@ -3,7 +3,8 @@ import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:wordcross/features/play/play_state.dart';
 import 'package:wordcross/features/play/puzzle.dart';
-import 'package:wordcross/features/play/sample_puzzles.dart';
+
+import 'fixtures/test_puzzles.dart';
 
 /// 3×3, 가운데만 검은 칸.
 ///   1 . 2
@@ -52,7 +53,7 @@ void main() {
     });
 
     test('get_puzzle() 모양의 샘플 퍼즐을 읽는다', () {
-      final p = PuzzleData.fromJson(jsonDecode(samplePuzzles['beg-001']!) as Map<String, dynamic>);
+      final p = PuzzleData.fromJson(jsonDecode(testPuzzles['beg-001']!) as Map<String, dynamic>);
       expect(p.rows, 11);
       expect(p.cols, 11);
       expect(p.clues, hasLength(24));

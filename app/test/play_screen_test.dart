@@ -13,6 +13,9 @@ import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/play_screen.dart';
 import 'package:wordcross/features/play/widgets/letter_keyboard.dart';
 import 'package:wordcross/features/play/widgets/puzzle_grid.dart';
+import 'package:wordcross/features/puzzles/puzzle_list_screen.dart';
+
+import 'fixtures/test_puzzles.dart';
 
 /// 로그인한 상태로 앱을 띄운다.
 Future<GoRouter> pumpLoggedIn(WidgetTester tester) async {
@@ -23,7 +26,7 @@ Future<GoRouter> pumpLoggedIn(WidgetTester tester) async {
     ProviderScope(
       overrides: [
         authRepositoryProvider.overrideWithValue(auth),
-        puzzleRepositoryProvider.overrideWithValue(FakePuzzleRepository()),
+        puzzleRepositoryProvider.overrideWithValue(FakePuzzleRepository(puzzles: testPuzzles)),
       ],
       child: const WordCrossApp(),
     ),
@@ -41,12 +44,12 @@ Finder hintText(String text) =>
 Future<void> openSample(WidgetTester tester) async {
   await tester.tap(find.text('퍼즐').last);
   await tester.pumpAndSettle();
-  await tester.tap(find.text('샘플 퍼즐 풀어 보기'));
+  await tester.tap(find.text('초급 #001'));
   await tester.pumpAndSettle();
 }
 
 void main() {
-  testWidgets('퍼즐 탭에서 샘플 퍼즐을 열면 하단 메뉴 없이 격자·힌트·키보드가 나오고, 닫으면 돌아온다', (tester) async {
+  testWidgets('퍼즐 목록에서 퍼즐을 열면 하단 메뉴 없이 격자·힌트·키보드가 나오고, 닫으면 돌아온다', (tester) async {
     await pumpLoggedIn(tester);
     await openSample(tester);
 
@@ -60,7 +63,7 @@ void main() {
 
     await tester.tap(find.byKey(const ValueKey('play-close')));
     await tester.pumpAndSettle();
-    expect(find.text('퍼즐 목록'), findsOneWidget);
+    expect(find.byType(PuzzleCard), findsOneWidget);
     expect(find.byType(MainNavBar), findsOneWidget);
   });
 
