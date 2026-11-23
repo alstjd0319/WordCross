@@ -1,135 +1,206 @@
-word,meaning_ko,definition_en,note
-FEVER,"열, 발열",,교재 뜻(열정)이 영어 정의·예문(체온)과 다름
-DATE,"날짜; (~로) 거슬러 올라가다",The day and month when something happens,
-SPECIFICS,세부 사항,The exact details of something,교재 뜻(시방서)이 일반 뜻과 다름
-ADOPT,,To start using a new method or idea,사전 첫 뜻(입양)
-APPEAL,,To be attractive or interesting to someone,사전 첫 뜻(항소)
-APPLY,,"To make a formal request, such as for a job",
-AREA,,A particular part of a place or region,
-ARRANGE,,To put things in a neat or particular order,
-ASSEMBLY,,The act of fitting parts together to make something,
-ASSOCIATE,,A person you work with; a colleague,
-ATTRIBUTE,,To say that something is caused by someone or something,
-AWARE,,Knowing that something exists or is happening,
-CAPTURE,,To catch; to record in words or pictures,
-CAST,,To make light or a shadow fall on something,
-CHOP,,To cut something into small pieces,
-CLEAR,,To remove things from a place,
-COVER,,To pay for something; to deal with a subject,
-DRAFT,,An early version of a document that is not yet final,
-DRAWING,,An event where winners are chosen at random,
-ENACTMENT,,The act of making something into law,
-ENTITLE,,To give someone the right to have or do something,
-ERECT,,To build or put up a structure,
-FIGURE,,"A number, especially an official amount",
-FLEET,,A group of vehicles owned or run by one company,
-FORWARD,,To send something on to another address or person,
-FURTHER,,More; additional,
-HALT,,A stop or pause,
-HANDLE,,To deal with or take care of something,
-HARNESS,,To control something and make use of it,
-HEAD,,The person in charge of a group or organization,
-HOUSE,,To provide space for something; to hold or contain,
-INPUT,,Ideas or advice given to help with a project,
-INSIGHT,,A clear and deep understanding of something,
-INTRIGUE,,To make someone interested or curious,
-ISSUE,,To officially give or supply something,
-LATTER,"후반의; (둘 중) 후자의",Near the end; the second of two things mentioned,
-LISTING,,A list or an item on a list,
-LIVE,,Broadcast at the same time as it happens,
-LOCATE,,To find where something is,
-MILESTONE,,An important event or stage in development,
-NOMINAL,,Very small; existing in name only,
-NOTE,,To notice or pay attention to something,
-OPENING,,A job or position that is available,
-OPERATE,,"To work or run, as a machine does",
-PACE,,The speed at which something happens,
-PATIENT,,A person who is receiving medical care,
-PERFORM,,"To act, sing or play music in front of an audience",
-PILOT,,To test a new plan or product on a small scale,
-PITCH,,A talk that tries to persuade someone to buy or support something,
-PLACE,,To put something in a particular position,
-POINT,,To show where something is using a finger,
-PROFILE,,A short description; the amount of public attention someone gets,
-RANGE,,A set of different things of the same type,
-RANK,,A position in a list or order,
-REACH,,To stretch out an arm to touch or take something,
-REALIZE,,To make a plan or hope come true,
-REBOUND,,"A rise after a fall, as in prices",
-RECALL,,To ask buyers to return a faulty product; to remember,
-RECRUIT,,To find and hire new people,
-REGULAR,,Happening at fixed times; usual,
-RELEASE,,To make a product or film available to the public,
-RESISTANT,,Not harmed or affected by something,
-RESURFACE,,To put a new surface on a road,
-SCALE,,A device for weighing things,
-SCENE,,"An area of activity, such as the music world",
-SCOOP,,A tool like a large spoon; an exclusive news story,
-SCRUB,,To clean something by rubbing it hard,
-SECTOR,,A part of an economy or industry,
-SERVE,,To give food or help to customers,
-SHEER,,Complete; nothing but,
-SHIP,,To send goods to a customer,
-STREAM,,To send video or sound over the internet while it plays,
-TACTICS,,Plans or methods used to achieve something,
-TIE,,To fasten something with string or rope,
-TRIGGER,,To cause something to start,
-TURNOUT,,The number of people who come to an event,
-UNCOVER,,To find out something that was hidden,
-URGE,,To strongly advise someone to do something,
-UTILITY,,"A public service such as water, gas or electricity",
-VITAL,,Very important; necessary,
-WARRANT,,To make something seem right or necessary,
-WONDER,,To want to know about something,
-CRITERIA,,Standards used to judge or decide something,정의 없음
-FLEXTIME,,A system that lets workers choose their working hours,정의 없음
-KICKOFF,,The start of an event or activity,정의 없음
-LABOR,,"Work, especially hard physical work",정의 없음
-UTILITIES,,"Services such as water, gas and electricity",정의 없음
-CLEARLY,,In a way that is easy to see or understand,정의에 같은 어근
-DENSELY,,With many things close together,정의에 같은 어근
-LOOSELY,,Not tightly or exactly,정의에 같은 어근
-OPENLY,,Without hiding anything,정의에 같은 어근
-SWIFTLY,,Very quickly,정의에 같은 어근
-LINGERING,,Lasting for a long time,정의에 같은 어근
-REOPENING,,Starting business again after being closed,정의에 같은 어근
-REPAYMENT,,Paying back money that was borrowed,정의에 같은 어근
-PRICING,,Deciding how much to charge for something,정의에 같은 어근
-ICONIC,,Widely known and seen as a symbol of something,정의에 같은 어근
-PRINTOUT,,A paper copy made by a computer,정의에 같은 어근
-RIDERSHIP,,The number of people who use a bus or train service,정의에 같은 어근
-PUBLICIST,,A person whose job is to get media attention for someone,정의에 같은 어근
-STORAGE,,Keeping things somewhere until they are needed,정의에 같은 어근
-SKILLED,,Having the ability to do something well,정의에 같은 어근
-SURCHARGE,,An extra amount added to the usual price,정의에 같은 어근
-VACCINATE,,To give someone an injection to protect against disease,정의에 같은 어근
-GEOMETRIC,,"Made of simple shapes like lines, circles and squares",정의에 같은 어근
-GREATLY,,Very much,정의에 같은 어근
-EXTREMELY,,Very; to a very high degree,정의에 같은 어근
-USAGE,,How much of something is consumed,정의에 같은 어근
-INSURER,,A company that sells protection against loss or damage,정의에 같은 어근
-STATUTORY,,Required or set by law,정의에 같은 어근
-TRADER,,A person who buys and sells goods or shares,정의에 같은 어근
-EQUIPMENT,,The tools and machines needed for a job,정의에 같은 어근
-CORRELATE,,To have a close connection with something,정의에 같은 어근
-ITEMIZE,,To write down each thing on a list separately,정의에 같은 어근
-PLANNER,,A person who organizes events or projects,정의에 같은 어근
-WIRELESS,,Working without cables,정의에 같은 어근
-EDITORIAL,,An article giving a newspaper's opinion,정의에 같은 어근
-LISTING,,A record or entry in a directory or catalog,정의에 같은 어근
-HOSTILITY,,Unfriendly or angry behavior,정의에 같은 어근
-ACTIVIST,,A person who works for political or social change,정의에 같은 어근
-ISSUER,,An organization that puts out shares or cards,정의에 같은 어근
-ALUMINUM,,"A light, silver-colored metal",정의에 같은 어근
-PLAYER,,A person who takes part in a game or sport,정의에 같은 어근
-PROUDLY,,In a way that shows pleasure in an achievement,정의에 같은 어근
-MEDICAL,,Relating to illness and its treatment,정의에 같은 어근
-SOMEDAY,,At an unknown time in the future,정의에 같은 어근
-RESTLESS,,Unable to stay still or relax,정의에 같은 어근
-BAKERY,,A shop that makes and sells bread and cakes,정의에 같은 어근
-DETAILED,,Including many small facts,정의에 같은 어근
-PAINTER,,A person who makes pictures or colors walls,정의에 같은 어근
-CONTENTS,,The things that are inside something,정의에 같은 어근
-CLEANER,,A person whose job is to keep rooms tidy,정의에 같은 어근
-EVERYONE,,All people,정의에 같은 어근
-EXTEND,,To make something longer or larger,정의에 같은 어근
+word,meaning_ko,definition_en,example,note
+FEVER,"열, 발열",,,교재 뜻(열정)이 영어 정의·예문(체온)과 다름
+DATE,날짜; (~로) 거슬러 올라가다,The day and month when something happens,,
+SPECIFICS,세부 사항,The exact details of something,,교재 뜻(시방서)이 일반 뜻과 다름
+ADOPT,,To start using a new method or idea,,사전 첫 뜻(입양)
+APPEAL,,To be attractive or interesting to someone,,사전 첫 뜻(항소)
+APPLY,,"To make a formal request, such as for a job",She decided to apply for the job.,3주차 검수: 예문·정의가 다른 뜻
+AREA,,A particular part of a place or region,,
+ARRANGE,,To put things in a neat or particular order,,
+ASSEMBLY,,The act of fitting parts together to make something,The assembly of the shelves took an hour.,
+ASSOCIATE,,A person you work with; a colleague,,
+ATTRIBUTE,,To say that something is caused by someone or something,,
+AWARE,,Knowing that something exists or is happening,,
+CAPTURE,,To catch; to record in words or pictures,,
+CAST,,To make light or a shadow fall on something,,
+CHOP,,To cut something into small pieces,Chop the onions into small pieces.,
+CLEAR,,To remove things from a place,,
+COVER,,To pay for something; to deal with a subject,The insurance will cover the cost of repairs.,
+DRAFT,,An early version of a document that is not yet final,,
+DRAWING,,An event where winners are chosen at random,,
+ENACTMENT,,The act of making something into law,,
+ENTITLE,,To give someone the right to have or do something,,
+ERECT,,To build or put up a structure,,
+FIGURE,,"A number, especially an official amount",,
+FLEET,,A group of vehicles owned or run by one company,,
+FORWARD,,To send something on to another address or person,Please forward this email to the rest of the team.,3주차 검수: 예문·정의가 다른 뜻
+FURTHER,,More; additional,,
+HALT,,A stop or pause,,
+HANDLE,,To deal with or take care of something,,
+HARNESS,,To control something and make use of it,,
+HEAD,,The person in charge of a group or organization,She is the head of the sales department.,3주차 검수: 예문·정의가 다른 뜻
+HOUSE,,To provide space for something; to hold or contain,The museum will house the new collection.,3주차 검수: 예문·정의가 다른 뜻
+INPUT,,Ideas or advice given to help with a project,,
+INSIGHT,,A clear and deep understanding of something,,
+INTRIGUE,,To make someone interested or curious,,
+ISSUE,,To officially give or supply something,,
+LATTER,후반의; (둘 중) 후자의,Near the end; the second of two things mentioned,,
+LISTING,,A list or an item on a list,,
+LIVE,,Broadcast at the same time as it happens,,
+LOCATE,,To find where something is,,
+MILESTONE,,An important event or stage in development,,
+NOMINAL,,Very small; existing in name only,,
+NOTE,,To notice or pay attention to something,Please note that the office will be closed on Friday.,3주차 검수: 예문·정의가 다른 뜻
+OPENING,,A job or position that is available,,
+OPERATE,,"To work or run, as a machine does",,
+PACE,,The speed at which something happens,,
+PATIENT,,A person who is receiving medical care,,
+PERFORM,,"To act, sing or play music in front of an audience",The band will perform at the festival tonight.,
+PILOT,,To test a new plan or product on a small scale,,
+PITCH,,A talk that tries to persuade someone to buy or support something,,
+PLACE,,To put something in a particular position,,
+POINT,,To show where something is using a finger,,
+PROFILE,,A short description; the amount of public attention someone gets,,
+RANGE,,A set of different things of the same type,,
+RANK,,A position in a list or order,The company holds the top rank in the industry.,
+REACH,,To stretch out an arm to touch or take something,I can't reach the top shelf.,3주차 검수: 예문·정의가 다른 뜻
+REALIZE,,To make a plan or hope come true,,
+REBOUND,,"A rise after a fall, as in prices",,
+RECALL,,To ask buyers to return a faulty product; to remember,,
+RECRUIT,,To find and hire new people,,
+REGULAR,,Happening at fixed times; usual,,
+RELEASE,,To make a product or film available to the public,,
+RESISTANT,,Not harmed or affected by something,,
+RESURFACE,,To put a new surface on a road,,
+SCALE,,A device for weighing things,,
+SCENE,"장면, 현장; 분야",A part of a film or play; the place where something happens,,3주차 검수: 예문·정의가 다른 뜻
+SCOOP,,A tool like a large spoon; an exclusive news story,,
+SCRUB,,To clean something by rubbing it hard,,
+SECTOR,,A part of an economy or industry,,
+SERVE,,To give food or help to customers,The restaurant will serve lunch from noon.,3주차 검수: 예문·정의가 다른 뜻
+SHEER,,Complete; nothing but,,
+SHIP,,To send goods to a customer,We will ship your order tomorrow.,3주차 검수: 예문·정의가 다른 뜻
+STREAM,,To send video or sound over the internet while it plays,,
+TACTICS,,Plans or methods used to achieve something,,
+TIE,,To fasten something with string or rope,Please tie the boxes together with string.,3주차 검수: 예문·정의가 다른 뜻
+TRIGGER,,To cause something to start,Stress can trigger headaches.,
+TURNOUT,,The number of people who come to an event,,
+UNCOVER,,To find out something that was hidden,,
+URGE,,To strongly advise someone to do something,,
+UTILITY,,"A public service such as water, gas or electricity",,
+VITAL,,Very important; necessary,,
+WARRANT,,To make something seem right or necessary,,
+WONDER,,To want to know about something,,
+CRITERIA,,Standards used to judge or decide something,,정의 없음
+FLEXTIME,,A system that lets workers choose their working hours,,정의 없음
+KICKOFF,,The start of an event or activity,,정의 없음
+LABOR,,"Work, especially hard physical work",,정의 없음
+UTILITIES,,"Services such as water, gas and electricity",,정의 없음
+CLEARLY,,In a way that is easy to see or understand,,정의에 같은 어근
+DENSELY,,With many things close together,,정의에 같은 어근
+LOOSELY,,Not tightly or exactly,,정의에 같은 어근
+OPENLY,,Without hiding anything,He spoke openly about his mistakes.,정의에 같은 어근
+SWIFTLY,,Very quickly,,정의에 같은 어근
+LINGERING,,Lasting for a long time,,정의에 같은 어근
+REOPENING,,Starting business again after being closed,,정의에 같은 어근
+REPAYMENT,,Paying back money that was borrowed,,정의에 같은 어근
+PRICING,,Deciding how much to charge for something,,정의에 같은 어근
+ICONIC,,Widely known and seen as a symbol of something,,정의에 같은 어근
+PRINTOUT,,A paper copy made by a computer,,정의에 같은 어근
+RIDERSHIP,,The number of people who use a bus or train service,,정의에 같은 어근
+PUBLICIST,,A person whose job is to get media attention for someone,,정의에 같은 어근
+STORAGE,,Keeping things somewhere until they are needed,,정의에 같은 어근
+SKILLED,,Having the ability to do something well,,정의에 같은 어근
+SURCHARGE,,An extra amount added to the usual price,,정의에 같은 어근
+VACCINATE,,To give someone an injection to protect against disease,Doctors vaccinate children against measles.,정의에 같은 어근
+GEOMETRIC,,"Made of simple shapes like lines, circles and squares",,정의에 같은 어근
+GREATLY,,Very much,,정의에 같은 어근
+EXTREMELY,,Very; to a very high degree,,정의에 같은 어근
+USAGE,,How much of something is consumed,Our water usage went up last month.,정의에 같은 어근
+INSURER,,A company that sells protection against loss or damage,,정의에 같은 어근
+STATUTORY,,Required or set by law,,정의에 같은 어근
+TRADER,,A person who buys and sells goods or shares,,정의에 같은 어근
+EQUIPMENT,,The tools and machines needed for a job,,정의에 같은 어근
+CORRELATE,,To have a close connection with something,Higher income tends to correlate with better health.,정의에 같은 어근
+ITEMIZE,,To write down each thing on a list separately,,정의에 같은 어근
+PLANNER,,A person who organizes events or projects,,정의에 같은 어근
+WIRELESS,,Working without cables,The hotel offers free wireless internet.,정의에 같은 어근
+EDITORIAL,,An article giving a newspaper's opinion,,정의에 같은 어근
+LISTING,,A record or entry in a directory or catalog,,정의에 같은 어근
+HOSTILITY,,Unfriendly or angry behavior,,정의에 같은 어근
+ACTIVIST,,A person who works for political or social change,,정의에 같은 어근
+ISSUER,,An organization that puts out shares or cards,,정의에 같은 어근
+ALUMINUM,,"A light, silver-colored metal",,정의에 같은 어근
+PLAYER,,A person who takes part in a game or sport,,정의에 같은 어근
+PROUDLY,,In a way that shows pleasure in an achievement,,정의에 같은 어근
+MEDICAL,,Relating to illness and its treatment,,정의에 같은 어근
+SOMEDAY,,At an unknown time in the future,,정의에 같은 어근
+RESTLESS,,Unable to stay still or relax,,정의에 같은 어근
+BAKERY,,A shop that makes and sells bread and cakes,,정의에 같은 어근
+DETAILED,,Including many small facts,,정의에 같은 어근
+PAINTER,,A person who makes pictures or colors walls,,정의에 같은 어근
+CONTENTS,,The things that are inside something,,정의에 같은 어근
+CLEANER,,A person whose job is to keep rooms tidy,,정의에 같은 어근
+EVERYONE,,All people,,정의에 같은 어근
+EXTEND,,To make something longer or larger,,정의에 같은 어근
+CARE,,To be concerned about something,,3주차 검수: 예문·정의가 다른 뜻
+ORDER,,To ask for goods or food to be supplied,I'd like to order a pizza for dinner.,3주차 검수: 예문·정의가 다른 뜻
+RENT,,To pay to use something that belongs to someone else,,3주차 검수: 예문·정의가 다른 뜻
+STEP,"걸음, 단계; 디디다",,,3주차 검수: 예문·정의가 다른 뜻
+TOTAL,,,The total comes to fifty dollars.,3주차 검수: 예문·정의가 다른 뜻
+TREAT,"대접하다, 한턱내다; 다루다, 치료하다",To pay for someone else's food or drink,I'll treat you to lunch today.,3주차 검수: 예문·정의가 다른 뜻
+VAN,,"A vehicle for carrying goods or people, larger than a car",We loaded the furniture into the van.,3주차 검수: 예문·정의가 다른 뜻
+LIE,,,I want to lie down for a while.,3주차 검수: 예문·정의가 다른 뜻
+DUE,,,The report is due next Friday.,3주차 검수: 예문·정의가 다른 뜻
+PRESENT,,To show or give something formally,Please present your ticket at the gate.,3주차 검수: 예문·정의가 다른 뜻
+THEATER,,,We saw a play at the theater last night.,3주차 검수: 예문·정의가 다른 뜻
+PRESS,,,Press the button to start the machine.,3주차 검수: 예문·정의가 다른 뜻
+DEAL,,An agreement to buy or sell something,We made a deal with the new supplier.,3주차 검수: 예문·정의가 다른 뜻
+DOUBT,,A feeling of not being sure,,3주차 검수: 예문·정의가 다른 뜻
+ENJOY,,,I really enjoy working with this team.,3주차 검수: 예문·정의가 다른 뜻
+PROVIDE,,To give someone something that they need,,3주차 검수: 예문·정의가 다른 뜻
+FOUND,,To start an organization or company,They decided to found a new company.,3주차 검수: 예문·정의가 다른 뜻
+RUN,,,I run in the park every morning.,3주차 검수: 예문·정의가 다른 뜻
+VISIT,,To go to see a person or place,,3주차 검수: 예문·정의가 다른 뜻
+LAY,,,Please lay the papers on my desk.,3주차 검수: 예문·정의가 다른 뜻
+AVOID,,To keep away from something or not do it,,3주차 검수: 예문·정의가 다른 뜻
+FAIR,,An event where companies show and sell their products,,3주차 검수: 예문·정의가 다른 뜻
+CODE,,"A set of rules, or a group of numbers or letters used for a purpose",,3주차 검수: 예문·정의가 다른 뜻
+SHED,"헛간, 창고; (빛을) 비추다",A small building used for storage,We keep the garden tools in the shed.,3주차 검수: 예문·정의가 다른 뜻
+ABUSE,"남용, 학대; 남용하다",,,3주차 검수: 예문·정의가 다른 뜻
+DEDICATE,,To give your time or effort to something or someone,,3주차 검수: 예문·정의가 다른 뜻
+TAILOR,,A person whose job is making or fitting clothes,,3주차 검수: 예문·정의가 다른 뜻
+THUMB,,,He hurt his thumb while playing volleyball.,3주차 검수: 예문·정의가 다른 뜻
+ODDS,,,The odds of winning the lottery are very low.,3주차 검수: 예문·정의가 다른 뜻
+MONITOR,,A screen that shows information from a computer,,3주차 검수: 예문·정의가 다른 뜻
+IDEAL,,"Perfect, or the best possible",,3주차 검수: 예문·정의가 다른 뜻
+HEDGE,,,He trimmed the hedge in the front yard.,3주차 검수: 예문·정의가 다른 뜻
+AGENT,,A person who acts or does business for someone else,,3주차 검수: 예문·정의가 다른 뜻
+TACKLE,,To deal with a difficult problem,,3주차 검수: 예문·정의가 다른 뜻
+NEUTRAL,,,Switzerland stayed neutral during the war.,3주차 검수: 예문·정의가 다른 뜻
+IDLE,"한가한, 놀고 있는; 빈둥거리다",Not working or not being used,The machines were idle during the holiday.,3주차 검수: 예문·정의가 다른 뜻
+CONTAIN,,,This box may contain fragile items.,3주차 검수: 예문·정의가 다른 뜻
+ECHO,,,We heard the echo of our voices in the cave.,3주차 검수: 예문·정의가 다른 뜻
+COLUMN,"(신문의) 칼럼; 기둥, 열",A regular article in a newspaper or magazine,,3주차 검수: 예문·정의가 다른 뜻
+CIRCUS,,"A show with acrobats, clowns and animals",,3주차 검수: 예문·정의가 다른 뜻
+OUTDOOR,야외의,,,3주차 검수: 예문·정의가 다른 뜻
+TONNE,,,The bridge can hold up to one tonne.,3주차 검수: 예문·정의가 다른 뜻
+TELECOM,,The business of sending information by phone or internet,She works for a large telecom company.,3주차 검수: 예문·정의가 다른 뜻
+ARRAY,,A large group or range of things,The store sells a wide array of products.,3주차 검수: 예문·정의가 다른 뜻
+ANTITRUST,,Relating to laws that stop companies from controlling a market,,3주차 검수: 예문·정의가 다른 뜻
+TECHNICAL,,,We need technical support to fix the server.,3주차 검수: 예문·정의가 다른 뜻
+INTERFACE,,The way a user controls a computer program,,3주차 검수: 예문·정의가 다른 뜻
+CLOTH,,,Clean the table with a damp cloth.,3주차 검수: 예문·정의가 다른 뜻
+MAINLY,,Mostly; for the most part,,3주차 검수: 예문·정의가 다른 뜻
+TELLER,,,The bank teller counted the money twice.,3주차 검수: 예문·정의가 다른 뜻
+PROCEEDS,,,All proceeds from the concert will go to charity.,3주차 검수: 예문·정의가 다른 뜻
+ROYALTY,"인세, 사용료; 왕족",Money paid to the owner of a patent or book for each use or copy,,3주차 검수: 예문·정의가 다른 뜻
+CRANE,"크레인, 기중기; 두루미",,A crane lifted the steel beams onto the roof.,3주차 검수: 예문·정의가 다른 뜻
+OBSCURE,"애매한, 잘 알려지지 않은",,,3주차 검수: 예문·정의가 다른 뜻
+MONOPOLY,,,The company has a monopoly on the local market.,3주차 검수: 예문·정의가 다른 뜻
+LAUNDER,,To hide where illegally earned money came from,The gang tried to launder money through a restaurant.,3주차 검수: 예문·정의가 다른 뜻
+CONVICT,,A person who is in prison for a crime,,3주차 검수: 예문·정의가 다른 뜻
+OVERWHELM,,,The amount of work began to overwhelm the new staff.,3주차 검수: 예문·정의가 다른 뜻
+SHIFT,,To move something from one place to another,,3주차 검수: 예문·정의가 다른 뜻
+EXTREME,,Very great in degree,The desert has extreme temperatures.,3주차 검수: 예문·정의가 다른 뜻
+INCUMBENT,,Currently holding an office or position,,3주차 검수: 예문·정의가 다른 뜻
+CLEVER,,Quick to learn and understand,,3주차 검수: 예문·정의가 다른 뜻
+TEMPT,,,Don't let the sale tempt you into buying things you don't need.,3주차 검수: 예문·정의가 다른 뜻
+IDENTICAL,,,The two contracts are almost identical.,3주차 검수: 예문·정의가 다른 뜻
+ENDORSE,,,Several famous athletes endorse the new shoes.,3주차 검수: 예문·정의가 다른 뜻
+AUDIT,,,The company will have an audit next month.,3주차 검수: 예문·정의가 다른 뜻
+PORTFOLIO,,A collection of someone's work or investments,,3주차 검수: 예문·정의가 다른 뜻
+EXPLOIT,"활용하다, 이용하다; 위업",To use something fully or for profit,,3주차 검수: 예문·정의가 다른 뜻
+FOOTAGE,,,The news showed footage of the flood.,3주차 검수: 예문·정의가 다른 뜻
+OUNCE,,"A small unit of weight, about 28 grams",Add one ounce of sugar to the mix.,3주차 검수: 예문·정의가 다른 뜻
+OPERATION,"수술; 작동, 운영","Surgery, or the way something works",,3주차 검수: 예문·정의가 다른 뜻

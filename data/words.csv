@@ -1,7 +1,7 @@
 word,type,level,rank,pos,meaning_ko,definition_en,example,example_blank,example_ref,source,reviewed
 EQUITY,learn,advanced,3,명사,"자기자본, 공정","Fairness, impartiality, or justice as determined in light of ""natural law"" or…",The company is open for equity participation by anybody.,The company is open for _____ participation by anybody.,tatoeba:49135,BSL,false
 SPONSORSHIP,learn,advanced,6,명사,"후원, 협찬",The state or practice of being a sponsor,Tom's sponsorship was withdrawn. He had to stop his research.,Tom's _____ was withdrawn. He had to stop his research.,tatoeba:10672537,BSL,false
-HEDGE,learn,intermediate,11,명사,울타리,"A thicket of bushes or other shrubbery, especially one planted as a fence…",The hedge fund manager was convicted of insider trading.,The _____ fund manager was convicted of insider trading.,tatoeba:6211267,BSL,false
+HEDGE,learn,intermediate,11,명사,울타리,"A thicket of bushes or other shrubbery, especially one planted as a fence…",He trimmed the hedge in the front yard.,He trimmed the _____ in the front yard.,team,BSL,false
 MATURITY,learn,advanced,18,명사,"만기, 성숙",When bodily growth has completed and/or reproduction can begin,Willingness to take responsibility is a sign of maturity.,Willingness to take responsibility is a sign of _____.,tatoeba:269846,BSL,false
 MARGINAL,learn,advanced,23,형용사,,Sharing a border,There is only a marginal difference between the two.,There is only a _____ difference between the two.,tatoeba:72913,BSL,false
 VARIANCE,learn,advanced,29,명사,"차이, 변동",A difference between what is expected and what is observed,I need to calculate the mean and the variance.,I need to calculate the mean and the _____.,tatoeba:6865779,BSL,false
@@ -37,7 +37,7 @@ PAR,learn,advanced,84,명사,"액면가, 동등",Equal value,I'm on a par with h
 SWAP,learn,advanced,85,동사,"교환하다, 교환",To exchange or give (something) in an non-normal exchange (for something else),Tom and Mary like to swap clothes for fun.,Tom and Mary like to _____ clothes for fun.,tatoeba:10573652,BSL,false
 REGRESSION,learn,advanced,88,명사,회귀,An action of travelling mentally back in time,It is not progress but regression.,It is not progress but _____.,tatoeba:3126555,BSL,false
 TRADER,learn,advanced,92,명사,상인,A person who buys and sells goods or shares,Sami began a lucrative career as a diamond trader.,Sami began a lucrative career as a diamond _____.,tatoeba:6451334,BSL,false
-MONOPOLY,learn,advanced,93,명사,"독점, 전매","A situation, by legal privilege or other agreement…",Monopoly is a popular game for families to play.,_____ is a popular game for families to play.,tatoeba:681052,BSL,false
+MONOPOLY,learn,advanced,93,명사,"독점, 전매","A situation, by legal privilege or other agreement…",The company has a monopoly on the local market.,The company has a _____ on the local market.,team,BSL,false
 CORRELATION,learn,advanced,94,명사,,"A reciprocal, parallel or complementary relationship between two or more…",I'm unable to grasp the correlation between these two things.,I'm unable to grasp the _____ between these two things.,tatoeba:12121689,BSL,false
 BREACH,learn,advanced,98,명사,,"A gap or opening made by breaking or battering, as in a wall…",Tom fired Vladimir for serious breach of working discipline.,Tom fired Vladimir for serious _____ of working discipline.,tatoeba:11939263,BSL,false
 SUBSIDY,learn,advanced,99,명사,"보조, 원조","Financial support or assistance, such as a grant",My financial situation is supported by a state subsidy.,My financial situation is supported by a state _____.,tatoeba:12119959,BSL,false
@@ -84,9 +84,9 @@ ALLOWANCE,learn,intermediate,172,명사,,Permission,You must make allowance for 
 ENFORCE,learn,advanced,175,동사,,"To keep up, impose or bring into effect something, not necessarily by force",Those who enforce the law must obey the law.,Those who _____ the law must obey the law.,tatoeba:1650387,BSL,false
 EMISSION,learn,advanced,176,명사,,Something which is emitted or sent out,Filters stop emission of gas into the atmosphere.,Filters stop _____ of gas into the atmosphere.,tatoeba:882869,BSL,false
 WARRANT,learn,intermediate,180,명사,"영장, 령장",To make something seem right or necessary,An arrest warrant was issued for the company's accountant.,An arrest _____ was issued for the company's accountant.,tatoeba:1355400,BSL,false
-TELECOM,learn,advanced,182,명사,통신,_____ or _____,When would you be able to have a telecom?,When would you be able to have a _____?,tatoeba:1512519,BSL,false
+TELECOM,learn,advanced,182,명사,통신,The business of sending information by phone or internet,She works for a large telecom company.,She works for a large _____ company.,team,BSL,false
 DIVERSIFY,learn,advanced,184,동사,"다원화하다, 다양화하다",To make (something) diverse or varied in form or quality,"In my opinion, we need to diversify our assets.","In my opinion, we need to _____ our assets.",tatoeba:250868,BSL,false
-EXPLOIT,learn,advanced,187,명사,"위업, 공훈",A heroic or extraordinary deed,Each of us needs to fully exploit his potential.,Each of us needs to fully _____ his potential.,tatoeba:3420992,BSL,false
+EXPLOIT,learn,advanced,187,명사,"활용하다, 이용하다; 위업",To use something fully or for profit,Each of us needs to fully exploit his potential.,Each of us needs to fully _____ his potential.,tatoeba:3420992,BSL,false
 REFERENDUM,learn,advanced,189,명사,국민투표,A direct popular vote on a proposed law or constitutional amendment,Will a referendum soon give Corsica back its independence?,Will a _____ soon give Corsica back its independence?,tatoeba:2874376,BSL,false
 TREATY,learn,intermediate,191,명사,"조약, 협정","A formal binding agreement concluded by subjects of international law, namely…",This is the rough draft of the peace treaty.,This is the rough draft of the peace _____.,tatoeba:56146,BSL,false
 TAXATION,learn,advanced,200,명사,"과세, 세제",The act of imposing taxes and the fact of being taxed,The people groaned under the burden of heavy taxation.,The people groaned under the burden of heavy _____.,tatoeba:241449,BSL,false
@@ -114,7 +114,7 @@ ESSENTIALLY,learn,intermediate,247,부사,"본질적으로, 기본적으로",In 
 PRESIDENCY,learn,advanced,248,명사,"대통령직, 회장직",The office or role of president,He made his way to presidency step by step.,He made his way to _____ step by step.,tatoeba:293831,BSL,false
 RATIONAL,learn,intermediate,249,형용사,"합리적, 유리수",Capable of reasoning,"Although the arguments were rational, he was not convinced.","Although the arguments were _____, he was not convinced.",tatoeba:325364,BSL,false
 UNDERMINE,learn,advanced,252,동사,약화시키다,To weaken or work against,I'll seek to undermine your confidence at every turn.,I'll seek to _____ your confidence at every turn.,tatoeba:13219012,BSL,false
-IDENTICAL,learn,intermediate,256,형용사,"동일한, 똑같은",Bearing full likeness by having precisely the same set of characteristics,Women are interchangeable instruments for a constantly identical pleasure.,Women are interchangeable instruments for a constantly _____ pleasure.,tatoeba:2767302,BSL,false
+IDENTICAL,learn,intermediate,256,형용사,"동일한, 똑같은",Bearing full likeness by having precisely the same set of characteristics,The two contracts are almost identical.,The two contracts are almost _____.,team,BSL,false
 SURGE,learn,advanced,260,명사,"급증, 급증하다","A sudden transient rush, flood or increase",The Great Depression triggered a great surge in crime.,The Great Depression triggered a great _____ in crime.,tatoeba:5928098,BSL,false
 PREDECESSOR,learn,advanced,265,명사,전임자,One who precedes,We like the present headmaster better than his predecessor.,We like the present headmaster better than his _____.,tatoeba:248986,BSL,false
 DEPUTY,learn,advanced,267,명사,"대리인, 대리자","One appointed as the substitute of others, and empowered to act for them…",He will be my deputy while I am away.,He will be my _____ while I am away.,tatoeba:247059,BSL,false
@@ -180,7 +180,7 @@ PROXY,learn,advanced,374,명사,"대리, 프록시",An agent or substitute autho
 POLITICALLY,learn,intermediate,375,부사,정치적으로,In a political manner,Tom claims he's not racist but just politically incorrect.,Tom claims he's not racist but just _____ incorrect.,tatoeba:5598645,BSL,false
 MUNICIPAL,learn,advanced,377,형용사,"시립의, 도시의",Of or pertaining to the internal affairs of a nation,The municipal council should concentrate more on specific issues.,The _____ council should concentrate more on specific issues.,tatoeba:246137,BSL,false
 HOSTILE,learn,intermediate,378,형용사,적대적인,Not friendly,The Soviet Union took a hostile attitude toward us.,The Soviet Union took a _____ attitude toward us.,tatoeba:41257,BSL,false
-TONNE,learn,advanced,379,명사,"톤(1,000kg)",A unit of mass equal to 1000 kilograms,Thanks a tonne. How come you're being so kind to me?,Thanks a _____. How come you're being so kind to me?,tatoeba:10178905,BSL,false
+TONNE,learn,advanced,379,명사,"톤(1,000kg)",A unit of mass equal to 1000 kilograms,The bridge can hold up to one tonne.,The bridge can hold up to one _____.,team,BSL,false
 PERIODIC,learn,advanced,382,형용사,"주기적인, 정기적인",Having repeated cycles,Erbium is element atomic number 68 on the periodic table.,Erbium is element atomic number 68 on the _____ table.,tatoeba:8767495,BSL,false
 BARREL,learn,intermediate,383,명사,"통, 배럴","A round (cylindrical) vessel, such as a cask, of greater length than breadth…",The GOP accused the Democrats of pork barrel politics.,The GOP accused the Democrats of pork _____ politics.,tatoeba:19250,BSL,false
 ACCELERATE,learn,advanced,384,동사,,To cause to move faster,Sami's life began to accelerate at an incredible pace.,Sami's life began to _____ at an incredible pace.,tatoeba:6474640,BSL,false
@@ -192,7 +192,7 @@ TIGHTEN,learn,intermediate,399,동사,"강화하다, 조이다",To make money ha
 AMEND,learn,advanced,400,동사,,To make better,The Diet is likely to amend this unpopular law.,The Diet is likely to _____ this unpopular law.,tatoeba:241395,BSL,false
 SQUEEZE,learn,intermediate,401,동사,"짜다, 스퀴즈하다",To apply pressure (to something) from two or more sides at once,She tried to squeeze the juice from the orange.,She tried to _____ the juice from the orange.,tatoeba:410513,BSL,false
 ULTIMATE,learn,intermediate,406,형용사,"궁극적인, 최종의",Final,Hummer limousines are the ultimate symbol of conspicuous consumption.,Hummer limousines are the _____ symbol of conspicuous consumption.,tatoeba:587618,BSL,false
-NEUTRAL,learn,intermediate,407,형용사,"중립의, 중성의",Not taking sides in a conflict such as war,A neutral work is the work of a coward.,A _____ work is the work of a coward.,tatoeba:1324143,BSL,false
+NEUTRAL,learn,intermediate,407,형용사,"중립의, 중성의",Not taking sides in a conflict such as war,Switzerland stayed neutral during the war.,Switzerland stayed _____ during the war.,team,BSL,false
 AXIS,learn,advanced,408,명사,축,The second cervical vertebra of the spine,The earth revolves on its axis once every 24 hours.,The earth revolves on its _____ once every 24 hours.,tatoeba:689751,BSL,false
 SCRAP,learn,advanced,413,명사,스크랩,A (small) piece,There wasn't a scrap of truth in the statement.,There wasn't a _____ of truth in the statement.,tatoeba:45902,BSL,false
 PETROL,learn,intermediate,414,명사,휘발유,A fluid consisting of a mixture of refined _____ hydrocarbons…,Our car ran out of petrol after ten minutes.,Our car ran out of _____ after ten minutes.,tatoeba:247551,BSL,false
@@ -213,7 +213,7 @@ FRACTION,learn,advanced,434,명사,분수,"A part of a whole, especially a compa
 SOLELY,learn,intermediate,437,부사,,Alone,Are you from a planet solely populated by women?,Are you from a planet _____ populated by women?,tatoeba:619936,BSL,false
 PIONEER,learn,advanced,440,명사,"선구자, 개척자","One who goes before, as into the wilderness…",Lee 'Scratch' Perry was a pioneer of dub music.,Lee 'Scratch' Perry was a _____ of dub music.,tatoeba:10272226,BSL,false
 DIPLOMAT,learn,intermediate,441,명사,외교관,"A person, such as an ambassador, who is accredited to represent a government…",Kim means to be a diplomat in the future.,Kim means to be a _____ in the future.,tatoeba:63202,BSL,false
-ENDORSE,learn,advanced,443,동사,,"To express support or approval, especially officially or publicly",Muslims don't endorse violence in the name of religion.,Muslims don't _____ violence in the name of religion.,tatoeba:13023654,BSL,false
+ENDORSE,learn,advanced,443,동사,,"To express support or approval, especially officially or publicly",Several famous athletes endorse the new shoes.,Several famous athletes _____ the new shoes.,team,BSL,false
 CHEQUE,learn,advanced,444,명사,수표,A written order directing a bank to pay money to a person or entity,Tom double-checked his bank balance before writing the cheque.,Tom double-checked his bank balance before writing the _____.,tatoeba:3236020,BSL,false
 INTENT,learn,intermediate,447,명사,"의도, 열중한",The state of someone’s mind at the time of committing an offence,The child did not intent to break your arm.,The child did not _____ to break your arm.,tatoeba:5679025,BSL,false
 LESSOR,learn,advanced,449,명사,임대인,The owner of property that is leased,,,,BSL,false
@@ -267,7 +267,7 @@ INSTALLMENT,learn,advanced,539,명사,,"One of a series of parts, whether equal 
 EMPIRICAL,learn,advanced,540,형용사,실증적인,"Pertaining to or based on experience, as opposed to theory","Grammar is an empirical science, not a theoretical one.","Grammar is an _____ science, not a theoretical one.",tatoeba:1439896,BSL,false
 REVIVE,learn,advanced,541,동사,"되살리다, 회복시키다",To cause (a person or animal) to recover from a faint,That will help revive a fashion of the past.,That will help _____ a fashion of the past.,tatoeba:42551,BSL,false
 INEVITABLE,learn,intermediate,543,형용사,피할 수 없는,Impossible to avoid or prevent,It is inevitable that some changes will take place.,It is _____ that some changes will take place.,tatoeba:318245,BSL,false
-ARRAY,learn,advanced,544,명사,배열,Clothing and ornamentation,She dated an endless array of bad boys.,She dated an endless _____ of bad boys.,tatoeba:8405738,BSL,false
+ARRAY,learn,advanced,544,명사,배열,A large group or range of things,The store sells a wide array of products.,The store sells a wide _____ of products.,team,BSL,false
 BALLOT,learn,advanced,545,명사,"투표, 투표용지","The process of voting, especially in secret",The results of the ballot are a foregone conclusion.,The results of the _____ are a foregone conclusion.,tatoeba:3283863,BSL,false
 TREASURY,learn,advanced,546,명사,"국고, 금고",A place where state or royal money and valuables are stored,"It is an ancient midden, presently an archaeological treasury.","It is an ancient midden, presently an archaeological _____.",tatoeba:1594669,BSL,false
 BOAST,learn,advanced,549,명사,"자랑하다, 자만하다",A brag,It's not a thing one can well boast of.,It's not a thing one can well _____ of.,tatoeba:42794,BSL,false
@@ -289,7 +289,7 @@ FIGHTER,learn,intermediate,576,명사,"싸울아비, 전사","A pugnacious, comp
 GRIP,learn,intermediate,578,동사,"꽉 잡다, 통제","To take hold (of), particularly with the hand",They got into the grip of ignorance and poverty.,They got into the _____ of ignorance and poverty.,tatoeba:307584,BSL,false
 ASSERT,learn,advanced,580,동사,"확고히 하다, 주장하다",To declare with assurance or plainly and strongly,Layla began to assert herself a little more.,Layla began to _____ herself a little more.,tatoeba:6044023,BSL,false
 UNDERWRITE,learn,advanced,581,동사,"보증하다, 인수하다",To write below or under,Not every company can afford to underwrite such an expensive event.,Not every company can afford to _____ such an expensive event.,tatoeba:5723281,BSL,false
-CORRELATE,learn,advanced,583,동사,연관성이 있다,To have a close connection with something,I used to correlate love with sex.,I used to _____ love with sex.,tatoeba:4042357,BSL,false
+CORRELATE,learn,advanced,583,동사,연관성이 있다,To have a close connection with something,Higher income tends to correlate with better health.,Higher income tends to _____ with better health.,team,BSL,false
 COMPEL,learn,advanced,584,동사,강요하다,To overpower,I compel you to adhere to our master's teachings.,I _____ you to adhere to our master's teachings.,tatoeba:6687029,BSL,false
 AGRICULTURE,learn,intermediate,586,명사,"농업, 농사",The art or science of cultivating the ground…,Some day man will reclaim the desert for agriculture.,Some day man will reclaim the desert for _____.,tatoeba:66162,BSL,false
 MULTIPLIER,learn,advanced,588,명사,승수,One who multiplies or causes something to increase,,,,BSL,false
@@ -311,7 +311,7 @@ EXPLICIT,learn,advanced,607,형용사,"명백(明白)하다, 명확(明確)하�
 BREAKDOWN,learn,intermediate,608,명사,고장,"A failure, particularly one which is mechanical in nature",She is on the verge of a nervous breakdown.,She is on the verge of a nervous _____.,tatoeba:2183,BSL,false
 SPAN,learn,advanced,609,명사,"기간, 걸치다",The full width of an open hand from the end of the thumb to the end of the…,One of Tom's problems is his short attention span.,One of Tom's problems is his short attention _____.,tatoeba:2662678,BSL,false
 BAIL,learn,intermediate,610,명사,"보석, 보석금","Security, usually a sum of money, exchanged for the release of an arrested…",Tom is stuck in jail because he can't afford bail.,Tom is stuck in jail because he can't afford _____.,tatoeba:5045405,BSL,false
-INCUMBENT,learn,advanced,611,형용사,재임중인,Of an anther,The company was established in 1950 by the incumbent chairman.,The company was established in 1950 by the _____ chairman.,tatoeba:49113,BSL,false
+INCUMBENT,learn,advanced,611,형용사,재임중인,Currently holding an office or position,The company was established in 1950 by the incumbent chairman.,The company was established in 1950 by the _____ chairman.,tatoeba:49113,BSL,false
 OUTFLOW,learn,advanced,614,명사,유출,The process of flowing out,The sudden outflow of capital from the country worried international investors.,The sudden _____ of capital from the country worried international investors.,tatoeba:13639246,BSL,false
 ALBEIT,learn,advanced,615,접속사,비록 ~이지만,"Although, despite (it) being","Igor looked like his normal self, albeit traumatized a bit.","Igor looked like his normal self, _____ traumatized a bit.",tatoeba:11822119,BSL,false
 TRICKY,learn,intermediate,616,형용사,,"Hard to deal with, complicated","Crutches are pretty tricky ... ""Excuse me, stretcher coming through!""","Crutches are pretty _____ ... ""Excuse me, stretcher coming through!""",tatoeba:328271,BSL,false
@@ -335,13 +335,13 @@ BIDDER,learn,advanced,645,명사,입찰자,"Someone who bids (all senses), but m
 RESPECTIVE,learn,advanced,646,형용사,,"Relating to particular persons or things, each to each",Gunter and his siblings went to their respective rooms.,Gunter and his siblings went to their _____ rooms.,tatoeba:11632031,BSL,false
 DELIVERABLE,learn,advanced,647,형용사,"납품물, 성과물",Able to be delivered,,,,BSL,false
 DEPICT,learn,advanced,649,동사,,"To render a representation of something, using words, sounds, images…","Meanwhile, we depict aliens doing really weird stuff.","Meanwhile, we _____ aliens doing really weird stuff.",tatoeba:3464550,BSL,false
-ODDS,learn,intermediate,650,명사,"가능성, 확률",The ratio of the probability of an event happening to that of it not happening,The drawer is stuffed full of odds and ends.,The drawer is stuffed full of _____ and ends.,tatoeba:27149,BSL,false
+ODDS,learn,intermediate,650,명사,"가능성, 확률",The ratio of the probability of an event happening to that of it not happening,The odds of winning the lottery are very low.,The _____ of winning the lottery are very low.,team,BSL,false
 ALLEGATION,learn,advanced,653,명사,"주장, 혐의","An assertion, especially an accusation, not necessarily based on facts",Tom was fired over a sexual harassment allegation.,Tom was fired over a sexual harassment _____.,tatoeba:6488634,BSL,false
 REDEMPTION,learn,advanced,654,명사,속죄,The act of redeeming or something redeemed,Redemption is a big problem in the American culture.,_____ is a big problem in the American culture.,tatoeba:3148811,BSL,false
 DOWNWARD,learn,advanced,655,부사,"아래로, 하향의","Toward a lower level, whether in physical space, in a hierarchy…",I was looking downward to the bottom of the valley.,I was looking _____ to the bottom of the valley.,tatoeba:259365,BSL,false
 GRID,learn,advanced,656,명사,"격자, 그리드",A rectangular array of squares or rectangles of equal size…,"She's off the grid, and European authorities want her arrested.","She's off the _____, and European authorities want her arrested.",tatoeba:5377872,BSL,false
 DEPRECIATE,learn,advanced,659,동사,"가치가 떨어지다, 감가상각하다",To lessen in price or estimated value,Algeria shouldn't depreciate its national currency.,Algeria shouldn't _____ its national currency.,tatoeba:10088154,BSL,false
-INTERFACE,learn,advanced,660,명사,인터페이스,A thin layer or boundary between different substances or two phases of a…,Please select a language for the Image Viewer interface.,Please select a language for the Image Viewer _____.,tatoeba:513378,BSL,false
+INTERFACE,learn,advanced,660,명사,인터페이스,The way a user controls a computer program,Please select a language for the Image Viewer interface.,Please select a language for the Image Viewer _____.,tatoeba:513378,BSL,false
 DIGIT,learn,advanced,661,명사,"숫자, 손가락",A position in a sequence of numerals representing a place value in a…,The last digit in his number is nine.,The last _____ in his number is nine.,tatoeba:7968200,BSL,false
 HYBRID,learn,intermediate,664,명사,잡종,Offspring resulting from cross-breeding different entities…,"The word ""hybrid"" is derived from the Latin ""hybrida"".","The word ""_____"" is derived from the Latin ""hybrida"".",tatoeba:2791278,BSL,false
 PROVOKE,learn,intermediate,666,동사,"유발하다, 화나게 하다",To cause someone to become annoyed or angry,The cat will scratch you if you provoke it.,The cat will scratch you if you _____ it.,tatoeba:50061,BSL,false
@@ -375,7 +375,7 @@ INTERVENE,learn,advanced,718,동사,,"To become involved in a situation, so as t
 REPERTOIRE,learn,advanced,719,명사,레퍼토리,"A list of dramas, operas, pieces, parts, etc.…",I want to keep bulking up my repertoire.,I want to keep bulking up my _____.,tatoeba:9192641,BSL,false
 HALT,learn,intermediate,720,동사,,A stop or pause,The blue sports car came to a screeching halt.,The blue sports car came to a screeching _____.,tatoeba:271982,BSL,false
 NICHE,learn,advanced,721,명사,"틈새시장, 적소","A cavity, hollow, or recess, generally within the thickness of a wall…",Joel likes to call himself a niche internet microcelebrity.,Joel likes to call himself a _____ internet microcelebrity.,tatoeba:11591440,BSL,false
-SHED,learn,intermediate,722,동사,"비추다, 헛간","To part with, separate from, leave off",I cannot shed a tear for that horrible man.,I cannot _____ a tear for that horrible man.,tatoeba:66912,BSL,false
+SHED,learn,intermediate,722,동사,"헛간, 창고; (빛을) 비추다",A small building used for storage,We keep the garden tools in the shed.,We keep the garden tools in the _____.,team,BSL,false
 MOTIVE,learn,intermediate,723,명사,동기,Something which causes someone to want to commit a crime,"Your motive was admirable, but your action was not.","Your _____ was admirable, but your action was not.",tatoeba:16941,BSL,false
 WHEREBY,learn,advanced,724,부사,그것에 의하여,By which,"But he said: Lord God, whereby may I know that I shall possess it?","But he said: Lord God, _____ may I know that I shall possess it?",tatoeba:7848816,BSL,false
 MEDIAN,learn,advanced,725,명사,"중선, 중간(中間)값",A line segment joining the vertex of triangle to the midpoint of the opposing…,"Averages come in three flavors: mean, median, and mode.","Averages come in three flavors: mean, _____, and mode.",tatoeba:717916,BSL,false
@@ -403,7 +403,7 @@ SCRUTINY,learn,advanced,764,명사,정밀 조사,Intense study of someone or som
 EXILE,learn,intermediate,766,명사,"망명, 추방",The state of being banished from one's home or country,Napoleon lived in exile on the island of Elba.,Napoleon lived in _____ on the island of Elba.,tatoeba:673213,BSL,false
 INHERENT,learn,advanced,768,형용사,고유의,Naturally as part or consequence of something,The instinct of self-defense is inherent in any animal.,The instinct of self-defense is _____ in any animal.,tatoeba:321247,BSL,false
 EXPLICITLY,learn,advanced,769,부사,,In an explicit manner,The government explicitly declared its intention to lower taxes.,The government _____ declared its intention to lower taxes.,tatoeba:1126671,BSL,false
-CLEVER,learn,beginner,770,형용사,"똑똑한, 영리한",Nimble with hands or body,He was far from clever in his school days.,He was far from _____ in his school days.,tatoeba:21344,BSL,false
+CLEVER,learn,beginner,770,형용사,"똑똑한, 영리한",Quick to learn and understand,He was far from clever in his school days.,He was far from _____ in his school days.,tatoeba:21344,BSL,false
 PAYBACK,learn,advanced,772,명사,"회수, 보답",An act of revenge,It's payback for wrongdoing in a previous life.,It's _____ for wrongdoing in a previous life.,tatoeba:8676868,BSL,false
 SACRIFICE,learn,intermediate,773,명사,"희생, 희생(犧牲)하다","A human being or an animal, or a physical object or immaterial thing (see…",They killed a goat as a sacrifice to God.,They killed a goat as a _____ to God.,tatoeba:306097,BSL,false
 FEASIBLE,learn,advanced,775,형용사,,Able to be done in practice,It's not feasible for you to finish this project.,It's not _____ for you to finish this project.,tatoeba:9733552,BSL,false
@@ -417,7 +417,7 @@ RELIANCE,learn,advanced,786,명사,"의존, 신뢰",The act of relying (on or in
 COVENANT,learn,advanced,787,명사,"계약, 약정",An agreement to do or not do a particular thing,,,,BSL,false
 PROSECUTE,learn,advanced,789,동사,기소하다,To start criminal proceedings against,There are lots of signs warning that they prosecute shoplifters.,There are lots of signs warning that they _____ shoplifters.,tatoeba:5250537,BSL,false
 MATERIALLY,learn,advanced,790,부사,"실질적으로, 크게",To a significant degree,,,,BSL,false
-CONVICT,learn,advanced,791,동사,"기결수, 재소자","To find guilty, as a result of legal proceedings, or (informal) in a moral sense",The police determined that Tom was an escaped convict.,The police determined that Tom was an escaped _____.,tatoeba:3928444,BSL,false
+CONVICT,learn,advanced,791,동사,"기결수, 재소자",A person who is in prison for a crime,The police determined that Tom was an escaped convict.,The police determined that Tom was an escaped _____.,tatoeba:3928444,BSL,false
 PROCUREMENT,learn,advanced,792,명사,,The purchasing department of a company,We are trying to clarify your future procurement requirements.,We are trying to clarify your future _____ requirements.,tatoeba:64664,BSL,false
 CLASH,learn,advanced,793,명사,"충돌, 충돌하다","A loud sound, like the crashing together of metal objects",Every now and then they clash over their differences.,Every now and then they _____ over their differences.,tatoeba:5145568,BSL,false
 DETER,learn,advanced,794,동사,,To prevent something from happening,The video cameras are mainly there to deter thieves.,The video cameras are mainly there to _____ thieves.,tatoeba:10164858,BSL,false
@@ -437,7 +437,7 @@ ALPHA,learn,intermediate,809,명사,알파,The name of the symbols Α and α use
 REFINE,learn,advanced,810,동사,"정제하다, 개선하다",To purify,Does Algeria have the infrastructure to refine its own crude oil?,Does Algeria have the infrastructure to _____ its own crude oil?,tatoeba:10132295,BSL,false
 IMPLICIT,learn,advanced,811,형용사,"암시적인, 내재된",Contained in the essential nature of something but not openly shown,That's implicit. You don't need to state it explicitly.,That's _____. You don't need to state it explicitly.,tatoeba:8870268,BSL,false
 DEFLATION,learn,advanced,812,명사,"디플레이션, 디플레","A decrease in the general price level, that is…",Why is deflation dangerous for the economy?,Why is _____ dangerous for the economy?,tatoeba:5977920,BSL,false
-ANTITRUST,learn,advanced,813,형용사,독점 금지의,Opposed to or against the establishment or existence of trusts (monopolies)…,,,,BSL,false
+ANTITRUST,learn,advanced,813,형용사,독점 금지의,Relating to laws that stop companies from controlling a market,,,,BSL,false
 PROSPERITY,learn,intermediate,815,명사,번영,The condition of being prosperous,The prosperity of a country depends upon its citizens.,The _____ of a country depends upon its citizens.,tatoeba:241370,BSL,false
 RIOT,learn,advanced,816,명사,"폭동, 반란",A tumultuous disturbance of the public peace by a large group of people…,The riot was soon put down by the police.,The _____ was soon put down by the police.,tatoeba:43976,BSL,false
 ALIGN,learn,advanced,820,동사,"맞추다, 정렬하다",To form a line,We can use braces to align your teeth better.,We can use braces to _____ your teeth better.,tatoeba:8657061,BSL,false
@@ -575,7 +575,7 @@ MAINLAND,learn,advanced,1032,명사,"본토, 대륙",The continent,The island is
 PEACEFUL,learn,intermediate,1034,형용사,평화롭다,Not at war,The countries concerned settled the dispute by peaceful means.,The countries concerned settled the dispute by _____ means.,tatoeba:20820,BSL,false
 IMPORTANTLY,learn,advanced,1035,부사,중요하게,Used to mark a statement as having importance,"The rules must be few and, more importantly, simple.","The rules must be few and, more _____, simple.",tatoeba:20222,BSL,false
 BACKWARD,learn,intermediate,1036,형용사,"뒤로, 뒤떨어진",Situated toward or at the rear of something,Tom glanced backward over his shoulder and waved goodbye.,Tom glanced _____ over his shoulder and waved goodbye.,tatoeba:2457368,BSL,false
-OVERWHELM,learn,advanced,1039,동사,압도하다,"To engulf, surge over and submerge",France couldn't overwhelm Algerian independence fighters with its firepower.,France couldn't _____ Algerian independence fighters with its firepower.,tatoeba:10101266,BSL,false
+OVERWHELM,learn,advanced,1039,동사,압도하다,"To engulf, surge over and submerge",The amount of work began to overwhelm the new staff.,The amount of work began to _____ the new staff.,team,BSL,false
 CONSISTENCY,learn,advanced,1040,명사,일관성,Local coherence,A foolish consistency is the hobgoblin of little minds.,A foolish _____ is the hobgoblin of little minds.,tatoeba:6673843,BSL,false
 DECLARATION,learn,advanced,1042,명사,선언,"An emphatic or formal act of saying, telling or asserting something…",Yuri took Martha's text as a declaration of war.,Yuri took Martha's text as a _____ of war.,tatoeba:11941906,BSL,false
 RETENTION,learn,advanced,1044,명사,"유지, 보유",The act of retaining or something retained,Language learning stimulates brain activity and improves memory retention.,Language learning stimulates brain activity and improves memory _____.,tatoeba:13211626,BSL,false
@@ -640,7 +640,7 @@ ARTIFICIAL,learn,beginner,1134,형용사,"인공, 인조",Insincere,Today our ar
 TRAIT,learn,advanced,1135,명사,특징,"An identifying characteristic, habit or trend",Generosity is an important trait in today's selfish society.,Generosity is an important _____ in today's selfish society.,tatoeba:5696506,BSL,false
 PROTESTER,learn,advanced,1137,명사,"시위자, 시위대","One who protests, either alone or in a public display of group feeling",The police officer beat the protester with her nightstick.,The police officer beat the _____ with her nightstick.,tatoeba:9171101,BSL,false
 PORTRAY,learn,advanced,1138,동사,묘사하다,To paint or draw the likeness of,In this film they both portray notorious gang leaders.,In this film they both _____ notorious gang leaders.,tatoeba:3661106,BSL,false
-ECHO,learn,intermediate,1139,명사,"메아리, 에코",A reflected sound that is heard again by its initial observer,Echo was very happy that his mother had returned.,_____ was very happy that his mother had returned.,tatoeba:3951906,BSL,false
+ECHO,learn,intermediate,1139,명사,"메아리, 에코",A reflected sound that is heard again by its initial observer,We heard the echo of our voices in the cave.,We heard the _____ of our voices in the cave.,team,BSL,false
 HAUL,learn,advanced,1140,동사,포트트릭,"To transport by drawing or pulling, as with horses or oxen, or a motor vehicle",Tom and Mary are in this for the long haul.,Tom and Mary are in this for the long _____.,tatoeba:7130224,BSL,false
 FINANCIALLY,learn,intermediate,1141,부사,재정적으로,In terms of finance or money,"We were financially troubled, in short, we were bankrupt.","We were _____ troubled, in short, we were bankrupt.",tatoeba:22962,BSL,false
 BUREAUCRAT,learn,advanced,1143,명사,관료,A user on a wiki with the right to change users' access levels,,,,BSL,false
@@ -667,7 +667,7 @@ SIMPLICITY,learn,intermediate,1180,명사,"단순함, 간단함",The quality or 
 STATIC,learn,advanced,1181,형용사,"정적인, 고정된",Unchanging,House prices have remained static for several months.,House prices have remained _____ for several months.,tatoeba:266469,BSL,false
 COMPUTERIZE,learn,advanced,1183,동사,전산화하다,To enter data into such a system,Companies are rapidly trying to computerize their systems.,Companies are rapidly trying to _____ their systems.,tatoeba:5939890,BSL,false
 SUCCESSION,learn,advanced,1184,명사,,An act of following in sequence,They won the Japan Cup three years in succession.,They won the Japan Cup three years in _____.,tatoeba:305433,BSL,false
-ROYALTY,learn,advanced,1185,명사,"황족, 인세","The rank, status, power or authority of a monarch",Intel gets a huge royalty from the invention.,Intel gets a huge _____ from the invention.,tatoeba:65734,BSL,false
+ROYALTY,learn,advanced,1185,명사,"인세, 사용료; 왕족",Money paid to the owner of a patent or book for each use or copy,Intel gets a huge royalty from the invention.,Intel gets a huge _____ from the invention.,tatoeba:65734,BSL,false
 CLASSROOM,learn,beginner,1186,명사,"교실, 교장","A room, often in a school, where classes take place",Take off your hat when you enter a classroom.,Take off your hat when you enter a _____.,tatoeba:19033,BSL,false
 SPECTACULAR,learn,intermediate,1187,형용사,눈부신,Amazing or worthy of special notice,She made a spectacular improvement to her Berber level.,She made a _____ improvement to her Berber level.,tatoeba:7866638,BSL,false
 MACRO,learn,advanced,1188,형용사,매크로,Very large in scale or scope,He took a lot of macro photographs of disgusting Canadian bugs.,He took a lot of _____ photographs of disgusting Canadian bugs.,tatoeba:5788472,BSL,false
@@ -722,7 +722,7 @@ INTENSITY,learn,advanced,1250,명사,강도,The degree of strength,He was overwh
 ROUTINELY,learn,advanced,1251,부사,,"In a routine manner, in a way that has become common or expected",Sami routinely spoke with Layla on the phone.,Sami _____ spoke with Layla on the phone.,tatoeba:6361451,BSL,false
 DISPLACE,learn,advanced,1252,동사,"대체하다, 쫓아내다",To put out of place,This technology will undoubtedly displace millions of jobs.,This technology will undoubtedly _____ millions of jobs.,tatoeba:10185613,BSL,false
 IMMUNE,learn,intermediate,1253,형용사,"면역의, 면제된",Exempt,Tom told me that he's immune to that disease.,Tom told me that he's _____ to that disease.,tatoeba:6238586,BSL,false
-OBSCURE,learn,advanced,1254,형용사,애매한,"Dark, faint or indistinct","The sky is obscure, I can see no star.","The sky is _____, I can see no star.",tatoeba:2840091,BSL,false
+OBSCURE,learn,advanced,1254,형용사,"애매한, 잘 알려지지 않은","Dark, faint or indistinct","The sky is obscure, I can see no star.","The sky is _____, I can see no star.",tatoeba:2840091,BSL,false
 MOBILITY,learn,advanced,1255,명사,이동성,The ability to move,"In Kazakhstan, the ""academic mobility"" project is quite unique.","In Kazakhstan, the ""academic _____"" project is quite unique.",tatoeba:10277890,BSL,false
 DILUTE,learn,advanced,1256,동사,희석시키다,"To make thinner by adding solvent to a solution, especially by adding water",Can I use this solvent to dilute my sample?,Can I use this solvent to _____ my sample?,tatoeba:2756679,BSL,false
 PRECEDENT,learn,advanced,1257,명사,"사례, 전례",An act in the past which may be used as an example to help decide the outcome…,We cannot allow that. It would set a precedent.,We cannot allow that. It would set a _____.,tatoeba:12001955,BSL,false
@@ -732,7 +732,7 @@ BULL,learn,intermediate,1260,명사,"황소, 수컷","Specifically, one that is 
 CLONE,learn,advanced,1263,명사,클론,A living organism (originally a plant) produced asexually from a single…,The aliens replaced the US president with a clone.,The aliens replaced the US president with a _____.,tatoeba:12018674,BSL,false
 EXTREMIST,learn,advanced,1264,명사,"과격분자, 극단주의자","A person who holds extreme views, especially one who advocates such views",This region of Pakistan is a hotbed for extremist movements.,This region of Pakistan is a hotbed for _____ movements.,tatoeba:10189644,BSL,false
 PEG,learn,advanced,1265,명사,"말뚝, 못",A cylindrical wooden or metal object used to fasten or as a bearing between…,I cannot peg up my clothes. It's too windy.,I cannot _____ up my clothes. It's too windy.,tatoeba:1686642,BSL,false
-IDLE,learn,intermediate,1266,형용사,게으르다,Not being used appropriately,It is absurd to idle away the student life.,It is absurd to _____ away the student life.,tatoeba:21342,BSL,false
+IDLE,learn,intermediate,1266,형용사,"한가한, 놀고 있는; 빈둥거리다",Not working or not being used,The machines were idle during the holiday.,The machines were _____ during the holiday.,team,BSL,false
 ALLEGEDLY,learn,advanced,1269,부사,,According to allegation(s),Most airplane accidents allegedly occur at landing or takeoff stages.,Most airplane accidents _____ occur at landing or takeoff stages.,tatoeba:751542,BSL,false
 ANNUALIZE,learn,advanced,1271,동사,연간으로 환산하다,American and Oxford British spelling of annualise,,,,BSL,false
 TURMOIL,learn,advanced,1272,명사,혼란,A state of great disorder or uncertainty,Tom's outward appearance belies the inner turmoil he's going through.,Tom's outward appearance belies the inner _____ he's going through.,tatoeba:3346662,BSL,false
@@ -789,7 +789,7 @@ DOWNGRADE,learn,advanced,1353,명사,등급을 낮추다,"A reduction of a ratin
 IDEOLOGY,learn,intermediate,1354,명사,"이데올로기, 이념","Doctrine, philosophy, body of beliefs or principles belonging to an individual…",The crisis could start a revolution in economic ideology.,The crisis could start a revolution in economic _____.,tatoeba:3574609,BSL,false
 GREENHOUSE,learn,intermediate,1355,명사,온실,"A building used to grow plants, particularly one with large glass windows or…",Some scientists believe that the greenhouse effect is imaginary.,Some scientists believe that the _____ effect is imaginary.,tatoeba:727306,BSL,false
 PLEAD,learn,advanced,1356,동사,"간청하다, 변론하다","To beg, beseech, or implore, especially emotionally",My lawyer told me that I should plead guilty.,My lawyer told me that I should _____ guilty.,tatoeba:6048353,BSL,false
-OPENLY,learn,intermediate,1357,부사,,Without hiding anything,He was plainly not envious of the openly wealthy.,He was plainly not envious of the _____ wealthy.,tatoeba:5096199,BSL,false
+OPENLY,learn,intermediate,1357,부사,,Without hiding anything,He spoke openly about his mistakes.,He spoke _____ about his mistakes.,team,BSL,false
 ELASTIC,learn,advanced,1358,형용사,"탄력적인, 고무줄",Capable of stretching,Have you tried a belt with an elastic band?,Have you tried a belt with an _____ band?,tatoeba:11882075,BSL,false
 OUST,learn,advanced,1359,동사,몰아내다,To expel,They wanted to oust the communist government of Fidel Castro.,They wanted to _____ the communist government of Fidel Castro.,tatoeba:802808,BSL,false
 ENTRANT,learn,advanced,1363,명사,"신규 참가자, 신입","A participant who enters something, such as a contest",Each entrant was given a detailed course description manual and map.,Each _____ was given a detailed course description manual and map.,tatoeba:11112174,BSL,false
@@ -869,7 +869,7 @@ ENRICH,learn,advanced,1478,동사,풍부하게 하다,To make (someone or someth
 PROP,learn,advanced,1479,명사,,"An object placed against or under another, to support it",He fetched a few cushions to prop up her head.,He fetched a few cushions to _____ up her head.,tatoeba:302002,BSL,false
 DEPOSITOR,learn,advanced,1480,명사,예금자,"A person who makes a deposit, especially a deposit of money in a bank",,,,BSL,false
 CLOUT,learn,advanced,1482,명사,영향력,"Influence or effectiveness, especially political",My father has a lot of clout at city hall.,My father has a lot of _____ at city hall.,tatoeba:709120,BSL,false
-THUMB,learn,intermediate,1483,명사,"엄지, 엄지손가락",The shortest and thickest digit of the hand that for humans has the most…,Tom accidentally threw his thumb drive into the garbage.,Tom accidentally threw his _____ drive into the garbage.,tatoeba:1027239,BSL,false
+THUMB,learn,intermediate,1483,명사,"엄지, 엄지손가락",The shortest and thickest digit of the hand that for humans has the most…,He hurt his thumb while playing volleyball.,He hurt his _____ while playing volleyball.,team,BSL,false
 DECREE,learn,advanced,1487,명사,"법령, 칙령",An edict or law,Don't ask questions! The decree comes from the top.,Don't ask questions! The _____ comes from the top.,tatoeba:12225058,BSL,false
 CONSPIRACY,learn,intermediate,1489,명사,음모,An agreement or arrangement between multiple parties to do something harmful…,Sami pled guilty to conspiracy to commit insurance fraud.,Sami pled guilty to _____ to commit insurance fraud.,tatoeba:6713700,BSL,false
 DIOXIDE,learn,intermediate,1490,명사,이산화물,Any oxide containing two oxygen atoms in each molecule,The amount of carbon dioxide has increased by 10 percent.,The amount of carbon _____ has increased by 10 percent.,tatoeba:280858,BSL,false
@@ -935,7 +935,7 @@ SPECULATE,learn,advanced,1577,동사,,To make an inference based on inconclusive
 CITIZENSHIP,learn,intermediate,1579,명사,"시민권, 국적",The state of being a citizen,I can't believe he renounced his U.S. citizenship.,I can't believe he renounced his U.S. _____.,tatoeba:1848932,BSL,false
 REBOUND,learn,advanced,1580,명사,리바운드,"A rise after a fall, as in prices",She went out with her on the rebound.,She went out with her on the _____.,tatoeba:9539615,BSL,false
 SCORECARD,learn,advanced,1582,명사,"성적표, 평가표",A printed card allowing spectators of a game to identify players and record…,,,,BSL,false
-OUNCE,learn,advanced,1583,명사,온스,"An avoirdupois _____, weighing ¹⁄₁₆ of an avoirdupois pound…",It's clear Tom doesn't have an ounce of humanity.,It's clear Tom doesn't have an _____ of humanity.,tatoeba:5684856,BSL,false
+OUNCE,learn,advanced,1583,명사,온스,"A small unit of weight, about 28 grams",Add one ounce of sugar to the mix.,Add one _____ of sugar to the mix.,team,BSL,false
 PLAGUE,learn,intermediate,1587,명사,페스트,An epidemic or pandemic caused by any pestilence…,"More often than not, famine is accompanied by plague.","More often than not, famine is accompanied by _____.",tatoeba:41210,BSL,false
 KILLER,learn,intermediate,1588,명사,살인자,That which causes stress or is extremely difficult…,Do you want to help us catch Tom's killer?,Do you want to help us catch Tom's _____?,tatoeba:2028346,BSL,false
 GRAVE,learn,beginner,1589,명사,"무덤, 묘",An excavation in the earth as a place of burial,The boy dug a grave for his dead pet.,The boy dug a _____ for his dead pet.,tatoeba:46352,BSL,false
@@ -964,7 +964,7 @@ ATOM,learn,advanced,1621,명사,"원자, 아톰",The smallest possible amount of
 HITHERTO,learn,advanced,1622,부사,여태,Up to this or that time,The history of all hitherto existing societies is the history of class struggles.,The history of all _____ existing societies is the history of class struggles.,tatoeba:272127,BSL,false
 MANEUVER,learn,advanced,1624,명사,"기동, 연습","The planned movement of troops, vehicles etc.",Tom saved Mary's life by performing the Heimlich maneuver.,Tom saved Mary's life by performing the Heimlich _____.,tatoeba:5782928,BSL,false
 PROSPEROUS,learn,intermediate,1625,형용사,,Characterized by success,Best wishes for a happy and prosperous New Year.,Best wishes for a happy and _____ New Year.,tatoeba:240779,BSL,false
-LAUNDER,learn,advanced,1626,명사,"세탁하다, 돈세탁하다",A trough used by miners to receive powdered ore from the box where it is…,Bitcoin destroys the planet so billionaires can launder money.,Bitcoin destroys the planet so billionaires can _____ money.,tatoeba:12153314,BSL,false
+LAUNDER,learn,advanced,1626,명사,"세탁하다, 돈세탁하다",To hide where illegally earned money came from,The gang tried to launder money through a restaurant.,The gang tried to _____ money through a restaurant.,team,BSL,false
 GLOBALLY,learn,advanced,1631,부사,전 세계적으로,In all places or situations,The number of people with diabetes is rising globally.,The number of people with diabetes is rising _____.,tatoeba:749781,BSL,false
 CLERIC,learn,advanced,1633,명사,성직자,A spellcaster class that receives their spells (especially healing) from their…,The eccentric Vatican cleric specializes in demonic possessions.,The eccentric Vatican _____ specializes in demonic possessions.,tatoeba:8295569,BSL,false
 PRONOUNCE,learn,intermediate,1634,동사,발음하다,"To declare formally, officially or ceremoniously",It is difficult for me to pronounce the word.,It is difficult for me to _____ the word.,tatoeba:45455,BSL,false
@@ -1071,7 +1071,7 @@ ENCLOSE,learn,advanced,27,동사,"동봉하다, 둘러싸다",to surround fully,
 APPLICANT,learn,advanced,28,명사,"응모자, 출원자","a person who submits papers in order to do something, e.g. job _____",Tom advised the job applicant to redo her resume.,Tom advised the job _____ to redo her resume.,tatoeba:680095,TSL,false
 SEMINAR,learn,advanced,29,명사,세미나,"a discussion session or class led by a teacher, or expert",Pretty good. Did you go to today's history seminar?,Pretty good. Did you go to today's history _____?,tatoeba:37873,TSL,false
 TECHNICIAN,learn,advanced,30,명사,"기술자, 엔진이어",someone who is trained with special skills to do practical work,The technician is still trying to fix the electrics.,The _____ is still trying to fix the electrics.,tatoeba:8290928,TSL,false
-CLOTH,learn,intermediate,31,명사,천,a piece of thin material,It is a story made out of whole cloth.,It is a story made out of whole _____.,tatoeba:42434,TSL,false
+CLOTH,learn,intermediate,31,명사,천,a piece of thin material,Clean the table with a damp cloth.,Clean the table with a damp _____.,team,TSL,false
 FARE,learn,intermediate,32,명사,"요금, 료금","the cost for a ride, e.g. bus, or taxi",How much is the fare to the Hilton Hotel?,How much is the _____ to the Hilton Hotel?,tatoeba:34574,TSL,false
 RECEIPT,learn,intermediate,33,명사,"영수증, 령수증",proof of payment,Can you please confirm the receipt of this note?,Can you please confirm the _____ of this note?,tatoeba:60450,TSL,false
 CALLER,learn,advanced,35,명사,"전화 건 사람, 방문자",the person that is phoning you,The caller refused to give us his name.,The _____ refused to give us his name.,tatoeba:279321,TSL,false
@@ -1099,7 +1099,7 @@ GARAGE,learn,beginner,57,명사,"차고, 정비소",a place where you keep your 
 OBTAIN,learn,intermediate,58,동사,"얻다, 획득하다",to get,The women led the movement to obtain female suffrage.,The women led the movement to _____ female suffrage.,tatoeba:308575,TSL,false
 OVAL,learn,advanced,59,명사,"타원, 달걀꼴",A shape that looks like an egg,It's a white oval pill with the imprint M 357.,It's a white _____ pill with the imprint M 357.,tatoeba:10238356,TSL,false
 INVENTORY,learn,advanced,60,명사,"재고, 목록",detailed list of everything included,"As a warehouse worker, Carlos is responsible for inventory management.","As a warehouse worker, Carlos is responsible for _____ management.",tatoeba:11744130,TSL,false
-OUTDOOR,learn,intermediate,61,형용사,"노천, 로천",outside in the open air,The outdoor spa at this hot spring is wonderful.,The _____ spa at this hot spring is wonderful.,tatoeba:56515,TSL,false
+OUTDOOR,learn,intermediate,61,형용사,야외의,outside in the open air,The outdoor spa at this hot spring is wonderful.,The _____ spa at this hot spring is wonderful.,tatoeba:56515,TSL,false
 SUITCASE,learn,beginner,62,명사,"여행가방, 트렁크",A large bag like container for carrying clothes when traveling,Can you manage to carry the suitcase by yourself?,Can you manage to carry the _____ by yourself?,tatoeba:52365,TSL,false
 DESTINATION,learn,intermediate,63,명사,목적지,the place you want to be at the end of a journey,Why is Boston such a popular destination for tourists?,Why is Boston such a popular _____ for tourists?,tatoeba:3472441,TSL,false
 OCCUPATION,learn,intermediate,64,명사,"직업, 점령",profession or job,What is your occupation? What do you do here?,What is your _____? What do you do here?,tatoeba:1169614,TSL,false
@@ -1216,7 +1216,7 @@ SHOPPER,learn,advanced,183,명사,쇼핑객,someone who buys things in a store,I
 TAG,learn,intermediate,184,명사,술래잡기,a label,Put a tag on the pages you want copied.,Put a _____ on the pages you want copied.,tatoeba:56425,TSL,false
 ANNOUNCER,learn,advanced,185,명사,"아나운서, 방송원",someone who gives a message publicly,Even the stadium announcer couldn't whip up the atmosphere.,Even the stadium _____ couldn't whip up the atmosphere.,tatoeba:8819605,TSL,false
 ASPECT,learn,intermediate,186,명사,"양상, 상",a part or a feature,The critic considered every aspect of the defense program.,The critic considered every _____ of the defense program.,tatoeba:318366,TSL,false
-AUDIT,learn,advanced,187,명사,검사,"to check something is correct, usually related to accounts in business",Bangladesh Bank's policy making is based on the audit report.,Bangladesh Bank's policy making is based on the _____ report.,tatoeba:11467715,TSL,false
+AUDIT,learn,advanced,187,명사,검사,"to check something is correct, usually related to accounts in business",The company will have an audit next month.,The company will have an _____ next month.,team,TSL,false
 CONTRACTOR,learn,advanced,188,명사,,a builder,Tom hired a local contractor to remodel his kitchen.,Tom hired a local _____ to remodel his kitchen.,tatoeba:3634090,TSL,false
 DOWNLOAD,learn,intermediate,189,명사,"다운로드, 다운",transfer a file or program onto your computer,Your Unikey Vietnamese Input Method download will start shortly.,Your Unikey Vietnamese Input Method _____ will start shortly.,tatoeba:489573,TSL,false
 PASSWORD,learn,beginner,190,명사,"암호, 군호",a secret word or phrase needed to prove who you are,Check that your username and password are written correctly.,Check that your username and _____ are written correctly.,tatoeba:2214,TSL,false
@@ -1396,7 +1396,7 @@ JET,learn,intermediate,382,명사,"제트 엔진, 제트",an airplane,A jet airl
 REALISTIC,learn,intermediate,383,형용사,현실적,to be reasonable or be close to real life,A long discussion boiled down to a realistic conclusion.,A long discussion boiled down to a _____ conclusion.,tatoeba:278036,TSL,false
 THOROUGHLY,learn,intermediate,384,부사,,to do something carefully with attention to detail,I thoroughly enjoyed myself at the Van Dorgen Exhibition.,I _____ enjoyed myself at the Van Dorgen Exhibition.,tatoeba:34412,TSL,false
 TRASH,learn,beginner,385,명사,"쓰레기, 오물",garbage or waste,There is a big movement today to recycle trash.,There is a big movement today to recycle _____.,tatoeba:242445,TSL,false
-USAGE,learn,intermediate,386,명사,"이용, 리용",How much of something is consumed,"Although in common usage, this word is frequently mispronounced.","Although in common _____, this word is frequently mispronounced.",tatoeba:2748609,TSL,false
+USAGE,learn,intermediate,386,명사,"이용, 리용",How much of something is consumed,Our water usage went up last month.,Our water _____ went up last month.,team,TSL,false
 WINDY,learn,intermediate,387,형용사,바람 부는,weather that is stormy or gusty,"It was cold, and, in addition, it was windy.","It was cold, and, in addition, it was _____.",tatoeba:21144,TSL,false
 AUTOMATE,learn,advanced,388,동사,자동화하다,To make a process that does a task over and over again by machine,I've written several Python scripts to help me automate things.,I've written several Python scripts to help me _____ things.,tatoeba:11688345,TSL,false
 FERRY,learn,intermediate,389,동사,"나룻배, 수송선",a big boat that carries people and cars,We had a rough crossing on an old ferry.,We had a rough crossing on an old _____.,tatoeba:23009,TSL,false
@@ -1419,7 +1419,7 @@ NAP,learn,beginner,406,동사,"낮잠을 자다, 낮잠","a short sleep, often t
 REINFORCE,learn,advanced,407,동사,보강하다,to make stronger,Algeria needs to stabilize and reinforce its home front.,Algeria needs to stabilize and _____ its home front.,tatoeba:10077857,TSL,false
 SENDER,learn,advanced,408,명사,"발송인, 발송자",someone who transmits a message,Don't flip-flop the addresses of the sender and recipient!,Don't flip-flop the addresses of the _____ and recipient!,tatoeba:13803770,TSL,false
 VACUUM,learn,intermediate,409,명사,진공,a completely empty space,His death has left a vacuum in their lives.,His death has left a _____ in their lives.,tatoeba:286493,TSL,false
-WIRELESS,learn,advanced,410,명사,무선의,Working without cables,Gabriel was a senior wireless operator on the Titanic.,Gabriel was a senior _____ operator on the Titanic.,tatoeba:11757075,TSL,false
+WIRELESS,learn,advanced,410,명사,무선의,Working without cables,The hotel offers free wireless internet.,The hotel offers free _____ internet.,team,TSL,false
 YEARLY,learn,advanced,411,형용사,"매년의, 해마다",happening every 12 months,I prefer to have a yearly eye exam.,I prefer to have a _____ eye exam.,tatoeba:11468893,TSL,false
 CARGO,learn,advanced,413,명사,"짐, 화물",the things carried in the hold of an airplane or on a truck,"This is a cargo ship, not a passenger ship.","This is a _____ ship, not a passenger ship.",tatoeba:1963072,TSL,false
 COOPERATE,learn,intermediate,414,동사,협력하다,to work together nicely,I'm willing to do the job if you cooperate.,I'm willing to do the job if you _____.,tatoeba:19242,TSL,false
@@ -1507,7 +1507,7 @@ MISLEAD,learn,advanced,503,동사,오해하게 하다,to lead someone in the wro
 MISPLACE,learn,advanced,504,동사,,forget where you have put it,Tom has a tendency to misplace things.,Tom has a tendency to _____ things.,tatoeba:3000825,TSL,false
 NEWSSTAND,learn,advanced,505,명사,"신문 가판대, 신문 판매대",a small structure where newspapers and magazines are sold,Every morning I buy a newspaper at a newsstand.,Every morning I buy a newspaper at a _____.,tatoeba:696428,TSL,false
 OVERHEAD,learn,intermediate,506,명사,,"the fixed cost of a business, e.g. rent",Should I put this bag in the overhead compartment?,Should I put this bag in the _____ compartment?,tatoeba:60656,TSL,false
-PORTFOLIO,learn,advanced,507,명사,포트폴리오,a collection of investments that someone owns,She brought her portfolio of photographs to the interview.,She brought her _____ of photographs to the interview.,tatoeba:2582570,TSL,false
+PORTFOLIO,learn,advanced,507,명사,포트폴리오,A collection of someone's work or investments,She brought her portfolio of photographs to the interview.,She brought her _____ of photographs to the interview.,tatoeba:2582570,TSL,false
 RACK,learn,intermediate,508,명사,"선반, 횃대",a stand or shelf to put things on,Tom buys all his clothes right off the rack.,Tom buys all his clothes right off the _____.,tatoeba:3150593,TSL,false
 REMODEL,learn,advanced,509,동사,개조하다,change or alter nearly everything to make it look different,Tom hired a local contractor to remodel his kitchen.,Tom hired a local contractor to _____ his kitchen.,tatoeba:3634090,TSL,false
 STATISTICS,learn,intermediate,510,명사,"통계학, 통계",math related to data collection,We need to add some statistics to the PowerPoint.,We need to add some _____ to the PowerPoint.,tatoeba:680080,TSL,false
@@ -1538,7 +1538,7 @@ STEADILY,learn,intermediate,536,부사,꾸준히,in a slow and even manner,Trade
 STOCKHOLDER,learn,advanced,537,명사,주주,someone who holds shares of stock in a corporation,I'm a stockholder in this company.,I'm a _____ in this company.,tatoeba:3183591,TSL,false
 VACANT,learn,intermediate,538,형용사,비다,empty,There wasn't a single vacant seat in the hall.,There wasn't a single _____ seat in the hall.,tatoeba:33674,TSL,false
 ACCESSORY,learn,advanced,539,형용사,액세서리,partner in crime,He was arrested as an accessory to the robbery.,He was arrested as an _____ to the robbery.,tatoeba:290684,TSL,false
-ASSEMBLY,learn,intermediate,540,명사,"회의, 모임",The act of fitting parts together to make something,The assembly consisted of people concerned about human rights.,The _____ consisted of people concerned about human rights.,tatoeba:46693,TSL,false
+ASSEMBLY,learn,intermediate,540,명사,"회의, 모임",The act of fitting parts together to make something,The assembly of the shelves took an hour.,The _____ of the shelves took an hour.,team,TSL,false
 BASKET,learn,beginner,541,명사,"바구니, 고리짝",a container made of pieces of wood,Half of the bananas in the basket were rotten.,Half of the bananas in the _____ were rotten.,tatoeba:63764,TSL,false
 CLOSURE,learn,advanced,543,명사,폐쇄,when something is closed for good,The road closure was due to a flash flood.,The road _____ was due to a flash flood.,tatoeba:2588482,TSL,false
 DISLIKE,learn,intermediate,544,명사,"염오, 혐오","to not like, hate",Some people dislike eels because they look like snakes.,Some people _____ eels because they look like snakes.,tatoeba:65473,TSL,false
@@ -1768,7 +1768,7 @@ SPA,learn,intermediate,790,명사,"온천, 스파","a place you can go to relax 
 SPREADSHEET,learn,advanced,791,명사,스프레드시트,a computer program worksheet or table that you enter information onto,The link to your spreadsheet has invalid characters.,The link to your _____ has invalid characters.,tatoeba:8792387,TSL,false
 STAPLER,learn,advanced,792,명사,"호치키스, 스테이플러",a small device used to fix papers together with a small thin piece of wire…,A stapler is very useful for attaching papers together.,A _____ is very useful for attaching papers together.,tatoeba:263354,TSL,false
 STREAMLINE,learn,advanced,793,명사,,make smoother and more efficient,Streamline your localization process with a translation management solution (TMS).,_____ your localization process with a translation management solution (TMS).,tatoeba:8484128,TSL,false
-TELLER,learn,advanced,795,명사,출납계,"person who works in a bank, who pays out and takes in money",My son tried to become a rakugo story teller.,My son tried to become a rakugo story _____.,tatoeba:932985,TSL,false
+TELLER,learn,advanced,795,명사,출납계,"person who works in a bank, who pays out and takes in money",The bank teller counted the money twice.,The bank _____ counted the money twice.,team,TSL,false
 TIDY,learn,intermediate,796,형용사,단정한,put things in their correct place,I cannot tidy my room. I don't have time.,I cannot _____ my room. I don't have time.,tatoeba:1727840,TSL,false
 TOLL,learn,intermediate,797,명사,"통행료, 손실",a small cost or fee you pay to use a service,The missile attack took a heavy toll of lives.,The missile attack took a heavy _____ of lives.,tatoeba:32290,TSL,false
 TONER,learn,advanced,798,명사,"토너, 잉크 가루",the ink in the computer or printer,The toner cartridge needs to be replaced.,The _____ cartridge needs to be replaced.,tatoeba:6190885,TSL,false
@@ -1822,7 +1822,7 @@ CHAIRPERSON,learn,advanced,852,명사,"의장, 위원장",the person in charge o
 CHARITABLE,learn,advanced,853,형용사,자선의,giving free money or help of some kind to someone who needs it,I want to contribute to a charitable cause.,I want to contribute to a _____ cause.,tatoeba:10297140,TSL,false
 CHECKUP,learn,advanced,854,명사,,a test to see that all is as it should be,When was the last time you had a checkup?,When was the last time you had a _____?,tatoeba:4016728,TSL,false
 COOLER,learn,intermediate,855,명사,아이스박스,a box (filled with ice) that keeps drinks cold,Can you guess which cooler is the most efficient?,Can you guess which _____ is the most efficient?,tatoeba:37634,TSL,false
-CRANE,learn,advanced,856,명사,"두루미, 학",a machine used to move and lift heavy things,Tom folded the piece of paper into a crane.,Tom folded the piece of paper into a _____.,tatoeba:5874779,TSL,false
+CRANE,learn,advanced,856,명사,"크레인, 기중기; 두루미",a machine used to move and lift heavy things,A crane lifted the steel beams onto the roof.,A _____ lifted the steel beams onto the roof.,team,TSL,false
 DEALERSHIP,learn,advanced,857,명사,,a business that can buy and sell certain things,That car dealership has a reputation for selling lemons.,That car _____ has a reputation for selling lemons.,tatoeba:603587,TSL,false
 DEPENDABLE,learn,intermediate,858,명사,믿을 수 있는,"reliable, trustworthy",Tom told Mary that he thought John wasn't dependable.,Tom told Mary that he thought John wasn't _____.,tatoeba:6226229,TSL,false
 DISCONNECT,learn,advanced,859,동사,,cut off or detach,Would you like to disconnect from this server?,Would you like to _____ from this server?,tatoeba:13583173,TSL,false
@@ -1843,7 +1843,7 @@ STAPLE,learn,advanced,875,명사,"주식, 스테이플",short thin piece of wire
 STRATEGIC,learn,intermediate,876,형용사,,in a way carefully thought about,Game theory is the study of strategic decision making.,Game theory is the study of _____ decision making.,tatoeba:4265261,TSL,false
 STRIPE,learn,advanced,877,명사,줄무늬,a line or band of a different color,The bird had a dark stripe running down the medial part of each feather.,The bird had a dark _____ running down the medial part of each feather.,tatoeba:13943995,TSL,false
 TEEN,learn,advanced,878,명사,십대,someone aged between the ages of thirteen and nineteen,Fadil started a non-profit organization to empower teen moms.,Fadil started a non-profit organization to empower _____ moms.,tatoeba:5869064,TSL,false
-TEMPT,learn,advanced,879,동사,유혹하다,to try to get someone to do something they should not,"Trying to tempt her, I gazed into her face.","Trying to _____ her, I gazed into her face.",tatoeba:317631,TSL,false
+TEMPT,learn,advanced,879,동사,유혹하다,to try to get someone to do something they should not,Don't let the sale tempt you into buying things you don't need.,Don't let the sale _____ you into buying things you don't need.,team,TSL,false
 TIMER,learn,advanced,880,명사,타이머,something that counts seconds and minutes,Ziri asked Rima if he could borrow her timer.,Ziri asked Rima if he could borrow her _____.,tatoeba:10236794,TSL,false
 UNLOAD,learn,advanced,881,동사,짐을 내리다,to remove something (usually from a truck),Tom started to unload the sacks from the truck.,Tom started to _____ the sacks from the truck.,tatoeba:3928081,TSL,false
 UNUSUALLY,learn,intermediate,882,부사,,not normal or usual,Trang gave an unusually expensive Christmas gift to Sysko.,Trang gave an _____ expensive Christmas gift to Sysko.,tatoeba:62806,TSL,false
@@ -1906,7 +1906,7 @@ SEWER,learn,advanced,944,명사,하수도,the pipes that carry water and waste a
 SKATE,learn,intermediate,945,명사,"스케이트, 스케트",glide over the surface as if you are sliding on ice,You need to have strong thigh muscles to skate.,You need to have strong thigh muscles to _____.,tatoeba:52035,TSL,false
 SKATEBOARD,learn,advanced,946,명사,스케이트보드,a flat board with small wheels on the bottom that you move by pushing on the…,I told Tom that I'd buy him another skateboard.,I told Tom that I'd buy him another _____.,tatoeba:3150736,TSL,false
 SLEEPY,learn,beginner,947,형용사,졸리다,"tired, ready for bed",I feel sleepy when I listen to soft music.,I feel _____ when I listen to soft music.,tatoeba:43235,TSL,false
-TAILOR,learn,intermediate,948,명사,재단사,adjust something to fit a specific need or market,I had the tailor make a suit for me.,I had the _____ make a suit for me.,tatoeba:6168765,TSL,false
+TAILOR,learn,intermediate,948,명사,재단사,A person whose job is making or fitting clothes,I had the tailor make a suit for me.,I had the _____ make a suit for me.,tatoeba:6168765,TSL,false
 TERMINATION,learn,advanced,949,명사,어미,the end of something,I was devastated when I received my termination notice.,I was devastated when I received my _____ notice.,tatoeba:6143162,TSL,false
 THEFT,learn,intermediate,950,명사,"도둑질, 절도",the taking and keeping of something that does not belong to you,The police brought a charge of theft against him.,The police brought a charge of _____ against him.,tatoeba:238359,TSL,false
 TRANSMIT,learn,advanced,953,동사,,to send a message to someone,We have to transmit our culture to the next generation.,We have to _____ our culture to the next generation.,tatoeba:22931,TSL,false
@@ -2059,7 +2059,7 @@ BIOGRAPHY,learn,advanced,1106,명사,전기,someone's life story,Tom's biography
 BOUND,learn,beginner,1107,형용사,—행,"wrap around with something, so as to cover or enclose",You are bound to fail unless you study harder.,You are _____ to fail unless you study harder.,tatoeba:30367,TSL,false
 BROOM,learn,intermediate,1108,명사,"비, 빗자루",a brush with a long handle used for sweeping the dirt from the floor,Tom took the broom out of the hall closet.,Tom took the _____ out of the hall closet.,tatoeba:2538318,TSL,false
 CHILLY,learn,intermediate,1110,형용사,쌀쌀하다,when the weather is cold and causing you to shiver,"For this time of year, the weather is chilly.","For this time of year, the weather is _____.",tatoeba:2155122,TSL,false
-CIRCUS,learn,intermediate,1111,명사,"서커스, 곡마단",a showy or noisy performance,The elephants are the chief attraction at the circus.,The elephants are the chief attraction at the _____.,tatoeba:268253,TSL,false
+CIRCUS,learn,intermediate,1111,명사,"서커스, 곡마단","A show with acrobats, clowns and animals",The elephants are the chief attraction at the circus.,The elephants are the chief attraction at the _____.,tatoeba:268253,TSL,false
 COMPLIMENT,learn,intermediate,1112,명사,"칭찬, 찬사",saying something nice about someone,Every insult from Joel is just a hidden compliment.,Every insult from Joel is just a hidden _____.,tatoeba:1478602,TSL,false
 CONSIGNMENT,learn,advanced,1113,명사,,a shipment of goods for delivery,I bought this at the consignment shop.,I bought this at the _____ shop.,tatoeba:11535982,TSL,false
 CONTINENTAL,learn,advanced,1114,형용사,대륙의,to do with the mainland,Esther didn't have time to eat the continental breakfast.,Esther didn't have time to eat the _____ breakfast.,tatoeba:8115453,TSL,false
@@ -2332,7 +2332,7 @@ HOME,fill,beginner,161,명사,"집, 댁",One’s own dwelling place,How many tim
 NEVER,fill,beginner,162,부사,"절대로, 결코",At no time,"If I don't do it now, I never will.","If I don't do it now, I _____ will.",tatoeba:2193,NGSL,false
 INCLUDE,fill,beginner,163,동사,포함하다,"To bring into a group, class, set, or total as a (new) part or member",Special services include a personal driver for each guest.,Special services _____ a personal driver for each guest.,tatoeba:280538,NGSL,false
 COURSE,fill,beginner,164,명사,"코스, 과정",A sequence of events,You insist upon our taking that course of action.,You insist upon our taking that _____ of action.,tatoeba:16093,NGSL,false
-HOUSE,fill,beginner,165,명사,"집, 댁",To provide space for something; to hold or contain,You did not need to have your house painted.,You did not need to have your _____ painted.,tatoeba:16245,NGSL,false
+HOUSE,fill,beginner,165,명사,"집, 댁",To provide space for something; to hold or contain,The museum will house the new collection.,The museum will _____ the new collection.,team,NGSL,false
 REPORT,fill,beginner,166,동사,"보고하다, 보고",To relate details of (an event or incident),You have to report to the police at once.,You have to _____ to the police at once.,tatoeba:16844,NGSL,false
 GROUP,fill,beginner,167,명사,"그룹, 그루빠",A number of things or persons being in some relation to one another,A group of foreign students visited Akira's high school.,A _____ of foreign students visited Akira's high school.,tatoeba:21958,NGSL,false
 CASE,fill,beginner,168,명사,"사건, 경우","An actual event, situation, or fact",What you said does not apply to this case.,What you said does not apply to this _____.,tatoeba:17208,NGSL,false
@@ -2359,7 +2359,7 @@ FOLLOW,fill,beginner,188,동사,"따르다, 팔로우하다",To go after,All you
 BEGIN,fill,beginner,189,동사,"시작하다, 개시하다","To start, to initiate or take the first step into something",Begin with such books as you can easily understand.,_____ with such books as you can easily understand.,tatoeba:29199,NGSL,false
 IMPORTANT,fill,beginner,190,형용사,중요하다,Having relevant and crucial value,You should read such books as you consider important.,You should read such books as you consider _____.,tatoeba:16054,NGSL,false
 SINCE,fill,beginner,191,부사,"부터, 후",From a specified time in the past,It's lonely in the saddle since the horse died.,It's lonely in the saddle _____ the horse died.,tatoeba:1694,NGSL,false
-RUN,fill,beginner,192,동사,"달리다, 뛰다",To move forward quickly upon two feet by alternately making a short jump off…,Your effort will be rewarded in the long run.,Your effort will be rewarded in the long _____.,tatoeba:16961,NGSL,false
+RUN,fill,beginner,192,동사,"달리다, 뛰다",To move forward quickly upon two feet by alternately making a short jump off…,I run in the park every morning.,I _____ in the park every morning.,team,NGSL,false
 UNDER,fill,beginner,193,전치사,"...아래에, ...아래에서",Beneath,You must act under the leadership of your supervisor.,You must act _____ the leadership of your supervisor.,tatoeba:20999,NGSL,false
 TURN,fill,beginner,194,동사,"돌다, 돌리다",To move about an axis through itself,You have to turn in the reports on Monday.,You have to _____ in the reports on Monday.,tatoeba:16174,NGSL,false
 FEW,fill,beginner,195,한정사,"적다, 조금","An indefinite, but usually small, number of",Will you listen to me for a few minutes?,Will you listen to me for a _____ minutes?,tatoeba:6088,NGSL,false
@@ -2372,7 +2372,7 @@ MONEY,fill,beginner,201,명사,"돈, 금전",A generally accepted means of excha
 FACT,fill,beginner,202,명사,"사실, 진상",Something actual as opposed to invented,You should make sure of the fact without hesitation.,You should make sure of the _____ without hesitation.,tatoeba:16509,NGSL,false
 HOWEVER,fill,beginner,203,부사,아무튼,Nevertheless,"Air travel is fast; sea travel is, however, restful.","Air travel is fast; sea travel is, _____, restful.",tatoeba:18297,NGSL,false
 AREA,fill,beginner,204,명사,"면적, 부분",A particular part of a place or region,The patrol cars cover the whole of the area.,The patrol cars cover the whole of the _____.,tatoeba:35124,NGSL,false
-PROVIDE,fill,beginner,205,동사,공급하다,To make a living,Will you please provide more details about your proposal?,Will you please _____ more details about your proposal?,tatoeba:54361,NGSL,false
+PROVIDE,fill,beginner,205,동사,공급하다,To give someone something that they need,Will you please provide more details about your proposal?,Will you please _____ more details about your proposal?,tatoeba:54361,NGSL,false
 NAME,fill,beginner,206,명사,"이름, 성함","Any nounal word or phrase which indicates a particular person, place, class…",We hadn't so much as heard of her name.,We hadn't so much as heard of her _____.,tatoeba:22695,NGSL,false
 READ,fill,beginner,207,동사,읽다,To look at and interpret letters or other information that is written,You should read such books as will benefit you.,You should _____ such books as will benefit you.,tatoeba:16052,NGSL,false
 FRIEND,fill,beginner,208,명사,"친구, 동무","A person, typically someone other than a family member, spouse or lover…",I ran into a friend while walking in Ginza.,I ran into a _____ while walking in Ginza.,tatoeba:18408,NGSL,false
@@ -2382,7 +2382,7 @@ BUSINESS,fill,beginner,211,명사,"사업, 기업",A specific commercial enterpr
 WITHOUT,fill,beginner,212,부사,"...없이, ...없으면",Lacking something,I couldn't have done it without you. Thank you.,I couldn't have done it _____ you. Thank you.,tatoeba:1606,NGSL,false
 INFORMATION,fill,beginner,213,명사,"안내, 정보",Something that provides a definitive characterization or description of the…,The information you gave me is of little use.,The _____ you gave me is of little use.,tatoeba:17723,NGSL,false
 OPEN,fill,beginner,214,형용사,"연, 열다",Able to have something pass through or along it,There are few high-ranking positions left open for you.,There are few high-ranking positions left _____ for you.,tatoeba:17526,NGSL,false
-ORDER,fill,beginner,215,명사,"순서, 질서","Arrangement, disposition, or sequence",You must work hard in order not to fail.,You must work hard in _____ not to fail.,tatoeba:16027,NGSL,false
+ORDER,fill,beginner,215,명사,"순서, 질서",To ask for goods or food to be supplied,I'd like to order a pizza for dinner.,I'd like to _____ a pizza for dinner.,team,NGSL,false
 GOVERNMENT,fill,beginner,216,명사,정부,The body with the power to make and/or enforce laws to control a country…,Why does the US government let people have guns?,Why does the US _____ let people have guns?,tatoeba:36471,NGSL,false
 WORD,fill,beginner,217,명사,"말, 낱말",The smallest unit of language that has a particular meaning and can be…,You've left out a word in copying the textbook.,You've left out a _____ in copying the textbook.,tatoeba:16204,NGSL,false
 ISSUE,fill,beginner,218,명사,,To officially give or supply something,I don't want to make an issue of it.,I don't want to make an _____ of it.,tatoeba:50408,NGSL,false
@@ -2426,7 +2426,7 @@ UNTIL,fill,beginner,255,전치사,-까지,Up to the time of (something happening
 REASON,fill,beginner,256,명사,"이유, 리유",That which causes something,For some reason I feel more alive at night.,For some _____ I feel more alive at night.,tatoeba:1332,NGSL,false
 FORM,fill,beginner,257,명사,"형상, 형식",The shape or visible structure of a thing or person,A serious form of flu prevails throughout the country.,A serious _____ of flu prevails throughout the country.,tatoeba:28567,NGSL,false
 SPEND,fill,beginner,258,동사,"쓰다, 소비하다",To pay out (money),"Americans spend most of their lives working, being productive.","Americans _____ most of their lives working, being productive.",tatoeba:67471,NGSL,false
-HEAD,fill,beginner,259,명사,"머리, 두뇌",The person in charge of a group or organization,For some reason or another she shook her head.,For some reason or another she shook her _____.,tatoeba:24772,NGSL,false
+HEAD,fill,beginner,259,명사,"머리, 두뇌",The person in charge of a group or organization,She is the head of the sales department.,She is the _____ of the sales department.,team,NGSL,false
 CAR,fill,beginner,260,명사,"차, 자동차","A wheeled vehicle that moves independently, with at least three wheels…",It's time for you to buy a new car.,It's time for you to buy a new _____.,tatoeba:15975,NGSL,false
 LEARN,fill,beginner,261,동사,배우다,"To acquire, or attempt to acquire knowledge or an ability to do something",You'll learn how to do it sooner or later.,You'll _____ how to do it sooner or later.,tatoeba:15901,NGSL,false
 LEVEL,fill,beginner,262,형용사,"수평, 수준",The same height at all places,Corporate bankruptcies continued at a high level last month.,Corporate bankruptcies continued at a high _____ last month.,tatoeba:20726,NGSL,false
@@ -2442,7 +2442,7 @@ ABLE,fill,beginner,271,형용사,"할 수 있는, 능란한",Having the necessar
 SUPPORT,fill,beginner,272,동사,"지지하다, 지원",To help keep from falling,He has to work hard to support his family.,He has to work hard to _____ his family.,tatoeba:24066,NGSL,false
 WHETHER,fill,beginner,273,접속사,"-는지, -ᆫ지",Introduces a simple indirect question (with no correlative),I don't know whether you like her or not.,I don't know _____ you like her or not.,tatoeba:17739,NGSL,false
 LINE,fill,beginner,274,명사,"줄, 선",A path through two or more points (compare ‘segment’),I've got my friend on the line right now.,I've got my friend on the _____ right now.,tatoeba:40151,NGSL,false
-PRESENT,fill,beginner,275,형용사,"현재(現在)의, 출석하다","Relating to now, for the time being",I didn't expect such a nice present from you.,I didn't expect such a nice _____ from you.,tatoeba:17948,NGSL,false
+PRESENT,fill,beginner,275,형용사,"현재(現在)의, 출석하다",To show or give something formally,Please present your ticket at the gate.,Please _____ your ticket at the gate.,team,NGSL,false
 SIDE,fill,beginner,276,명사,"쪽, 측면",A bounding straight edge of a two-dimensional shape,Is the school on this side of the river?,Is the school on this _____ of the river?,tatoeba:21513,NGSL,false
 QUITE,fill,beginner,277,부사,"상당히, 완전히","With verbs, especially past participles",It's quite difficult to master French in 2 or 3 years.,It's _____ difficult to master French in 2 or 3 years.,tatoeba:1596,NGSL,false
 ALTHOUGH,fill,beginner,278,접속사,"하지만, -지만","Though, even though, in spite of or despite the fact that","Although her house is nearby, I seldom see her.","_____ her house is nearby, I seldom see her.",tatoeba:18735,NGSL,false
@@ -2480,7 +2480,7 @@ STAND,fill,beginner,309,동사,"서다, 올라서다",To support oneself on the 
 WHOLE,fill,beginner,310,형용사,전체,"Entire, undivided",What you did brought disgrace on the whole class.,What you did brought disgrace on the _____ class.,tatoeba:17163,NGSL,false
 YET,fill,beginner,311,부사,"아직, 이윽고","In negative or interrogative use, often with an expectation or potential of…","And yet, the contrary is always true as well.","And _____, the contrary is always true as well.",tatoeba:1637,NGSL,false
 RATE,fill,beginner,312,명사,"비율, 비률","The proportional relationship between one amount, value etc. and another",The rate of exchange is 145 yen to the dollar.,The _____ of exchange is 145 yen to the dollar.,tatoeba:28181,NGSL,false
-CARE,fill,beginner,313,명사,"상관하다, 걱정하다",Close attention,My physics teacher doesn't care if I skip classes.,My physics teacher doesn't _____ if I skip classes.,tatoeba:1392,NGSL,false
+CARE,fill,beginner,313,명사,"상관하다, 걱정하다",To be concerned about something,My physics teacher doesn't care if I skip classes.,My physics teacher doesn't _____ if I skip classes.,tatoeba:1392,NGSL,false
 EXPECT,fill,beginner,314,동사,기대하다,To predict or believe that something will happen,You can't expect me to always think of everything!,You can't _____ me to always think of everything!,tatoeba:1490,NGSL,false
 EFFECT,fill,beginner,315,명사,"효과, 영향",The result or outcome of a cause,It had an effect alien from the one intended.,It had an _____ alien from the one intended.,tatoeba:28201,NGSL,false
 SORT,fill,beginner,316,명사,종류,A general type,What sort of thing must I pay tax on?,What _____ of thing must I pay tax on?,tatoeba:36580,NGSL,false
@@ -2488,7 +2488,7 @@ EVER,fill,beginner,317,부사,"언제든, 이제까지","Continuously, constantl
 ANYTHING,fill,beginner,318,대명사,아무것도,"Any object, act, state, event, or fact whatsoever",Even plastic surgery won't do anything for your ugliness.,Even plastic surgery won't do _____ for your ugliness.,tatoeba:6052,NGSL,false
 CAUSE,fill,beginner,319,명사,"원인, 일으키다","The source of, or reason for, an event or action",The cause of the fire was his cigarette butt.,The _____ of the fire was his cigarette butt.,tatoeba:23825,NGSL,false
 FALL,fill,beginner,320,동사,"넘어지다, 쓰러지다",To move to a lower position under the effect of gravity,Don't fall in love because we hate you still.,Don't _____ in love because we hate you still.,tatoeba:25486,NGSL,false
-DEAL,fill,beginner,321,명사,"거래, 합의",An indefinite quantity or amount,We had a good deal of snow last winter.,We had a good _____ of snow last winter.,tatoeba:19428,NGSL,false
+DEAL,fill,beginner,321,명사,"거래, 합의",An agreement to buy or sell something,We made a deal with the new supplier.,We made a _____ with the new supplier.,team,NGSL,false
 WATER,fill,beginner,322,명사,"물, 물을 주다",An inorganic compound (of molecular formula H₂O) found at room temperature and…,Air is to man what water is to fish.,Air is to man what _____ is to fish.,tatoeba:18248,NGSL,false
 SEND,fill,beginner,323,동사,보내다,To make something (such as an object or message) go from one place to another…,Please send your sales reps to this new account.,Please _____ your sales reps to this new account.,tatoeba:26501,NGSL,false
 ALLOW,fill,beginner,324,동사,허락하다,To let one have as a suitable share of something,The circumstances did not allow me to go abroad.,The circumstances did not _____ me to go abroad.,tatoeba:22200,NGSL,false
@@ -2500,7 +2500,7 @@ SUGGEST,fill,beginner,329,동사,"추측하다, 시사하다",To imply but stop 
 PAST,fill,beginner,330,명사,"과거, 과거(過去)의",The period of time that has already happened…,My past indiscretions are coming back to haunt me.,My _____ indiscretions are coming back to haunt me.,tatoeba:23626,NGSL,false
 POWER,fill,beginner,331,명사,"힘, 권력",The ability to do or undergo something,A high forehead is indicative of great mental power.,A high forehead is indicative of great mental _____.,tatoeba:21250,NGSL,false
 TEST,fill,beginner,332,명사,"검사, 시험","A challenge, trial",The professor made sure the test was checked carefully.,The professor made sure the _____ was checked carefully.,tatoeba:19011,NGSL,false
-VISIT,fill,beginner,333,동사,"방문하다, 찾아가다","To habitually go to (someone in distress, sickness etc.) to comfort them",I'll give you a call before I visit you.,I'll give you a call before I _____ you.,tatoeba:17364,NGSL,false
+VISIT,fill,beginner,333,동사,"방문하다, 찾아가다",To go to see a person or place,I'll give you a call before I visit you.,I'll give you a call before I _____ you.,tatoeba:17364,NGSL,false
 CENTER,fill,beginner,334,명사,"중심, 중앙",The point in the interior of a circle that is equidistant from all points on…,Our travel advice center caters to the independent traveler.,Our travel advice _____ caters to the independent traveler.,tatoeba:23531,NGSL,false
 GROW,fill,beginner,335,동사,자라다,"To become larger, to increase in magnitude",I want to teach history when I grow up.,I want to teach history when I _____ up.,tatoeba:64961,NGSL,false
 NOTHING,fill,beginner,336,대명사,아무것도...없다,Not any thing,Nothing great has been achieved by playing it safe.,_____ great has been achieved by playing it safe.,tatoeba:2379,NGSL,false
@@ -2547,11 +2547,11 @@ AMONG,fill,beginner,376,전치사,"가운데에, 속에",Of a person or thing,A 
 WIN,fill,beginner,377,동사,"이기다, 승리하다","To reach some destination or object, despite difficulty or toil (now usually…","At last, Mario managed to win the princess's love.","At last, Mario managed to _____ the princess's love.",tatoeba:28702,NGSL,false
 COLOR,fill,beginner,378,명사,"색깔, 색",The spectral composition of visible light,The buds are beginning to show signs of color.,The buds are beginning to show signs of _____.,tatoeba:39790,NGSL,false
 INVOLVE,fill,intermediate,379,동사,,To have (something) as a component or a related part,"Dear woman, why do you involve me? Jesus replied.","Dear woman, why do you _____ me? Jesus replied.",tatoeba:51390,NGSL,false
-REACH,fill,beginner,380,동사,"달하다, 도달하다",To stretch out an arm to touch or take something,The boy made vain efforts to reach the shore.,The boy made vain efforts to _____ the shore.,tatoeba:46369,NGSL,false
+REACH,fill,beginner,380,동사,"달하다, 도달하다",To stretch out an arm to touch or take something,I can't reach the top shelf.,I can't _____ the top shelf.,team,NGSL,false
 SOCIAL,fill,beginner,381,형용사,사회적인,Being extroverted or outgoing,We must work hard to break down social barriers.,We must work hard to break down _____ barriers.,tatoeba:22925,NGSL,false
 PERIOD,fill,beginner,382,명사,"주기, 기간",A length of time,The students' lunch period is from twelve to one.,The students' lunch _____ is from twelve to one.,tatoeba:21396,NGSL,false
 ACROSS,fill,beginner,383,전치사,"가로질러, 반대편에서","To, toward, or from the far side of (something that lies between two points of…",I ran across an old friend near the bank.,I ran _____ an old friend near the bank.,tatoeba:18436,NGSL,false
-NOTE,fill,beginner,384,명사,"기록, 메모",To notice or pay attention to something,"Then, please give him this note. This is urgent.","Then, please give him this _____. This is urgent.",tatoeba:43067,NGSL,false
+NOTE,fill,beginner,384,명사,"기록, 메모",To notice or pay attention to something,Please note that the office will be closed on Friday.,Please _____ that the office will be closed on Friday.,team,NGSL,false
 HISTORY,fill,beginner,385,명사,"역사, 력사","The aggregate of past events, both unrecorded and recorded",How come you know so much about Japanese history?,How come you know so much about Japanese _____?,tatoeba:6041,NGSL,false
 CREATE,fill,beginner,386,동사,창조하다,To bring into existence,"People of Almaty, let us create a child-friendly city!","People of Almaty, let us _____ a child-friendly city!",tatoeba:437360,NGSL,false
 DRIVE,fill,beginner,387,동사,"운전하다, 드라이브하다",To operate (a wheeled motorized vehicle),The station is a ten minute drive from here.,The station is a ten minute _____ from here.,tatoeba:26047,NGSL,false
@@ -2591,7 +2591,7 @@ AGREE,fill,beginner,420,동사,"동의(同意)하다, 동의하다","To be in ha
 LAW,fill,beginner,421,명사,"법률, 법","The body of binding rules and regulations, customs…",We should always act in obedience to the law.,We should always act in obedience to the _____.,tatoeba:23266,NGSL,false
 EVERYTHING,fill,beginner,422,대명사,"모두, 모든 것",All the things under discussion,It would take forever for me to explain everything.,It would take forever for me to explain _____.,tatoeba:1347,NGSL,false
 RESEARCH,fill,beginner,423,동사,"연구하다, 조사하다",To search or examine with continued care,We have not kept pace with the latest research.,We have not kept pace with the latest _____.,tatoeba:22967,NGSL,false
-COVER,fill,beginner,424,명사,"뚜껑, 덮개",To pay for something; to deal with a subject,"Cover your mouth when you cough, sneeze, or yawn.","_____ your mouth when you cough, sneeze, or yawn.",tatoeba:21841,NGSL,false
+COVER,fill,beginner,424,명사,"뚜껑, 덮개",To pay for something; to deal with a subject,The insurance will cover the cost of repairs.,The insurance will _____ the cost of repairs.,team,NGSL,false
 PAPER,fill,beginner,425,명사,"종이, 보",A sheet material typically used for writing on or printing on (or as a…,All you have to do is sign this paper.,All you have to do is sign this _____.,tatoeba:16683,NGSL,false
 POSITION,fill,beginner,426,명사,"위치, 지위",A place or location,The young man is quite suited for the position.,The young man is quite suited for the _____.,tatoeba:45892,NGSL,false
 NEAR,fill,beginner,427,형용사,"가깝다, 가까이",Physically close,Your wish will come true in the near future.,Your wish will come true in the _____ future.,tatoeba:17279,NGSL,false
@@ -2619,7 +2619,7 @@ FATHER,fill,beginner,448,명사,"아버지, 아빠","A male parent, especially o
 DECISION,fill,beginner,449,명사,"결정, 결의",A choice or judgement,Reflect on your own motives when making a decision.,Reflect on your own motives when making a _____.,tatoeba:24773,NGSL,false
 TABLE,fill,beginner,450,명사,"테이블, 탁자",An item of furniture with a flat top surface raised above the ground…,Place the deck of cards on the oaken table.,Place the deck of cards on the oaken _____.,tatoeba:1536,NGSL,false
 CERTAIN,fill,beginner,451,형용사,"확실하다, 어느","Sure in one's mind, positive",I didn't know for certain which train to take.,I didn't know for _____ which train to take.,tatoeba:37468,NGSL,false
-FORWARD,fill,beginner,452,형용사,"공격수, 포워드",To send something on to another address or person,I'm looking forward to seeing you again before long.,I'm looking _____ to seeing you again before long.,tatoeba:18712,NGSL,false
+FORWARD,fill,beginner,452,형용사,"공격수, 포워드",To send something on to another address or person,Please forward this email to the rest of the team.,Please _____ this email to the rest of the team.,team,NGSL,false
 MAIN,fill,beginner,453,형용사,주요하다,Of chief or leading importance,What is the main purpose of your studying English?,What is the _____ purpose of your studying English?,tatoeba:17926,NGSL,false
 DIE,fill,beginner,454,동사,"죽다, 돌아가시다",To stop living,The strong will survive and the weak will die.,The strong will survive and the weak will _____.,tatoeba:19218,NGSL,false
 BEAR,fill,beginner,455,명사,"곰, 나르다","A large, generally omnivorous mammal (a few species are purely carnivorous or…","It's not serious, I don't bear him a grudge.","It's not serious, I don't _____ him a grudge.",tatoeba:2432,NGSL,false
@@ -2644,7 +2644,7 @@ DIFFERENCE,fill,beginner,473,명사,"차이, 다름",A disagreement or argument,
 ACTION,fill,beginner,474,명사,"행동, 작동",The effort of performing or doing something,You insist upon our taking that course of action.,You insist upon our taking that course of _____.,tatoeba:16093,NGSL,false
 HEALTH,fill,beginner,475,명사,"건강, 피통","The state of being free from physical or psychological disease, illness…",You had better give up smoking for your health.,You had better give up smoking for your _____.,tatoeba:16173,NGSL,false
 EAT,fill,beginner,476,동사,"먹다, 드시다",To consume (something solid or semi-solid…,She did not eat anything until she was rescued.,She did not _____ anything until she was rescued.,tatoeba:19585,NGSL,false
-STEP,fill,beginner,477,명사,"걸음, 단",An advance or movement made from one foot to the other,The first step is as good as half over.,The first _____ is as good as half over.,tatoeba:27216,NGSL,false
+STEP,fill,beginner,477,명사,"걸음, 단계; 디디다",An advance or movement made from one foot to the other,The first step is as good as half over.,The first _____ is as good as half over.,tatoeba:27216,NGSL,false
 TRUE,fill,beginner,478,형용사,"참, 참되다",Conforming to the actual state of reality or fact,"And yet, the contrary is always true as well.","And yet, the contrary is always _____ as well.",tatoeba:1637,NGSL,false
 PHONE,fill,beginner,479,명사,"전화를 걸다, 전화하다",A device for transmitting conversations and other sounds in real time across…,Maria knew neither his name nor his phone number.,Maria knew neither his name nor his _____ number.,tatoeba:32354,NGSL,false
 THEMSELVES,fill,beginner,480,대명사,그들 자신,"The reflexive case of they, the third-person plural personal pronoun. The…",It is impossible to substitute machines for people themselves.,It is impossible to substitute machines for people _____.,tatoeba:20474,NGSL,false
@@ -2670,7 +2670,7 @@ FINALLY,fill,beginner,499,부사,"결국, 드디어",At the end or conclusion,Ma
 SIGN,fill,beginner,500,명사,"신호, 표지",A visible fact that shows that something exists or may happen,All you have to do is sign this paper.,All you have to do is _____ this paper.,tatoeba:16683,NGSL,false
 CLAIM,fill,beginner,501,명사,"주장, 청구",A demand of ownership made for something,I will be waiting for you at baggage claim.,I will be waiting for you at baggage _____.,tatoeba:265956,NGSL,false
 TRAVEL,fill,beginner,503,동사,"여행(旅行)하다, 여행","To be on a journey, often for pleasure or business and with luggage",You have the freedom to travel wherever you like.,You have the freedom to _____ wherever you like.,tatoeba:17192,NGSL,false
-ENJOY,fill,beginner,504,동사,"즐기다, 향수하다",To receive pleasure or satisfaction from something,Do you enjoy making me feeling like the dead?,Do you _____ making me feeling like the dead?,tatoeba:25489,NGSL,false
+ENJOY,fill,beginner,504,동사,"즐기다, 향수하다",To receive pleasure or satisfaction from something,I really enjoy working with this team.,I really _____ working with this team.,team,NGSL,false
 DEATH,fill,beginner,505,명사,"죽음, 사망",The cessation of life and all associated processes,"Because of the famine, the cattle starved to death.","Because of the famine, the cattle starved to _____.",tatoeba:20073,NGSL,false
 NICE,fill,beginner,506,형용사,"좋은, 착하다","Pleasant, satisfactory, complimentary",I didn't expect such a nice present from you.,I didn't expect such a _____ present from you.,tatoeba:17948,NGSL,false
 AMOUNT,fill,beginner,507,명사,"양, 량","The total, aggregate or sum of material (not applicable to discrete numbers or…",What an incredible amount of work he has done!,What an incredible _____ of work he has done!,tatoeba:24896,NGSL,false
@@ -2698,7 +2698,7 @@ KID,fill,beginner,529,명사,어린이,"A child, adolescent, or (loosely) a youn
 INDUSTRY,fill,beginner,530,명사,"근면, 산업",The tendency to work persistently,Six percent home loans represent the industry average now.,Six percent home loans represent the _____ average now.,tatoeba:18465,NGSL,false
 EDUCATION,fill,beginner,531,명사,"교육, 교양","The process of imparting knowledge, skill and judgment",Education should be carried further than it is now.,_____ should be carried further than it is now.,tatoeba:19125,NGSL,false
 MEASURE,fill,intermediate,532,명사,"측정, 계량",A limit that cannot be exceeded,Measure the length of the stick with a ruler.,_____ the length of the stick with a ruler.,tatoeba:30346,NGSL,false
-SERVE,fill,beginner,534,동사,"근무하다, 복무하다",To give food or help to customers,This will serve as a check on their work.,This will _____ as a check on their work.,tatoeba:55435,NGSL,false
+SERVE,fill,beginner,534,동사,"근무하다, 복무하다",To give food or help to customers,The restaurant will serve lunch from noon.,The restaurant will _____ lunch from noon.,team,NGSL,false
 LIKELY,fill,beginner,535,형용사,,Probable,Such a strange thing is not likely to happen.,Such a strange thing is not _____ to happen.,tatoeba:41287,NGSL,false
 CERTAINLY,fill,beginner,536,부사,확실히,"Without doubt, surely",She'll certainly keep the promise she made to him.,She'll _____ keep the promise she made to him.,tatoeba:388700,NGSL,false
 NATIONAL,fill,beginner,537,형용사,"국가의, 국민의","Pertaining to a nation or country, especially as a whole",The rose is the national flower of this country.,The rose is the _____ flower of this country.,tatoeba:35072,NGSL,false
@@ -2733,12 +2733,12 @@ CHOICE,fill,beginner,565,명사,"선택, 선택지",An option,A pizza topped wit
 SAVE,fill,beginner,566,동사,"구하다, 구출하다","To help (somebody) to survive, or rescue (somebody or something) from harm",I must save the drowning child by all means.,I must _____ the drowning child by all means.,tatoeba:24910,NGSL,false
 COMMON,fill,beginner,567,형용사,"상호, 공통",Mutual,"As a rule, twins have a lot in common.","As a rule, twins have a lot in _____.",tatoeba:21787,NGSL,false
 CULTURE,fill,beginner,568,명사,문화,"The arts, customs, lifestyles, background…",The concept of zero sprang from the Hindu culture.,The concept of zero sprang from the Hindu _____.,tatoeba:51277,NGSL,false
-TOTAL,fill,beginner,569,명사,합계,An amount obtained by the addition of smaller amounts,The desk is in a state of total disorder.,The desk is in a state of _____ disorder.,tatoeba:48842,NGSL,false
+TOTAL,fill,beginner,569,명사,합계,An amount obtained by the addition of smaller amounts,The total comes to fifty dollars.,The _____ comes to fifty dollars.,team,NGSL,false
 DEMAND,fill,beginner,570,명사,"수요, 요구하다",The desire to purchase goods and services,There is much demand for nurses in this hospital.,There is much _____ for nurses in this hospital.,tatoeba:57431,NGSL,false
 MATERIAL,fill,beginner,571,형용사,"물질, 재료","Of, relating to, or consisting of matter, especially physical",This material will stand up to lots of washings.,This _____ will stand up to lots of washings.,tatoeba:57391,NGSL,false
 LIMIT,fill,beginner,572,명사,"제한, 리미트",A restriction,Brian intends to strictly limit the money he uses.,Brian intends to strictly _____ the money he uses.,tatoeba:34289,NGSL,false
 LISTEN,fill,beginner,573,동사,"듣다, 들어주다",To use one's sense of hearing and auditory cognition in an intentional way,Will you listen to me for a few minutes?,Will you _____ to me for a few minutes?,tatoeba:6088,NGSL,false
-DUE,fill,beginner,574,형용사,,Owed or owing,Your poor memory is due to poor listening habits.,Your poor memory is _____ to poor listening habits.,tatoeba:17274,NGSL,false
+DUE,fill,beginner,574,형용사,,Owed or owing,The report is due next Friday.,The report is _____ next Friday.,team,NGSL,false
 WRONG,fill,beginner,575,형용사,그른,Incorrect or untrue,You must admit that you are in the wrong.,You must admit that you are in the _____.,tatoeba:16059,NGSL,false
 FOOT,fill,beginner,576,명사,"발, 피트",A biological structure found in many animals that is used for locomotion and…,The church is at the foot of the hill.,The church is at the _____ of the hill.,tatoeba:19085,NGSL,false
 EFFORT,fill,beginner,577,명사,노력,The work involved in performing an activity,Your effort will be rewarded in the long run.,Your _____ will be rewarded in the long run.,tatoeba:16961,NGSL,false
@@ -2746,7 +2746,7 @@ ATTENTION,fill,beginner,578,명사,"주의, 주목",Mental focus,You should pay 
 UPON,fill,beginner,579,전치사,"~위에, ~하자마자","alternative to on in most, though not all, prepositional uses",You insist upon our taking that course of action.,You insist _____ our taking that course of action.,tatoeba:16093,NGSL,false
 CHECK,fill,beginner,580,명사,"조사, 검사",An inspection or examination,Check that your username and password are written correctly.,_____ that your username and password are written correctly.,tatoeba:2214,NGSL,false
 COMPLETE,fill,beginner,581,동사,"완료하다, 완전한",To finish,Can you manage to complete the manuscript by Friday?,Can you manage to _____ the manuscript by Friday?,tatoeba:18469,NGSL,false
-LIE,fill,beginner,582,동사,"놓이다, 거짓말하다",To rest in a horizontal position on a surface,"Tom said he was ill, which was a lie.","Tom said he was ill, which was a _____.",tatoeba:37026,NGSL,false
+LIE,fill,beginner,582,동사,"놓이다, 거짓말하다",To rest in a horizontal position on a surface,I want to lie down for a while.,I want to _____ down for a while.,team,NGSL,false
 PICK,fill,beginner,583,명사,"따다, 정하다",A pointed hammer used for dressing millstones,Please pick me up at the airport at five.,Please _____ me up at the airport at five.,tatoeba:18215,NGSL,false
 REDUCE,fill,beginner,584,동사,,"To bring down the size, quantity, quality, value or intensity of something",We have to reduce the cost to a minimum.,We have to _____ the cost to a minimum.,tatoeba:23015,NGSL,false
 PERSONAL,fill,beginner,585,형용사,개인의,Dealing with subjects about which one wishes (or people usually wish) to…,Do you know how to use a personal computer?,Do you know how to use a _____ computer?,tatoeba:20110,NGSL,false
@@ -2774,7 +2774,7 @@ VOICE,fill,beginner,607,명사,"목소리, 소리","Sound uttered by the mouth, 
 PIECE,fill,beginner,608,명사,"조각, 부분","A part of a larger whole, usually in such a form that it is able to be…",There is a piece of good news for you.,There is a _____ of good news for you.,tatoeba:17490,NGSL,false
 FINISH,fill,beginner,609,명사,"끝, 마감",An end,"Give us the tools, and we'll finish the job.","Give us the tools, and we'll _____ the job.",tatoeba:23478,NGSL,false
 SUPPOSE,fill,beginner,610,동사,"상상하다, 추측하다",To theorize or hypothesize,"Suppose you are fired, what will you do first?","_____ you are fired, what will you do first?",tatoeba:30765,NGSL,false
-APPLY,fill,beginner,611,동사,"대다, 쓰다","To make a formal request, such as for a job",What you said does not apply to this case.,What you said does not _____ to this case.,tatoeba:17208,NGSL,false
+APPLY,fill,beginner,611,동사,"대다, 쓰다","To make a formal request, such as for a job",She decided to apply for the job.,She decided to _____ for the job.,team,NGSL,false
 PRESIDENT,fill,beginner,612,명사,"대통령, 총통","The head of state of a republic, sometimes also the head of government as…",We negotiated with the President about our working hours.,We negotiated with the _____ about our working hours.,tatoeba:22920,NGSL,false
 FIRE,fill,beginner,613,명사,"불, 큰불",A (usually self-sustaining) chemical reaction involving the bonding of oxygen…,"Though it was cold, he didn't light the fire.","Though it was cold, he didn't light the _____.",tatoeba:21151,NGSL,false
 COMPARE,fill,intermediate,614,동사,"비교하다, 비유하다","To assess the similarities and differences between two or more things [""to…",Compare your translation with the one on the blackboard.,_____ your translation with the one on the blackboard.,tatoeba:17658,NGSL,false
@@ -2825,7 +2825,7 @@ REPRESENT,fill,intermediate,658,동사,대표하다,To present again or anew,Six
 KEY,fill,beginner,659,명사,"열쇠, 키",A card or fob that electronically signals a lock to open,It was careless of you to lose the key.,It was careless of you to lose the _____.,tatoeba:16169,NGSL,false
 INSIDE,fill,beginner,660,명사,"안, 내부",The interior or inner part,I put my gloves on inside out by mistake.,I put my gloves on _____ out by mistake.,tatoeba:20852,NGSL,false
 MANAGER,fill,beginner,661,명사,"관리자, 매니저",The head coach,The manager sent the bunt sign to the batter.,The _____ sent the bunt sign to the batter.,tatoeba:20993,NGSL,false
-CONTAIN,fill,beginner,663,동사,,To hold inside,Some of the best scrolls contain unicorns and space.,Some of the best scrolls _____ unicorns and space.,tatoeba:2071290,NGSL,false
+CONTAIN,fill,beginner,663,동사,,To hold inside,This box may contain fragile items.,This box may _____ fragile items.,team,NGSL,false
 NOTICE,fill,beginner,664,명사,"통지, 알아차리다",The act of observing,The students have taken no notice of these instructions.,The students have taken no _____ of these instructions.,tatoeba:21446,NGSL,false
 WONDER,fill,beginner,665,명사,"놀라움, 경이",To want to know about something,I wonder if I am made for this world.,I _____ if I am made for this world.,tatoeba:2065,NGSL,false
 NATURE,fill,beginner,666,명사,"자연, 성질","The way things are, the totality of all things in the physical universe and…",You had better not play on his generous nature.,You had better not play on his generous _____.,tatoeba:15823,NGSL,false
@@ -2836,7 +2836,7 @@ EXACTLY,fill,beginner,670,부사,정확하게,Without approximation,Maybe it wil
 PLANT,fill,beginner,671,명사,"식물, 풀","An organism that is not an animal, especially an organism capable of…",The power plant supplies the remote district with electricity.,The power _____ supplies the remote district with electricity.,tatoeba:44438,NGSL,false
 PAINT,fill,beginner,672,명사,"페인트, 도료",A substance that is applied as a liquid or paste…,"If I were you, I would paint it blue.","If I were you, I would _____ it blue.",tatoeba:31109,NGSL,false
 WORKER,fill,beginner,673,명사,"노동자, 로동자","A nonreproductive social insect, such as ant, bee, termite, or wasp",I'm a company man - an ordinary salaried office worker.,I'm a company man - an ordinary salaried office _____.,tatoeba:256576,NGSL,false
-PRESS,fill,beginner,674,동사,"누르다, 미디어",To activate a button or key by exerting a downward or forward force on it…,The press ban on the case was removed yesterday.,The _____ ban on the case was removed yesterday.,tatoeba:48772,NGSL,false
+PRESS,fill,beginner,674,동사,"누르다, 미디어",To activate a button or key by exerting a downward or forward force on it…,Press the button to start the machine.,_____ the button to start the machine.,team,NGSL,false
 WHATEVER,fill,beginner,675,한정사,"무엇이든, 도대체 무엇이",Regardless of the ... that,"Whatever I do, she says I can do better.","_____ I do, she says I can do better.",tatoeba:1472,NGSL,false
 NECESSARY,fill,beginner,676,형용사,필요하다,"Required, essential, whether logically inescapable or needed in order to…",You have bought more postage stamps than are necessary.,You have bought more postage stamps than are _____.,tatoeba:9589,NGSL,false
 REGION,fill,beginner,677,명사,"지역, 지방",Any considerable and connected part of a space or surface,The South East region of England is densely populated.,The South East _____ of England is densely populated.,tatoeba:26152,NGSL,false
@@ -2965,7 +2965,7 @@ RED,fill,beginner,800,명사,"빨강, 빨간색","The color of the setting sun, 
 HUSBAND,fill,beginner,801,명사,"남편, 양반",A man in a marriage or marital relationship…,Please accept this as a keep-sake of my husband.,Please accept this as a keep-sake of my _____.,tatoeba:55403,NGSL,false
 ACCESS,fill,beginner,802,명사,"입장, 액세스",A way or means of approaching or entering,We gained access to the house through the window.,We gained _____ to the house through the window.,tatoeba:38411,NGSL,false
 MOVEMENT,fill,beginner,803,명사,"운동, 움직임",Physical motion between points in space,"Within the rape crisis movement, Greensite's dissent is significant.","Within the rape crisis _____, Greensite's dissent is significant.",tatoeba:29543,NGSL,false
-TREAT,fill,beginner,804,동사,"한턱내다, 대접하다","To negotiate, discuss terms, bargain (for or with)",OK. I'll take a day off and treat you.,OK. I'll take a day off and _____ you.,tatoeba:72194,NGSL,false
+TREAT,fill,beginner,804,동사,"대접하다, 한턱내다; 다루다, 치료하다",To pay for someone else's food or drink,I'll treat you to lunch today.,I'll _____ you to lunch today.,team,NGSL,false
 IDENTIFY,fill,intermediate,805,동사,"동정(同定)하다, 분별하다",To establish the taxonomic classification of an organism,I don't want to identify myself with that group.,I don't want to _____ myself with that group.,tatoeba:29055,NGSL,false
 LOSS,fill,beginner,806,명사,"손실, 짐","The result of no longer possessing an object, a function…",Tom was at a loss how to express himself.,Tom was at a _____ how to express himself.,tatoeba:37101,NGSL,false
 SHALL,fill,beginner,807,동사,"-ᆯ까, -ᆯ까요",Used before a verb to indicate the simple future tense in the first person…,We shall all miss you when you go away.,We _____ all miss you when you go away.,tatoeba:18050,NGSL,false
@@ -3010,9 +3010,9 @@ FILL,fill,beginner,845,동사,채우다,"To add contents to (a container, cavity
 STAR,fill,beginner,846,명사,"별, 항성","Any small, natural and bright dot in the sky…",Fox missed a chance to be a movie star.,Fox missed a chance to be a movie _____.,tatoeba:34371,NGSL,false
 NETWORK,fill,intermediate,847,명사,"네트워크, 망",Any interconnected group or system,I hear that the network is very popular now.,I hear that the _____ is very popular now.,tatoeba:4844625,NGSL,false
 GENERALLY,fill,beginner,848,부사,,Popularly or widely,"Generally, who visits their parents more, sons or daughters?","_____, who visits their parents more, sons or daughters?",tatoeba:2243,NGSL,false
-OPERATION,fill,beginner,849,명사,"작용, 수술",The method by which a device performs its function,The operation is accompanied by a lot of pain.,The _____ is accompanied by a lot of pain.,tatoeba:46738,NGSL,false
+OPERATION,fill,beginner,849,명사,"수술; 작동, 운영","Surgery, or the way something works",The operation is accompanied by a lot of pain.,The _____ is accompanied by a lot of pain.,tatoeba:46738,NGSL,false
 MATCH,fill,beginner,850,명사,"경기, 시합","Any contest or trial of strength or skill, or to determine superiority","To our surprise, he was defeated in the match.","To our surprise, he was defeated in the _____.",tatoeba:18898,NGSL,false
-AVOID,fill,beginner,851,동사,"피하다, 꺼리다",To try not to meet or communicate with (a person),How did the thief manage to avoid being caught?,How did the thief manage to _____ being caught?,tatoeba:44941,NGSL,false
+AVOID,fill,beginner,851,동사,"피하다, 꺼리다",To keep away from something or not do it,How did the thief manage to avoid being caught?,How did the thief manage to _____ being caught?,tatoeba:44941,NGSL,false
 SEAT,fill,beginner,852,명사,"자리, 좌석",A place in which to sit,I asked for a seat in the no-smoking section.,I asked for a _____ in the no-smoking section.,tatoeba:18810,NGSL,false
 THROW,fill,beginner,853,동사,"던지다, 던지기",To eject or cause to fall off,People who live in glass houses shouldn't throw stones.,People who live in glass houses shouldn't _____ stones.,tatoeba:51870,NGSL,false
 TASK,fill,beginner,854,명사,"일, 과제",A piece of work done as part of one’s duties,It is up to you to finish the task.,It is up to you to finish the _____.,tatoeba:47582,NGSL,false
@@ -3035,7 +3035,7 @@ ASSUME,fill,beginner,870,동사,가정하다,To authenticate by means of belief,
 BABY,fill,beginner,871,명사,"아기, 유아","A very young human, particularly from birth to a couple of years old or until…",Some hospitals hand out free samples of baby milk.,Some hospitals hand out free samples of _____ milk.,tatoeba:27230,NGSL,false
 SUCCESSFUL,fill,beginner,872,형용사,"성공적, 성공(成功)한",Resulting in success,Our sales campaign is successful in a big way.,Our sales campaign is _____ in a big way.,tatoeba:23545,NGSL,false
 SING,fill,beginner,873,동사,"노래하다, 부르다",To produce musical or harmonious sounds with one’s voice,I began to sing when I was a youngster.,I began to _____ when I was a youngster.,tatoeba:32560,NGSL,false
-DOUBT,fill,beginner,874,동사,"의심하다, 의혹",To consider questionable or unlikely,"She is no doubt pretty, but she isn't beautiful.","She is no _____ pretty, but she isn't beautiful.",tatoeba:36222,NGSL,false
+DOUBT,fill,beginner,874,동사,"의심하다, 의혹",A feeling of not being sure,"She is no doubt pretty, but she isn't beautiful.","She is no _____ pretty, but she isn't beautiful.",tatoeba:36222,NGSL,false
 COMPETITION,fill,beginner,875,명사,"경기, 경쟁시험",A contest for a prize or award,We are in a fierce competition with that company.,We are in a fierce _____ with that company.,tatoeba:23284,NGSL,false
 THEORY,fill,beginner,876,명사,"이론, 리론",A description of an event or system that is considered to be accurate,The new theory is too abstract for ordinary people.,The new _____ is too abstract for ordinary people.,tatoeba:46101,NGSL,false
 PROPOSE,fill,intermediate,877,동사,"제안(提案)하다, 구애하다","To suggest a plan, course of action, etc","If I were you, I would propose to her.","If I were you, I would _____ to her.",tatoeba:321331,NGSL,false
@@ -3095,7 +3095,7 @@ CONCLUSION,fill,intermediate,931,명사,"종결, 결과","The end, finish, close
 CLOCK,fill,beginner,932,명사,"시계, 클럭",Any device or mechanism that enables time to be measured or regulated,"I'll buy that old clock, however expensive it is.","I'll buy that old _____, however expensive it is.",tatoeba:36732,NGSL,false
 EVERYBODY,fill,beginner,933,대명사,"모두, 누구나",Every individual in a set,Everybody seems to pay attention to what he says.,_____ seems to pay attention to what he says.,tatoeba:22094,NGSL,false
 WEEKEND,fill,beginner,934,명사,주말,"The break in the working week, usually two days including the traditional holy…",I hope this fine weather lasts till the weekend.,I hope this fine weather lasts till the _____.,tatoeba:58240,NGSL,false
-PERFORM,fill,intermediate,935,동사,"실행하다, 수행하다","To act, sing or play music in front of an audience",You must perform all assignments in a timely manner.,You must _____ all assignments in a timely manner.,tatoeba:21239,NGSL,false
+PERFORM,fill,intermediate,935,동사,"실행하다, 수행하다","To act, sing or play music in front of an audience",The band will perform at the festival tonight.,The band will _____ at the festival tonight.,team,NGSL,false
 MINE,fill,beginner,937,명사,"광산, 갱도",Any source of wealth or resources,I see no analogy between your problem and mine.,I see no analogy between your problem and _____.,tatoeba:16878,NGSL,false
 DEBATE,fill,intermediate,938,동사,"토론하다, 의논","To consider (to oneself), to think over, to attempt to decide","The debate has been interesting, confusing, and sometimes horrifying.","The _____ has been interesting, confusing, and sometimes horrifying.",tatoeba:61977,NGSL,false
 MEMORY,fill,beginner,939,명사,"기억, 회상",The ability of the brain to record information or impressions with the…,Your poor memory is due to poor listening habits.,Your poor _____ is due to poor listening habits.,tatoeba:17274,NGSL,false
@@ -3147,7 +3147,7 @@ SEA,fill,beginner,987,명사,"바다, 해양",A large body of salt water,"Air tr
 IMMEDIATELY,fill,beginner,988,부사,"즉시, 곧",Without any intervening time or space,We insist that this project be carried out immediately.,We insist that this project be carried out _____.,tatoeba:23321,NGSL,false
 WELCOME,fill,beginner,989,형용사,"잘 오셨습니다, 환영합니다",Whose arrival is a cause of joy,You are welcome to the use of my yacht.,You are _____ to the use of my yacht.,tatoeba:16086,NGSL,false
 SMILE,fill,beginner,990,명사,"미소, 스마일",A facial expression comprised by flexing the muscles of both ends of one's…,He patted me on the back with a smile.,He patted me on the back with a _____.,tatoeba:292317,NGSL,false
-AGENT,fill,intermediate,992,명사,대리인,"One who exerts power, or has the power to act",The travel agent will advise you where to stay.,The travel _____ will advise you where to stay.,tatoeba:38126,NGSL,false
+AGENT,fill,intermediate,992,명사,대리인,A person who acts or does business for someone else,The travel agent will advise you where to stay.,The travel _____ will advise you where to stay.,tatoeba:38126,NGSL,false
 TRADITIONAL,fill,beginner,993,형용사,"전통, 전통적",Communicated from ancestors to descendants orally,It is the day of the traditional boys' festival.,It is the day of the _____ boys' festival.,tatoeba:272128,NGSL,false
 REPLACE,fill,beginner,994,동사,"교체하다, 대신하다","To restore to a former place, position, condition, etc.",I look around but it's you I can't replace.,I look around but it's you I can't _____.,tatoeba:17457,NGSL,false
 JUDGE,fill,beginner,995,명사,"재판관, 법관",A person who decides the fate of someone or something that has been called…,One cannot judge people only by their outward appearances.,One cannot _____ people only by their outward appearances.,tatoeba:21976,NGSL,false
@@ -3177,7 +3177,7 @@ APPROPRIATE,fill,intermediate,1019,동사,"적절하다, 적당하다",To take t
 BLOCK,fill,intermediate,1020,명사,"블록, 구역","A substantial, often approximately cuboid, piece of any substance",Have you met the new family on the block?,Have you met the new family on the _____?,tatoeba:18675,NGSL,false
 WARM,fill,beginner,1021,형용사,"따뜻하다, 열렬하다","Of a somewhat high temperature, often but not always connoting that the high…","Suddenly, it started to look almost nice and warm.","Suddenly, it started to look almost nice and _____.",tatoeba:19635,NGSL,false
 COUNT,fill,beginner,1022,동사,"세다, 백작",To recite numbers in sequence,You could count to ten when you were two.,You could _____ to ten when you were two.,tatoeba:15874,NGSL,false
-SCENE,fill,beginner,1023,명사,장면,"An area of activity, such as the music world",I want to see the scene in slow motion.,I want to see the _____ in slow motion.,tatoeba:46190,NGSL,false
+SCENE,fill,beginner,1023,명사,"장면, 현장; 분야",A part of a film or play; the place where something happens,I want to see the scene in slow motion.,I want to see the _____ in slow motion.,tatoeba:46190,NGSL,false
 WRITER,fill,beginner,1024,명사,"저자, 작가","A person who writes, or produces literary work",That writer is well known all over the world.,That _____ is well known all over the world.,tatoeba:47775,NGSL,false
 CONTENT,fill,beginner,1025,명사,"내용, 콘텐츠",An expression of assent to a bill or motion,"When left alone, he cried to his heart's content.","When left alone, he cried to his heart's _____.",tatoeba:27637,NGSL,false
 PREVENT,fill,beginner,1026,동사,"막다, 방해하다",To stop (an outcome),We must prevent a war by all possible means.,We must _____ a war by all possible means.,tatoeba:23093,NGSL,false
@@ -3232,7 +3232,7 @@ WONDERFUL,fill,beginner,1076,형용사,놀라운,Surprisingly excellent,The show
 FLAT,fill,beginner,1077,형용사,"판판하다, 평평(平平)하다",Having no variations in height,The whole village was laid flat by the earthquake.,The whole village was laid _____ by the earthquake.,tatoeba:45134,NGSL,false
 ABSOLUTELY,fill,beginner,1078,부사,,Independently,"This story may sound strange, but it's absolutely true.","This story may sound strange, but it's _____ true.",tatoeba:56454,NGSL,false
 FLOW,fill,intermediate,1079,명사,"흐름, 흐르다",Movement in people or things characterized with a continuous motion…,An endless flow of tears fell from her eyes.,An endless _____ of tears fell from her eyes.,tatoeba:309807,NGSL,false
-FAIR,fill,beginner,1080,형용사,"공정하다, 가당하다",Unblemished (figuratively or literally),There was nothing worthy of remark at the fair.,There was nothing worthy of remark at the _____.,tatoeba:48199,NGSL,false
+FAIR,fill,beginner,1080,형용사,"공정하다, 가당하다",An event where companies show and sell their products,There was nothing worthy of remark at the fair.,There was nothing worthy of remark at the _____.,tatoeba:48199,NGSL,false
 ADDITIONAL,fill,intermediate,1081,형용사,,Supplemental or added to something,This additional work will take about two hours more.,This _____ work will take about two hours more.,tatoeba:2264424,NGSL,false
 RESPONSIBLE,fill,beginner,1082,형용사,책임 있는,Having the duty of taking care of something,Smoking is responsible for many cases of lung cancer.,Smoking is _____ for many cases of lung cancer.,tatoeba:19964,NGSL,false
 FARM,fill,beginner,1083,명사,농장,A place where agricultural and similar activities take place…,"Last summer, I worked part time on the farm.","Last summer, I worked part time on the _____.",tatoeba:19434,NGSL,false
@@ -3245,7 +3245,7 @@ TOUR,fill,intermediate,1089,명사,"여행, 투어","A journey through a particu
 ALTERNATIVE,fill,intermediate,1090,형용사,,Relating to a choice between two or more possibilities,"Ageing isn't good, but the alternative is no better.","Ageing isn't good, but the _____ is no better.",tatoeba:2924322,NGSL,false
 SOFTWARE,fill,beginner,1091,명사,"소프트웨어, 무른모","Encoded computer instructions, usually modifiable (unless stored in some form…",You must request the latest version of the software.,You must request the latest version of the _____.,tatoeba:69193,NGSL,false
 PAIR,fill,beginner,1092,명사,"한쌍, 켤레",Two alike or identical things taken together,There is a pair of scissors on the desk.,There is a _____ of scissors on the desk.,tatoeba:20578,NGSL,false
-SHIP,fill,beginner,1093,명사,"배, 선박",To send goods to a customer,The space ship will get to the moon soon.,The space _____ will get to the moon soon.,tatoeba:27025,NGSL,false
+SHIP,fill,beginner,1093,명사,"배, 선박",To send goods to a customer,We will ship your order tomorrow.,We will _____ your order tomorrow.,team,NGSL,false
 ATTITUDE,fill,beginner,1094,명사,"자세, 태도",The position of the body or way of carrying oneself,Don't take that dramatic attitude all of a sudden.,Don't take that dramatic _____ all of a sudden.,tatoeba:19623,NGSL,false
 CHEAP,fill,beginner,1095,형용사,"싸다, 싼",Low or reduced in price,"Any watch will do, so long as it's cheap.","Any watch will do, so long as it's _____.",tatoeba:28496,NGSL,false
 DOUBLE,fill,beginner,1096,형용사,"두 배의, 이중",Made up of two matching or complementary elements,The price is double what it was last year.,The price is _____ what it was last year.,tatoeba:24423,NGSL,false
@@ -3257,7 +3257,7 @@ PROGRESS,fill,beginner,1101,명사,"진보, 진행","Movement or advancement thr
 TRUTH,fill,beginner,1102,명사,"진실, 진리","True facts, genuine depiction or statements of reality",Every opinion is a mixture of truth and mistakes.,Every opinion is a mixture of _____ and mistakes.,tatoeba:1870,NGSL,false
 NOBODY,fill,beginner,1103,대명사,아무도 ~않다,Not any person,What if you gave a speech and nobody came?,What if you gave a speech and _____ came?,tatoeba:1700,NGSL,false
 EXAMINE,fill,intermediate,1104,동사,"검사하다, 조사하다",To observe carefully or critically to learn about someone or something,I don't like to have a doctor examine me.,I don't like to have a doctor _____ me.,tatoeba:28043,NGSL,false
-LAY,fill,beginner,1105,동사,"누이다, 눕히다","To place down in a position of rest, or in a horizontal position",Fan letters lay in a heap on the desk.,Fan letters _____ in a heap on the desk.,tatoeba:20573,NGSL,false
+LAY,fill,beginner,1105,동사,"누이다, 눕히다","To place down in a position of rest, or in a horizontal position",Please lay the papers on my desk.,Please _____ the papers on my desk.,team,NGSL,false
 SPEED,fill,beginner,1106,명사,"속도, 빠르기",The state of moving quickly or the capacity for rapid motion,"On hearing the whistle, they started at full speed.","On hearing the whistle, they started at full _____.",tatoeba:33767,NGSL,false
 POLITICS,fill,beginner,1107,명사,정치,A methodology and activities associated with the interpersonal aspects of…,The GOP accused the Democrats of pork barrel politics.,The GOP accused the Democrats of pork barrel _____.,tatoeba:19250,NGSL,false
 REPLY,fill,beginner,1108,동사,"대답하다, 대답","To give a written or spoken response, especially to a question, request…","Such an accurate, lightning-quick reply. What can I say?","Such an accurate, lightning-quick _____. What can I say?",tatoeba:20823,NGSL,false
@@ -3341,7 +3341,7 @@ PRESENCE,fill,beginner,1186,명사,"출석, 있음",The part of space within one
 CROWD,fill,beginner,1187,동사,"군중, 무리",To press forward,A girl approached the king from among the crowd.,A girl approached the king from among the _____.,tatoeba:27629,NGSL,false
 CORNER,fill,beginner,1188,명사,"구석, 모서리",The point where two converging lines meet,We turned left at the corner and drove north.,We turned left at the _____ and drove north.,tatoeba:23065,NGSL,false
 GAS,fill,beginner,1189,명사,"가스, 기체",Matter in an intermediate state between liquid and plasma that can be…,Gas was escaping from a crack in the pipe.,_____ was escaping from a crack in the pipe.,tatoeba:35520,NGSL,false
-SHIFT,fill,beginner,1190,명사,"교대, 시프트","A movement to do something, a beginning",Shift the sofa so that it faces the fireplace.,_____ the sofa so that it faces the fireplace.,tatoeba:276805,NGSL,false
+SHIFT,fill,beginner,1190,명사,"교대, 시프트",To move something from one place to another,Shift the sofa so that it faces the fireplace.,_____ the sofa so that it faces the fireplace.,tatoeba:276805,NGSL,false
 NET,fill,intermediate,1191,명사,"그물, 망","A mesh of string, cord or rope",We remind you that our terms are 60 days net.,We remind you that our terms are 60 days _____.,tatoeba:64455,NGSL,false
 CATEGORY,fill,intermediate,1192,명사,"부문, 분류","A group, often named or numbered, to which items are assigned based on…",I will file my application under a different category.,I will file my application under a different _____.,tatoeba:7063043,NGSL,false
 SECRETARY,fill,beginner,1193,명사,"비서, 서기","A person who keeps records, takes notes and handles general clerical work",The boss has a high opinion of his secretary.,The boss has a high opinion of his _____.,tatoeba:46237,NGSL,false
@@ -3490,7 +3490,7 @@ AWARD,fill,intermediate,1341,명사,"어워드, 상","A judgment, sentence, or f
 COACH,fill,beginner,1342,명사,"마차, 객차","A wheeled vehicle, generally pulled by a horse",A fanatic threw a bomb at the king's coach.,A fanatic threw a bomb at the king's _____.,tatoeba:19249,NGSL,false
 EXPERIMENT,fill,beginner,1343,명사,"실험, 실험하다",A test under controlled conditions made to either demonstrate a known truth…,Our experiment has revealed that his report was unreliable.,Our _____ has revealed that his report was unreliable.,tatoeba:23398,NGSL,false
 STRANGE,fill,beginner,1345,형용사,"이상하다, 낯설다",Not normal,"Strange to say, no one voted for the candidate.","_____ to say, no one voted for the candidate.",tatoeba:20628,NGSL,false
-CODE,fill,beginner,1346,명사,"규약, 법전","A short textual designation, often with little relation to the item it…","Do I have to dial the area code, too?","Do I have to dial the area _____, too?",tatoeba:246131,NGSL,false
+CODE,fill,beginner,1346,명사,"규약, 법전","A set of rules, or a group of numbers or letters used for a purpose","Do I have to dial the area code, too?","Do I have to dial the area _____, too?",tatoeba:246131,NGSL,false
 POSSIBLY,fill,beginner,1347,부사,아마도,Perhaps,Possibly the factory will be closed down next week.,_____ the factory will be closed down next week.,tatoeba:40584,NGSL,false
 THREAT,fill,beginner,1348,명사,"위협, 협박",An expression of intent to injure or punish another,Nuclear weapons are a threat to the human race.,Nuclear weapons are a _____ to the human race.,tatoeba:21723,NGSL,false
 ACCIDENT,fill,beginner,1349,명사,"사고, 우연",An unexpected event with negative consequences occurring without the intention…,The committee inquired into the cause of the accident.,The committee inquired into the cause of the _____.,tatoeba:28249,NGSL,false
@@ -3520,7 +3520,7 @@ OPPOSITE,fill,beginner,1373,형용사,반대의,"Located directly across from so
 STONE,fill,beginner,1374,명사,"돌, 결석",A hard earthen substance that can form rocks,That way I kill two birds with one stone.,That way I kill two birds with one _____.,tatoeba:2223,NGSL,false
 SUM,fill,intermediate,1375,명사,"합계, 총화",A quantity obtained by addition or aggregation,That sum of money won't make or mar us.,That _____ of money won't make or mar us.,tatoeba:44945,NGSL,false
 MURDER,fill,beginner,1376,명사,"살인, 살해","An act of killing a person unlawfully, especially with predetermination","To my surprise, the anthropologist was accused of murder.","To my surprise, the anthropologist was accused of _____.",tatoeba:18921,NGSL,false
-MONITOR,fill,intermediate,1377,명사,"모니터, 반장",Someone who watches over something,"It's hard for me, reading letters on the monitor.","It's hard for me, reading letters on the _____.",tatoeba:1122383,NGSL,false
+MONITOR,fill,intermediate,1377,명사,"모니터, 반장",A screen that shows information from a computer,"It's hard for me, reading letters on the monitor.","It's hard for me, reading letters on the _____.",tatoeba:1122383,NGSL,false
 SOLDIER,fill,beginner,1378,명사,"군인, 병사","A member of a ground-based army, of any rank, but especially an enlisted member",He pulled the wounded soldier to the nearby bush.,He pulled the wounded _____ to the nearby bush.,tatoeba:303372,NGSL,false
 FINANCE,fill,intermediate,1379,명사,"재정, 금융",The management of money and other assets,More students are interested in finance than in industry.,More students are interested in _____ than in industry.,tatoeba:240730,NGSL,false
 HATE,fill,beginner,1380,명사,"싫어하다, 미워하다",An object of hatred,Don't fall in love because we hate you still.,Don't fall in love because we _____ you still.,tatoeba:25486,NGSL,false
@@ -3536,7 +3536,7 @@ WINE,fill,beginner,1389,명사,"포도주, 와인",An alcoholic beverage made by
 CAMERA,fill,beginner,1390,명사,"카메라, 사진기",A device for taking still or moving pictures or photographs,Your camera is only half the size of mine.,Your _____ is only half the size of mine.,tatoeba:17399,NGSL,false
 SWIM,fill,beginner,1391,동사,"수영하다, 헤엄치다","To move through the water, without touching the bottom",Bob can no more swim than a hammer can.,Bob can no more _____ than a hammer can.,tatoeba:33260,NGSL,false
 MANUFACTURE,fill,advanced,1392,명사,"제조하다, 생산하다",The action or process of making goods systematically or on a large scale,The date of manufacture is shown on the lid.,The date of _____ is shown on the lid.,tatoeba:271939,NGSL,false
-THEATER,fill,beginner,1393,명사,"극장, 전구","A place or building, consisting of a stage and seating…",This is a direct broadcast from the Showa theater.,This is a direct broadcast from the Showa _____.,tatoeba:55570,NGSL,false
+THEATER,fill,beginner,1393,명사,"극장, 전구","A place or building, consisting of a stage and seating…",We saw a play at the theater last night.,We saw a play at the _____ last night.,team,NGSL,false
 CYCLE,fill,intermediate,1394,명사,"주기, 사이클링 히트",An interval of space or time in which one set of events or phenomena is…,We are going to cycle to the lake tomorrow.,We are going to _____ to the lake tomorrow.,tatoeba:247850,NGSL,false
 COFFEE,fill,beginner,1395,명사,"커피, 커피콩",A serving of this beverage,Please put a lump of sugar in my coffee.,Please put a lump of sugar in my _____.,tatoeba:21664,NGSL,false
 TOTALLY,fill,beginner,1396,부사,,To the fullest extent or degree,The maid was totally tired of her household routine.,The maid was _____ tired of her household routine.,tatoeba:267328,NGSL,false
@@ -3579,7 +3579,7 @@ CLIMB,fill,beginner,1434,동사,"오르다, 기어 올라가다","To traverse a 
 BASICALLY,fill,intermediate,1435,부사,근본적(根本的)으로,Essentially,Tom does basically the same thing as Mary does.,Tom does _____ the same thing as Mary does.,tatoeba:1094575,NGSL,false
 VIOLENCE,fill,beginner,1436,명사,"격렬(激烈)함, 맹렬(猛烈)함",Extreme force,"Television shows violence, which influences, above all, younger people.","Television shows _____, which influences, above all, younger people.",tatoeba:39187,NGSL,false
 MINISTER,fill,beginner,1437,명사,"목사, 대신","A person who is trained to preach, to perform religious ceremonies…",The minister worked hard on behalf of the poor.,The _____ worked hard on behalf of the poor.,tatoeba:43967,NGSL,false
-MAINLY,fill,intermediate,1438,부사,주로,Of a person or thing being the driving force influencing the outcome of an event,Most college students use computers mainly for writing papers.,Most college students use computers _____ for writing papers.,tatoeba:41175,NGSL,false
+MAINLY,fill,intermediate,1438,부사,주로,Mostly; for the most part,Most college students use computers mainly for writing papers.,Most college students use computers _____ for writing papers.,tatoeba:41175,NGSL,false
 MOUTH,fill,beginner,1439,명사,"입, 하구",The front opening of a creature through which food is ingested,You took the words right out of my mouth.,You took the words right out of my _____.,tatoeba:17442,NGSL,false
 NOISE,fill,beginner,1440,명사,"잡음, 잡소리","Various sounds, usually unwanted or unpleasant",You have to put up with all this noise.,You have to put up with all this _____.,tatoeba:16680,NGSL,false
 MANNER,fill,beginner,1441,명사,태도,Mode of action,You must perform all assignments in a timely manner.,You must perform all assignments in a timely _____.,tatoeba:21239,NGSL,false
@@ -3598,7 +3598,7 @@ DOMESTIC,fill,intermediate,1454,형용사,"가정의, 길들여진",Of or relati
 LOAD,fill,intermediate,1455,명사,"짐, 바리",A burden,"Obviously, the server load will increase as a result.","Obviously, the server _____ will increase as a result.",tatoeba:239701,NGSL,false
 BELIEF,fill,intermediate,1456,명사,"믿음, 확신",Mental acceptance of a claim as true,She has a ring whose value is beyond belief.,She has a ring whose value is beyond _____.,tatoeba:315107,NGSL,false
 TROOP,fill,advanced,1457,명사,군대,A collection of people,Igor was seriously injured by a troop of baboons.,Igor was seriously injured by a _____ of baboons.,tatoeba:11826818,NGSL,false
-TECHNICAL,fill,intermediate,1458,형용사,기술적인,Specifically related to a particular discipline,Lunch is at 12:00 to coincide with the Technical Group.,Lunch is at 12:00 to coincide with the _____ Group.,tatoeba:277595,NGSL,false
+TECHNICAL,fill,intermediate,1458,형용사,기술적인,Specifically related to a particular discipline,We need technical support to fix the server.,We need _____ support to fix the server.,team,NGSL,false
 REMIND,fill,beginner,1459,동사,"생각나게 하다, 상기(想起)시키다",To cause one to experience a memory (of someone or something),Please remind me of the time of the meeting.,Please _____ me of the time of the meeting.,tatoeba:22449,NGSL,false
 ARRANGEMENT,fill,advanced,1460,명사,,The act of arranging,The Japanese art of flower arrangement is called ikebana.,The Japanese art of flower _____ is called ikebana.,tatoeba:4526780,NGSL,false
 SKIN,fill,beginner,1461,명사,"살갗, 피부","The outer protective layer of the body of any animal, including of a human",Take the skin off before you eat the apple.,Take the _____ off before you eat the apple.,tatoeba:29611,NGSL,false
@@ -3653,7 +3653,7 @@ SLOWLY,fill,beginner,1512,부사,"천천히, 느리게",At a slow pace,"Walk slo
 BOND,fill,intermediate,1513,명사,"채권, 결합",A documentary obligation to pay a sum or to perform a contract,"At last, James Bond made it as an actor.","At last, James _____ made it as an actor.",tatoeba:30248,NGSL,false
 HIRE,fill,beginner,1514,명사,고용하다,Payment for the temporary use of something,I plan to hire someone who can speak English.,I plan to _____ someone who can speak English.,tatoeba:489449,NGSL,false
 HOLE,fill,beginner,1515,명사,구멍,A hollow place or cavity,A hole in one is moving on the whole.,A _____ in one is moving on the whole.,tatoeba:33691,NGSL,false
-TIE,fill,beginner,1516,명사,"무승부, 동점",To fasten something with string or rope,Hold still a moment while I fix your tie.,Hold still a moment while I fix your _____.,tatoeba:35823,NGSL,false
+TIE,fill,beginner,1516,명사,"무승부, 동점",To fasten something with string or rope,Please tie the boxes together with string.,Please _____ the boxes together with string.,team,NGSL,false
 INTERNAL,fill,intermediate,1517,형용사,,Of or situated on the inside,No country should interfere in another country's internal affairs.,No country should interfere in another country's _____ affairs.,tatoeba:66650,NGSL,false
 CHAIN,fill,intermediate,1518,명사,"사슬, 체인",A series of interconnected rings or links usually made of metal,"A totally ordered set is often called a ""chain"".","A totally ordered set is often called a ""_____"".",tatoeba:529016,NGSL,false
 LITERATURE,fill,beginner,1519,명사,"문학, 문헌",The body of all written works,I am not as interested in literature as you.,I am not as interested in _____ as you.,tatoeba:257126,NGSL,false
@@ -3671,7 +3671,7 @@ FACTORY,fill,beginner,1530,명사,공장,A building or other place where manufac
 EXPENSE,fill,intermediate,1531,명사,비용,"A spending or consuming, often a disbursement of funds",I paid the bill out of my expense account.,I paid the bill out of my _____ account.,tatoeba:21109,NGSL,false
 CHANNEL,fill,beginner,1532,명사,"수로, 해협",The hollow bed of running waters,Britain is separated from the Continent by the Channel.,Britain is separated from the Continent by the _____.,tatoeba:26149,NGSL,false
 INVESTIGATE,fill,intermediate,1533,동사,조사하다,To inquire into or study in order to ascertain facts or information,You should investigate the fact from a medical viewpoint.,You should _____ the fact from a medical viewpoint.,tatoeba:28113,NGSL,false
-RANK,fill,intermediate,1535,형용사,"랭크, 계급",A position in a list or order,He remains popular with the party rank and file.,He remains popular with the party _____ and file.,tatoeba:11676217,NGSL,false
+RANK,fill,intermediate,1535,형용사,"랭크, 계급",A position in a list or order,The company holds the top rank in the industry.,The company holds the top _____ in the industry.,team,NGSL,false
 TYPICAL,fill,intermediate,1536,형용사,전형적,Capturing the overall sense of a thing,His actions are typical of those of his friends.,His actions are _____ of those of his friends.,tatoeba:286304,NGSL,false
 WEST,fill,beginner,1537,명사,"서, 하늬","The direction opposite to that of the earth's rotation, specifically 270°",The station is to the west of the hotel.,The station is to the _____ of the hotel.,tatoeba:26040,NGSL,false
 FRIENDLY,fill,beginner,1538,형용사,친절하다,"Generally warm, approachable and easy to relate with in character",People who wait on you here are very friendly.,People who wait on you here are very _____.,tatoeba:62007,NGSL,false
@@ -3689,7 +3689,7 @@ BRAND,fill,intermediate,1549,명사,브랜드,A mark or scar made by burning wit
 MORAL,fill,intermediate,1550,형용사,교훈,Of or relating to principles of right and wrong in behaviour…,Moral and physical development are remarkable in the youth.,_____ and physical development are remarkable in the youth.,tatoeba:272023,NGSL,false
 INSIST,fill,intermediate,1551,동사,주장하다,To hold up a claim emphatically,You insist upon our taking that course of action.,You _____ upon our taking that course of action.,tatoeba:16093,NGSL,false
 COMBINATION,fill,intermediate,1552,명사,"결합, 조합","The act of combining, the state of being combined or the result of combining",A combination of several mistakes led to the accident.,A _____ of several mistakes led to the accident.,tatoeba:66560,NGSL,false
-ABUSE,fill,intermediate,1553,명사,"남용, 람용",Improper treatment or usage,"If you abuse your computer, it won't work well.","If you _____ your computer, it won't work well.",tatoeba:680059,NGSL,false
+ABUSE,fill,intermediate,1553,명사,"남용, 학대; 남용하다",Improper treatment or usage,"If you abuse your computer, it won't work well.","If you _____ your computer, it won't work well.",tatoeba:680059,NGSL,false
 ICE,fill,beginner,1554,명사,"얼음, 아이스",Water in frozen (solid) form,There is nothing like ice cream in the summer.,There is nothing like _____ cream in the summer.,tatoeba:24349,NGSL,false
 PRINCIPAL,fill,beginner,1555,형용사,"주요하다, 원금",Primary,The students gathered at the call of the principal.,The students gathered at the call of the _____.,tatoeba:21328,NGSL,false
 MASTER,fill,beginner,1556,명사,"주인, 달인",Someone who has control over something or someone,It's quite difficult to master French in 2 or 3 years.,It's quite difficult to _____ French in 2 or 3 years.,tatoeba:1596,NGSL,false
@@ -3701,7 +3701,7 @@ PREVIOUSLY,fill,intermediate,1562,부사,앞서,At an earlier time,"However, tha
 PROTECTION,fill,intermediate,1563,명사,"보호, 방호",The process of keeping (something or someone) safe,A protection system has been built into this circuit.,A _____ system has been built into this circuit.,tatoeba:50341,NGSL,false
 LARGELY,fill,intermediate,1564,부사,,For the most part,It turned out that my memory was largely correct.,It turned out that my memory was _____ correct.,tatoeba:250643,NGSL,false
 WED,fill,advanced,1565,동사,결혼하다,To perform the marriage ceremony for,He wed a woman who surpasses him in age.,He _____ a woman who surpasses him in age.,tatoeba:12639029,NGSL,false
-RENT,fill,beginner,1566,명사,"임대, 차임",A payment made by a tenant at intervals in order to lease a property,"When I go on vacation, I'll rent a car.","When I go on vacation, I'll _____ a car.",tatoeba:19818,NGSL,false
+RENT,fill,beginner,1566,명사,"임대, 차임",To pay to use something that belongs to someone else,"When I go on vacation, I'll rent a car.","When I go on vacation, I'll _____ a car.",tatoeba:19818,NGSL,false
 SHOT,fill,beginner,1567,형용사,"발사, 발포","Tired, weary",You'd better see a doctor and get a shot.,You'd better see a doctor and get a _____.,tatoeba:28046,NGSL,false
 APPEARANCE,fill,beginner,1568,명사,"외모, 외양",A thing seen,"Judging from his appearance, he must be the conductor.","Judging from his _____, he must be the conductor.",tatoeba:21978,NGSL,false
 REASONABLE,fill,beginner,1569,형용사,,Not excessive or immoderate,"From our point of view, his proposal is reasonable.","From our point of view, his proposal is _____.",tatoeba:23438,NGSL,false
@@ -3801,7 +3801,7 @@ YARD,fill,beginner,1667,명사,"울안, 뜰","A small, usually uncultivated area
 CONSTANT,fill,beginner,1668,형용사,"변하지 않는 것, 상수",Unchanged through time or space,We have kept in constant touch for twenty years.,We have kept in _____ touch for twenty years.,tatoeba:22783,NGSL,false
 HILL,fill,beginner,1670,명사,"언덕, 소산",An elevated landmass smaller than a mountain,The church is on the hill overlooking the city.,The church is on the _____ overlooking the city.,tatoeba:19079,NGSL,false
 INSTRUCTION,fill,advanced,1672,명사,,An instance of the information or knowledge so furnished,Thank you for your instruction. It really helped.,Thank you for your _____. It really helped.,tatoeba:327016,NGSL,false
-IDEAL,fill,intermediate,1674,형용사,"이상적, 리상적",Existing only in the mind,"The house is not ideal, but it's all right.","The house is not _____, but it's all right.",tatoeba:49323,NGSL,false
+IDEAL,fill,intermediate,1674,형용사,"이상적, 리상적","Perfect, or the best possible","The house is not ideal, but it's all right.","The house is not _____, but it's all right.",tatoeba:49323,NGSL,false
 FOLK,fill,intermediate,1675,명사,"사람들, 민속의","People, persons",Korpiklaani is one of my favorite folk metal bands.,Korpiklaani is one of my favorite _____ metal bands.,tatoeba:4445461,NGSL,false
 SURELY,fill,beginner,1676,부사,반드시,Without fail,"That wouldn't be the house we're looking for, surely.","That wouldn't be the house we're looking for, _____.",tatoeba:32857,NGSL,false
 GUARD,fill,beginner,1677,명사,"가드, 위병","A person who, or thing that, protects or watches over something",That guard tends to do everything by the book.,That _____ tends to do everything by the book.,tatoeba:68442,NGSL,false
@@ -3846,7 +3846,7 @@ IMPRESSION,fill,beginner,1717,명사,인상,The indentation or depression made b
 UNABLE,fill,beginner,1718,형용사,~할 수 없는,Not able,The professor was unable to comprehend what I meant.,The professor was _____ to comprehend what I meant.,tatoeba:48678,NGSL,false
 JOKE,fill,beginner,1719,명사,"농담, 롱담",An amusing story,We are bored with the joke of professorial custom.,We are bored with the _____ of professorial custom.,tatoeba:23042,NGSL,false
 SKY,fill,beginner,1720,명사,"하늘, 날씨","The atmosphere above a given point, especially as visible from the surface of…",Do you ever dream about flying through the sky?,Do you ever dream about flying through the _____?,tatoeba:16198,NGSL,false
-COLUMN,fill,advanced,1721,명사,"기둥, 열",A solid upright structure designed usually to support a larger structure above…,I read the reader's column in newspapers and magazines.,I read the reader's _____ in newspapers and magazines.,tatoeba:9566257,NGSL,false
+COLUMN,fill,advanced,1721,명사,"(신문의) 칼럼; 기둥, 열",A regular article in a newspaper or magazine,I read the reader's column in newspapers and magazines.,I read the reader's _____ in newspapers and magazines.,tatoeba:9566257,NGSL,false
 ELECTRONIC,fill,intermediate,1722,형용사,전자,Of or pertaining to an electron or electrons,In recent years electronic computers have become increasingly important.,In recent years _____ computers have become increasingly important.,tatoeba:18646,NGSL,false
 IMPOSE,fill,intermediate,1723,동사,,"To apply, enforce, or establish (something…",We should not impose our opinions on other people.,We should not _____ our opinions on other people.,tatoeba:247765,NGSL,false
 CRIMINAL,fill,beginner,1724,형용사,"범죄적, 죄인",Against the law,The police caught sight of the criminal running away.,The police caught sight of the _____ running away.,tatoeba:48466,NGSL,false
@@ -3980,7 +3980,7 @@ DISAPPOINT,fill,intermediate,1853,동사,실망시키다,To sadden or displease 
 BOSS,fill,beginner,1854,명사,"상관, 상사",One who oversees and directs the work of others,The boss has a good opinion of your work.,The _____ has a good opinion of your work.,tatoeba:33433,NGSL,false
 ASSUMPTION,fill,advanced,1855,명사,,"The act of assuming, or taking to or upon oneself",How much confidence exists that this assumption is correct?,How much confidence exists that this _____ is correct?,tatoeba:777307,NGSL,false
 FREEZE,fill,intermediate,1856,동사,"얼다, 얼리다","To drop to a temperature below zero degrees celsius, where water turns to ice",Don't cross your eyes or they'll freeze that way.,Don't cross your eyes or they'll _____ that way.,tatoeba:3983840,NGSL,false
-EXTREME,fill,intermediate,1857,형용사,극단적,"Of a place, the most remote, farthest or outermost","Those who love too much, hate in like extreme.","Those who love too much, hate in like _____.",tatoeba:274342,NGSL,false
+EXTREME,fill,intermediate,1857,형용사,극단적,Very great in degree,The desert has extreme temperatures.,The desert has _____ temperatures.,team,NGSL,false
 PASSAGE,fill,intermediate,1858,명사,"통로, 구절",A paragraph or section of text or music with particular meaning,Can you get at the meaning of this passage?,Can you get at the meaning of this _____?,tatoeba:16701,NGSL,false
 REPUTATION,fill,beginner,1859,명사,"평판, 명성",What somebody or something is known for,"The machine, which is excellent, has a good reputation.","The machine, which is excellent, has a good _____.",tatoeba:48824,NGSL,false
 NEGOTIATION,fill,advanced,1861,명사,"교섭, 협상",The process of achieving agreement through discussion,In labor negotiation union leaders play an important role.,In labor _____ union leaders play an important role.,tatoeba:326337,NGSL,false
@@ -4320,7 +4320,7 @@ COMPETITOR,fill,advanced,2213,명사,경쟁자,A person or organization against 
 ALCOHOL,fill,beginner,2214,명사,"알코올, 알콜",Any of a class of organic compounds (such as ethanol) containing a hydroxyl…,The doctor advised him to ease up on alcohol.,The doctor advised him to ease up on _____.,tatoeba:28097,NGSL,false
 FESTIVAL,fill,beginner,2215,명사,"축제, 축일",A feast or feast day,Our campus festival is to be held next week.,Our campus _____ is to be held next week.,tatoeba:21640,NGSL,false
 VEGETABLE,fill,intermediate,2216,명사,"남새, 푸성귀","A plant raised for some edible part of it, such as the leaves, roots…","Thanks to the heavy rain, vegetable prices rose sharply.","Thanks to the heavy rain, _____ prices rose sharply.",tatoeba:241344,NGSL,false
-VAN,fill,beginner,2217,명사,"반, 승합차",A large towable vehicle equipped for the repair of structures that cannot…,I thoroughly enjoyed myself at the Van Dorgen Exhibition.,I thoroughly enjoyed myself at the _____ Dorgen Exhibition.,tatoeba:34412,NGSL,false
+VAN,fill,beginner,2217,명사,"반, 승합차","A vehicle for carrying goods or people, larger than a car",We loaded the furniture into the van.,We loaded the furniture into the _____.,team,NGSL,false
 CONFIDENT,fill,beginner,2218,형용사,확신하다,Very sure of something,I'm confident that there won't be a world war.,I'm _____ that there won't be a world war.,tatoeba:30333,NGSL,false
 PLANET,fill,beginner,2219,명사,"행성, 유성",Each of the seven major bodies which move relative to the fixed stars in the…,"When I was your age, Pluto was a planet.","When I was your age, Pluto was a _____.",tatoeba:2182,NGSL,false
 CURVE,fill,advanced,2220,명사,"곡선, 구부리다","A bend, such as in a road",The curve extends from point A to point B.,The _____ extends from point A to point B.,tatoeba:63813,NGSL,false
@@ -4540,7 +4540,7 @@ PASSION,fill,beginner,2445,명사,"열정, 수난",A true desire sustained or pr
 CHAMPION,fill,intermediate,2446,명사,"챔피언, 우승자",An ongoing winner in a game or contest,He is what is called a champion of justice.,He is what is called a _____ of justice.,tatoeba:289307,NGSL,false
 FULFILL,fill,intermediate,2447,동사,수행하다,"To satisfy, carry out, bring to completion (an obligation, a requirement, etc.)",Dozens of people encouraged me to fulfill my ambitions.,Dozens of people encouraged me to _____ my ambitions.,tatoeba:41012,NGSL,false
 DUST,fill,beginner,2448,명사,"먼지, 흙","Fine, dry particles of matter found in the air and covering the surface of…",Will you please wipe the dust off the table?,Will you please wipe the _____ off the table?,tatoeba:39630,NGSL,false
-DEDICATE,fill,advanced,2449,동사,"바치다, 전념하다",To set apart for a deity or for religious purposes,I'd like to dedicate this song to my mom.,I'd like to _____ this song to my mom.,tatoeba:3386076,NGSL,false
+DEDICATE,fill,advanced,2449,동사,"바치다, 전념하다",To give your time or effort to something or someone,I'd like to dedicate this song to my mom.,I'd like to _____ this song to my mom.,tatoeba:3386076,NGSL,false
 ROUGHLY,fill,intermediate,2450,부사,,Unevenly or irregularly,"The population of the country is roughly estimated at 50,000,000.","The population of the country is _____ estimated at 50,000,000.",tatoeba:59258,NGSL,false
 SKIRT,fill,intermediate,2451,명사,"치마, 스커트","A separate article of clothing, usually worn by women and girls…",I like this skirt. May I try it on?,I like this _____. May I try it on?,tatoeba:57281,NGSL,false
 PROVINCE,fill,intermediate,2452,명사,"성, 도",A region of the earth or of a continent,The province supplies its neighbors with various raw materials.,The _____ supplies its neighbors with various raw materials.,tatoeba:46713,NGSL,false
@@ -4595,7 +4595,7 @@ IMAGINATION,fill,beginner,2502,명사,"상상력, 상상",The image-making power
 DISAGREE,fill,intermediate,2503,동사,,To fail to agree,"I will listen to you, especially when we disagree.","I will listen to you, especially when we _____.",tatoeba:330418,NGSL,false
 THROAT,fill,beginner,2504,명사,"멱, 멱살",The front part of the neck,I got a fish bone stuck in my throat.,I got a fish bone stuck in my _____.,tatoeba:19356,NGSL,false
 INSIGHT,fill,intermediate,2505,명사,,A clear and deep understanding of something,This poem calls for great insight from the reader.,This poem calls for great _____ from the reader.,tatoeba:59044,NGSL,false
-TACKLE,fill,intermediate,2506,명사,(문제를) 다루다,A device for grasping an object and an attached means of moving it…,Tom seems to be unwilling to tackle the problem.,Tom seems to be unwilling to _____ the problem.,tatoeba:1092955,NGSL,false
+TACKLE,fill,intermediate,2506,명사,(문제를) 다루다,To deal with a difficult problem,Tom seems to be unwilling to tackle the problem.,Tom seems to be unwilling to _____ the problem.,tatoeba:1092955,NGSL,false
 FOREVER,fill,beginner,2507,부사,영원(永遠)히,"For all time, for all eternity",It would take forever for me to explain everything.,It would take _____ for me to explain everything.,tatoeba:1347,NGSL,false
 EXCEED,fill,advanced,2508,동사,,"To be larger, greater than (something)",The company rewards workers like Carlos who exceed expectations.,The company rewards workers like Carlos who _____ expectations.,tatoeba:11744153,NGSL,false
 EXPENDITURE,fill,advanced,2509,명사,"비용, 지출",The amount expended,You'll have to proportion your expenditure to your income.,You'll have to proportion your _____ to your income.,tatoeba:266276,NGSL,false
@@ -4668,7 +4668,7 @@ MERE,fill,intermediate,2582,형용사,"단순한, ~에 불과한","Just, only",T
 CARBON,fill,intermediate,2583,명사,"탄소, 카아본지",The chemical element (symbol C) with an atomic number of 6. It can be found in…,The amount of carbon dioxide has increased by 10 percent.,The amount of _____ dioxide has increased by 10 percent.,tatoeba:280858,NGSL,false
 REGULATE,fill,advanced,2584,동사,규정하다,To dictate policy,Sweating allows the human body to regulate its temperature.,Sweating allows the human body to _____ its temperature.,tatoeba:1617671,NGSL,false
 CHEESE,fill,beginner,2585,명사,"치즈, 건락",A dairy product made from curdled or cultured milk,There were four pieces of cheese on the table.,There were four pieces of _____ on the table.,tatoeba:39613,NGSL,false
-TRIGGER,fill,intermediate,2586,명사,"방아쇠, 트리거",To cause something to start,Tom didn't have the courage to pull the trigger.,Tom didn't have the courage to pull the _____.,tatoeba:1026388,NGSL,false
+TRIGGER,fill,intermediate,2586,명사,"방아쇠, 트리거",To cause something to start,Stress can trigger headaches.,Stress can _____ headaches.,team,NGSL,false
 PIPE,fill,intermediate,2587,명사,"피리, 파이프","A wind instrument consisting of a tube, often lined with holes to allow for…",Gas was escaping from a crack in the pipe.,Gas was escaping from a crack in the _____.,tatoeba:35520,NGSL,false
 DESTRUCTION,fill,intermediate,2588,명사,"파괴, 멸망",The act of destroying,The destruction of the ozone layer affects the environment.,The _____ of the ozone layer affects the environment.,tatoeba:65007,NGSL,false
 GUITAR,fill,beginner,2589,명사,기타,Any type of musical instrument of the lute family…,Some of the students like to play the guitar.,Some of the students like to play the _____.,tatoeba:21398,NGSL,false
@@ -4877,6 +4877,6 @@ HELLO,fill,beginner,2803,감탄사,"안녕하십니까, 안녕하세요",A greet
 HUNGER,fill,intermediate,2804,명사,"굶주림, 배고픔",A need or compelling desire for food,"With hunger and fatigue, the dog died at last.","With _____ and fatigue, the dog died at last.",tatoeba:18155,NGSL,false
 INSURE,fill,advanced,2805,동사,보험에 들다,To provide for compensation if some specified risk occurs. Often agreed by…,Yanni has to insure his life for his family.,Yanni has to _____ his life for his family.,tatoeba:9676575,NGSL,false
 ASHAMED,fill,beginner,2806,형용사,부끄러운,Feeling shame or guilt,The politician was not ashamed of having taken bribes.,The politician was not _____ of having taken bribes.,tatoeba:45937,NGSL,false
-FOUND,fill,beginner,2807,명사,"설립하다, 수립하다",Food and lodging,You found me where no one else was looking.,You _____ me where no one else was looking.,tatoeba:1641,NGSL,false
+FOUND,fill,beginner,2807,명사,"설립하다, 수립하다",To start an organization or company,They decided to found a new company.,They decided to _____ a new company.,team,NGSL,false
 BLOG,fill,intermediate,2808,명사,블로그,"A website that allows users to reflect, share opinions…",This blog covers topics that centre on information infrastructure.,This _____ covers topics that centre on information infrastructure.,tatoeba:329361,NGSL,false
 THIRST,fill,intermediate,2809,명사,"목마름, 갈증",A sensation of dryness in the throat associated with a craving for liquids…,The man died of thirst in a dry country.,The man died of _____ in a dry country.,tatoeba:45369,NGSL,false

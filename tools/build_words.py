@@ -247,7 +247,10 @@ def load_hint_overrides() -> dict[str, dict]:
 
 
 def apply_hint_overrides(rows: list[dict], overrides: dict[str, dict]) -> int:
-    """data/hint_overrides.csv 의 뜻·정의로 바꾼다. 빈 칸은 그대로 둔다. 바꾼 행 수를 돌려준다."""
+    """data/hint_overrides.csv 의 뜻·정의·예문으로 바꾼다. 빈 칸은 그대로 둔다. 바꾼 행 수를 돌려준다.
+
+    example 은 정답 단어가 그대로 들어간 문장으로 적는다. 빈칸 예문은 여기서 만든다.
+    """
     changed = 0
     for r in rows:
         o = overrides.get(r["word"].upper())
@@ -257,6 +260,12 @@ def apply_hint_overrides(rows: list[dict], overrides: dict[str, dict]) -> int:
             r["meaning_ko"] = o["meaning_ko"].strip()
         if o.get("definition_en", "").strip():
             r["definition_en"] = mask_word(o["definition_en"].strip(), r["word"].lower())
+        ex = o.get("example", "").strip()
+        if ex:
+            blank = blank_example(ex, r["word"].lower())
+            if blank == ex:
+                raise SystemExit(f"hint_overrides.csv: {r['word']} 예문에 정답 단어가 그대로 없습니다: {ex}")
+            r["example"], r["example_blank"], r["example_ref"] = ex, blank, "team"
         changed += 1
     return changed
 

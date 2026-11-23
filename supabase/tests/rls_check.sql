@@ -24,11 +24,11 @@ select public.get_puzzle('mid-001');
 select public.get_puzzle('mid-002');
 \echo '--- [A] 내 프로필만 보임 (1행)'
 select id, nickname from public.profiles;
-\echo '--- [A] 풀이 기록 추가 (성공)'
+\echo '--- [A] 풀이 기록 직접 추가 (거부: start_attempt RPC로만)'
 insert into public.attempts (puzzle_id) values ('mid-001') returning user_id;
 \echo '--- [A] 다른 사람 이름으로 풀이 기록 (거부)'
 insert into public.attempts (user_id, puzzle_id) values ('22222222-2222-2222-2222-222222222222','mid-001');
-\echo '--- [A] 점수 직접 수정 (0행: 정책 없음)'
+\echo '--- [A] 점수 직접 수정 (거부)'
 update public.attempts set score = 9999;
 \echo '--- [A] 오답 직접 추가 (거부: RPC로만)'
 insert into public.wrong_words (word_id) values (1);
