@@ -10,7 +10,7 @@ import 'play_state.dart';
 import 'puzzle_repository.dart';
 import 'widgets/hint_bar.dart';
 import 'widgets/letter_keyboard.dart';
-import 'widgets/puzzle_grid.dart';
+import 'widgets/zoomable_grid.dart';
 
 /// Figma v3 3-1 퍼즐 풀이. 하단 메뉴 없이 root navigator에 올린다.
 ///
@@ -88,13 +88,8 @@ class _PlayView extends ConsumerWidget {
               onNext: play.nextClue,
             ),
             const SizedBox(height: 12),
-            Expanded(child: Center(child: PuzzleGrid(state: state, onTapCell: play.tapCell))),
-            const SizedBox(height: 6),
-            const Text(
-              '칸을 누르면 단어 선택 · 한 번 더 누르면 가로·세로 전환',
-              style: V3Text.caption,
-              textAlign: TextAlign.center,
-            ),
+            // 격자 + 아래 안내·확대 버튼. 확대하면 고른 단어가 화면 가운데로 따라온다.
+            Expanded(child: ZoomableGrid(state: state, onTapCell: play.tapCell)),
             const SizedBox(height: 10),
             const _ActionRow(),
             const SizedBox(height: 14),

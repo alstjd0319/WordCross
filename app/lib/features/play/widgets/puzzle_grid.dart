@@ -9,7 +9,7 @@ import '../play_state.dart';
 ///
 /// 칸 상태: 흰 칸, 검은 칸(초콜릿), 지금 단어(살구), 지금 칸(버터).
 /// 맞힘(민트)·글자 힌트(라벤더)는 정답 확인이 생기는 3·4주차에 더한다.
-/// 주어진 공간에 격자 전체가 들어가게 칸 크기를 정한다. 두 손가락 확대·이동은 3주차.
+/// 주어진 공간에 격자 전체가 들어가게 칸 크기를 정한다. 확대·이동은 [ZoomableGrid]가 감싸서 한다.
 class PuzzleGrid extends StatelessWidget {
   const PuzzleGrid({super.key, required this.state, required this.onTapCell});
 
@@ -18,12 +18,16 @@ class PuzzleGrid extends StatelessWidget {
 
   static Key cellKey(int row, int col) => ValueKey('cell-$row-$col');
 
+  /// [space] 안에 rows×cols 격자가 다 들어가는 칸 한 변 길이 (정수 픽셀).
+  static double cellSizeFor(Size space, int rows, int cols) =>
+      math.max(0, math.min(space.width / cols, space.height / rows).floorToDouble());
+
   @override
   Widget build(BuildContext context) {
     final puzzle = state.puzzle;
     return LayoutBuilder(
       builder: (context, box) {
-        final cell = math.min(box.maxWidth / puzzle.cols, box.maxHeight / puzzle.rows).floorToDouble();
+        final cell = cellSizeFor(box.biggest, puzzle.rows, puzzle.cols);
         return SizedBox(
           width: cell * puzzle.cols,
           height: cell * puzzle.rows,

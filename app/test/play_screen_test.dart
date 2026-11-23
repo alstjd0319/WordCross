@@ -11,8 +11,10 @@ import 'package:wordcross/features/auth/fake_auth_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/play_screen.dart';
+import 'package:wordcross/features/play/widgets/hint_bar.dart';
 import 'package:wordcross/features/play/widgets/letter_keyboard.dart';
 import 'package:wordcross/features/play/widgets/puzzle_grid.dart';
+import 'package:wordcross/features/play/widgets/zoomable_grid.dart';
 import 'package:wordcross/features/puzzles/puzzle_list_screen.dart';
 
 import 'fixtures/test_puzzles.dart';
@@ -208,4 +210,79 @@ void main() {
       expect(find.byType(PuzzleGrid), findsOneWidget);
     });
   }
+
+  group('확대·이동', () {
+    ZoomableGridState zoom(WidgetTester tester) => tester.state<ZoomableGridState>(find.byType(ZoomableGrid));
+    Finder badge(String no) => find.descendant(of: find.byType(HintBar), matching: find.text(no));
+    bool onScreen(WidgetTester tester, Finder target) {
+      final viewport = tester.getRect(find.byType(InteractiveViewer));
+      return viewport.contains(tester.getRect(target).center);
+    }
+
+    testWidgets('확대 버튼으로 확대하고, 전체 보기로 되돌린다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      expect(zoom(tester).scale, 1);
+      expect(find.byTooltip('확대'), findsOneWidget);
+
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(zoom(tester).scale, greaterThan(1));
+      expect(find.byTooltip('전체 보기'), findsOneWidget);
+      // 1가로(왼쪽 위)를 중심으로 확대해서 맨 아래 줄은 화면 밖이다.
+      expect(onScreen(tester, cell(0, 0)), isTrue);
+      expect(onScreen(tester, cell(10, 0)), isFalse);
+
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(zoom(tester).scale, 1);
+      expect(onScreen(tester, cell(10, 0)), isTrue);
+    });
+
+    testWidgets('확대한 채 다른 단어를 고르면 그 단어가 화면 안으로 온다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(onScreen(tester, cell(10, 5)), isFalse);
+
+      // 1가로의 앞 단어 = 마지막 세로 단어 18세로 (8,0)~(10,0), 왼쪽 아래.
+      await tester.tap(find.byKey(const ValueKey('clue-prev')));
+      await tester.pumpAndSettle();
+      expect(badge('18'), findsOneWidget);
+      expect(onScreen(tester, cell(8, 0)), isTrue);
+      expect(onScreen(tester, cell(10, 0)), isTrue);
+      expect(zoom(tester).scale, greaterThan(1)); // 배율은 그대로
+
+      // 확대한 채로 보이는 칸을 누르면 평소처럼 단어가 골라진다.
+      await tester.tap(cell(10, 0));
+      await tester.pumpAndSettle();
+      expect(badge('18'), findsOneWidget);
+      expect(zoom(tester).scale, greaterThan(1));
+    });
+
+    testWidgets('확대한 채 글자를 넣어 지금 칸이 화면 밖으로 나가면 따라간다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+
+      // 21가로 BROKER (10,5)~(10,10)를 전체 보기에서 고른 뒤 확대한다.
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      await tester.tap(cell(10, 5));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(onScreen(tester, cell(10, 5)), isTrue);
+
+      for (final ch in 'BROKE'.split('')) {
+        await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
+        await tester.pumpAndSettle();
+      }
+      // 지금 칸은 단어 끝 (10,10). 화면 안에 있어야 한다.
+      expect(onScreen(tester, cell(10, 10)), isTrue);
+      expect(cellText(10, 9, 'E'), findsOneWidget);
+    });
+  });
 }
