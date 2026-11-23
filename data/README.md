@@ -12,7 +12,7 @@
   | `word` | 대문자 영어 단어 |
   | `type` | `learn`(학습, TSL·BSL) / `fill`(채움, NGSL) |
   | `source` | `TSL` / `BSL` / `NGSL` |
-  | `rank` | 원래 목록의 빈도 순위 (2주차 난이도 분류 기준) |
+  | `rank` | 원래 목록의 순위 (참고용. 난이도는 영어 예문 빈도로 정함) |
   | `length` | 글자 수 |
 
 - `words.csv` (2주차): `word_list.csv` + 힌트 데이터 (`tools/build_words.py`)
@@ -20,17 +20,24 @@
   | 열 | 내용 |
   |---|---|
   | `word`, `type`, `rank`, `source` | `word_list.csv` 와 같음 |
-  | `level` | `beginner`(초급) / `intermediate`(중급) / `advanced`(고급) |
+  | `level` | `beginner`(초급) / `intermediate`(중급) / `advanced`(고급). Tatoeba 영어 예문에 300회 이상 초급, 60~299회 중급, 그 미만 고급 |
   | `pos` | 품사 |
-  | `meaning_ko` | 한국어 뜻 (Wiktionary 초안 → 검수) |
-  | `definition_en` | 쉬운 영어 정의 (TSL 정의 우선, 없으면 Wiktionary). 정답 철자는 `_____` 로 가림 |
+  | `meaning_ko` | 한국어 뜻 (Wiktionary 초안, 없으면 `meanings_ko_draft.csv`, ETS 단어는 교재 뜻) |
+  | `definition_en` | 쉬운 영어 정의 (TSL 정의 우선, 없으면 Wiktionary 첫 뜻, 80자 이내). 정답 철자는 `_____` 로 가림 |
   | `example` | 예문 원문 (정답 포함) |
   | `example_blank` | 빈칸 처리된 예문 (힌트) |
-  | `example_ref` | 예문 출처, 예: `tatoeba:12345` |
+  | `example_ref` | 예문 출처: `tatoeba:12345`, 직접 쓴 예문은 `team` |
   | `reviewed` | 사람 검수 완료 여부 (`true`/`false`) |
 
-  검수할 때는 `meaning_ko`, `definition_en`, `example` 을 고치고 `reviewed` 를 `true` 로 바꿉니다.
-  `build_words.py` 를 다시 돌려도 `reviewed=true` 행은 유지됩니다.
+  **이 파일을 직접 고치지 않습니다.** 다시 만들 때마다 덮어써지고, ETS 교재 단어에는 반영되지 않습니다.
+  힌트를 고칠 때는 `hint_overrides.csv` 에 적습니다 (아래).
+
+- `hint_overrides.csv`: 사람이 고친 힌트. 사전·교재 데이터보다 우선 적용된다
+  - 열: `word`, `meaning_ko`, `definition_en`, `example`(정답 단어가 그대로 든 문장, 빈칸은 자동), `note`
+  - 빈 칸은 원래 값을 그대로 둔다
+- `meanings_ko_draft.csv`: Wiktionary 에 한국어 번역이 없던 단어의 뜻 초안 (직접 작성)
+- 검수 완료 표시: 퍼즐을 직접 풀어 보고 `python3 tools/review_puzzle.py <id> --approve` 하면,
+  `export_sql.py` 가 그 퍼즐과 퍼즐에 든 단어를 모두 `reviewed=true` 로 DB 에 넣는다 (기획서 7장)
 
 - `templates/*.json`: 격자 틀. `grid` 의 `#` 은 검은 칸, `.` 은 흰 칸
 - `puzzles/*.json`: 퍼즐 하나당 파일 하나
