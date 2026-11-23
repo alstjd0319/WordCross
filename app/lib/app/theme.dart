@@ -88,12 +88,12 @@ extension WordCrossThemeX on BuildContext {
 abstract final class AppTheme {
   /// v3 글꼴: 제목·버튼 Jua, 영단어·숫자 Fredoka, 본문 Gowun Dodum.
   static const _textTheme = TextTheme(
-    displaySmall: TextStyle(fontFamily: V3Fonts.fredoka, fontSize: 36, height: 44 / 36, fontWeight: FontWeight.w700),
-    titleLarge: TextStyle(fontFamily: V3Fonts.jua, fontSize: 24, height: 32 / 24),
-    titleMedium: TextStyle(fontFamily: V3Fonts.jua, fontSize: 18, height: 24 / 18),
+    displaySmall: TextStyle(fontFamily: V3Fonts.fredoka, fontFamilyFallback: V3Fonts.fallback, fontSize: 36, height: 44 / 36, fontWeight: FontWeight.w700),
+    titleLarge: TextStyle(fontFamily: V3Fonts.jua, fontFamilyFallback: V3Fonts.fallback, fontSize: 24, height: 32 / 24),
+    titleMedium: TextStyle(fontFamily: V3Fonts.jua, fontFamilyFallback: V3Fonts.fallback, fontSize: 18, height: 24 / 18),
     bodyLarge: TextStyle(fontFamily: V3Fonts.gowun, fontSize: 15, height: 22 / 15),
     bodyMedium: TextStyle(fontFamily: V3Fonts.gowun, fontSize: 15, height: 22 / 15),
-    labelLarge: TextStyle(fontFamily: V3Fonts.jua, fontSize: 15, height: 20 / 15),
+    labelLarge: TextStyle(fontFamily: V3Fonts.jua, fontFamilyFallback: V3Fonts.fallback, fontSize: 15, height: 20 / 15),
     bodySmall: TextStyle(fontFamily: V3Fonts.gowun, fontSize: 13, height: 18 / 13),
     labelSmall: TextStyle(fontFamily: V3Fonts.gowun, fontSize: 12, height: 16 / 12),
   );

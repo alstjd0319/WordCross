@@ -3,12 +3,14 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:wordcross/app/app.dart';
 import 'package:wordcross/app/main_shell.dart';
+import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/puzzle.dart';
 import 'package:wordcross/features/play/puzzle_repository.dart';
+import 'package:wordcross/features/puzzles/grid_preview.dart';
 import 'package:wordcross/features/puzzles/puzzle_list_screen.dart';
 
 /// 로그인한 상태로 퍼즐 탭을 연다.
@@ -93,18 +95,42 @@ void main() {
     expect(find.text('초급 #001'), findsOneWidget);
   });
 
-  testWidgets('카드에 크기·단어 수·예상 시간이 나오고, 누르면 퍼즐 풀이가 열린다', (tester) async {
+  testWidgets('카드를 누르면 상세(미리보기·크기·단어·예상 시간·규칙)가 열리고, 시작하기로 풀이가 열린다', (tester) async {
     final repo = FakePuzzleRepository();
     await openPuzzleTab(tester, repo);
     final first = (await repo.listPuzzles()).first;
+    final puzzle = await repo.fetchPuzzle(first.id);
     final minutes = first.estimatedMinutes;
+    final across = puzzle.clues.where((c) => c.dir == Direction.across).length;
 
     expect(find.text('${first.sizeLabel} · 단어 ${first.wordCount}개 · 약 $minutes분'), findsOneWidget);
 
     await tester.tap(find.text(first.title));
     await tester.pumpAndSettle();
+    expect(find.text('퍼즐 상세'), findsOneWidget);
     expect(find.byType(MainNavBar), findsNothing);
+    expect(find.byType(GridPreview), findsOneWidget);
+    expect(find.text(first.title), findsOneWidget);
+    expect(find.text(first.sizeLabel), findsOneWidget);
+    expect(find.text('${first.wordCount}개'), findsOneWidget);
+    expect(find.text('약 $minutes분'), findsOneWidget);
+    // 규칙 카드는 작은 화면에서 아래쪽이라 스크롤해서 확인한다.
+    final rule = find.text('가로 $across개 · 세로 ${first.wordCount - across}개 단어가 들어 있어요');
+    await tester.scrollUntilVisible(rule, 120, scrollable: find.byType(Scrollable).first);
+    expect(rule, findsOneWidget);
+
+    await tester.tap(find.text('시작하기'));
+    await tester.pumpAndSettle();
     expect(find.text('0 / ${first.wordCount} 단어'), findsOneWidget);
+  });
+
+  testWidgets('없는 퍼즐의 상세를 열면 오류와 다시 시도 버튼을 보여 준다', (tester) async {
+    await openPuzzleTab(tester, FakePuzzleRepository());
+    final router = ProviderScope.containerOf(tester.element(find.byType(MaterialApp))).read(routerProvider);
+    router.go(Routes.puzzleDetailPath('nope-999'));
+    await tester.pumpAndSettle();
+    expect(find.text('퍼즐을 찾을 수 없어요.'), findsOneWidget);
+    expect(find.text('다시 시도'), findsOneWidget);
   });
 
   testWidgets('공개된 퍼즐이 없으면 안내를 보여 준다', (tester) async {

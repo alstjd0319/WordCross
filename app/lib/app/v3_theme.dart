@@ -46,17 +46,21 @@ abstract final class V3Fonts {
 
   /// 본문
   static const gowun = 'GowunDodum';
+
+  /// Jua에는 ×·· 같은 기호가, Fredoka에는 한글이 없다. 빠진 글자는 Gowun Dodum으로 채운다.
+  static const fallback = [gowun];
 }
 
 abstract final class V3Text {
-  static const title = TextStyle(fontFamily: V3Fonts.jua, fontSize: 22, height: 1.2, color: V3Colors.cocoa);
-  static const button = TextStyle(fontFamily: V3Fonts.jua, fontSize: 16, height: 1.2, color: V3Colors.cocoa);
+  static const title = TextStyle(fontFamily: V3Fonts.jua, fontFamilyFallback: V3Fonts.fallback, fontSize: 22, height: 1.2, color: V3Colors.cocoa);
+  static const button = TextStyle(fontFamily: V3Fonts.jua, fontFamilyFallback: V3Fonts.fallback, fontSize: 16, height: 1.2, color: V3Colors.cocoa);
   static const body = TextStyle(fontFamily: V3Fonts.gowun, fontSize: 15, height: 1.4, color: V3Colors.cocoa);
   static const caption = TextStyle(fontFamily: V3Fonts.gowun, fontSize: 13, height: 1.3, color: V3Colors.cocoaMuted);
 
   /// 영단어·숫자. 굵기는 가변 글꼴 축(wght)으로 준다.
   static TextStyle word(double size, {FontWeight weight = FontWeight.w600, Color color = V3Colors.cocoa}) => TextStyle(
         fontFamily: V3Fonts.fredoka,
+        fontFamilyFallback: V3Fonts.fallback,
         fontSize: size,
         height: 1,
         color: color,

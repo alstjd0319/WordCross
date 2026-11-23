@@ -46,10 +46,12 @@ Future<void> openSample(WidgetTester tester) async {
   await tester.pumpAndSettle();
   await tester.tap(find.text('초급 #001'));
   await tester.pumpAndSettle();
+  await tester.tap(find.text('시작하기'));
+  await tester.pumpAndSettle();
 }
 
 void main() {
-  testWidgets('퍼즐 목록에서 퍼즐을 열면 하단 메뉴 없이 격자·힌트·키보드가 나오고, 닫으면 돌아온다', (tester) async {
+  testWidgets('목록 → 상세 → 시작하기로 열면 하단 메뉴 없이 격자·힌트·키보드가 나오고, 닫으면 상세로 돌아간다', (tester) async {
     await pumpLoggedIn(tester);
     await openSample(tester);
 
@@ -62,6 +64,11 @@ void main() {
     expect(find.text('6글자 · 한국어 뜻'), findsOneWidget);
 
     await tester.tap(find.byKey(const ValueKey('play-close')));
+    await tester.pumpAndSettle();
+    expect(find.text('시작하기'), findsOneWidget);
+    expect(find.byType(MainNavBar), findsNothing);
+
+    await tester.tap(find.byTooltip('뒤로'));
     await tester.pumpAndSettle();
     expect(find.byType(PuzzleCard), findsOneWidget);
     expect(find.byType(MainNavBar), findsOneWidget);

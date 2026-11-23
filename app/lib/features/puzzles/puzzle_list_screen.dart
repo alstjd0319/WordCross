@@ -12,8 +12,7 @@ import 'level_badge.dart';
 
 /// Figma v3 2-2 퍼즐 목록 (3주차).
 ///
-/// 공개된 퍼즐을 난이도별로 걸러 보여 준다. 카드를 누르면 퍼즐 풀이로 간다.
-/// 퍼즐 상세(2-3)가 생기면 카드는 상세로 가게 바꾼다.
+/// 공개된 퍼즐을 난이도별로 걸러 보여 준다. 카드를 누르면 퍼즐 상세(2-3)로 간다.
 /// "안 푼 퍼즐 먼저", "완료·점수" 표시는 풀이 기록이 생기는 4주차에 더한다.
 class PuzzleListScreen extends ConsumerStatefulWidget {
   const PuzzleListScreen({super.key});
@@ -49,7 +48,7 @@ class _PuzzleListScreenState extends ConsumerState<PuzzleListScreen> {
             Expanded(
               child: switch (list) {
                 AsyncData(:final value) => _buildList(value),
-                AsyncError(:final error) => _LoadError(
+                AsyncError(:final error) => LoadErrorView(
                     message: error is PuzzleFailure ? error.message : '퍼즐 목록을 불러오지 못했어요.',
                     onRetry: () => ref.invalidate(puzzleListProvider),
                   ),
@@ -92,7 +91,7 @@ class _PuzzleListScreenState extends ConsumerState<PuzzleListScreen> {
               itemBuilder: (context, i) => PuzzleCard(
                 puzzle: shown[i],
                 cat: _peekCats[i % _peekCats.length],
-                onTap: () => context.push(Routes.playPath(shown[i].id)),
+                onTap: () => context.push(Routes.puzzleDetailPath(shown[i].id)),
               ),
             ),
     );
@@ -217,28 +216,3 @@ class PuzzleCard extends StatelessWidget {
   }
 }
 
-class _LoadError extends StatelessWidget {
-  const _LoadError({required this.message, required this.onRetry});
-
-  final String message;
-  final VoidCallback onRetry;
-
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const CatImage('sit_tabby', height: 64),
-            const SizedBox(height: 12),
-            Text(message, style: Theme.of(context).textTheme.bodyLarge, textAlign: TextAlign.center),
-            const SizedBox(height: 16),
-            SizedBox(width: 160, child: PrimaryButton(onPressed: onRetry, child: const Text('다시 시도'))),
-          ],
-        ),
-      ),
-    );
-  }
-}
