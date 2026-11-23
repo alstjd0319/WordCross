@@ -36,4 +36,5 @@ WordCross/
 
 - 단어: TOEIC Service List, Business Service List, NGSL (Browne & Culligan, CC BY-SA 4.0)
 - 사전 데이터: Wiktionary (CC BY-SA)
-- 예문: Tatoeba (CC BY 2.0 FR)
+- 예문: Tatoeba (CC BY 2.0 FR), 일부는 팀이 직접 작성
+- 추가 학습 단어 선정 참고: ETS 토익 기출 보카 (단어 선정에만 사용, 내용은 저장소에 싣지 않음)
