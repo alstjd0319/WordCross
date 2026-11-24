@@ -98,14 +98,14 @@ class _PlayView extends ConsumerWidget {
             ),
             const SizedBox(height: 10),
             _Progress(value: state.puzzle.clues.isEmpty ? 0 : state.doneWordCount / state.puzzle.clues.length),
-            const SizedBox(height: 12),
+            const SizedBox(height: 10),
             HintBar(
               state: state,
               onCycleHint: play.cycleHint,
               onPrevious: play.previousClue,
               onNext: play.nextClue,
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 10),
             // 격자 + 아래 안내·확대 버튼. 확대하면 고른 단어가 화면 가운데로 따라온다.
             // 확인 결과 같은 안내는 격자 아래 안내 문구 자리에 보인다.
             Expanded(

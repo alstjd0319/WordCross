@@ -277,4 +277,83 @@ void main() {
       expect(cellText(10, 9, 'E'), findsOneWidget);
     });
   });
+
+  group('힌트 길이와 격자 크기 (교수님 피드백)', () {
+    for (final size in const [Size(411, 914), Size(360, 640), Size(320, 568)]) {
+      testWidgets('단어·힌트가 바뀌어도 격자가 움직이지 않는다 (${size.width.toInt()}×${size.height.toInt()})', (tester) async {
+        tester.view.physicalSize = size;
+        tester.view.devicePixelRatio = 1;
+        addTearDown(tester.view.reset);
+        await pumpLoggedIn(tester);
+        await openSample(tester);
+        final first = tester.getRect(cell(0, 0)), last = tester.getRect(cell(10, 10));
+        final bar = tester.getRect(find.byType(HintBar));
+
+        for (var i = 0; i < 24; i++) {
+          for (var k = 0; k < 3; k++) {
+            expect(tester.getRect(cell(0, 0)), first);
+            expect(tester.getRect(cell(10, 10)), last);
+            expect(tester.getRect(find.byType(HintBar)), bar);
+            final toggle = find.byKey(const ValueKey('hint-toggle'));
+            if (toggle.evaluate().isEmpty) break;
+            await tester.tap(toggle);
+            await tester.pump();
+          }
+          await tester.tap(find.byKey(const ValueKey('clue-next')));
+          await tester.pump();
+        }
+
+        // 확인 결과 안내가 떠도 그대로다.
+        for (final ch in 'AAAAAA'.split('')) {
+          await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
+          await tester.pump();
+        }
+        await tester.tap(find.byKey(const ValueKey('play-check')));
+        await tester.pumpAndSettle();
+        expect(find.byKey(const ValueKey('play-notice')), findsOneWidget);
+        expect(tester.getRect(cell(0, 0)), first);
+        expect(tester.getRect(cell(10, 10)), last);
+        expect(tester.takeException(), isNull);
+      });
+    }
+
+    testWidgets('시스템 글자 크기를 키워도 격자가 움직이지 않고 넘치지 않는다', (tester) async {
+      tester.view.physicalSize = const Size(411, 914);
+      tester.view.devicePixelRatio = 1;
+      tester.platformDispatcher.textScaleFactorTestValue = 1.5;
+      addTearDown(tester.view.reset);
+      addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      final first = tester.getRect(cell(0, 0));
+      await tester.tap(find.byKey(const ValueKey('hint-toggle')));
+      await tester.pump();
+      expect(tester.getRect(cell(0, 0)), first);
+      expect(tester.takeException(), isNull);
+    });
+
+    testWidgets('긴 힌트는 잘리지 않고 밀어서 끝까지 읽으며, 다른 힌트로 가면 처음부터 보인다', (tester) async {
+      tester.view.physicalSize = const Size(320, 568);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(const ValueKey('hint-toggle')));
+      await tester.pumpAndSettle();
+
+      final text = find.byKey(const ValueKey('hint-text'));
+      expect(tester.widget<Text>(text).overflow, isNull);
+      expect(tester.widget<Text>(text).maxLines, isNull);
+      final scrollable = find.descendant(of: find.byType(HintBar), matching: find.byType(Scrollable));
+      final position = tester.state<ScrollableState>(scrollable).position;
+      expect(position.maxScrollExtent, greaterThan(0));
+      await tester.drag(scrollable, const Offset(0, -2000));
+      await tester.pumpAndSettle();
+      expect(position.pixels, position.maxScrollExtent);
+
+      await tester.tap(find.byKey(const ValueKey('clue-next')));
+      await tester.pumpAndSettle();
+      expect(tester.state<ScrollableState>(scrollable).position.pixels, 0);
+    });
+  });
 }

@@ -46,6 +46,9 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
   /// 확대했을 때 칸이 이보다 커지지 않게 한다.
   static const _maxCell = 72.0;
 
+  /// 격자 아래 안내 줄의 높이. 안내 두 줄과 확대 버튼이 들어간다.
+  static const _captionHeight = 40.0;
+
   /// 지금 배율 (1 = 전체 보기). 테스트에서도 읽는다.
   double get scale => _controller.value.getMaxScaleOnAxis();
   bool get isZoomed => scale > 1.01;
@@ -184,29 +187,33 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
         ),
         const SizedBox(height: 6),
         // 격자 아래 줄: 사용법 안내와 확대/전체 보기 버튼. 버튼이 격자 칸을 가리지 않게 격자 밖에 둔다.
-        Row(
-          children: [
-            // 버튼만큼 왼쪽도 비워 안내 문구를 가운데에 둔다. 다시 시도 버튼이 있으면 자리를 내준다.
-            if (!(widget.notice?.canRetry ?? false)) const SizedBox(width: 44),
-            Expanded(
-              child: _Caption(
-                notice: widget.notice,
-                usage: isZoomed ? '끌어서 이동 · 다른 단어를 고르면 그 단어로 이동' : '두 손가락으로 확대 · 한 번 더 누르면 방향 전환',
-              ),
-            ),
-            if (widget.notice?.canRetry ?? false)
-              TextButton(
-                onPressed: widget.onRetry,
-                style: TextButton.styleFrom(
-                  minimumSize: const Size(0, 36),
-                  padding: const EdgeInsets.symmetric(horizontal: 8),
-                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+        // 안내가 길거나 다시 시도 버튼이 나와도 격자 크기가 바뀌지 않게 높이를 고정한다.
+        SizedBox(
+          height: _captionHeight,
+          child: Row(
+            children: [
+              // 버튼만큼 왼쪽도 비워 안내 문구를 가운데에 둔다. 다시 시도 버튼이 있으면 자리를 내준다.
+              if (!(widget.notice?.canRetry ?? false)) const SizedBox(width: 44),
+              Expanded(
+                child: _Caption(
+                  notice: widget.notice,
+                  usage: isZoomed ? '끌어서 이동 · 다른 단어를 고르면 그 단어로 이동' : '두 손가락으로 확대 · 한 번 더 누르면 방향 전환',
                 ),
-                child: const Text('다시 시도'),
               ),
-            const SizedBox(width: 8),
-            _ZoomButton(zoomed: isZoomed, onTap: toggleZoom),
-          ],
+              if (widget.notice?.canRetry ?? false)
+                TextButton(
+                  onPressed: widget.onRetry,
+                  style: TextButton.styleFrom(
+                    minimumSize: const Size(0, 36),
+                    padding: const EdgeInsets.symmetric(horizontal: 8),
+                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  child: const Text('다시 시도'),
+                ),
+              const SizedBox(width: 8),
+              _ZoomButton(zoomed: isZoomed, onTap: toggleZoom),
+            ],
+          ),
         ),
       ],
     );
@@ -223,7 +230,7 @@ class _Caption extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final n = notice;
-    if (n == null) return Text(usage, style: V3Text.caption, textAlign: TextAlign.center);
+    if (n == null) return _fit(Text(usage, style: V3Text.caption, textAlign: TextAlign.center));
     final color = switch (n.tone) {
       NoticeTone.info => V3Colors.cocoa,
       NoticeTone.success => AppColors.success,
@@ -231,14 +238,24 @@ class _Caption extends StatelessWidget {
     };
     return Semantics(
       liveRegion: true,
-      child: Text(
-        n.text,
-        key: const ValueKey('play-notice'),
-        style: V3Text.caption.copyWith(color: color, fontSize: 14, fontWeight: FontWeight.w600),
-        textAlign: TextAlign.center,
+      child: _fit(
+        Text(
+          n.text,
+          key: const ValueKey('play-notice'),
+          style: V3Text.caption.copyWith(color: color, fontSize: 14, fontWeight: FontWeight.w600),
+          textAlign: TextAlign.center,
+        ),
       ),
     );
   }
+
+  /// 주어진 폭에서 줄을 바꾸고, 그래도 높이를 넘으면 조금 줄인다.
+  static Widget _fit(Widget text) => LayoutBuilder(
+        builder: (context, box) => FittedBox(
+          fit: BoxFit.scaleDown,
+          child: ConstrainedBox(constraints: BoxConstraints(maxWidth: box.maxWidth), child: text),
+        ),
+      );
 }
 
 class _ZoomButton extends StatelessWidget {
