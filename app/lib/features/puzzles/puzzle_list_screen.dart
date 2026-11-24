@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../app/router.dart';
 import '../../app/theme.dart';
 import '../../shared/widgets.dart';
+import '../auth/login_expired.dart';
 import '../play/play_providers.dart';
 import '../play/puzzle.dart';
 import '../play/puzzle_repository.dart';
@@ -34,6 +35,9 @@ class _PuzzleListScreenState extends ConsumerState<PuzzleListScreen> {
   Widget build(BuildContext context) {
     final text = Theme.of(context).textTheme;
     final list = ref.watch(puzzleListProvider);
+    ref.listen(puzzleListProvider, (_, next) {
+      if (next.error case PuzzleFailure(loginExpired: true)) expireLogin(context, ref);
+    });
     return Scaffold(
       body: SafeArea(
         child: Column(

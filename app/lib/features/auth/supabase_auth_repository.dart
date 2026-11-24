@@ -1,5 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart' as sb;
 
+import '../../core/supabase_errors.dart';
 import 'auth_repository.dart';
 
 class SupabaseAuthRepository implements AuthRepository {
@@ -65,10 +66,7 @@ class SupabaseAuthRepository implements AuthRepository {
     try {
       await _deleteAccountRpc().timeout(const Duration(seconds: 15));
     } on sb.PostgrestException catch (e) {
-      // 비로그인 호출은 함수 권한(42501)에서, 만료된 토큰은 PostgREST(PGRST301·303)에서 막힌다.
-      if (const {'42501', 'PGRST301', 'PGRST303'}.contains(e.code) || e.message == 'not authenticated') {
-        throw const AuthFailure('로그인이 풀렸어요. 다시 로그인한 뒤 시도해 주세요.');
-      }
+      if (isLoginExpired(e)) throw const AuthFailure('로그인이 풀렸어요. 다시 로그인해 주세요.', loginExpired: true);
       throw const AuthFailure('계정을 삭제하지 못했어요. 잠시 후 다시 시도해 주세요.');
     } catch (_) {
       throw const AuthFailure(_networkMessage);

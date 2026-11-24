@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../app/router.dart';
 import '../../app/theme.dart';
 import '../../shared/widgets.dart';
+import '../auth/login_expired.dart';
 import '../play/play_providers.dart';
 import '../play/puzzle.dart';
 import '../play/puzzle_repository.dart';
@@ -23,6 +24,9 @@ class PuzzleDetailScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final text = Theme.of(context).textTheme;
     final puzzle = ref.watch(puzzleProvider(puzzleId));
+    ref.listen(puzzleProvider(puzzleId), (_, next) {
+      if (next.error case PuzzleFailure(loginExpired: true)) expireLogin(context, ref);
+    });
     return Scaffold(
       appBar: AppBar(
         leading: V3IconButton(

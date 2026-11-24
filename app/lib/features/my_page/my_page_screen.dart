@@ -5,6 +5,7 @@ import '../../app/theme.dart';
 import '../../shared/widgets.dart';
 import '../auth/auth_providers.dart';
 import '../auth/auth_repository.dart';
+import '../auth/login_expired.dart';
 
 /// Figma v3 5-1 마이페이지. 지금은 계정 정보, 로그아웃, 계정 삭제가 있다.
 /// 고양이 도감, 학습 통계, 난이도별 현황, 알림, 출처는 5주차에 더한다.
@@ -39,7 +40,12 @@ class _MyPageScreenState extends ConsumerState<MyPageScreen> {
       // 세션이 지워지면 라우터가 로그인 화면으로 보낸다.
       messenger.showSnackBar(const SnackBar(content: Text('계정을 삭제했어요.')));
     } on AuthFailure catch (e) {
-      if (mounted) setState(() => _error = e.message);
+      if (!mounted) return;
+      if (e.loginExpired) {
+        await expireLogin(context, ref);
+      } else {
+        setState(() => _error = e.message);
+      }
     } finally {
       if (mounted) setState(() => _deleting = false);
     }

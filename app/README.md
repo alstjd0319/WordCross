@@ -60,6 +60,8 @@ lib/
 - **퍼즐 데이터:** 목록은 `puzzles` 테이블(공개된 퍼즐, 정답 없음), 퍼즐 하나는 `get_puzzle()` RPC로 받습니다 (`SupabasePuzzleRepository`).
   - 로컬 모드: `features/play/sample_puzzles.dart`에 난이도별 2개씩(beg/mid/adv-001·002)을 `data/` 의 퍼즐·틀·`words.csv` 로 만든 `get_puzzle()` 모양 JSON으로 넣었습니다. 정답 철자는 넣지 않습니다. `data/` 가 바뀌면 다시 만듭니다.
   - 풀이 기록은 `AttemptRepository`(start_attempt · check_word · finish_attempt, 약속은 `supabase/README.md`). 화면 상태는 `PlaySession`(격자 `PlayState` + 확인·제출 진행), 맞힌 단어는 잠기고 이어 풀기는 서버 기록 기준입니다.
+  - 제출 확인 창은 빈칸이 아니라 **못 맞힌 단어**가 있으면 띄웁니다. 채웠지만 확인하지 않은 단어도 0점이기 때문입니다.
+  - 로그인이 풀린 응답(`core/supabase_errors.dart`)을 받으면 어느 화면이든 안내와 함께 로그인 화면으로 보냅니다(`features/auth/login_expired.dart`).
   - 로컬 모드 채점은 `FakeAttemptRepository`가 서버와 같은 규칙으로 합니다. 앱에 정답 철자를 넣지 않으려고 샘플 퍼즐은 정답 해시(`sampleAnswerHashes`)만 가집니다.
   - 테스트는 `data/` 가 바뀌어도 깨지지 않도록 `test/fixtures/test_puzzles.dart`의 고정 퍼즐을 씁니다.
   - 예상 풀이 시간은 `PuzzleLevel.estimatedMinutes`(난이도별 단어당 시간 × 단어 수)로 어림합니다.

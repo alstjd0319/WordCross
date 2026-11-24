@@ -6,7 +6,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../app/router.dart';
 import '../../app/theme.dart';
 import '../../shared/widgets.dart';
-import '../auth/auth_providers.dart';
+import '../auth/login_expired.dart';
 import 'attempt.dart';
 import 'play_providers.dart';
 import 'play_session.dart';
@@ -30,6 +30,8 @@ class PlayScreen extends ConsumerWidget {
     // 퍼즐 틀과 풀이 기록을 함께 받는다 (supabase/README.md "풀이 흐름").
     final puzzle = ref.watch(puzzleProvider(puzzleId));
     final attempt = ref.watch(attemptProvider(puzzleId));
+    ref.listen(puzzleProvider(puzzleId), (_, next) => _onLoad(context, ref, next));
+    ref.listen(attemptProvider(puzzleId), (_, next) => _onLoad(context, ref, next));
     return Scaffold(
       backgroundColor: V3Colors.cream,
       body: SafeArea(
@@ -47,6 +49,10 @@ class PlayScreen extends ConsumerWidget {
       ),
     );
   }
+}
+
+void _onLoad(BuildContext context, WidgetRef ref, AsyncValue<Object?> value) {
+  if (value.error case PuzzleFailure(loginExpired: true)) expireLogin(context, ref);
 }
 
 /// 실제 키보드에서 누른 알파벳. 맥·PC 입력 소스가 한글이면 Q 키가 'ㅂ'으로 들어오므로,
@@ -157,13 +163,7 @@ class _PlayView extends ConsumerWidget {
   Future<void> _onEnd(BuildContext context, WidgetRef ref, SessionEnd end) async {
     switch (end) {
       case SessionEnd.authExpired:
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('로그인이 풀렸어요. 다시 로그인해 주세요.')));
-        // 세션을 지우면 라우터가 로그인 화면으로 보낸다.
-        try {
-          await ref.read(authRepositoryProvider).signOut();
-        } catch (_) {
-          // 기기의 세션은 지워졌으므로 서버 쪽 로그아웃 실패는 무시한다.
-        }
+        await expireLogin(context, ref);
       case SessionEnd.attemptEnded:
         final restart = await showV3Dialog<bool>(
           context,

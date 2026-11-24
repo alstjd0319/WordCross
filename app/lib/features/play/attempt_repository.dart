@@ -21,7 +21,7 @@ enum AttemptError {
 
 /// [PuzzleFailure]를 이어받아 불러오기 오류 화면과 자동 재시도 규칙을 그대로 쓴다.
 class AttemptFailure extends PuzzleFailure {
-  AttemptFailure(this.error) : super(error.message);
+  AttemptFailure(this.error) : super(error.message, loginExpired: error == AttemptError.notAuthenticated);
 
   final AttemptError error;
 }

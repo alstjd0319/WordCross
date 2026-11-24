@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../auth/auth_providers.dart';
 import 'attempt.dart';
 import 'attempt_repository.dart';
 import 'play_session.dart';
@@ -25,8 +26,13 @@ Duration? _retryUnlessPuzzleFailure(int retryCount, Object error) {
 }
 
 /// 공개된 퍼즐 목록. 퍼즐 탭에 머무는 동안 유지하고, 당겨서 새로고침하면 다시 받는다.
+/// 로그인한 사용자가 바뀌면 다시 받아서, 로그인이 풀렸을 때의 오류가 다시 로그인한 뒤까지 남지 않는다.
 final puzzleListProvider = FutureProvider<List<PuzzleSummary>>(
-  (ref) => ref.watch(puzzleRepositoryProvider).listPuzzles(),
+  (ref) async {
+    final repository = ref.watch(puzzleRepositoryProvider);
+    final userId = await ref.watch(currentUserProvider.selectAsync((u) => u?.id));
+    return userId == null ? const [] : repository.listPuzzles();
+  },
   retry: _retryUnlessPuzzleFailure,
 );
 

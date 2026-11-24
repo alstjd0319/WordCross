@@ -1,5 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart' show PostgrestException;
 
+import '../../core/supabase_errors.dart';
 import 'attempt.dart';
 import 'attempt_repository.dart';
 
@@ -53,10 +54,8 @@ class SupabaseAttemptRepository implements AttemptRepository {
   }
 
   static AttemptError _errorOf(PostgrestException e) {
-    // 비로그인 호출은 함수 권한(42501)에서, 만료된 토큰은 PostgREST(PGRST301·303)에서 막힌다.
-    if (const {'42501', 'PGRST301', 'PGRST303'}.contains(e.code)) return AttemptError.notAuthenticated;
+    if (isLoginExpired(e)) return AttemptError.notAuthenticated;
     return switch (e.message) {
-      'not_authenticated' => AttemptError.notAuthenticated,
       'puzzle_not_found' => AttemptError.puzzleNotFound,
       'attempt_not_found' || 'attempt_closed' => AttemptError.attemptEnded,
       'invalid_guess' => AttemptError.invalidGuess,
