@@ -57,6 +57,8 @@ def main() -> None:
     puzzles = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(PUZZLE_DIR.glob("*.json"))]
     puzzles = [p for p in puzzles if args.all or p["reviewed"]]
     used = sorted({w["word"] for p in puzzles for w in p["words"]})
+    # 검수를 마친 퍼즐에 들어 있는 단어는 사람이 힌트까지 풀어 봤으므로 검수 완료로 넣는다 (기획서 7장).
+    approved_words = {w["word"] for p in puzzles if p["reviewed"] for w in p["words"]}
     if args.all_words:
         used = sorted(set(used) | {w for w in meta if 3 <= len(w) <= 15 and w.isalpha()})
     missing = [w for w in used if w not in meta]
@@ -72,7 +74,8 @@ def main() -> None:
         for w in used:
             r = meta[w]
             vals.append("  (" + ", ".join(
-                q(r["reviewed"] == "true") if c == "reviewed" else q(r[c]) for c in WORD_COLS) + ")")
+                q(r["reviewed"] == "true" or w in approved_words) if c == "reviewed" else q(r[c])
+                for c in WORD_COLS) + ")")
         out.append(",\n".join(vals))
         out.append("on conflict (word) do update set " + ", ".join(
             f"{c} = excluded.{c}" for c in WORD_COLS if c != "word") + ";")
@@ -100,6 +103,7 @@ def main() -> None:
     out.append("commit;")
     args.out.write_text("\n".join(out) + "\n", encoding="utf-8")
     shown = args.out.relative_to(ROOT) if args.out.is_relative_to(ROOT) else args.out
+    print(f"검수 완료 퍼즐의 단어 {len(approved_words)}개를 reviewed=true 로")
     print(f"저장: {shown} (퍼즐 {len(puzzles)}개, 단어 {len(used)}개, 공개 {'전체(개발용)' if args.dev else '검수 완료만'})")
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Docker 로 빈 Postgres 를 띄워 migration 을 적용하고 RLS·RPC 동작을 확인한다.
-# Supabase CLI 없이도 돌릴 수 있는 가벼운 검사. 사용: bash supabase/tests/run_rls_check.sh
+# Supabase CLI 없이도 돌릴 수 있는 가벼운 검사. score_check.sql 은 정답 확인·점수 규칙 검사. 사용: bash supabase/tests/run_rls_check.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 docker rm -f wc-rls-check >/dev/null 2>&1 || true
@@ -11,3 +11,5 @@ psql_() { docker exec -i wc-rls-check psql -U postgres -q "$@"; }
 psql_ -v ON_ERROR_STOP=1 < tests/00_supabase_stub.sql
 for f in migrations/*.sql; do echo ">> $f"; psql_ -v ON_ERROR_STOP=1 < "$f"; done
 psql_ < tests/rls_check.sql 2>&1
+echo '>> tests/score_check.sql'
+psql_ -v ON_ERROR_STOP=1 < tests/score_check.sql 2>&1 | grep -E 'ok  |FAIL|ERROR|모두 통과'
