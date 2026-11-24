@@ -12,7 +12,8 @@ import 'package:wordcross/features/play/fake_attempt_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/play_screen.dart';
-import 'package:wordcross/features/play/widgets/hint_bar.dart';
+import 'package:wordcross/features/play/play_state.dart';
+import 'package:wordcross/features/play/widgets/hint_bubble.dart';
 import 'package:wordcross/features/play/widgets/letter_keyboard.dart';
 import 'package:wordcross/features/play/widgets/puzzle_grid.dart';
 import 'package:wordcross/features/play/widgets/zoomable_grid.dart';
@@ -205,7 +206,7 @@ void main() {
 
   group('확대·이동', () {
     ZoomableGridState zoom(WidgetTester tester) => tester.state<ZoomableGridState>(find.byType(ZoomableGrid));
-    Finder badge(String no) => find.descendant(of: find.byType(HintBar), matching: find.text(no));
+    Finder badge(String no) => find.descendant(of: find.byType(HintBubble), matching: find.text('$no 세로'));
     bool onScreen(WidgetTester tester, Finder target) {
       final viewport = tester.getRect(find.byType(InteractiveViewer));
       return viewport.contains(tester.getRect(target).center);
@@ -287,13 +288,13 @@ void main() {
         await pumpLoggedIn(tester);
         await openSample(tester);
         final first = tester.getRect(cell(0, 0)), last = tester.getRect(cell(10, 10));
-        final bar = tester.getRect(find.byType(HintBar));
+        final prev = tester.getRect(find.byKey(const ValueKey('clue-prev')));
 
         for (var i = 0; i < 24; i++) {
           for (var k = 0; k < 3; k++) {
             expect(tester.getRect(cell(0, 0)), first);
             expect(tester.getRect(cell(10, 10)), last);
-            expect(tester.getRect(find.byType(HintBar)), bar);
+            expect(tester.getRect(find.byKey(const ValueKey('clue-prev'))), prev);
             final toggle = find.byKey(const ValueKey('hint-toggle'));
             if (toggle.evaluate().isEmpty) break;
             await tester.tap(toggle);
@@ -344,7 +345,7 @@ void main() {
       final text = find.byKey(const ValueKey('hint-text'));
       expect(tester.widget<Text>(text).overflow, isNull);
       expect(tester.widget<Text>(text).maxLines, isNull);
-      final scrollable = find.descendant(of: find.byType(HintBar), matching: find.byType(Scrollable));
+      final scrollable = find.descendant(of: find.byType(HintBubble), matching: find.byType(Scrollable));
       final position = tester.state<ScrollableState>(scrollable).position;
       expect(position.maxScrollExtent, greaterThan(0));
       await tester.drag(scrollable, const Offset(0, -2000));
@@ -354,6 +355,186 @@ void main() {
       await tester.tap(find.byKey(const ValueKey('clue-next')));
       await tester.pumpAndSettle();
       expect(tester.state<ScrollableState>(scrollable).position.pixels, 0);
+    });
+  });
+
+  group('힌트 말풍선', () {
+    final bubble = find.byKey(HintBubble.bodyKey);
+    PlayState board(WidgetTester tester) => tester.widget<ZoomableGrid>(find.byType(ZoomableGrid)).state;
+
+    testWidgets('✕로 닫으면 격자 전체가 보이고, 글자를 넣는 동안에는 닫힌 채로 있다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      expect(bubble, findsOneWidget); // 처음부터 떠 있다
+      await tester.tap(find.byKey(HintBubble.closeKey));
+      await tester.pump();
+      expect(bubble, findsNothing);
+
+      await tester.tap(find.byKey(LetterKeyboard.letterKey('B')));
+      await tester.pump();
+      expect(cellText(0, 0, 'B'), findsOneWidget);
+      expect(bubble, findsNothing);
+    });
+
+    testWidgets('떠 있는 동안 글자를 넣어도 그대로 떠 있다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(LetterKeyboard.letterKey('B')));
+      await tester.pump();
+      expect(hintText('나뭇가지, 가지'), findsOneWidget);
+    });
+
+    testWidgets('닫은 뒤 다른 칸이나 이전·다음 단어를 누르면 다시 뜬다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(HintBubble.closeKey));
+      await tester.pump();
+      await tester.tap(cell(0, 7));
+      await tester.pump();
+      expect(hintText('쇼핑 센터'), findsOneWidget);
+
+      await tester.tap(find.byKey(HintBubble.closeKey));
+      await tester.pump();
+      await tester.tap(find.byKey(const ValueKey('clue-prev')));
+      await tester.pump();
+      expect(hintText('나뭇가지, 가지'), findsOneWidget);
+    });
+
+    testWidgets('닫은 뒤 지금 칸을 누르면 방향은 그대로 두고 다시 뜨고, 한 번 더 누르면 방향이 바뀐다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(HintBubble.closeKey));
+      await tester.pump();
+      await tester.tap(cell(0, 0));
+      await tester.pump();
+      expect(hintText('나뭇가지, 가지'), findsOneWidget);
+      await tester.tap(cell(0, 0));
+      await tester.pump();
+      expect(hintText('travel bags'), findsOneWidget);
+    });
+
+    testWidgets('같은 단어의 다른 칸을 눌러도 다시 뜨고, 검은 칸을 누르면 뜨지 않는다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      final block = board(tester).puzzle.blocks.first;
+      await tester.tap(find.byKey(HintBubble.closeKey));
+      await tester.pump();
+      await tester.tap(cell(block.$1, block.$2));
+      await tester.pump();
+      expect(bubble, findsNothing);
+      await tester.tap(cell(0, 1));
+      await tester.pump();
+      expect(hintText('나뭇가지, 가지'), findsOneWidget);
+    });
+
+    testWidgets('말풍선을 눌러도 그 아래 칸이 골라지지 않는다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tapAt(tester.getRect(find.byKey(const ValueKey('hint-text'))).center);
+      await tester.pump();
+      expect((board(tester).row, board(tester).col), (0, 0));
+      expect(hintText('나뭇가지, 가지'), findsOneWidget);
+    });
+
+    testWidgets('확대해서 지금 단어가 안 보이는 곳으로 끌어가면 숨고, 돌아오면 다시 보인다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(bubble, findsOneWidget);
+      final viewer = tester.getRect(find.byType(InteractiveViewer));
+      final from = viewer.bottomRight - const Offset(20, 10);
+      await tester.dragFrom(from, const Offset(-600, -600));
+      await tester.pumpAndSettle();
+      await tester.dragFrom(from, const Offset(-600, -600));
+      await tester.pumpAndSettle();
+      expect(bubble, findsNothing);
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(bubble, findsOneWidget);
+    });
+
+    for (final size in const [Size(411, 914), Size(360, 800), Size(360, 640), Size(320, 568)]) {
+      testWidgets('어느 단어·힌트에서도 지금 단어를 가리지 않고 격자 자리 안에 있다 (${size.width.toInt()}×${size.height.toInt()})',
+          (tester) async {
+        tester.view.physicalSize = size;
+        tester.view.devicePixelRatio = 1;
+        addTearDown(tester.view.reset);
+        await pumpLoggedIn(tester);
+        await openSample(tester);
+        final area = tester.getRect(find.byType(InteractiveViewer));
+
+        for (var i = 0; i < 24; i++) {
+          for (var k = 0; k < 3; k++) {
+            final box = tester.getRect(bubble);
+            expect(area.contains(box.topLeft) && area.inflate(0.5).contains(box.bottomRight), isTrue, reason: '$box / $area');
+            for (final (r, c) in board(tester).currentClue!.cells) {
+              expect(box.overlaps(tester.getRect(cell(r, c))), isFalse, reason: '단어 $i 힌트 $k 칸 ($r, $c)');
+            }
+            final toggle = find.byKey(const ValueKey('hint-toggle'));
+            if (toggle.evaluate().isEmpty) break;
+            await tester.tap(toggle);
+            await tester.pump();
+          }
+          await tester.tap(find.byKey(const ValueKey('clue-next')));
+          await tester.pump();
+        }
+        expect(tester.takeException(), isNull);
+      });
+    }
+
+    testWidgets('글자 크기를 1.5배로 키워도 넘치지 않는다 (세로 단어·확인 횟수 포함)', (tester) async {
+      tester.view.physicalSize = const Size(320, 568);
+      tester.view.devicePixelRatio = 1;
+      tester.platformDispatcher.textScaleFactorTestValue = 1.5;
+      addTearDown(tester.view.reset);
+      addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      for (final ch in 'AAAAAA'.split('')) {
+        await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
+        await tester.pump();
+      }
+      await tester.tap(find.byKey(const ValueKey('play-check')));
+      await tester.pumpAndSettle();
+      for (var i = 0; i < 24; i++) {
+        await tester.tap(find.byKey(const ValueKey('clue-next')));
+        await tester.pump();
+        expect(tester.takeException(), isNull);
+      }
+    });
+  });
+
+  group('말풍선 자리 (BubbleLayout)', () {
+    const area = Size(328, 412);
+    const bubble = Size(280, 90);
+
+    test('가로 단어는 아래에, 아래에 자리가 없으면 위에', () {
+      const top = BubbleLayout(area: area, word: Rect.fromLTWH(2, 44, 144, 36), down: false);
+      expect(top.place(bubble).side, BubbleSide.below);
+      expect(top.place(bubble).rect.top, 80 + BubbleLayout.tail);
+
+      const bottom = BubbleLayout(area: area, word: Rect.fromLTWH(182, 332, 144, 36), down: false);
+      expect(bottom.place(bubble).side, BubbleSide.above);
+      expect(bottom.place(bubble).rect.bottom, 332 - BubbleLayout.tail);
+    });
+
+    test('세로 단어는 넓은 쪽 옆에', () {
+      const left = BubbleLayout(area: area, word: Rect.fromLTWH(2, 44, 36, 200), down: true);
+      expect(left.place(const Size(200, 90)).side, BubbleSide.right);
+      const right = BubbleLayout(area: area, word: Rect.fromLTWH(290, 44, 36, 200), down: true);
+      expect(right.place(Size(right.constraints.maxWidth, 90)).side, BubbleSide.left);
+    });
+
+    test('세로 단어의 양옆이 다 좁으면 아래·위에 띄운다', () {
+      const narrow = BubbleLayout(area: Size(200, 400), word: Rect.fromLTWH(80, 20, 40, 120), down: true);
+      expect(narrow.place(const Size(200, 90)).side, BubbleSide.below);
+    });
+
+    test('꼬리는 단어를 가리키되 말풍선의 둥근 모서리에는 달리지 않는다', () {
+      const short = BubbleLayout(area: area, word: Rect.fromLTWH(0, 44, 30, 30), down: false);
+      final p = short.place(bubble);
+      expect(p.tip.dx, greaterThanOrEqualTo(p.rect.left + BubbleLayout.radius));
     });
   });
 }

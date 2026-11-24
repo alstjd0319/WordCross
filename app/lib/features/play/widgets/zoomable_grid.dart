@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../../app/theme.dart';
 import '../play_session.dart';
 import '../play_state.dart';
+import 'hint_bubble.dart';
 import 'puzzle_grid.dart';
 
 /// 퍼즐 격자의 확대·이동 (설계서 8장 "모바일에서 큰 격자 보여 주기", 3주차).
@@ -15,11 +16,26 @@ import 'puzzle_grid.dart';
 /// - 오른쪽 위 버튼: 전체가 보일 때는 "확대"(지금 단어 쪽으로), 확대했을 때는 "전체 보기".
 ///   두 손가락 확대가 어려운 사람·에뮬레이터를 위해서도 둔다.
 /// 두 번 탭해서 되돌리기는 칸 한 번 탭이 늦게 먹히게 만들어서 쓰지 않는다.
+///
+/// 지금 단어의 힌트는 격자 위에 말풍선([HintBubble])으로 겹쳐 띄운다. ✕로 닫으면 격자 전체가 보이고,
+/// 칸을 누르거나 다른 단어로 옮기면 다시 뜬다. 글자를 넣는 동안에는 열림·닫힘이 그대로다.
 class ZoomableGrid extends StatefulWidget {
-  const ZoomableGrid({super.key, required this.state, required this.onTapCell, this.notice, this.onRetry});
+  const ZoomableGrid({
+    super.key,
+    required this.state,
+    required this.onTapCell,
+    required this.onCycleHint,
+    required this.onPrevious,
+    required this.onNext,
+    this.notice,
+    this.onRetry,
+  });
 
   final PlayState state;
   final void Function(int row, int col) onTapCell;
+  final VoidCallback onCycleHint;
+  final VoidCallback onPrevious;
+  final VoidCallback onNext;
 
   /// 있으면 격자 아래 사용법 안내 대신 보여 준다 (확인 결과, 연결 실패 등).
   final PlayNotice? notice;
@@ -46,7 +62,7 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
   /// 확대했을 때 칸이 이보다 커지지 않게 한다.
   static const _maxCell = 72.0;
 
-  /// 격자 아래 안내 줄의 높이. 안내 두 줄과 확대 버튼이 들어간다.
+  /// 격자 아래 줄의 높이. 이전·다음 단어 버튼, 안내 두 줄, 확대 버튼이 들어간다.
   static const _captionHeight = 40.0;
 
   /// 지금 배율 (1 = 전체 보기). 테스트에서도 읽는다.
@@ -72,14 +88,36 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
   void didUpdateWidget(ZoomableGrid oldWidget) {
     super.didUpdateWidget(oldWidget);
     final before = oldWidget.state, now = widget.state;
-    if (!isZoomed) return;
     final clueChanged = before.currentClue != now.currentClue;
+    if (clueChanged) _bubbleOpen = true;
+    if (!isZoomed) return;
     final cursorMoved = before.row != now.row || before.col != now.col;
     if (clueChanged) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _focusCurrent(center: true));
     } else if (cursorMoved) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _focusCurrent(center: false));
     }
+  }
+
+  /// 힌트 말풍선이 떠 있는지. 화면을 열면 첫 단어의 힌트가 바로 보인다.
+  bool _bubbleOpen = true;
+
+  void _openBubble() {
+    if (!_bubbleOpen) setState(() => _bubbleOpen = true);
+  }
+
+  /// 말풍선을 닫은 채 지금 칸을 누르면 방향은 그대로 두고 말풍선만 다시 띄운다.
+  void _tapCell(int r, int c) {
+    if (widget.state.puzzle.isBlock(r, c)) return;
+    final reopenOnly = !_bubbleOpen && widget.state.isCursor(r, c);
+    _openBubble();
+    if (!reopenOnly) widget.onTapCell(r, c);
+  }
+
+  /// 지금 단어에서 화면에 보이는 부분. 확대해서 다른 곳으로 끌어가 보이지 않으면 null.
+  Rect? _visibleWord() {
+    final word = MatrixUtils.transformRect(_controller.value, _wordRect()).intersect(Offset.zero & _viewport);
+    return word.width < 1 || word.height < 1 ? null : word;
   }
 
   @override
@@ -165,39 +203,78 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
             builder: (context, box) {
               _viewport = box.biggest;
               _cell = PuzzleGrid.cellSizeFor(_viewport, puzzle.rows, puzzle.cols);
-              return ClipRect(
-                child: InteractiveViewer(
-                  transformationController: _controller,
-                  minScale: 1,
-                  maxScale: _maxScale,
-                  // 확대하지 않았을 때 끌어도 격자가 밀리지 않게 한다.
-                  panEnabled: isZoomed,
-                  onInteractionStart: (_) => _anim.stop(),
-                  child: Center(
-                    child: SizedBox(
-                      width: _cell * puzzle.cols,
-                      height: _cell * puzzle.rows,
-                      child: PuzzleGrid(state: widget.state, onTapCell: widget.onTapCell),
+              return Stack(
+                fit: StackFit.expand,
+                children: [
+                  ClipRect(
+                    child: InteractiveViewer(
+                      transformationController: _controller,
+                      minScale: 1,
+                      maxScale: _maxScale,
+                      // 확대하지 않았을 때 끌어도 격자가 밀리지 않게 한다.
+                      panEnabled: isZoomed,
+                      onInteractionStart: (_) => _anim.stop(),
+                      child: Center(
+                        child: SizedBox(
+                          width: _cell * puzzle.cols,
+                          height: _cell * puzzle.rows,
+                          child: PuzzleGrid(state: widget.state, onTapCell: _tapCell),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  // 확대·이동하는 동안에도 말풍선이 단어를 따라간다.
+                  if (_bubbleOpen && widget.state.currentClue != null)
+                    AnimatedBuilder(
+                      animation: _controller,
+                      builder: (context, _) {
+                        final word = _visibleWord();
+                        if (word == null) return const SizedBox.shrink();
+                        return HintBubble(
+                          state: widget.state,
+                          word: word,
+                          onCycleHint: widget.onCycleHint,
+                          onClose: () => setState(() => _bubbleOpen = false),
+                        );
+                      },
+                    ),
+                ],
               );
             },
           ),
         ),
         const SizedBox(height: 6),
-        // 격자 아래 줄: 사용법 안내와 확대/전체 보기 버튼. 버튼이 격자 칸을 가리지 않게 격자 밖에 둔다.
+        // 격자 아래 줄: 이전·다음 단어, 사용법 안내, 확대/전체 보기. 버튼이 격자 칸을 가리지 않게 격자 밖에 둔다.
         // 안내가 길거나 다시 시도 버튼이 나와도 격자 크기가 바뀌지 않게 높이를 고정한다.
         SizedBox(
           height: _captionHeight,
           child: Row(
             children: [
-              // 버튼만큼 왼쪽도 비워 안내 문구를 가운데에 둔다. 다시 시도 버튼이 있으면 자리를 내준다.
-              if (!(widget.notice?.canRetry ?? false)) const SizedBox(width: 44),
+              // 말풍선과 달리 늘 같은 자리라 연달아 누르기 쉽다.
+              _RowButton(
+                key: const ValueKey('clue-prev'),
+                tooltip: '이전 단어',
+                icon: Icons.chevron_left,
+                onTap: () {
+                  _openBubble();
+                  widget.onPrevious();
+                },
+              ),
+              const SizedBox(width: 6),
+              _RowButton(
+                key: const ValueKey('clue-next'),
+                tooltip: '다음 단어',
+                icon: Icons.chevron_right,
+                onTap: () {
+                  _openBubble();
+                  widget.onNext();
+                },
+              ),
+              const SizedBox(width: 8),
               Expanded(
                 child: _Caption(
                   notice: widget.notice,
-                  usage: isZoomed ? '끌어서 이동 · 다른 단어를 고르면 그 단어로 이동' : '두 손가락으로 확대 · 한 번 더 누르면 방향 전환',
+                  usage: isZoomed ? '끌어서 이동\n다른 단어를 고르면 그 단어로' : '두 손가락으로 확대\n한 번 더 누르면 방향 전환',
                 ),
               ),
               if (widget.notice?.canRetry ?? false)
@@ -211,7 +288,14 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
                   child: const Text('다시 시도'),
                 ),
               const SizedBox(width: 8),
-              _ZoomButton(zoomed: isZoomed, onTap: toggleZoom),
+              _RowButton(
+                key: ZoomableGrid.zoomButtonKey,
+                width: 36,
+                iconSize: 20,
+                tooltip: isZoomed ? '전체 보기' : '확대',
+                icon: isZoomed ? Icons.zoom_out_map : Icons.zoom_in,
+                onTap: toggleZoom,
+              ),
             ],
           ),
         ),
@@ -258,20 +342,29 @@ class _Caption extends StatelessWidget {
       );
 }
 
-class _ZoomButton extends StatelessWidget {
-  const _ZoomButton({required this.zoomed, required this.onTap});
+/// 격자 아래 줄의 네모 버튼.
+class _RowButton extends StatelessWidget {
+  const _RowButton({
+    super.key,
+    required this.tooltip,
+    required this.icon,
+    required this.onTap,
+    this.width = 44,
+    this.iconSize = 24,
+  });
 
-  final bool zoomed;
+  final String tooltip;
+  final IconData icon;
   final VoidCallback onTap;
+  final double width;
+  final double iconSize;
 
   @override
   Widget build(BuildContext context) {
-    final label = zoomed ? '전체 보기' : '확대';
     return Tooltip(
-      message: label,
+      message: tooltip,
       child: Container(
-        key: ZoomableGrid.zoomButtonKey,
-        width: 36,
+        width: width,
         height: 36,
         decoration: v3Box(radius: 10, borderWidth: 1.8),
         child: Material(
@@ -279,7 +372,7 @@ class _ZoomButton extends StatelessWidget {
           child: InkWell(
             borderRadius: BorderRadius.circular(10),
             onTap: onTap,
-            child: Icon(zoomed ? Icons.zoom_out_map : Icons.zoom_in, size: 20, color: V3Colors.cocoa),
+            child: Icon(icon, size: iconSize, color: V3Colors.cocoa),
           ),
         ),
       ),

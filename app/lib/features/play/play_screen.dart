@@ -12,13 +12,12 @@ import 'play_providers.dart';
 import 'play_session.dart';
 import 'play_state.dart';
 import 'puzzle_repository.dart';
-import 'widgets/hint_bar.dart';
 import 'widgets/letter_keyboard.dart';
 import 'widgets/zoomable_grid.dart';
 
 /// Figma v3 3-1 퍼즐 풀이. 하단 메뉴 없이 root navigator에 올린다.
 ///
-/// 격자, 칸 선택, 전용 키보드, 힌트(2주차), 확대·이동, 확인·제출(3주차).
+/// 격자, 칸 선택, 전용 키보드, 힌트(2주차), 확대·이동, 확인·제출, 격자 위 힌트 말풍선(3주차).
 /// 글자 힌트·정답 공개와 결과 화면은 4주차라 자리만 두고, 제출하면 간단한 완료 안내를 보여 준다.
 class PlayScreen extends ConsumerWidget {
   const PlayScreen({super.key, required this.puzzleId});
@@ -105,17 +104,18 @@ class _PlayView extends ConsumerWidget {
             const SizedBox(height: 10),
             _Progress(value: state.puzzle.clues.isEmpty ? 0 : state.doneWordCount / state.puzzle.clues.length),
             const SizedBox(height: 10),
-            HintBar(
-              state: state,
-              onCycleHint: play.cycleHint,
-              onPrevious: play.previousClue,
-              onNext: play.nextClue,
-            ),
-            const SizedBox(height: 10),
-            // 격자 + 아래 안내·확대 버튼. 확대하면 고른 단어가 화면 가운데로 따라온다.
-            // 확인 결과 같은 안내는 격자 아래 안내 문구 자리에 보인다.
+            // 격자 + 힌트 말풍선 + 아래 줄(이전·다음 단어, 안내, 확대).
+            // 확대하면 고른 단어가 화면 가운데로 따라온다. 확인 결과 같은 안내는 아래 줄의 안내 문구 자리에 보인다.
             Expanded(
-              child: ZoomableGrid(state: state, onTapCell: play.tapCell, notice: session.notice, onRetry: play.retry),
+              child: ZoomableGrid(
+                state: state,
+                onTapCell: play.tapCell,
+                onCycleHint: play.cycleHint,
+                onPrevious: play.previousClue,
+                onNext: play.nextClue,
+                notice: session.notice,
+                onRetry: play.retry,
+              ),
             ),
             const SizedBox(height: 10),
             _ActionRow(checking: session.checking, onCheck: session.canCheck ? play.checkWord : null),
