@@ -4,8 +4,12 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../app/router.dart';
-import '../../app/v3_theme.dart';
+import '../../app/theme.dart';
+import '../../shared/widgets.dart';
+import '../auth/auth_providers.dart';
+import 'attempt.dart';
 import 'play_providers.dart';
+import 'play_session.dart';
 import 'play_state.dart';
 import 'puzzle_repository.dart';
 import 'widgets/hint_bar.dart';
@@ -14,8 +18,8 @@ import 'widgets/zoomable_grid.dart';
 
 /// Figma v3 3-1 퍼즐 풀이. 하단 메뉴 없이 root navigator에 올린다.
 ///
-/// 2주차: 격자, 칸 선택, 전용 키보드, 힌트 표시.
-/// 제출·확인(3주차), 글자 힌트·정답 공개(4주차), 타이머(4주차 풀이 기록)는 자리만 둔다.
+/// 격자, 칸 선택, 전용 키보드, 힌트(2주차), 확대·이동, 확인·제출(3주차).
+/// 글자 힌트·정답 공개와 결과 화면은 4주차라 자리만 두고, 제출하면 간단한 완료 안내를 보여 준다.
 class PlayScreen extends ConsumerWidget {
   const PlayScreen({super.key, required this.puzzleId});
 
@@ -23,15 +27,20 @@ class PlayScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // 퍼즐 틀과 풀이 기록을 함께 받는다 (supabase/README.md "풀이 흐름").
     final puzzle = ref.watch(puzzleProvider(puzzleId));
+    final attempt = ref.watch(attemptProvider(puzzleId));
     return Scaffold(
       backgroundColor: V3Colors.cream,
       body: SafeArea(
-        child: switch (puzzle) {
-          AsyncData() => _PlayView(puzzleId: puzzleId),
-          AsyncError(:final error) => _LoadError(
+        child: switch ((puzzle, attempt)) {
+          (AsyncData(), AsyncData()) => _PlayView(puzzleId: puzzleId),
+          (AsyncError(:final error), _) || (_, AsyncError(:final error)) => _LoadError(
               message: error is PuzzleFailure ? error.message : '퍼즐을 불러오지 못했어요.',
-              onRetry: () => ref.invalidate(puzzleProvider(puzzleId)),
+              onRetry: () {
+                if (puzzle.hasError) ref.invalidate(puzzleProvider(puzzleId));
+                if (attempt.hasError) ref.invalidate(attemptProvider(puzzleId));
+              },
             ),
           _ => const Center(child: CircularProgressIndicator(color: V3Colors.peach)),
         },
@@ -66,8 +75,13 @@ class _PlayView extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final state = ref.watch(playProvider(puzzleId));
+    final session = ref.watch(playProvider(puzzleId));
+    final state = session.board;
     final play = ref.read(playProvider(puzzleId).notifier);
+    ref.listen(playProvider(puzzleId), (prev, next) {
+      if (prev?.result == null && next.result != null) _showResult(context, next.result!);
+      if (prev?.end == null && next.end != null) _onEnd(context, ref, next.end!);
+    });
 
     return Focus(
       autofocus: true,
@@ -77,9 +91,13 @@ class _PlayView extends ConsumerWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            _Header(state: state, onClose: () => _close(context)),
+            _Header(
+              session: session,
+              onClose: () => _close(context),
+              onSubmit: session.canSubmit ? () => _submit(context, state, play) : null,
+            ),
             const SizedBox(height: 10),
-            _Progress(value: state.puzzle.clues.isEmpty ? 0 : state.filledWordCount / state.puzzle.clues.length),
+            _Progress(value: state.puzzle.clues.isEmpty ? 0 : state.doneWordCount / state.puzzle.clues.length),
             const SizedBox(height: 12),
             HintBar(
               state: state,
@@ -89,9 +107,12 @@ class _PlayView extends ConsumerWidget {
             ),
             const SizedBox(height: 12),
             // 격자 + 아래 안내·확대 버튼. 확대하면 고른 단어가 화면 가운데로 따라온다.
-            Expanded(child: ZoomableGrid(state: state, onTapCell: play.tapCell)),
+            // 확인 결과 같은 안내는 격자 아래 안내 문구 자리에 보인다.
+            Expanded(
+              child: ZoomableGrid(state: state, onTapCell: play.tapCell, notice: session.notice, onRetry: play.retry),
+            ),
             const SizedBox(height: 10),
-            const _ActionRow(),
+            _ActionRow(checking: session.checking, onCheck: session.canCheck ? play.checkWord : null),
             const SizedBox(height: 14),
             LetterKeyboard(onLetter: play.typeLetter, onBackspace: play.backspace),
           ],
@@ -100,7 +121,65 @@ class _PlayView extends ConsumerWidget {
     );
   }
 
-  /// 실제 키보드(에뮬레이터·데스크톱·테스트): 글자, 지우기, 화살표, Tab(다음 단어), 스페이스(방향 바꾸기).
+  /// 못 푼 단어가 있으면 먼저 확인 창을 띄운다 (기획서 4장).
+  Future<void> _submit(BuildContext context, PlayState state, PlayController play) async {
+    final remaining = state.remainingWordCount;
+    if (remaining > 0) {
+      final ok = await showV3Dialog<bool>(
+        context,
+        title: '아직 $remaining단어 남았어요. 제출할까요?',
+        message: '확인하지 않은 단어와\n맞히지 못한 단어는 0점이 돼요.',
+        cancelLabel: '계속 풀기',
+        confirmLabel: '제출',
+        confirmValue: true,
+      );
+      if (ok != true || !context.mounted) return;
+    }
+    await play.submit();
+  }
+
+  /// 결과 화면(4주차) 전까지 쓰는 간단한 완료 안내. 닫으면 퍼즐 목록으로 간다.
+  Future<void> _showResult(BuildContext context, AttemptResult r) async {
+    await showV3Dialog<bool>(
+      context,
+      title: '퍼즐 완료!',
+      message: '${r.score} / ${r.maxScore}점\n'
+          '정답률 ${r.accuracyPercent}% (${r.correct}/${r.total})\n'
+          '소요 시간 ${r.durationLabel} (중간에 멈춘 시간 포함)',
+      cat: 'loaf_calico',
+      confirmLabel: '퍼즐 목록으로',
+      confirmValue: true,
+      dismissible: false,
+    );
+    if (context.mounted) context.go(Routes.puzzles);
+  }
+
+  Future<void> _onEnd(BuildContext context, WidgetRef ref, SessionEnd end) async {
+    switch (end) {
+      case SessionEnd.authExpired:
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('로그인이 풀렸어요. 다시 로그인해 주세요.')));
+        // 세션을 지우면 라우터가 로그인 화면으로 보낸다.
+        try {
+          await ref.read(authRepositoryProvider).signOut();
+        } catch (_) {
+          // 기기의 세션은 지워졌으므로 서버 쪽 로그아웃 실패는 무시한다.
+        }
+      case SessionEnd.attemptEnded:
+        final restart = await showV3Dialog<bool>(
+          context,
+          title: '이 풀이는 끝났어요.',
+          message: '다른 기기에서 제출했거나, 시작한 지 24시간이 지났어요.',
+          cancelLabel: '닫기',
+          confirmLabel: '다시 시작',
+          confirmValue: true,
+          dismissible: false,
+        );
+        if (!context.mounted) return;
+        restart == true ? ref.invalidate(attemptProvider(puzzleId)) : _close(context);
+    }
+  }
+
+  /// 실제 키보드(에뮬레이터·데스크톱·테스트): 글자, 지우기, 화살표, Tab(다음 단어), 스페이스(방향 바꾸기), Enter(확인).
   KeyEventResult _onKey(KeyEvent event, PlayController play) {
     if (event is KeyUpEvent) return KeyEventResult.ignored;
     final key = event.logicalKey;
@@ -121,6 +200,8 @@ class _PlayView extends ConsumerWidget {
       HardwareKeyboard.instance.isShiftPressed ? play.previousClue() : play.nextClue();
     } else if (key == LogicalKeyboardKey.space) {
       play.toggleDirection();
+    } else if (key == LogicalKeyboardKey.enter || key == LogicalKeyboardKey.numpadEnter) {
+      if (event is KeyDownEvent) play.checkWord();
     } else {
       return KeyEventResult.ignored;
     }
@@ -129,13 +210,15 @@ class _PlayView extends ConsumerWidget {
 }
 
 class _Header extends StatelessWidget {
-  const _Header({required this.state, required this.onClose});
+  const _Header({required this.session, required this.onClose, required this.onSubmit});
 
-  final PlayState state;
+  final PlaySession session;
   final VoidCallback onClose;
+  final VoidCallback? onSubmit;
 
   @override
   Widget build(BuildContext context) {
+    final state = session.board;
     return Row(
       children: [
         Tooltip(
@@ -161,12 +244,18 @@ class _Header extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(state.puzzle.title, style: V3Text.title),
-              Text('${state.filledWordCount} / ${state.puzzle.clues.length} 단어', style: V3Text.caption),
+              // 맞힌 단어 / 전체 단어
+              Text('${state.doneWordCount} / ${state.puzzle.clues.length} 단어', style: V3Text.caption),
             ],
           ),
         ),
-        // 제출은 3주차 정답 확인 RPC와 함께 붙인다.
-        const _V3Button(label: '제출', color: V3Colors.apricot, onPressed: null, width: 64),
+        _V3Button(
+          key: const ValueKey('play-submit'),
+          label: session.submitting ? '제출 중' : '제출',
+          color: V3Colors.apricot,
+          onPressed: onSubmit,
+          width: 64,
+        ),
       ],
     );
   }
@@ -196,26 +285,36 @@ class _Progress extends StatelessWidget {
   }
 }
 
-/// 글자 힌트·정답 공개(4주차), 확인(3주차). 지금은 자리만 보여 준다.
+/// 확인(3주차)과 글자 힌트·정답 공개(4주차, 지금은 자리만).
 class _ActionRow extends StatelessWidget {
-  const _ActionRow();
+  const _ActionRow({required this.checking, required this.onCheck});
+
+  final bool checking;
+  final VoidCallback? onCheck;
 
   @override
   Widget build(BuildContext context) {
-    return const Row(
+    return Row(
       children: [
-        Expanded(child: _V3Button(label: '글자 힌트', icon: Icons.lightbulb_outline, onPressed: null)),
-        SizedBox(width: 8),
-        Expanded(child: _V3Button(label: '정답 공개', icon: Icons.visibility_outlined, onPressed: null)),
-        SizedBox(width: 8),
-        Expanded(child: _V3Button(label: '확인', color: V3Colors.peach, onPressed: null)),
+        const Expanded(child: _V3Button(label: '글자 힌트', icon: Icons.lightbulb_outline, onPressed: null)),
+        const SizedBox(width: 8),
+        const Expanded(child: _V3Button(label: '정답 공개', icon: Icons.visibility_outlined, onPressed: null)),
+        const SizedBox(width: 8),
+        Expanded(
+          child: _V3Button(
+            key: const ValueKey('play-check'),
+            label: checking ? '확인 중' : '확인',
+            color: V3Colors.peach,
+            onPressed: onCheck,
+          ),
+        ),
       ],
     );
   }
 }
 
 class _V3Button extends StatelessWidget {
-  const _V3Button({required this.label, required this.onPressed, this.icon, this.color = V3Colors.paper, this.width});
+  const _V3Button({super.key, required this.label, required this.onPressed, this.icon, this.color = V3Colors.paper, this.width});
 
   final String label;
   final IconData? icon;
@@ -225,7 +324,7 @@ class _V3Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 아직 동작하지 않는 버튼은 투명하게 하지 않고, 바탕을 옅게·선과 글자를 보조색으로 바꿔
+    // 지금 누를 수 없는 버튼은 투명하게 하지 않고, 바탕을 옅게·선과 글자를 보조색으로 바꿔
     // 글자는 또렷하게 읽히면서 누를 수 없다는 것이 보이게 한다.
     final enabled = onPressed != null;
     final fg = enabled ? V3Colors.cocoa : V3Colors.cocoaMuted;

@@ -7,8 +7,8 @@ import '../play_state.dart';
 
 /// 퍼즐 격자 (Figma v3 GridCell).
 ///
-/// 칸 상태: 흰 칸, 검은 칸(초콜릿), 지금 단어(살구), 지금 칸(버터).
-/// 맞힘(민트)·글자 힌트(라벤더)는 정답 확인이 생기는 3·4주차에 더한다.
+/// 칸 상태: 흰 칸, 검은 칸(초콜릿), 지금 단어(살구), 지금 칸(버터), 맞힌 단어(민트, 잠김).
+/// 글자 힌트(라벤더)는 4주차에 더한다.
 /// 주어진 공간에 격자 전체가 들어가게 칸 크기를 정한다. 확대·이동은 [ZoomableGrid]가 감싸서 한다.
 class PuzzleGrid extends StatelessWidget {
   const PuzzleGrid({super.key, required this.state, required this.onTapCell});
@@ -62,14 +62,19 @@ class PuzzleGrid extends StatelessWidget {
 
     final cursor = state.isCursor(r, c);
     final inWord = state.inCurrentWord(r, c);
-    final color = cursor ? V3Colors.butter : (inWord ? V3Colors.apricot : V3Colors.paper);
+    final locked = state.isLocked(r, c);
+    final color = cursor
+        ? V3Colors.butter
+        : locked
+            ? V3Colors.mint
+            : (inWord ? V3Colors.apricot : V3Colors.paper);
     final number = puzzle.numberAt(r, c);
     final letter = state.letterAt(r, c);
 
     return Semantics(
       button: true,
       selected: cursor,
-      label: '${r + 1}행 ${c + 1}열${letter == null ? ' 빈칸' : ' $letter'}',
+      label: '${r + 1}행 ${c + 1}열${letter == null ? ' 빈칸' : ' $letter'}${locked ? ' 맞힘' : ''}',
       child: GestureDetector(
         key: cellKey(r, c),
         behavior: HitTestBehavior.opaque,

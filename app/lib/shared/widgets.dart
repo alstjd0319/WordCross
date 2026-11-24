@@ -262,3 +262,74 @@ class LoadErrorView extends StatelessWidget {
     );
   }
 }
+
+/// v3 대화 상자: 카드 위에 제목·설명과 버튼 1~2개. 고른 버튼의 값을 돌려준다 (취소·바깥 누르기는 null).
+Future<T?> showV3Dialog<T>(
+  BuildContext context, {
+  required String title,
+  required String message,
+  required String confirmLabel,
+  required T confirmValue,
+  String? cancelLabel,
+  String? cat,
+  bool dismissible = true,
+}) {
+  return showDialog<T>(
+    context: context,
+    barrierDismissible: dismissible,
+    builder: (context) {
+      final text = Theme.of(context).textTheme;
+      return PopScope(
+        canPop: dismissible,
+        child: Dialog(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          insetPadding: const EdgeInsets.symmetric(horizontal: 28, vertical: 24),
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 380),
+            child: V3Card(
+              padding: const EdgeInsets.fromLTRB(18, 20, 18, 18),
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (cat != null) ...[CatImage(cat, height: 52), const SizedBox(height: 8)],
+                    Text(title, style: text.titleMedium, textAlign: TextAlign.center),
+                    const SizedBox(height: 8),
+                    Text(
+                      message,
+                      style: text.bodyLarge!.copyWith(color: context.wcColors.textMuted),
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 18),
+                    Row(
+                      children: [
+                        if (cancelLabel != null) ...[
+                          Expanded(
+                            child: HandDrawnShadow(
+                              child: OutlinedButton(
+                                onPressed: () => Navigator.of(context).pop(),
+                                child: FittedBox(fit: BoxFit.scaleDown, child: Text(cancelLabel)),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                        ],
+                        Expanded(
+                          child: PrimaryButton(
+                            onPressed: () => Navigator.of(context).pop(confirmValue),
+                            child: FittedBox(fit: BoxFit.scaleDown, child: Text(confirmLabel)),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+    },
+  );
+}

@@ -46,7 +46,7 @@ lib/
 └─ features/
    ├─ auth/                  로그인, 회원가입, 인증 저장소(Supabase / 로컬)
    ├─ home/                  홈 (4주차)
-   ├─ play/                  퍼즐 풀이: 격자, 칸 선택, 전용 키보드, 힌트 바 (2주차), 확대·자동 이동 (3주차), 퍼즐 저장소(get_puzzle RPC / 로컬 샘플)
+   ├─ play/                  퍼즐 풀이: 격자, 칸 선택, 전용 키보드, 힌트 바 (2주차), 확대·자동 이동, 확인·제출 (3주차), 퍼즐·풀이 저장소(RPC / 로컬 샘플)
    ├─ puzzles/               퍼즐 목록(난이도 필터)·상세(격자 미리보기, 규칙, 시작하기) (3주차)
    ├─ wrong_notes/           오답 노트·복습 카드 (4~5주차)
    └─ my_page/               마이페이지 (5주차)
@@ -59,6 +59,8 @@ lib/
   - 고양이: Figma `v3/Cat` 컴포넌트 40마리를 1x·2x·3x PNG로 내보내 `assets/images/cats/`에 넣었습니다. 이름은 `<자세>_<털색>.png` (예: `sit_calico`, `curl_black`), 화면에서는 `CatImage('sit_calico')`.
 - **퍼즐 데이터:** 목록은 `puzzles` 테이블(공개된 퍼즐, 정답 없음), 퍼즐 하나는 `get_puzzle()` RPC로 받습니다 (`SupabasePuzzleRepository`).
   - 로컬 모드: `features/play/sample_puzzles.dart`에 난이도별 2개씩(beg/mid/adv-001·002)을 `data/` 의 퍼즐·틀·`words.csv` 로 만든 `get_puzzle()` 모양 JSON으로 넣었습니다. 정답 철자는 넣지 않습니다. `data/` 가 바뀌면 다시 만듭니다.
+  - 풀이 기록은 `AttemptRepository`(start_attempt · check_word · finish_attempt, 약속은 `supabase/README.md`). 화면 상태는 `PlaySession`(격자 `PlayState` + 확인·제출 진행), 맞힌 단어는 잠기고 이어 풀기는 서버 기록 기준입니다.
+  - 로컬 모드 채점은 `FakeAttemptRepository`가 서버와 같은 규칙으로 합니다. 앱에 정답 철자를 넣지 않으려고 샘플 퍼즐은 정답 해시(`sampleAnswerHashes`)만 가집니다.
   - 테스트는 `data/` 가 바뀌어도 깨지지 않도록 `test/fixtures/test_puzzles.dart`의 고정 퍼즐을 씁니다.
   - 예상 풀이 시간은 `PuzzleLevel.estimatedMinutes`(난이도별 단어당 시간 × 단어 수)로 어림합니다.
 - **상태 관리:** Riverpod. 화면은 `authRepositoryProvider` 같은 Provider로만 데이터에 접근하고, 테스트에서는 가짜 구현으로 바꿉니다.

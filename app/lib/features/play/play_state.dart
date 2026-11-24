@@ -1,9 +1,10 @@
+import 'attempt.dart';
 import 'puzzle.dart';
 
 /// 퍼즐 풀이 화면의 상태: 칸마다 입력한 글자, 지금 칸, 입력 방향, 보고 있는 힌트 종류.
 ///
 /// 바꾸지 않는(immutable) 값이라, 동작마다 새 [PlayState]를 돌려준다. 화면 없이 단위 테스트한다.
-/// 정답 확인·점수는 3주차 RPC가 맡으므로 여기서는 입력만 다룬다.
+/// 채점은 서버 RPC가 하고, 여기서는 그 결과([progress])를 받아 맞힌 단어를 잠근다.
 class PlayState {
   const PlayState._({
     required this.puzzle,
@@ -12,6 +13,8 @@ class PlayState {
     required this.col,
     required this.dir,
     required this.hintKind,
+    required this.progress,
+    required this.locked,
   });
 
   /// 첫 가로 단어(없으면 첫 단어)의 첫 칸에서 시작한다.
@@ -24,6 +27,8 @@ class PlayState {
       col: first?.col ?? 0,
       dir: first?.dir ?? Direction.across,
       hintKind: HintKind.meaningKo,
+      progress: const {},
+      locked: const {},
     );
   }
 
@@ -38,13 +43,30 @@ class PlayState {
   /// 사용자가 마지막으로 고른 힌트 종류. 지금 단어에 그 힌트가 없으면 [shownHintKind]가 다른 것을 고른다.
   final HintKind hintKind;
 
-  PlayState _copy({Map<(int, int), String>? letters, int? row, int? col, Direction? dir, HintKind? hintKind}) => PlayState._(
+  /// 단서 id → 확인 횟수·점수·맞힘. 서버가 알려 준 값.
+  final Map<int, WordProgress> progress;
+
+  /// 맞혔거나 정답을 공개한 단어의 칸. 교차하는 단어에서도 글자를 바꿀 수 없다 (기획서 4장).
+  final Set<(int, int)> locked;
+
+  PlayState _copy({
+    Map<(int, int), String>? letters,
+    int? row,
+    int? col,
+    Direction? dir,
+    HintKind? hintKind,
+    Map<int, WordProgress>? progress,
+    Set<(int, int)>? locked,
+  }) =>
+      PlayState._(
         puzzle: puzzle,
         letters: letters ?? this.letters,
         row: row ?? this.row,
         col: col ?? this.col,
         dir: dir ?? this.dir,
         hintKind: hintKind ?? this.hintKind,
+        progress: progress ?? this.progress,
+        locked: locked ?? this.locked,
       );
 
   // ---------------------------------------------------------------------------
@@ -68,7 +90,18 @@ class PlayState {
 
   bool isWordFilled(Clue clue) => clue.cells.every(letters.containsKey);
 
-  int get filledWordCount => puzzle.clues.where(isWordFilled).length;
+  bool isLocked(int r, int c) => locked.contains((r, c));
+
+  WordProgress progressOf(Clue clue) => progress[clue.id] ?? WordProgress(clueId: clue.id);
+
+  /// 맞혔거나 정답을 공개한 단어 수.
+  int get doneWordCount => puzzle.clues.where((c) => progressOf(c).done).length;
+
+  /// 아직 못 푼 단어 수. 다 채웠어도 확인하지 않았으면 못 푼 단어다.
+  int get remainingWordCount => puzzle.clues.length - doneWordCount;
+
+  /// 단어 칸에 넣은 글자. 빈칸이 있으면 null.
+  String? guessFor(Clue clue) => isWordFilled(clue) ? clue.cells.map((c) => letters[c]!).join() : null;
 
   /// 화면에 보여 줄 힌트 종류. 지금 단어에 힌트가 하나도 없으면 null.
   HintKind? get shownHintKind {
@@ -100,28 +133,62 @@ class PlayState {
   /// 지금 칸이 양쪽 단어에 모두 속할 때만 방향을 바꾼다.
   PlayState toggleDirection() => puzzle.clueAt(row, col, dir.other) == null ? this : _copy(dir: dir.other);
 
+  /// 서버가 알려 준 단어 상태를 반영한다. 맞힌 단어는 정답 글자를 채우고 칸을 잠근다.
+  PlayState applyProgress(Iterable<WordProgress> words) {
+    final nextProgress = {...progress, for (final w in words) w.clueId: w};
+    final nextLetters = {...letters};
+    final nextLocked = {...locked};
+    for (final clue in puzzle.clues) {
+      final w = nextProgress[clue.id];
+      final answer = w?.answer?.toUpperCase();
+      if (w == null || !w.done || answer == null || answer.length != clue.length) continue;
+      final cells = clue.cells;
+      for (var i = 0; i < cells.length; i++) {
+        nextLetters[cells[i]] = answer[i];
+        nextLocked.add(cells[i]);
+      }
+    }
+    return _copy(letters: nextLetters, progress: nextProgress, locked: nextLocked);
+  }
+
+  PlayState applyCheck(Clue clue, CheckResult result) => applyProgress([progressOf(clue).afterCheck(result)]);
+
+  PlayState applyNoTriesLeft(Clue clue) => applyProgress([progressOf(clue).withoutTries()]);
+
   /// 지금 칸에 글자를 넣고 같은 단어의 다음 칸으로 간다. 단어 끝이면 그 자리에 있는다.
+  /// 잠긴 칸에서는 그 칸의 글자를 치면 지나가기만 하고, 다른 글자를 치면 다음 빈 자리(안 잠긴 칸)에 넣는다.
+  /// 그래서 단어를 처음부터 다 쳐도, 잠긴 글자를 빼고 쳐도 된다.
   PlayState typeLetter(String letter) {
     final ch = letter.toUpperCase();
     if (ch.length != 1 || ch.codeUnitAt(0) < 0x41 || ch.codeUnitAt(0) > 0x5A) return this;
     final clue = currentClue;
     if (clue == null) return this;
-    final next = {...letters, (row, col): ch};
     final cells = clue.cells;
     final i = cells.indexOf((row, col));
-    final (nr, nc) = i + 1 < cells.length ? cells[i + 1] : (row, col);
-    return _copy(letters: next, row: nr, col: nc, dir: clue.dir);
+    var target = i;
+    if (locked.contains(cells[i])) {
+      if (letters[cells[i]] == ch) {
+        if (i + 1 >= cells.length) return this;
+        final (nr, nc) = cells[i + 1];
+        return _copy(row: nr, col: nc, dir: clue.dir);
+      }
+      target = cells.indexWhere((c) => !locked.contains(c), i);
+      if (target < 0) return this;
+    }
+    final (nr, nc) = cells[target + 1 < cells.length ? target + 1 : target];
+    return _copy(letters: {...letters, cells[target]: ch}, row: nr, col: nc, dir: clue.dir);
   }
 
-  /// 지금 칸에 글자가 있으면 지우고, 비어 있으면 앞 칸으로 가서 지운다.
+  /// 지금 칸에 글자가 있으면 지우고, 비어 있으면 앞 칸으로 가서 지운다. 잠긴 칸은 건너뛴다.
   PlayState backspace() {
-    if (letters.containsKey((row, col))) return _copy(letters: {...letters}..remove((row, col)));
+    if (letters.containsKey((row, col)) && !isLocked(row, col)) return _copy(letters: {...letters}..remove((row, col)));
     final clue = currentClue;
     if (clue == null) return this;
     final cells = clue.cells;
     final i = cells.indexOf((row, col));
-    if (i <= 0) return this;
-    final (pr, pc) = cells[i - 1];
+    final prev = i <= 0 ? -1 : cells.lastIndexWhere((c) => !locked.contains(c), i - 1);
+    if (prev < 0) return this;
+    final (pr, pc) = cells[prev];
     return _copy(letters: {...letters}..remove((pr, pc)), row: pr, col: pc, dir: clue.dir);
   }
 
@@ -138,9 +205,12 @@ class PlayState {
 
   PlayState previousClue() => nextClue(backward: true);
 
-  /// 단어로 이동: 첫 빈칸, 다 찼으면 첫 칸.
+  /// 단어로 이동: 첫 빈칸, 다 찼으면 잠기지 않은 첫 칸, 다 잠겼으면 첫 칸.
   PlayState _jumpTo(Clue clue) {
-    final (r, c) = clue.cells.firstWhere((cell) => !letters.containsKey(cell), orElse: () => clue.cells.first);
+    final (r, c) = clue.cells.firstWhere(
+      (cell) => !letters.containsKey(cell),
+      orElse: () => clue.cells.firstWhere((cell) => !locked.contains(cell), orElse: () => clue.cells.first),
+    );
     return _copy(row: r, col: c, dir: clue.dir);
   }
 

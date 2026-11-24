@@ -6,6 +6,17 @@ const testPuzzles = <String, String>{
   'beg-001': _beg001,
 };
 
+/// [testPuzzles]의 beg-001 정답. 단서 id → 단어 (가로 번호순, 그다음 세로 번호순).
+final testAnswers = {
+  for (final (i, w) in const [
+    'BRANCH', 'MALL', 'GYM', 'IMAGINE', 'ART', 'FITNESS', 'ENCLOSE', 'SHE', 'PRESENT', 'ACT', 'TAKE', 'BROKER', //
+    'BAGGAGE', 'ADMIT', 'CHIEF', 'ALIKE', 'LIE', 'PANT', 'SWEATER', 'CLERK', 'OVEN', 'ENTER', 'STACK', 'PET',
+  ].indexed)
+    i + 1: w,
+};
+
+bool testIsCorrect(String puzzleId, int clueId, String guess) => puzzleId == 'beg-001' && testAnswers[clueId] == guess;
+
 const _beg001 = r'''
 {
  "id": "beg-001",

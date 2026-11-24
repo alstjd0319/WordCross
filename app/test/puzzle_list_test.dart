@@ -6,6 +6,7 @@ import 'package:wordcross/app/main_shell.dart';
 import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
+import 'package:wordcross/features/play/fake_attempt_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/puzzle.dart';
@@ -23,6 +24,7 @@ Future<void> openPuzzleTab(WidgetTester tester, PuzzleRepository puzzles) async 
       overrides: [
         authRepositoryProvider.overrideWithValue(auth),
         puzzleRepositoryProvider.overrideWithValue(puzzles),
+        attemptRepositoryProvider.overrideWithValue(FakeAttemptRepository(puzzles)),
       ],
       child: const WordCrossApp(),
     ),

@@ -8,6 +8,7 @@ import 'package:wordcross/app/main_shell.dart';
 import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
+import 'package:wordcross/features/play/fake_attempt_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/play_screen.dart';
@@ -22,13 +23,15 @@ import 'fixtures/test_puzzles.dart';
 /// 로그인한 상태로 앱을 띄운다.
 Future<GoRouter> pumpLoggedIn(WidgetTester tester) async {
   final auth = FakeAuthRepository();
+  final puzzles = FakePuzzleRepository(puzzles: testPuzzles);
   addTearDown(auth.dispose);
   await auth.signUp(email: 'user@example.com', password: 'password1', nickname: '태웅');
   await tester.pumpWidget(
     ProviderScope(
       overrides: [
         authRepositoryProvider.overrideWithValue(auth),
-        puzzleRepositoryProvider.overrideWithValue(FakePuzzleRepository(puzzles: testPuzzles)),
+        puzzleRepositoryProvider.overrideWithValue(puzzles),
+        attemptRepositoryProvider.overrideWithValue(FakeAttemptRepository(puzzles, isCorrect: testIsCorrect)),
       ],
       child: const WordCrossApp(),
     ),
@@ -98,17 +101,6 @@ void main() {
     await tester.pump();
     expect(cellText(0, 1, 'R'), findsNothing);
     expect(cellText(0, 0, 'B'), findsOneWidget);
-  });
-
-  testWidgets('6글자를 다 채우면 채운 단어 수가 올라간다', (tester) async {
-    await pumpLoggedIn(tester);
-    await openSample(tester);
-
-    for (final ch in 'BRANCH'.split('')) {
-      await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
-      await tester.pump();
-    }
-    expect(find.text('1 / 24 단어'), findsOneWidget);
   });
 
   testWidgets('칸을 누르면 그 단어 힌트로, 같은 칸을 다시 누르면 세로 단어 힌트로 바뀐다', (tester) async {

@@ -22,6 +22,14 @@ class HintBar extends StatelessWidget {
   final VoidCallback onPrevious;
   final VoidCallback onNext;
 
+  /// 맞힌 단어는 점수, 틀린 적이 있는 단어는 남은 확인 횟수.
+  String? _status(Clue clue) {
+    final p = state.progressOf(clue);
+    if (p.solved) return '맞힘 ${p.score}점';
+    if (p.tries > 0) return '확인 ${p.triesLeft}번 남음';
+    return null;
+  }
+
   @override
   Widget build(BuildContext context) {
     final clue = state.currentClue;
@@ -42,7 +50,11 @@ class HintBar extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  [if (clue != null) '${clue.length}글자', if (kind != null) kind.label].join(' · '),
+                  [
+                    if (clue != null) '${clue.length}글자',
+                    if (kind != null) kind.label,
+                    if (clue != null) ?_status(clue),
+                  ].join(' · '),
                   style: V3Text.caption,
                 ),
                 const SizedBox(height: 2),

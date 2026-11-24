@@ -2,7 +2,8 @@ import 'dart:math' as math;
 
 import 'package:material_ui/material_ui.dart';
 
-import '../../../app/v3_theme.dart';
+import '../../../app/theme.dart';
+import '../play_session.dart';
 import '../play_state.dart';
 import 'puzzle_grid.dart';
 
@@ -15,10 +16,14 @@ import 'puzzle_grid.dart';
 ///   두 손가락 확대가 어려운 사람·에뮬레이터를 위해서도 둔다.
 /// 두 번 탭해서 되돌리기는 칸 한 번 탭이 늦게 먹히게 만들어서 쓰지 않는다.
 class ZoomableGrid extends StatefulWidget {
-  const ZoomableGrid({super.key, required this.state, required this.onTapCell});
+  const ZoomableGrid({super.key, required this.state, required this.onTapCell, this.notice, this.onRetry});
 
   final PlayState state;
   final void Function(int row, int col) onTapCell;
+
+  /// 있으면 격자 아래 사용법 안내 대신 보여 준다 (확인 결과, 연결 실패 등).
+  final PlayNotice? notice;
+  final VoidCallback? onRetry;
 
   static const zoomButtonKey = ValueKey('grid-zoom');
 
@@ -181,19 +186,57 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
         // 격자 아래 줄: 사용법 안내와 확대/전체 보기 버튼. 버튼이 격자 칸을 가리지 않게 격자 밖에 둔다.
         Row(
           children: [
-            const SizedBox(width: 44), // 버튼만큼 왼쪽도 비워 안내 문구를 가운데에 둔다
+            // 버튼만큼 왼쪽도 비워 안내 문구를 가운데에 둔다. 다시 시도 버튼이 있으면 자리를 내준다.
+            if (!(widget.notice?.canRetry ?? false)) const SizedBox(width: 44),
             Expanded(
-              child: Text(
-                isZoomed ? '끌어서 이동 · 다른 단어를 고르면 그 단어로 이동' : '두 손가락으로 확대 · 한 번 더 누르면 방향 전환',
-                style: V3Text.caption,
-                textAlign: TextAlign.center,
+              child: _Caption(
+                notice: widget.notice,
+                usage: isZoomed ? '끌어서 이동 · 다른 단어를 고르면 그 단어로 이동' : '두 손가락으로 확대 · 한 번 더 누르면 방향 전환',
               ),
             ),
+            if (widget.notice?.canRetry ?? false)
+              TextButton(
+                onPressed: widget.onRetry,
+                style: TextButton.styleFrom(
+                  minimumSize: const Size(0, 36),
+                  padding: const EdgeInsets.symmetric(horizontal: 8),
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                ),
+                child: const Text('다시 시도'),
+              ),
             const SizedBox(width: 8),
             _ZoomButton(zoomed: isZoomed, onTap: toggleZoom),
           ],
         ),
       ],
+    );
+  }
+}
+
+/// 격자 아래 한 줄: 평소에는 사용법, 안내가 있으면 안내.
+class _Caption extends StatelessWidget {
+  const _Caption({required this.notice, required this.usage});
+
+  final PlayNotice? notice;
+  final String usage;
+
+  @override
+  Widget build(BuildContext context) {
+    final n = notice;
+    if (n == null) return Text(usage, style: V3Text.caption, textAlign: TextAlign.center);
+    final color = switch (n.tone) {
+      NoticeTone.info => V3Colors.cocoa,
+      NoticeTone.success => AppColors.success,
+      NoticeTone.error => AppColors.error,
+    };
+    return Semantics(
+      liveRegion: true,
+      child: Text(
+        n.text,
+        key: const ValueKey('play-notice'),
+        style: V3Text.caption.copyWith(color: color, fontSize: 14, fontWeight: FontWeight.w600),
+        textAlign: TextAlign.center,
+      ),
     );
   }
 }
