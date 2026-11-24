@@ -8,9 +8,12 @@ import 'features/auth/auth_providers.dart';
 import 'features/auth/auth_repository.dart';
 import 'features/auth/fake_auth_repository.dart';
 import 'features/auth/supabase_auth_repository.dart';
+import 'features/play/attempt_repository.dart';
+import 'features/play/fake_attempt_repository.dart';
 import 'features/play/fake_puzzle_repository.dart';
 import 'features/play/play_providers.dart';
 import 'features/play/puzzle_repository.dart';
+import 'features/play/supabase_attempt_repository.dart';
 import 'features/play/supabase_puzzle_repository.dart';
 
 Future<void> main() async {
@@ -19,13 +22,17 @@ Future<void> main() async {
   final config = AppConfig.fromEnvironment();
   final AuthRepository auth;
   final PuzzleRepository puzzles;
+  final AttemptRepository attempts;
   if (config.hasSupabase) {
     await Supabase.initialize(url: config.supabaseUrl, publishableKey: config.supabasePublishableKey);
-    auth = SupabaseAuthRepository(Supabase.instance.client.auth);
-    puzzles = SupabasePuzzleRepository(Supabase.instance.client);
+    final client = Supabase.instance.client;
+    auth = SupabaseAuthRepository(client.auth, deleteAccountRpc: () => client.rpc<void>('delete_my_account'));
+    puzzles = SupabasePuzzleRepository(client);
+    attempts = SupabaseAttemptRepository((function, params) => client.rpc<Object?>(function, params: params));
   } else {
     auth = FakeAuthRepository();
     puzzles = FakePuzzleRepository();
+    attempts = FakeAttemptRepository(puzzles);
   }
 
   runApp(
@@ -33,6 +40,7 @@ Future<void> main() async {
       overrides: [
         authRepositoryProvider.overrideWithValue(auth),
         puzzleRepositoryProvider.overrideWithValue(puzzles),
+        attemptRepositoryProvider.overrideWithValue(attempts),
         localModeProvider.overrideWithValue(!config.hasSupabase),
       ],
       child: const WordCrossApp(),

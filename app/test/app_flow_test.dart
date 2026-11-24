@@ -6,13 +6,20 @@ import 'package:wordcross/app/main_shell.dart';
 import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
+import 'package:wordcross/features/play/fake_puzzle_repository.dart';
+import 'package:wordcross/features/play/play_providers.dart';
+
+import 'fixtures/test_puzzles.dart';
 
 Future<FakeAuthRepository> pumpApp(WidgetTester tester) async {
   final auth = FakeAuthRepository();
   addTearDown(auth.dispose);
   await tester.pumpWidget(
     ProviderScope(
-      overrides: [authRepositoryProvider.overrideWithValue(auth)],
+      overrides: [
+        authRepositoryProvider.overrideWithValue(auth),
+        puzzleRepositoryProvider.overrideWithValue(FakePuzzleRepository(puzzles: testPuzzles)),
+      ],
       child: const WordCrossApp(),
     ),
   );
@@ -52,7 +59,7 @@ void main() {
 
     await tester.tap(find.text('퍼즐').last);
     await tester.pumpAndSettle();
-    expect(find.text('퍼즐 목록'), findsOneWidget);
+    expect(find.text('초급 #001'), findsOneWidget);
 
     await tester.tap(find.text('마이페이지').last);
     await tester.pumpAndSettle();

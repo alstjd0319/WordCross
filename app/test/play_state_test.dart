@@ -1,9 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:wordcross/features/play/attempt.dart';
 import 'package:wordcross/features/play/play_state.dart';
 import 'package:wordcross/features/play/puzzle.dart';
-import 'package:wordcross/features/play/sample_puzzles.dart';
+
+import 'fixtures/test_puzzles.dart';
 
 /// 3×3, 가운데만 검은 칸.
 ///   1 . 2
@@ -52,7 +54,7 @@ void main() {
     });
 
     test('get_puzzle() 모양의 샘플 퍼즐을 읽는다', () {
-      final p = PuzzleData.fromJson(jsonDecode(samplePuzzles['beg-001']!) as Map<String, dynamic>);
+      final p = PuzzleData.fromJson(jsonDecode(testPuzzles['beg-001']!) as Map<String, dynamic>);
       expect(p.rows, 11);
       expect(p.cols, 11);
       expect(p.clues, hasLength(24));
@@ -126,7 +128,9 @@ void main() {
     test('교차하는 칸의 글자는 두 단어가 함께 쓴다', () {
       final s = PlayState.start(tinyPuzzle()).typeLetter('C').typeLetter('A').typeLetter('T');
       expect(s.isWordFilled(s.puzzle.clues[0]), isTrue);
-      expect(s.filledWordCount, 1);
+      expect(s.guessFor(s.puzzle.clues[0]), 'CAT');
+      expect(s.guessFor(s.puzzle.clues[1]), isNull);
+      expect(s.doneWordCount, 0); // 채우기만 해서는 맞힌 단어가 아니다
       final down = s.tapCell(0, 2);
       expect(down.dir, Direction.down);
       expect(down.letterAt(0, 2), 'T');
@@ -158,6 +162,69 @@ void main() {
       expect((s.row, s.col), (1, 0));
       s = s.moveCursor(0, 1);
       expect((s.row, s.col, s.dir), (1, 2, Direction.down));
+    });
+  });
+
+  group('맞힌 단어 잠금', () {
+    // 1가로 CAT을 맞힌 상태. (0,0) (0,1) (0,2)가 잠긴다.
+    PlayState solved() => PlayState.start(tinyPuzzle()).applyProgress(const [
+          WordProgress(clueId: 1, solved: true, tries: 2, triesLeft: 3, score: 90, answer: 'cat'),
+        ]);
+
+    test('정답 글자를 채우고 칸을 잠그며 맞힌 수를 센다', () {
+      final s = solved();
+      expect([s.letterAt(0, 0), s.letterAt(0, 1), s.letterAt(0, 2)], ['C', 'A', 'T']);
+      expect(s.isLocked(0, 2), isTrue);
+      expect(s.isLocked(2, 0), isFalse);
+      expect((s.doneWordCount, s.remainingWordCount), (1, 3));
+      expect(s.progressOf(s.puzzle.clues[0]).score, 90);
+    });
+
+    test('입력해 둔 틀린 글자도 정답으로 바뀐다', () {
+      final s = PlayState.start(tinyPuzzle()).typeLetter('X').applyProgress(const [
+        WordProgress(clueId: 1, solved: true, answer: 'CAT'),
+      ]);
+      expect(s.letterAt(0, 0), 'C');
+    });
+
+    test('잠긴 칸은 다른 글자로 바뀌지 않고, 그 글자는 다음 칸에 들어간다', () {
+      final s = solved().tapCell(0, 0); // 1세로, 첫 칸 C가 잠김
+      expect(s.dir, Direction.down);
+      final typed = s.typeLetter('O');
+      expect((typed.letterAt(0, 0), typed.letterAt(1, 0)), ('C', 'O'));
+      expect((typed.row, typed.col), (2, 0));
+    });
+
+    test('잠긴 글자를 그대로 치면 지나간다', () {
+      final s = solved().tapCell(0, 0).typeLetter('C').typeLetter('O').typeLetter('W');
+      expect([s.letterAt(0, 0), s.letterAt(1, 0), s.letterAt(2, 0)], ['C', 'O', 'W']);
+    });
+
+    test('다 잠긴 단어에서는 입력도 지우기도 되지 않는다', () {
+      final s = solved();
+      expect(identical(s.typeLetter('Z'), s), isTrue);
+      expect(identical(s.backspace(), s), isTrue);
+    });
+
+    test('지우기는 잠긴 칸을 건너뛴다', () {
+      var s = solved().tapCell(0, 0).typeLetter('O'); // (1,0)=O, 지금 칸 (2,0)
+      s = s.backspace();
+      expect((s.row, s.letterAt(1, 0)), (1, null));
+      expect(identical(s.backspace(), s), isTrue); // 앞은 잠긴 C뿐
+    });
+
+    test('단어로 옮기면 빈칸, 없으면 잠기지 않은 칸에 선다', () {
+      final s = solved().nextClue().nextClue(); // 1세로
+      expect((s.row, s.col), (1, 0));
+    });
+
+    test('정답이 없거나 길이가 다른 응답은 글자를 바꾸지 않는다', () {
+      final s = PlayState.start(tinyPuzzle()).applyProgress(const [
+        WordProgress(clueId: 1, solved: true, answer: 'LONGER'),
+        WordProgress(clueId: 2, solved: true),
+      ]);
+      expect(s.letters, isEmpty);
+      expect(s.locked, isEmpty);
     });
   });
 

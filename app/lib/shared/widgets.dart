@@ -23,14 +23,23 @@ class HandDrawnShadow extends StatelessWidget {
 
 /// v3 주 버튼: 복숭아 바탕 + 갈색 선 + 손그림 그림자. 안쪽은 [FilledButton]이다.
 class PrimaryButton extends StatelessWidget {
-  const PrimaryButton({super.key, required this.onPressed, required this.child});
+  const PrimaryButton({super.key, required this.onPressed, required this.child, this.destructive = false});
 
   final VoidCallback? onPressed;
   final Widget child;
 
+  /// 계정 삭제처럼 되돌릴 수 없는 동작. 복숭아색 대신 빨간색.
+  final bool destructive;
+
   @override
   Widget build(BuildContext context) {
-    return HandDrawnShadow(child: FilledButton(onPressed: onPressed, child: child));
+    return HandDrawnShadow(
+      child: FilledButton(
+        onPressed: onPressed,
+        style: destructive ? FilledButton.styleFrom(backgroundColor: AppColors.error) : null,
+        child: child,
+      ),
+    );
   }
 }
 
@@ -232,6 +241,132 @@ class ComingSoon extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// 불러오기 실패 안내: 고양이, 오류 문구, 다시 시도 버튼.
+class LoadErrorView extends StatelessWidget {
+  const LoadErrorView({super.key, required this.message, required this.onRetry});
+
+  final String message;
+  final VoidCallback onRetry;
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const CatImage('sit_tabby', height: 64),
+            const SizedBox(height: 12),
+            Text(message, style: Theme.of(context).textTheme.bodyLarge, textAlign: TextAlign.center),
+            const SizedBox(height: 16),
+            SizedBox(width: 160, child: PrimaryButton(onPressed: onRetry, child: const Text('다시 시도'))),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// v3 대화 상자: 카드 위에 제목·설명과 버튼 1~2개. 고른 버튼의 값을 돌려준다 (취소·바깥 누르기는 null).
+/// [destructive]면 되돌릴 수 없는 동작이라 확인 버튼이 빨간색이다.
+Future<T?> showV3Dialog<T>(
+  BuildContext context, {
+  required String title,
+  required String message,
+  required String confirmLabel,
+  required T confirmValue,
+  String? cancelLabel,
+  String? cat,
+  bool dismissible = true,
+  bool destructive = false,
+}) {
+  return showDialog<T>(
+    context: context,
+    barrierDismissible: dismissible,
+    builder: (context) {
+      final text = Theme.of(context).textTheme;
+      return PopScope(
+        canPop: dismissible,
+        child: Dialog(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          insetPadding: const EdgeInsets.symmetric(horizontal: 28, vertical: 24),
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 380),
+            child: V3Card(
+              padding: const EdgeInsets.fromLTRB(18, 20, 18, 18),
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (cat != null) ...[CatImage(cat, height: 52), const SizedBox(height: 8)],
+                    Text(title, style: text.titleMedium, textAlign: TextAlign.center),
+                    const SizedBox(height: 8),
+                    Text(
+                      message,
+                      style: text.bodyLarge!.copyWith(color: context.wcColors.textMuted),
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 18),
+                    Row(
+                      children: [
+                        if (cancelLabel != null) ...[
+                          Expanded(
+                            child: HandDrawnShadow(
+                              child: OutlinedButton(
+                                onPressed: () => Navigator.of(context).pop(),
+                                child: FittedBox(fit: BoxFit.scaleDown, child: Text(cancelLabel)),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                        ],
+                        Expanded(
+                          child: PrimaryButton(
+                            destructive: destructive,
+                            onPressed: () => Navigator.of(context).pop(confirmValue),
+                            child: FittedBox(fit: BoxFit.scaleDown, child: Text(confirmLabel)),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+    },
+  );
+}
+
+/// 카드 안 항목 사이의 점선.
+class DashedDivider extends StatelessWidget {
+  const DashedDivider({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, box) {
+        final count = (box.maxWidth / 8).floor();
+        return Row(
+          children: [
+            for (var i = 0; i < count; i++)
+              Container(
+                width: 4,
+                height: 1.5,
+                margin: const EdgeInsets.only(right: 4),
+                color: V3Colors.cocoaMuted.withValues(alpha: 0.5),
+              ),
+          ],
+        );
+      },
     );
   }
 }

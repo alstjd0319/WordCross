@@ -18,9 +18,12 @@ class AppUser {
 
 /// 화면에 그대로 보여 줄 수 있는 한국어 오류 문구를 담은 인증 실패.
 class AuthFailure implements Exception {
-  const AuthFailure(this.message);
+  const AuthFailure(this.message, {this.loginExpired = false});
 
   final String message;
+
+  /// 로그인이 풀려서 실패함. 화면은 오류 대신 로그인 화면으로 보낸다.
+  final bool loginExpired;
 
   @override
   String toString() => 'AuthFailure($message)';
@@ -49,4 +52,8 @@ abstract interface class AuthRepository {
   Future<SignUpResult> signUp({required String email, required String password, required String nickname});
 
   Future<void> signOut();
+
+  /// 계정과 모든 풀이 기록·오답 노트를 지우고 로그아웃한다. 되돌릴 수 없다.
+  /// 실패하면 [AuthFailure]를 던지고 로그인 상태는 그대로다.
+  Future<void> deleteAccount();
 }

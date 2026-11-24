@@ -69,7 +69,9 @@ supabase db push              # migrations/ 를 실제 프로젝트에 반영
    `start_attempt` 의 `words[]` 로 이미 맞힌 단어(`solved`, `answer`)와 남은 시도(`tries_left`)를 격자에 채운다 (이어 풀기).
 2. 단어 칸을 다 채우고 "확인" → `check_word(attempt_id, clue_id, guess, request_id)`.
    `clue_id` = `get_puzzle` 의 `clues[].id`. `request_id` 는 확인 한 번마다 새 UUID (네트워크가 끊겨 다시 보내도 한 번만 처리됨).
-3. "제출" → 빈칸이 있으면 "아직 n단어 남았어요. 제출할까요?" 확인 창 → `finish_attempt(attempt_id)` → 결과 화면.
+3. "제출" → 못 맞힌 단어가 있으면 "아직 n단어 남았어요. 제출할까요?" 확인 창 → `finish_attempt(attempt_id)` → 결과 화면.
+   기준은 빈칸이 아니라 **맞힌 것으로 확정되지 않은 단어**다. 칸을 다 채웠어도 "확인"을 누르지 않았거나 틀린 단어는 0점이고
+   제출은 되돌릴 수 없어서, 확인을 깜빡한 단어도 알려 준다 (n = 못 맞힌 단어 수).
 
 ### `start_attempt` 반환
 

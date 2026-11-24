@@ -10,6 +10,7 @@ import '../features/auth/signup_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/my_page/my_page_screen.dart';
 import '../features/play/play_screen.dart';
+import '../features/puzzles/puzzle_detail_screen.dart';
 import '../features/puzzles/puzzle_list_screen.dart';
 import '../features/wrong_notes/wrong_notes_screen.dart';
 import 'main_shell.dart';
@@ -21,6 +22,9 @@ abstract final class Routes {
   static const puzzles = '/puzzles';
   static const wrongNotes = '/wrong-notes';
   static const myPage = '/my';
+
+  /// 퍼즐 상세. 하단 메뉴를 숨기려고 root navigator에 올린다.
+  static String puzzleDetailPath(String puzzleId) => '$puzzles/${Uri.encodeComponent(puzzleId)}';
 
   /// 퍼즐 풀이. 하단 메뉴를 숨기려고 root navigator에 올린다.
   static const play = '/play/:puzzleId';
@@ -80,7 +84,20 @@ final routerProvider = Provider<GoRouter>((ref) {
         builder: (context, state, shell) => MainShell(shell: shell),
         branches: [
           StatefulShellBranch(routes: [GoRoute(path: Routes.home, builder: (context, state) => const HomeScreen())]),
-          StatefulShellBranch(routes: [GoRoute(path: Routes.puzzles, builder: (context, state) => const PuzzleListScreen())]),
+          StatefulShellBranch(routes: [
+            GoRoute(
+              path: Routes.puzzles,
+              builder: (context, state) => const PuzzleListScreen(),
+              routes: [
+                // 퍼즐 상세 (/puzzles/:puzzleId). 화면 흐름도에서 "메뉴 숨김"이라 root navigator에 올린다.
+                GoRoute(
+                  path: ':puzzleId',
+                  parentNavigatorKey: rootKey,
+                  builder: (context, state) => PuzzleDetailScreen(puzzleId: state.pathParameters['puzzleId']!),
+                ),
+              ],
+            ),
+          ]),
           StatefulShellBranch(routes: [GoRoute(path: Routes.wrongNotes, builder: (context, state) => const WrongNotesScreen())]),
           StatefulShellBranch(routes: [GoRoute(path: Routes.myPage, builder: (context, state) => const MyPageScreen())]),
         ],

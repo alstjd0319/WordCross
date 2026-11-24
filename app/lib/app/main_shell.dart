@@ -95,7 +95,7 @@ class _Tab extends StatelessWidget {
                   const SizedBox(height: 2),
                   FittedBox(
                     fit: BoxFit.scaleDown,
-                    child: Text(label, style: TextStyle(fontFamily: V3Fonts.jua, fontSize: 12, height: 1.2, color: color)),
+                    child: Text(label, style: TextStyle(fontFamily: V3Fonts.jua, fontFamilyFallback: V3Fonts.fallback, fontSize: 12, height: 1.2, color: color)),
                   ),
                 ],
               ),

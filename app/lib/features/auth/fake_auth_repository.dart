@@ -41,5 +41,14 @@ class FakeAuthRepository implements AuthRepository {
   @override
   Future<void> signOut() async => _set(null);
 
+  @override
+  Future<void> deleteAccount() async {
+    final email = _current?.email;
+    if (email == null) throw const AuthFailure('로그인이 풀렸어요. 다시 로그인해 주세요.');
+    _users.remove(email);
+    _nicknames.remove(email);
+    _set(null);
+  }
+
   Future<void> dispose() => _controller.close();
 }

@@ -8,22 +8,30 @@ import 'package:wordcross/app/main_shell.dart';
 import 'package:wordcross/app/router.dart';
 import 'package:wordcross/features/auth/auth_providers.dart';
 import 'package:wordcross/features/auth/fake_auth_repository.dart';
+import 'package:wordcross/features/play/fake_attempt_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
 import 'package:wordcross/features/play/play_screen.dart';
+import 'package:wordcross/features/play/widgets/hint_bar.dart';
 import 'package:wordcross/features/play/widgets/letter_keyboard.dart';
 import 'package:wordcross/features/play/widgets/puzzle_grid.dart';
+import 'package:wordcross/features/play/widgets/zoomable_grid.dart';
+import 'package:wordcross/features/puzzles/puzzle_list_screen.dart';
+
+import 'fixtures/test_puzzles.dart';
 
 /// 로그인한 상태로 앱을 띄운다.
 Future<GoRouter> pumpLoggedIn(WidgetTester tester) async {
   final auth = FakeAuthRepository();
+  final puzzles = FakePuzzleRepository(puzzles: testPuzzles);
   addTearDown(auth.dispose);
   await auth.signUp(email: 'user@example.com', password: 'password1', nickname: '태웅');
   await tester.pumpWidget(
     ProviderScope(
       overrides: [
         authRepositoryProvider.overrideWithValue(auth),
-        puzzleRepositoryProvider.overrideWithValue(FakePuzzleRepository()),
+        puzzleRepositoryProvider.overrideWithValue(puzzles),
+        attemptRepositoryProvider.overrideWithValue(FakeAttemptRepository(puzzles, isCorrect: testIsCorrect)),
       ],
       child: const WordCrossApp(),
     ),
@@ -41,12 +49,14 @@ Finder hintText(String text) =>
 Future<void> openSample(WidgetTester tester) async {
   await tester.tap(find.text('퍼즐').last);
   await tester.pumpAndSettle();
-  await tester.tap(find.text('샘플 퍼즐 풀어 보기'));
+  await tester.tap(find.text('초급 #001'));
+  await tester.pumpAndSettle();
+  await tester.tap(find.text('시작하기'));
   await tester.pumpAndSettle();
 }
 
 void main() {
-  testWidgets('퍼즐 탭에서 샘플 퍼즐을 열면 하단 메뉴 없이 격자·힌트·키보드가 나오고, 닫으면 돌아온다', (tester) async {
+  testWidgets('목록 → 상세 → 시작하기로 열면 하단 메뉴 없이 격자·힌트·키보드가 나오고, 닫으면 상세로 돌아간다', (tester) async {
     await pumpLoggedIn(tester);
     await openSample(tester);
 
@@ -60,7 +70,12 @@ void main() {
 
     await tester.tap(find.byKey(const ValueKey('play-close')));
     await tester.pumpAndSettle();
-    expect(find.text('퍼즐 목록'), findsOneWidget);
+    expect(find.text('시작하기'), findsOneWidget);
+    expect(find.byType(MainNavBar), findsNothing);
+
+    await tester.tap(find.byTooltip('뒤로'));
+    await tester.pumpAndSettle();
+    expect(find.byType(PuzzleCard), findsOneWidget);
     expect(find.byType(MainNavBar), findsOneWidget);
   });
 
@@ -86,17 +101,6 @@ void main() {
     await tester.pump();
     expect(cellText(0, 1, 'R'), findsNothing);
     expect(cellText(0, 0, 'B'), findsOneWidget);
-  });
-
-  testWidgets('6글자를 다 채우면 채운 단어 수가 올라간다', (tester) async {
-    await pumpLoggedIn(tester);
-    await openSample(tester);
-
-    for (final ch in 'BRANCH'.split('')) {
-      await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
-      await tester.pump();
-    }
-    expect(find.text('1 / 24 단어'), findsOneWidget);
   });
 
   testWidgets('칸을 누르면 그 단어 힌트로, 같은 칸을 다시 누르면 세로 단어 힌트로 바뀐다', (tester) async {
@@ -198,4 +202,158 @@ void main() {
       expect(find.byType(PuzzleGrid), findsOneWidget);
     });
   }
+
+  group('확대·이동', () {
+    ZoomableGridState zoom(WidgetTester tester) => tester.state<ZoomableGridState>(find.byType(ZoomableGrid));
+    Finder badge(String no) => find.descendant(of: find.byType(HintBar), matching: find.text(no));
+    bool onScreen(WidgetTester tester, Finder target) {
+      final viewport = tester.getRect(find.byType(InteractiveViewer));
+      return viewport.contains(tester.getRect(target).center);
+    }
+
+    testWidgets('확대 버튼으로 확대하고, 전체 보기로 되돌린다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      expect(zoom(tester).scale, 1);
+      expect(find.byTooltip('확대'), findsOneWidget);
+
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(zoom(tester).scale, greaterThan(1));
+      expect(find.byTooltip('전체 보기'), findsOneWidget);
+      // 1가로(왼쪽 위)를 중심으로 확대해서 맨 아래 줄은 화면 밖이다.
+      expect(onScreen(tester, cell(0, 0)), isTrue);
+      expect(onScreen(tester, cell(10, 0)), isFalse);
+
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(zoom(tester).scale, 1);
+      expect(onScreen(tester, cell(10, 0)), isTrue);
+    });
+
+    testWidgets('확대한 채 다른 단어를 고르면 그 단어가 화면 안으로 온다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(onScreen(tester, cell(10, 5)), isFalse);
+
+      // 1가로의 앞 단어 = 마지막 세로 단어 18세로 (8,0)~(10,0), 왼쪽 아래.
+      await tester.tap(find.byKey(const ValueKey('clue-prev')));
+      await tester.pumpAndSettle();
+      expect(badge('18'), findsOneWidget);
+      expect(onScreen(tester, cell(8, 0)), isTrue);
+      expect(onScreen(tester, cell(10, 0)), isTrue);
+      expect(zoom(tester).scale, greaterThan(1)); // 배율은 그대로
+
+      // 확대한 채로 보이는 칸을 누르면 평소처럼 단어가 골라진다.
+      await tester.tap(cell(10, 0));
+      await tester.pumpAndSettle();
+      expect(badge('18'), findsOneWidget);
+      expect(zoom(tester).scale, greaterThan(1));
+    });
+
+    testWidgets('확대한 채 글자를 넣어 지금 칸이 화면 밖으로 나가면 따라간다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+
+      // 21가로 BROKER (10,5)~(10,10)를 전체 보기에서 고른 뒤 확대한다.
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      await tester.tap(cell(10, 5));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(ZoomableGrid.zoomButtonKey));
+      await tester.pumpAndSettle();
+      expect(onScreen(tester, cell(10, 5)), isTrue);
+
+      for (final ch in 'BROKE'.split('')) {
+        await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
+        await tester.pumpAndSettle();
+      }
+      // 지금 칸은 단어 끝 (10,10). 화면 안에 있어야 한다.
+      expect(onScreen(tester, cell(10, 10)), isTrue);
+      expect(cellText(10, 9, 'E'), findsOneWidget);
+    });
+  });
+
+  group('힌트 길이와 격자 크기 (교수님 피드백)', () {
+    for (final size in const [Size(411, 914), Size(360, 640), Size(320, 568)]) {
+      testWidgets('단어·힌트가 바뀌어도 격자가 움직이지 않는다 (${size.width.toInt()}×${size.height.toInt()})', (tester) async {
+        tester.view.physicalSize = size;
+        tester.view.devicePixelRatio = 1;
+        addTearDown(tester.view.reset);
+        await pumpLoggedIn(tester);
+        await openSample(tester);
+        final first = tester.getRect(cell(0, 0)), last = tester.getRect(cell(10, 10));
+        final bar = tester.getRect(find.byType(HintBar));
+
+        for (var i = 0; i < 24; i++) {
+          for (var k = 0; k < 3; k++) {
+            expect(tester.getRect(cell(0, 0)), first);
+            expect(tester.getRect(cell(10, 10)), last);
+            expect(tester.getRect(find.byType(HintBar)), bar);
+            final toggle = find.byKey(const ValueKey('hint-toggle'));
+            if (toggle.evaluate().isEmpty) break;
+            await tester.tap(toggle);
+            await tester.pump();
+          }
+          await tester.tap(find.byKey(const ValueKey('clue-next')));
+          await tester.pump();
+        }
+
+        // 확인 결과 안내가 떠도 그대로다.
+        for (final ch in 'AAAAAA'.split('')) {
+          await tester.tap(find.byKey(LetterKeyboard.letterKey(ch)));
+          await tester.pump();
+        }
+        await tester.tap(find.byKey(const ValueKey('play-check')));
+        await tester.pumpAndSettle();
+        expect(find.byKey(const ValueKey('play-notice')), findsOneWidget);
+        expect(tester.getRect(cell(0, 0)), first);
+        expect(tester.getRect(cell(10, 10)), last);
+        expect(tester.takeException(), isNull);
+      });
+    }
+
+    testWidgets('시스템 글자 크기를 키워도 격자가 움직이지 않고 넘치지 않는다', (tester) async {
+      tester.view.physicalSize = const Size(411, 914);
+      tester.view.devicePixelRatio = 1;
+      tester.platformDispatcher.textScaleFactorTestValue = 1.5;
+      addTearDown(tester.view.reset);
+      addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      final first = tester.getRect(cell(0, 0));
+      await tester.tap(find.byKey(const ValueKey('hint-toggle')));
+      await tester.pump();
+      expect(tester.getRect(cell(0, 0)), first);
+      expect(tester.takeException(), isNull);
+    });
+
+    testWidgets('긴 힌트는 잘리지 않고 밀어서 끝까지 읽으며, 다른 힌트로 가면 처음부터 보인다', (tester) async {
+      tester.view.physicalSize = const Size(320, 568);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+      await pumpLoggedIn(tester);
+      await openSample(tester);
+      await tester.tap(find.byKey(const ValueKey('hint-toggle')));
+      await tester.pumpAndSettle();
+
+      final text = find.byKey(const ValueKey('hint-text'));
+      expect(tester.widget<Text>(text).overflow, isNull);
+      expect(tester.widget<Text>(text).maxLines, isNull);
+      final scrollable = find.descendant(of: find.byType(HintBar), matching: find.byType(Scrollable));
+      final position = tester.state<ScrollableState>(scrollable).position;
+      expect(position.maxScrollExtent, greaterThan(0));
+      await tester.drag(scrollable, const Offset(0, -2000));
+      await tester.pumpAndSettle();
+      expect(position.pixels, position.maxScrollExtent);
+
+      await tester.tap(find.byKey(const ValueKey('clue-next')));
+      await tester.pumpAndSettle();
+      expect(tester.state<ScrollableState>(scrollable).position.pixels, 0);
+    });
+  });
 }
