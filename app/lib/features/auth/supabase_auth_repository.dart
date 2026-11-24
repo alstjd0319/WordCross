@@ -3,9 +3,12 @@ import 'package:supabase_flutter/supabase_flutter.dart' as sb;
 import 'auth_repository.dart';
 
 class SupabaseAuthRepository implements AuthRepository {
-  SupabaseAuthRepository(this._auth);
+  SupabaseAuthRepository(this._auth, {required this._deleteAccountRpc});
 
   final sb.GoTrueClient _auth;
+
+  /// `delete_my_account` RPC. auth.users 행을 지우면 프로필·풀이 기록·오답이 함께 지워진다.
+  final Future<void> Function() _deleteAccountRpc;
 
   /// 인증 메일 링크를 누르면 돌아올 앱 주소. Supabase 대시보드 Redirect URLs 와
   /// AndroidManifest.xml · Info.plist 의 URL scheme 과 같아야 한다.
@@ -56,6 +59,26 @@ class SupabaseAuthRepository implements AuthRepository {
 
   @override
   Future<void> signOut() => _auth.signOut();
+
+  @override
+  Future<void> deleteAccount() async {
+    try {
+      await _deleteAccountRpc().timeout(const Duration(seconds: 15));
+    } on sb.PostgrestException catch (e) {
+      // 비로그인 호출은 함수 권한(42501)에서, 만료된 토큰은 PostgREST(PGRST301·303)에서 막힌다.
+      if (const {'42501', 'PGRST301', 'PGRST303'}.contains(e.code) || e.message == 'not authenticated') {
+        throw const AuthFailure('로그인이 풀렸어요. 다시 로그인한 뒤 시도해 주세요.');
+      }
+      throw const AuthFailure('계정을 삭제하지 못했어요. 잠시 후 다시 시도해 주세요.');
+    } catch (_) {
+      throw const AuthFailure(_networkMessage);
+    }
+    try {
+      await _auth.signOut();
+    } catch (_) {
+      // 기기의 세션은 먼저 지워진다. 계정이 이미 없어 서버 쪽 로그아웃이 실패하는 것은 무시한다.
+    }
+  }
 
   static const _networkMessage = '서버에 연결하지 못했어요. 네트워크를 확인해 주세요.';
 

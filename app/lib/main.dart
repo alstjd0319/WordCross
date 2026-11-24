@@ -25,8 +25,8 @@ Future<void> main() async {
   final AttemptRepository attempts;
   if (config.hasSupabase) {
     await Supabase.initialize(url: config.supabaseUrl, publishableKey: config.supabasePublishableKey);
-    auth = SupabaseAuthRepository(Supabase.instance.client.auth);
     final client = Supabase.instance.client;
+    auth = SupabaseAuthRepository(client.auth, deleteAccountRpc: () => client.rpc<void>('delete_my_account'));
     puzzles = SupabasePuzzleRepository(client);
     attempts = SupabaseAttemptRepository((function, params) => client.rpc<Object?>(function, params: params));
   } else {

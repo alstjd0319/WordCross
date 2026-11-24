@@ -106,11 +106,11 @@ class _Detail extends StatelessWidget {
                 child: Column(
                   children: [
                     const _Rule(icon: Icons.lightbulb_outline, text: '힌트: 한국어 뜻 · 영어 정의 · 예문'),
-                    const _RuleDivider(),
+                    const DashedDivider(),
                     const _Rule(icon: Icons.check, text: '단어마다 5번까지 확인할 수 있어요'),
-                    const _RuleDivider(),
+                    const DashedDivider(),
                     const _Rule(icon: Icons.visibility_outlined, text: '글자 힌트는 단어당 2번, 막히면 정답 공개'),
-                    const _RuleDivider(),
+                    const DashedDivider(),
                     _Rule(icon: Icons.menu_book_outlined, text: '가로 $across개 · 세로 $down개 단어가 들어 있어요'),
                   ],
                 ),
@@ -179,24 +179,3 @@ class _Rule extends StatelessWidget {
     );
   }
 }
-
-/// 규칙 사이 점선.
-class _RuleDivider extends StatelessWidget {
-  const _RuleDivider();
-
-  @override
-  Widget build(BuildContext context) {
-    return LayoutBuilder(
-      builder: (context, box) {
-        final count = (box.maxWidth / 8).floor();
-        return Row(
-          children: [
-            for (var i = 0; i < count; i++)
-              Container(width: 4, height: 1.5, margin: const EdgeInsets.only(right: 4), color: V3Colors.cocoaMuted.withValues(alpha: 0.5)),
-          ],
-        );
-      },
-    );
-  }
-}
-
