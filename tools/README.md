@@ -132,8 +132,9 @@ supabase db query --remote -f /tmp/dev_seed.sql --yes
 ## 힌트 다듬기 (2026-11-19)
 
 - 영어 정의: 가장 흔한 첫 뜻을 쓰되, 정답을 그대로 담거나("An oar"), 쓰임 설명("Chiefly …", "During …")이거나,
-  "this element" 같은 지시만 있는 뜻은 건너뛴다. 80자를 넘으면 절·쉼표·단어 경계에서 자르고 '…'를 붙인다
-  (`build_words.py` 의 `MAX_DEF_LEN`, `useful_gloss`, `shorten_definition`). 평균 42자.
+  "this element" 같은 지시만 있는 뜻은 건너뛴다. 160자를 넘으면 절·쉼표·단어 경계에서 자르고 '…'를 붙인다
+  (처음 80자에서 3주차에 160자로 늘림: 앱 힌트 바가 긴 힌트를 글자 줄이기·스크롤로 보여 주게 바뀜. 잘린 정의 912개 → 130개)
+  (`build_words.py` 의 `MAX_DEF_LEN`, `useful_gloss`, `shorten_definition`). 평균 49자.
 - 고친 힌트: `data/hint_overrides.csv` 의 `meaning_ko`·`definition_en`·`example` 이 모든 출처보다 우선한다.
   `example` 은 정답 단어가 그대로 든 문장으로 적으면 빈칸 예문이 자동으로 만들어진다 (출처 `team`).
 - 한국어 뜻: Wiktionary 에 한국어 번역이 없던 단어는 `data/meanings_ko_draft.csv` 에 직접 쓴 초안으로 채운다
