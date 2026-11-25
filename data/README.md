@@ -23,7 +23,7 @@
   | `level` | `beginner`(초급) / `intermediate`(중급) / `advanced`(고급). Tatoeba 영어 예문에 300회 이상 초급, 60~299회 중급, 그 미만 고급 |
   | `pos` | 품사 |
   | `meaning_ko` | 한국어 뜻 (Wiktionary 초안, 없으면 `meanings_ko_draft.csv`, ETS 단어는 교재 뜻) |
-  | `definition_en` | 쉬운 영어 정의 (TSL 정의 우선, 없으면 Wiktionary 첫 뜻, 80자 이내). 정답 철자는 `_____` 로 가림 |
+  | `definition_en` | 쉬운 영어 정의 (TSL 정의 우선, 없으면 Wiktionary 첫 뜻, 160자 이내). 정답 철자는 `_____` 로 가림 |
   | `example` | 예문 원문 (정답 포함) |
   | `example_blank` | 빈칸 처리된 예문 (힌트) |
   | `example_ref` | 예문 출처: `tatoeba:12345`, 직접 쓴 예문은 `team` |

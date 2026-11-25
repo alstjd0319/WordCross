@@ -46,7 +46,7 @@ SKIP_GLOSS_TAGS = {"form-of", "alt-of", "abbreviation", "initialism", "acronym",
                    "obsolete", "archaic", "rare", "dated", "vulgar", "offensive",
                    "derogatory", "slang", "misspelling", "nonstandard", "dialectal"}
 BLANK = "_____"
-MAX_DEF_LEN = 80   # 영어 정의 최대 글자 수 (휴대폰 힌트 바 2줄 정도)
+MAX_DEF_LEN = 160  # 영어 정의 최대 글자 수. 앱 힌트 바가 긴 힌트는 글자를 줄이거나 밀어서 보여 준다 (3주차 PR #17)
 # Wiktionary 에 한국어 번역이 없는 단어의 뜻 초안 (사람이 작성, 검수 전)
 DRAFT_KO = ROOT / "data" / "meanings_ko_draft.csv"
 # 사람이 고친 힌트 (한국어 뜻·영어 정의). 다른 모든 출처보다 우선한다.
