@@ -17,8 +17,9 @@ import 'puzzle_grid.dart';
 ///   두 손가락 확대가 어려운 사람·에뮬레이터를 위해서도 둔다.
 /// 두 번 탭해서 되돌리기는 칸 한 번 탭이 늦게 먹히게 만들어서 쓰지 않는다.
 ///
-/// 지금 단어의 힌트는 격자 위에 말풍선([HintBubble])으로 겹쳐 띄운다. ✕로 닫으면 격자 전체가 보이고,
-/// 칸을 누르거나 다른 단어로 옮기면 다시 뜬다. 글자를 넣는 동안에는 열림·닫힘이 그대로다.
+/// 지금 단어의 힌트는 격자 위에 말풍선([HintBubble])으로 겹쳐 띄운다. 화면을 처음 열면 닫혀 있어
+/// 격자 전체가 보이고, 칸을 누르거나 다른 단어로 옮기면 뜬다. ✕로 닫거나 지금 단어를 맞히면(정답 공개 포함)
+/// 닫힌다. 글자를 넣는 동안에는 열림·닫힘이 그대로다.
 class ZoomableGrid extends StatefulWidget {
   const ZoomableGrid({
     super.key,
@@ -88,8 +89,14 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
   void didUpdateWidget(ZoomableGrid oldWidget) {
     super.didUpdateWidget(oldWidget);
     final before = oldWidget.state, now = widget.state;
-    final clueChanged = before.currentClue != now.currentClue;
-    if (clueChanged) _bubbleOpen = true;
+    final clue = now.currentClue;
+    final clueChanged = before.currentClue != clue;
+    if (clueChanged) {
+      _bubbleOpen = true;
+    } else if (clue != null && !before.progressOf(clue).done && now.progressOf(clue).done) {
+      // 지금 단어를 맞혔으면 힌트는 더 필요 없다. 격자를 가리지 않게 닫는다.
+      _bubbleOpen = false;
+    }
     if (!isZoomed) return;
     final cursorMoved = before.row != now.row || before.col != now.col;
     if (clueChanged) {
@@ -99,8 +106,8 @@ class ZoomableGridState extends State<ZoomableGrid> with SingleTickerProviderSta
     }
   }
 
-  /// 힌트 말풍선이 떠 있는지. 화면을 열면 첫 단어의 힌트가 바로 보인다.
-  bool _bubbleOpen = true;
+  /// 힌트 말풍선이 떠 있는지. 화면을 처음 열면 닫혀 있다 (칸을 누르면 뜬다).
+  bool _bubbleOpen = false;
 
   void _openBubble() {
     if (!_bubbleOpen) setState(() => _bubbleOpen = true);
