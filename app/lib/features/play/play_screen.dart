@@ -12,13 +12,14 @@ import 'play_providers.dart';
 import 'play_session.dart';
 import 'play_state.dart';
 import 'puzzle_repository.dart';
+import 'result_screen.dart';
 import 'widgets/letter_keyboard.dart';
 import 'widgets/zoomable_grid.dart';
 
 /// Figma v3 3-1 퍼즐 풀이. 하단 메뉴 없이 root navigator에 올린다.
 ///
 /// 격자, 칸 선택, 전용 키보드, 힌트(2주차), 확대·이동, 확인·제출, 격자 위 힌트 말풍선(3주차).
-/// 글자 힌트·정답 공개와 결과 화면은 4주차라 자리만 두고, 제출하면 간단한 완료 안내를 보여 준다.
+/// 제출하면 결과 화면(4주차)으로 간다. 글자 힌트·정답 공개는 4주차라 아직 자리만 있다.
 class PlayScreen extends ConsumerWidget {
   const PlayScreen({super.key, required this.puzzleId});
 
@@ -84,7 +85,7 @@ class _PlayView extends ConsumerWidget {
     final state = session.board;
     final play = ref.read(playProvider(puzzleId).notifier);
     ref.listen(playProvider(puzzleId), (prev, next) {
-      if (prev?.result == null && next.result != null) _showResult(context, next.result!);
+      if (prev?.result == null && next.result != null) _showResult(context, state, next.result!);
       if (prev?.end == null && next.end != null) _onEnd(context, ref, next.end!);
     });
 
@@ -144,20 +145,12 @@ class _PlayView extends ConsumerWidget {
     await play.submit();
   }
 
-  /// 결과 화면(4주차) 전까지 쓰는 간단한 완료 안내. 닫으면 퍼즐 목록으로 간다.
-  Future<void> _showResult(BuildContext context, AttemptResult r) async {
-    await showV3Dialog<bool>(
-      context,
-      title: '퍼즐 완료!',
-      message: '${r.score} / ${r.maxScore}점\n'
-          '정답률 ${r.accuracyPercent}% (${r.correct}/${r.total})\n'
-          '소요 시간 ${r.durationLabel} (중간에 멈춘 시간 포함)',
-      cat: 'loaf_calico',
-      confirmLabel: '퍼즐 목록으로',
-      confirmValue: true,
-      dismissible: false,
+  /// 결과 화면으로. 풀이 화면은 닫히고, 결과에서 뒤로 가면 퍼즐 목록으로 간다.
+  void _showResult(BuildContext context, PlayState state, AttemptResult r) {
+    context.go(
+      Routes.resultPath(state.puzzle.id),
+      extra: ResultArgs(puzzleId: state.puzzle.id, level: state.puzzle.level, result: r),
     );
-    if (context.mounted) context.go(Routes.puzzles);
   }
 
   Future<void> _onEnd(BuildContext context, WidgetRef ref, SessionEnd end) async {

@@ -10,6 +10,7 @@ import '../features/auth/signup_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/my_page/my_page_screen.dart';
 import '../features/play/play_screen.dart';
+import '../features/play/result_screen.dart';
 import '../features/puzzles/puzzle_detail_screen.dart';
 import '../features/puzzles/puzzle_list_screen.dart';
 import '../features/wrong_notes/wrong_notes_screen.dart';
@@ -29,6 +30,10 @@ abstract final class Routes {
   /// 퍼즐 풀이. 하단 메뉴를 숨기려고 root navigator에 올린다.
   static const play = '/play/:puzzleId';
   static String playPath(String puzzleId) => '/play/${Uri.encodeComponent(puzzleId)}';
+
+  /// 결과. 제출 직후 [ResultArgs]를 extra로 넘긴다. 하단 메뉴 없음.
+  static const result = '/result/:puzzleId';
+  static String resultPath(String puzzleId) => '/result/${Uri.encodeComponent(puzzleId)}';
 }
 
 /// 인증 메일 링크로 들어온 주소인지. 스킴이 붙은 전체 주소와 경로만 온 경우를 모두 본다.
@@ -79,6 +84,13 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: Routes.play,
         parentNavigatorKey: rootKey,
         builder: (context, state) => PlayScreen(puzzleId: state.pathParameters['puzzleId']!),
+      ),
+      GoRoute(
+        path: Routes.result,
+        parentNavigatorKey: rootKey,
+        // 결과 값은 제출할 때만 있다. 주소로만 들어오면(앱 재시작 등) 퍼즐 목록으로 보낸다.
+        redirect: (context, state) => state.extra is ResultArgs ? null : Routes.puzzles,
+        builder: (context, state) => ResultScreen(args: state.extra! as ResultArgs),
       ),
       StatefulShellRoute.indexedStack(
         builder: (context, state, shell) => MainShell(shell: shell),

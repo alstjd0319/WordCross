@@ -66,7 +66,11 @@ class FlakyAttempts implements AttemptRepository {
 }
 
 FlakyAttempts newAttempts() =>
-    FlakyAttempts(FakeAttemptRepository(FakePuzzleRepository(puzzles: testPuzzles), isCorrect: testIsCorrect));
+    FlakyAttempts(FakeAttemptRepository(
+      FakePuzzleRepository(puzzles: testPuzzles),
+      isCorrect: testIsCorrect,
+      answerOf: (puzzleId, clueId) => testAnswers[clueId],
+    ));
 
 /// 로그인한 상태로 beg-001 풀이 화면을 연다.
 Future<FlakyAttempts> openPlay(WidgetTester tester, {FlakyAttempts? attempts}) async {
@@ -126,6 +130,9 @@ Future<void> tapSubmit(WidgetTester tester) async {
   await tester.tap(find.byKey(const ValueKey('play-submit')));
   await tester.pumpAndSettle();
 }
+
+/// 결과 화면의 큰 점수.
+String? scoreText(WidgetTester tester) => tester.widget<Text>(find.byKey(const ValueKey('result-score'))).data;
 
 String? notice(WidgetTester tester) {
   final f = find.byKey(const ValueKey('play-notice'));
@@ -257,10 +264,11 @@ void main() {
     await tester.tap(find.widgetWithText(FilledButton, '제출'));
     await tester.pumpAndSettle();
     expect(find.text('퍼즐 완료!'), findsOneWidget);
-    expect(find.textContaining('100 / 2400점'), findsOneWidget);
-    expect(find.textContaining('정답률 4% (1/24)'), findsOneWidget);
+    expect(scoreText(tester), '100');
+    expect(find.text('/ 2,400점'), findsOneWidget);
+    expect(find.text('정답률 1/24'), findsOneWidget);
 
-    await tester.tap(find.text('퍼즐 목록으로'));
+    await tester.tap(find.byKey(const ValueKey('result-close')));
     await tester.pumpAndSettle();
     expect(find.byType(PuzzleCard), findsOneWidget);
   });
@@ -280,7 +288,7 @@ void main() {
     expect(notice(tester), '모든 단어를 맞혔어요! 제출해 주세요.');
     await tapSubmit(tester);
     expect(find.text('퍼즐 완료!'), findsOneWidget);
-    expect(find.textContaining('2400 / 2400점'), findsOneWidget);
+    expect(scoreText(tester), '2,400');
   });
 
   testWidgets('다시 열면 맞힌 단어와 남은 횟수를 서버 기록대로 이어 푼다', (tester) async {
