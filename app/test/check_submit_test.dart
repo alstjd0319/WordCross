@@ -12,6 +12,7 @@ import 'package:wordcross/features/play/attempt_repository.dart';
 import 'package:wordcross/features/play/fake_attempt_repository.dart';
 import 'package:wordcross/features/play/fake_puzzle_repository.dart';
 import 'package:wordcross/features/play/play_providers.dart';
+import 'package:wordcross/features/play/widgets/hint_bubble.dart';
 import 'package:wordcross/features/play/widgets/letter_keyboard.dart';
 import 'package:wordcross/features/play/widgets/puzzle_grid.dart';
 import 'package:wordcross/features/puzzles/puzzle_list_screen.dart';
@@ -86,6 +87,11 @@ Future<FlakyAttempts> openPlay(WidgetTester tester, {FlakyAttempts? attempts}) a
   await tester.pumpAndSettle();
   ProviderScope.containerOf(tester.element(find.byType(MaterialApp))).read(routerProvider).go(Routes.playPath('beg-001'));
   await tester.pumpAndSettle();
+  // 힌트 말풍선은 처음에 닫혀 있다. 격자가 열렸으면 지금 칸을 눌러 띄운다 (방향·안내는 그대로).
+  if (cell(0, 0).evaluate().isNotEmpty) {
+    await tester.tap(cell(0, 0));
+    await tester.pumpAndSettle();
+  }
   return repo;
 }
 
@@ -138,8 +144,12 @@ void main() {
     await tapCheck(tester);
     expect(notice(tester), '정답이에요! +100점');
     expect(find.text('1 / 24 단어'), findsOneWidget);
-    expect(find.text('6글자 · 한국어 뜻 · 맞힘 100점'), findsOneWidget);
     expect(cellColor(tester, 0, 1), V3Colors.mint);
+    // 맞히면 힌트 말풍선이 닫힌다. 그 단어 칸을 다시 누르면 점수와 함께 뜬다.
+    expect(find.byKey(HintBubble.bodyKey), findsNothing);
+    await tester.tap(cell(0, 1));
+    await tester.pump();
+    expect(find.text('6글자 · 한국어 뜻 · 맞힘 100점'), findsOneWidget);
 
     // 맞힌 단어는 다시 확인하거나 지울 수 없다.
     await tapCheck(tester);

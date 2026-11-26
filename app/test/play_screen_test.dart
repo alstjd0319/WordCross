@@ -47,13 +47,18 @@ Finder cellText(int r, int c, String text) => find.descendant(of: cell(r, c), ma
 Finder hintText(String text) =>
     find.byWidgetPredicate((w) => w is Text && w.key == const ValueKey('hint-text') && w.data == text);
 
-Future<void> openSample(WidgetTester tester) async {
+/// 초급 #001을 연다. [showHint]면 지금 칸(1가로 첫 칸)을 눌러 힌트 말풍선을 띄운다 (처음에는 닫혀 있다).
+Future<void> openSample(WidgetTester tester, {bool showHint = true}) async {
   await tester.tap(find.text('퍼즐').last);
   await tester.pumpAndSettle();
   await tester.tap(find.text('초급 #001'));
   await tester.pumpAndSettle();
   await tester.tap(find.text('시작하기'));
   await tester.pumpAndSettle();
+  if (showHint) {
+    await tester.tap(cell(0, 0));
+    await tester.pumpAndSettle();
+  }
 }
 
 void main() {
@@ -362,10 +367,19 @@ void main() {
     final bubble = find.byKey(HintBubble.bodyKey);
     PlayState board(WidgetTester tester) => tester.widget<ZoomableGrid>(find.byType(ZoomableGrid)).state;
 
+    testWidgets('처음에는 닫혀 있고, 지금 칸을 누르면 방향은 그대로 두고 뜬다', (tester) async {
+      await pumpLoggedIn(tester);
+      await openSample(tester, showHint: false);
+      expect(bubble, findsNothing);
+      await tester.tap(cell(0, 0));
+      await tester.pump();
+      expect(hintText('나뭇가지, 가지'), findsOneWidget);
+    });
+
     testWidgets('✕로 닫으면 격자 전체가 보이고, 글자를 넣는 동안에는 닫힌 채로 있다', (tester) async {
       await pumpLoggedIn(tester);
       await openSample(tester);
-      expect(bubble, findsOneWidget); // 처음부터 떠 있다
+      expect(bubble, findsOneWidget);
       await tester.tap(find.byKey(HintBubble.closeKey));
       await tester.pump();
       expect(bubble, findsNothing);
