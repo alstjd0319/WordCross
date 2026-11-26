@@ -30,10 +30,13 @@ class _Attempt {
 /// Supabase 접속 정보가 없을 때(로컬 모드)와 테스트에서 쓰는 풀이 저장소.
 /// 서버 함수와 같은 규칙(5번 제한, 같은 오답, 요청 번호, 점수, 이어 풀기)을 메모리 안에서 따른다.
 class FakeAttemptRepository implements AttemptRepository {
-  FakeAttemptRepository(this._puzzles, {this.isCorrect = sampleIsCorrect});
+  FakeAttemptRepository(this._puzzles, {this.isCorrect = sampleIsCorrect, this.answerOf});
 
   final PuzzleRepository _puzzles;
   final bool Function(String puzzleId, int clueId, String guess) isCorrect;
+
+  /// 결과 화면에 보여 줄 못 푼 단어의 철자 (테스트용). 로컬 모드는 앱에 정답이 없어 비워 둔다.
+  final String? Function(String puzzleId, int clueId)? answerOf;
   final _attempts = <int, _Attempt>{};
 
   @override
@@ -105,12 +108,31 @@ class FakeAttemptRepository implements AttemptRepository {
   Future<AttemptResult> finish(int attemptId) async {
     final a = _attempts[attemptId];
     if (a == null) throw AttemptFailure(AttemptError.attemptEnded);
+    if (a.result case final r?) return r;
+    final puzzle = await _puzzles.fetchPuzzle(a.puzzleId);
     return a.result ??= AttemptResult(
       score: a.words.values.fold(0, (sum, w) => sum + w.score),
       maxScore: a.words.length * 100,
       correct: a.words.values.where((w) => w.solved).length,
       total: a.words.length,
       durationSec: DateTime.now().difference(a.startedAt).inSeconds,
+      words: [
+        for (final c in puzzle.clues)
+          if (a.words[c.id] case final w?)
+            WordResult(
+              clueId: c.id,
+              no: c.no,
+              dir: c.dir.name,
+              word: w.answer ?? answerOf?.call(a.puzzleId, c.id),
+              length: c.length,
+              meaningKo: c.meaningKo,
+              solved: w.solved,
+              revealed: w.revealed,
+              tries: w.tries,
+              letterHints: w.letterHints,
+              score: w.score,
+            ),
+      ],
     );
   }
 }
